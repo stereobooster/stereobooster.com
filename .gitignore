@@ -26,6 +26,6 @@ Thumbs.db
 
 # Folders to ignore
 node_modules
-public - for demo, lets' upload the public folder
+public
 resources/_gen
 *.map
