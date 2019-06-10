@@ -1,24 +1,151 @@
-/* To use Tailwind with ParcelJS, call the Tailwind files like this. Otherwise, use imports */
-/* @tailwind preflight;
-@tailwind components;
-@tailwind utilities;  */
+/* https://www.npmjs.com/package/postcss-normalize */
+@import-normalize;
 
-@tailwind preflight;
-@tailwind components;
-@tailwind utilities; 
+/* theme colors */
+:root {
+  --text: #333;
+  --primary: #f012be;
+}
 
-/* 
-  Uncomment to use Tailwind Utility Class CSS
-    @import "tailwind/tailwind.css";  
-*/
+html,
+body {
+  font: 16px/1.6;
+  /* System Fonts as used by Medium and WordPress */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-kerning: normal;
+  hyphens: auto;
+  color: var(--text);
+}
 
-/* @import "tailwind/tailwind.css";   */
+/**
+ * Vertical rhythm by Syncope
+ * http://nowodzinski.pl/syncope
+ */
+h1 {
+  font-size: 3.19em;
+  line-height: 1.02em;
+  padding-top: 0.176em;
+  margin-bottom: 0.333em;
+}
 
+h2 {
+  font-size: 2.38em;
+  line-height: 1.37em;
+  padding-top: 0.342em;
+  margin-bottom: 0.342em;
+}
 
-/* USE PURGE CSS ON ABOVE CODE ONLY. ANYTHING BETWEEN THE IGNORE TAGS BELOW WILL NOT BE IGNORED
-https://www.purgecss.com/whitelisting#in-the-css-directly */
+h3 {
+  font-size: 1.75em;
+  line-height: 1.86em;
+  padding-top: 0.571em;
+  margin-bottom: 0.357em;
+}
 
-/* purgecss start ignore */
+h4 {
+  font-size: 1.31em;
+  line-height: 1.24em;
+  padding-top: 0.286em;
+  margin-bottom: 0.952em;
+}
 
+p {
+  font-size: 1em;
+  line-height: 1.63em;
+  padding-top: 0.5em;
+  margin-bottom: 1.13em;
+}
 
-/* purgecss end ignore */
+body {
+  /* remove margin, because we will provide spacing for .content */
+  margin: 0;
+}
+
+.content {
+  border-top: 0.5em solid var(--primary);
+  /* padding on small devices */
+  padding: 0 0.75em;
+}
+
+.content img,
+.content .highlight {
+  /* undo padding on small devices */
+  margin: 0 -0.75em;
+  /* responsive image and highlighted code */
+  width: calc(100% + 2 * 0.75em);
+  height: auto;
+}
+
+@media (min-width: 40em) {
+  .content {
+    width: 40em;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .content img,
+  .content .highlight {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+blockquote {
+  padding-left: 0.5em;
+  border-left: 0.5em solid #d9d9d9;
+  color: #444;
+}
+
+kbd {
+  /* inspired by Github */
+  font-size: 0.8em;
+  padding: 2px 0.5em;
+  border: solid 1px #d9d9d9;
+  border-radius: 3px;
+  background-color: #fefefe;
+  box-shadow: rgb(149, 157, 165) -1px -1px 0px 0px inset;
+}
+
+code {
+  /* from create-react-app */
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+  /* inspired by Github */
+  font-size: 0.75em;
+  padding: 1px 2px;
+  border: solid 1px #d9d9d9;
+  border-radius: 3px;
+  background-color: #f8f5f5;
+}
+
+pre {
+  overflow-x: scroll;
+  display: block;
+}
+
+.highlight pre {
+  padding: 1em;
+  line-height: 1.5em;
+}
+
+.highlight code {
+  /* undo code styling above */
+  border: none;
+  background: none;
+  padding: 0;
+}
+
+.highlight .ln {
+  /* line numbers are not selectable */
+  user-select: none;
+}
+
+a {
+  color: #0074D9;
+}
+a:visited {
+  color: #85144b;
+}

@@ -1,5 +1,5 @@
-// To use https://github.com/KyleAMathews/typefaces
 import "./css/styles.css";
-import "typeface-roboto"
-
+import "./css/code.css";
 import "./js/nojs.js"
+import quicklink from "quicklink/dist/quicklink.mjs";
+quicklink();

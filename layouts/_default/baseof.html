@@ -1,18 +1,16 @@
-<html>
+<!doctype html>
+<html {{ with .Site.LanguageCode }}lang="{{ . }}"{{ end }}>
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,minimum-scale=1">
-    
-    {{.Hugo.Generator}}
-        
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
+		<meta name="viewport" content="width=device-width,initial-scale=1"/>
     {{ partial "stylesheets.html" . }}
-    {{ partial "scripts.html" . }}
-        
+    {{ partial "seo.html" . }}
   </head>
   <body>
-    <div class="bg-red h-screen text-center p-32 font-sans">
+    <div class="content">
       {{ block "main" . }}{{ end }}
     </div>
+    {{ partial "scripts.html" . }}
   </body>
 </html>

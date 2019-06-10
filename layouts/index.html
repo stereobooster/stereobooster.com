@@ -1,9 +1,5 @@
 {{ define "main" }}
-
-  <h1 class="font-sans text-4xl">{{.Title}}</h1>
-
-<div>
-    {{.Content}}
-</div>
-
+  <section id="wrapper" class="home">
+    {{ partial "post-list.html"  . }}
+  </section>
 {{ end }}
