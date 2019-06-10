@@ -29,3 +29,4 @@ node_modules
 public
 resources/_gen
 *.map
+assets/output
