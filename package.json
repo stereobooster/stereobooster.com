@@ -28,5 +28,8 @@
   },
   "dependencies": {
     "quicklink": "^1.0.0"
-  }
+  },
+  "browserslist": [
+    "defaults"
+  ]
 }

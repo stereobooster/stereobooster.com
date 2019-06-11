@@ -9,6 +9,10 @@
   </head>
   <body>
     <div class="content">
+      {{ partial "nav.html" . }}
+      {{ if .IsHome }}
+        {{ partial "about.html" . }}
+      {{ end }}
       {{ block "main" . }}{{ end }}
     </div>
     {{ partial "scripts.html" . }}

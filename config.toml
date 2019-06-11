@@ -9,6 +9,8 @@ baseurl = "https://stereobooster.netlify.com/"
 languageCode = "en"
 title = "stereobooster personal blog"
 
+Paginate = 5
+
 [params]
   # twitter:creator
   # <meta name="author">
@@ -33,6 +35,12 @@ title = "stereobooster personal blog"
 	enableTwitterCard = true
 	# The url for twitter card image, default is avatar.png in static/images directory
 	twitterCardImage = ""
+
+	themeColor = "#f012be"
+
+	# edit this page
+	githubUsername = "stereobooster"
+	githubRepo = "hugo-pipes-parcel"
 
 # Add additional social link entries underneath
 [social]

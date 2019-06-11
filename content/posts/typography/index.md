@@ -16,6 +16,10 @@ Herba putes hinc iuvenumque iterum animam quo regia tenentes altera sublimia in
 in licet! Et haec; [voco](http://nymphis.net/litus.html) quas natus, _subiecta
 ventorum a_. Timeri peregrinosque inani Finis mihi loqui, omnes.
 
+<kbd>enter</kbd> `inline code`
+
+> Photo by Maddi Bazzocco on Unsplash
+
 <!--more-->
 
 ```js
@@ -83,7 +87,3 @@ spatium et patrios insignia genitor: regia!
 
 Spectat subit pectora **quibus**. Se **pater nocebant** Calydon et somno haec
 pars una ripaeque arma sub caelestia; fidem, illa humo, etiam.
-
-<kbd>enter</kbd> `inline code`
-
-> Photo by Maddi Bazzocco on Unsplash

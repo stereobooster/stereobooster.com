@@ -67,7 +67,7 @@ body {
 .content {
   border-top: 0.5em solid var(--primary);
   /* padding on small devices */
-  padding: 0 0.75em;
+  padding: 0 0.75em 2em;
 }
 
 .content img,
@@ -83,7 +83,7 @@ body {
   .content {
     width: 40em;
     margin: 0 auto;
-    padding: 0;
+    padding: 0 0 3em;
   }
 
   .content img,
@@ -94,9 +94,17 @@ body {
 }
 
 blockquote {
+  margin-inline-start: 1.5em;
+  margin-inline-end: 1.5em;
+
   padding-left: 0.5em;
   border-left: 0.5em solid #d9d9d9;
   color: #444;
+}
+
+aside {
+  color: #444;
+  font-size: 0.9em;
 }
 
 kbd {
@@ -116,9 +124,9 @@ code {
   /* inspired by Github */
   font-size: 0.75em;
   padding: 1px 2px;
-  border: solid 1px #d9d9d9;
+  /* border: solid 1px #d9d9d9; */
   border-radius: 3px;
-  background-color: #f8f5f5;
+  background-color: #f0f3f2;
 }
 
 pre {
@@ -127,7 +135,7 @@ pre {
 }
 
 .highlight pre {
-  padding: 1em;
+  padding: 0.75em;
   line-height: 1.5em;
 }
 
@@ -144,8 +152,21 @@ pre {
 }
 
 a {
-  color: #0074D9;
+  color: #0074d9;
 }
 a:visited {
   color: #85144b;
+}
+
+section {
+  margin-bottom: 2em;
+}
+
+nav {
+  padding: 0.5em 0;
+}
+
+nav .prev,
+nav a {
+  margin-right: 1em;
 }

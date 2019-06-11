@@ -2,7 +2,7 @@
 {{ $url := replace .Permalink .Site.BaseURL "" }}
     {{ if ne $url "about/" }}
         <article>
-            <a href='{{ .Permalink }}'><h2>{{ .Title }}</h2></a>
+            <h2><a href='{{ .Permalink }}'>{{ .Title }}</a></h2>
             <p>
                 {{ if .Site.Params.enableSummary }}
                     {{ if .Site.Params.useDescriptionReplaceSummary }}
