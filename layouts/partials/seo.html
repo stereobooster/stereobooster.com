@@ -1,9 +1,7 @@
 <!-- https://github.com/stereobooster/an-almost-static-stack/blob/react-snap/src/components/Seo.js -->
 {{ with  .Site.Params.themeColor }}<meta name="theme-color" content="{{ . }}"/> {{ end }}
 <title>{{ if .IsHome }}{{ .Title }}{{ else }}{{ .Title }} &mdash; {{ .Site.Title }}{{ end }}</title>
-{{ if .Site.Params.enableTwitterCard }}
-	{{ partial "twitter-cards.html" . }}
-{{ end }}
+{{ partial "twitter-cards.html" . }}
 {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 {{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
 {{ hugo.Generator }}

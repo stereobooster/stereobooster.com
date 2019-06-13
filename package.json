@@ -27,6 +27,7 @@
     "rimraf": "^2.6.3"
   },
   "dependencies": {
+    "@stereobooster/ganalytics": "^3.2.2",
     "quicklink": "^1.0.0"
   },
   "browserslist": [

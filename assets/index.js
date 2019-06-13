@@ -1,8 +1,10 @@
 import "./css/styles.css";
 import "./css/code.css";
 import "./css/social.css";
+
 import "./js/nojs.js";
 import quicklink from "quicklink/dist/quicklink.mjs";
+import GAnalytics from "@stereobooster/ganalytics";
 quicklink();
 
 // Hotkeys
@@ -19,3 +21,29 @@ window.addEventListener(
   },
   { passive: true, capture: false }
 );
+
+if (window.config.ga && window.location.hostname !== "localhost") {
+  // https://dev.to/corbindavenport/how-to-correctly-check-for-do-not-track-with-javascript-135d
+  if (
+    window.doNotTrack ||
+    navigator.doNotTrack ||
+    navigator.msDoNotTrack ||
+    "msTrackingProtectionEnabled" in window.external
+  ) {
+    if (
+      window.doNotTrack == "1" ||
+      navigator.doNotTrack == "yes" ||
+      navigator.doNotTrack == "1" ||
+      navigator.msDoNotTrack == "1" ||
+      window.external.msTrackingProtectionEnabled()
+    ) {
+      // Do Not Track is enabled!
+    } else {
+      GAnalytics(config.ga);
+    }
+  } else {
+    GAnalytics(config.ga);
+  }
+}
+
+// TODO: implement cookie consent

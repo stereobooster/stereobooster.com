@@ -811,6 +811,11 @@
     "@parcel/utils" "^1.11.0"
     physical-cpu-count "^2.0.0"
 
+"@stereobooster/ganalytics@^3.2.2":
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/@stereobooster/ganalytics/-/ganalytics-3.2.2.tgz#c1b07449529a45623173f470a47562e879b17fbe"
+  integrity sha512-BA/Q88j529OftOl1hJhBDUXumrEjfbNHZKkVeJ4kJdUfaSTaBus6WmlRycHSMobknkOvlgzYbucaRfON8CN/RQ==
+
 "@types/node@^10.11.7":
   version "10.12.24"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-10.12.24.tgz#b13564af612a22a20b5d95ca40f1bffb3af315cf"
