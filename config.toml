@@ -39,3 +39,26 @@ Paginate = 5
 	# edit this page
 	githubUsername = "stereobooster"
 	githubRepo = "hugo-pipes-parcel"
+
+[privacy]
+  [privacy.disqus]
+    disable = true
+  [privacy.googleAnalytics]
+    anonymizeIP = true
+    disable = true
+    respectDoNotTrack = true
+    useSessionStorage = true
+  [privacy.instagram]
+    disable = true
+    simple = true
+  [privacy.twitter]
+    disable = true
+    enableDNT = true
+    simple = true
+  [privacy.vimeo]
+    disable = true
+    simple = true
+  [privacy.youtube]
+    disable = true
+    privacyEnhanced = true
+

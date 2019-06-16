@@ -3,6 +3,7 @@ import "./css/code.css";
 import "./css/social.css";
 
 import "./js/nojs.js";
+import "lazysizes";
 import quicklink from "quicklink/dist/quicklink.mjs";
 import GAnalytics from "@stereobooster/ganalytics";
 quicklink();

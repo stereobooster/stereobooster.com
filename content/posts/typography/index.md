@@ -4,7 +4,7 @@ date: 2019-06-10T00:49:54+02:00
 description: Test description
 draft: false
 tags: [markdown]
-cover_image: /posts/typography/image.jpg
+cover_image: image.jpg
 ---
 
 ## Enim sucoque
@@ -87,3 +87,7 @@ spatium et patrios insignia genitor: regia!
 
 Spectat subit pectora **quibus**. Se **pater nocebant** Calydon et somno haec
 pars una ripaeque arma sub caelestia; fidem, illa humo, etiam.
+
+<!-- ![test](./image.jpg) -->
+
+{{< img src="image.jpg" >}}

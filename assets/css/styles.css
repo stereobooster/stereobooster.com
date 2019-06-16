@@ -71,6 +71,7 @@ body {
 }
 
 .content img,
+.content .img,
 .content .highlight {
   /* undo padding on small devices */
   margin: 0 -0.75em;
@@ -87,6 +88,7 @@ body {
   }
 
   .content img,
+  .content .img,
   .content .highlight {
     margin: 0;
     width: 100%;
@@ -169,4 +171,25 @@ nav {
 nav .prev,
 nav a {
   margin-right: 1em;
+}
+
+.img svg,
+.img img {
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.img {
+  position: relative
+}
+
+.img img {
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.nojs .img .lazyload {
+  display: none;
 }
