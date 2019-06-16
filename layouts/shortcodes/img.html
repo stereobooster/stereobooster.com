@@ -17,19 +17,11 @@
 
 {{/* resize the src image to the given sizes */}}
 
-{{ .Scratch.Set "lqip" ($src.Resize $lqipw) }}
-{{ .Scratch.Set "tiny" ($src.Resize $tinyw) }}
-{{ .Scratch.Set "small" ($src.Resize $smallw) }}
-{{ .Scratch.Set "medium" ($src.Resize $mediumw) }}
-{{ .Scratch.Set "large" ($src.Resize $largew) }}
-
-{{/* add the processed images to the scratch */}}
-
-{{ $lqip := .Scratch.Get "lqip" }}
-{{ $tiny := .Scratch.Get "tiny" }}
-{{ $small := .Scratch.Get "small" }}
-{{ $medium := .Scratch.Get "medium" }}
-{{ $large := .Scratch.Get "large" }}
+{{ $lqip := $src.Resize $lqipw }}
+{{ $tiny := $src.Resize $tinyw }}
+{{ $small := $src.Resize $smallw }}
+{{ $medium := $src.Resize $mediumw }}
+{{ $large := $src.Resize $largew }}
 
 {{/* only use images smaller than or equal to the src (original) image size, as Hugo will upscale small images */}}
 {{/* set the sizes attribute to (min-width: 35em) 1200px, 100vw unless overridden in shortcode */}}
