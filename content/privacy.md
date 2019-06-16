@@ -10,12 +10,12 @@ This website uses [Google Analytics](https://www.google.de/analytics/terms/us.ht
 
 #### If you don't provide consent
 
-- This website **will not** store data on your computer.
+- This website **will not** store data on your device.
 - **Will** send information about your visit with [anonymization flag enabled](https://support.google.com/analytics/answer/2763052?hl=en).
 
 #### If you do provide consent
 
-- This website **will** store a unique identifier on your computer in local storage and send it to Google Analytics on every your visit.
+- This website **will** store a unique identifier on your device in local storage and send it to Google Analytics on every your visit.
 
 ### Data collection
 

@@ -199,3 +199,14 @@ nav a {
   padding: 1em;
   border-radius: 5px;
 }
+
+button {
+  min-width: 1cm;
+  min-height: 1cm;
+  margin-right: 2em;
+}
+
+.cookie {
+  padding: 0.5em 1em;
+  background: #f0f3f2;
+}

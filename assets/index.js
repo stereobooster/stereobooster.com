@@ -23,9 +23,24 @@ window.addEventListener(
   { passive: true, capture: false }
 );
 
+// https://dev.to/corbindavenport/how-to-correctly-check-for-do-not-track-with-javascript-135d
+const doNotTrackSupported =
+  window.doNotTrack ||
+  navigator.doNotTrack ||
+  navigator.msDoNotTrack ||
+  "msTrackingProtectionEnabled" in window.external;
+const doNotTrackEnabled = doNotTrackSupported
+  ? window.doNotTrack == "1" ||
+    navigator.doNotTrack == "yes" ||
+    navigator.doNotTrack == "1" ||
+    navigator.msDoNotTrack == "1" ||
+    window.external.msTrackingProtectionEnabled()
+  : null;
+
+// GA tracking
 const gaEanbled = window.config.ga && window.location.hostname !== "localhost";
 const consent = window.localStorage["ga:consent"];
-if (gaEanbled) {
+if (gaEanbled && !doNotTrackEnabled) {
   GAnalytics(config.ga, { consent });
 }
 
@@ -50,3 +65,23 @@ document.querySelectorAll("[name=consent]").forEach(x =>
     false
   )
 );
+
+// cookie statement
+if (!consent && !doNotTrackEnabled) {
+  document.querySelector(".cookie").hidden = false;
+  document.querySelector(".cookie-yes").addEventListener(
+    "click",
+    () => {
+      window.localStorage["ga:consent"] = true;
+      document.querySelector(".cookie").hidden = true;
+    },
+    false
+  );
+  document.querySelector(".cookie-close").addEventListener(
+    "click",
+    () => {
+      document.querySelector(".cookie").hidden = true;
+    },
+    false
+  );
+}
