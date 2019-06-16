@@ -29,7 +29,7 @@ Paginate = 5
 	# Set the value to true if use description in post front matter replace content summary
 	useDescriptionReplaceSummary = false
 
-  # googleAnalytics = ""
+  googleAnalytics = "UA-23660048-2"
 
 	# The url for twitter card image, default is avatar.png in static/images directory
 	twitterCardImage = ""

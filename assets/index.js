@@ -23,28 +23,30 @@ window.addEventListener(
   { passive: true, capture: false }
 );
 
-if (window.config.ga && window.location.hostname !== "localhost") {
-  // https://dev.to/corbindavenport/how-to-correctly-check-for-do-not-track-with-javascript-135d
-  if (
-    window.doNotTrack ||
-    navigator.doNotTrack ||
-    navigator.msDoNotTrack ||
-    "msTrackingProtectionEnabled" in window.external
-  ) {
-    if (
-      window.doNotTrack == "1" ||
-      navigator.doNotTrack == "yes" ||
-      navigator.doNotTrack == "1" ||
-      navigator.msDoNotTrack == "1" ||
-      window.external.msTrackingProtectionEnabled()
-    ) {
-      // Do Not Track is enabled!
-    } else {
-      GAnalytics(config.ga);
-    }
-  } else {
-    GAnalytics(config.ga);
-  }
+const gaEanbled = window.config.ga && window.location.hostname !== "localhost";
+const consent = window.localStorage["ga:consent"];
+if (gaEanbled) {
+  GAnalytics(config.ga, { consent });
 }
 
-// TODO: implement cookie consent
+// consent form
+let consentRadioButton;
+if (consent) {
+  consentRadioButton = document.querySelector("#agree");
+} else {
+  consentRadioButton = document.querySelector("#disagree");
+}
+if (consentRadioButton) consentRadioButton.checked = true;
+document.querySelectorAll("[name=consent]").forEach(x =>
+  x.addEventListener(
+    "change",
+    e => {
+      if (e.target.id === "agree") {
+        window.localStorage["ga:consent"] = true;
+      } else {
+        window.localStorage.clear();
+      }
+    },
+    false
+  )
+);

@@ -181,15 +181,21 @@ nav a {
 }
 
 .img {
-  position: relative
+  position: relative;
 }
 
 .img img {
   position: absolute;
-  top:0;
-  left:0;
+  top: 0;
+  left: 0;
 }
 
 .nojs .img .lazyload {
   display: none;
+}
+
+.consent {
+  border: 1px solid var(--text);
+  padding: 1em;
+  border-radius: 5px;
 }
