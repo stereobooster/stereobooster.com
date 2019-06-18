@@ -1,4 +1,4 @@
-/* generated with  hugo gen chromastyles --style=manni > assets/css/code.css */
+/* generated with hugo gen chromastyles --style=manni > assets/css/code.css */
 /* Background */ .chroma { background-color: #f0f3f3 }
 /* Error */ .chroma .err { color: #aa0000; background-color: #ffaaaa }
 /* LineTableTD */ .chroma .lntd { vertical-align: top; padding: 0; margin: 0; border: 0; }

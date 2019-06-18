@@ -24,7 +24,7 @@ This website uses [Google Analytics](https://www.google.de/analytics/terms/us.ht
   Enables data collection for Display and Search Remarketing. This includes data from Google's signed-in users who have chosen to enable Google to associate their web and app browsing history with their Google account, and to use such information from their Google account to personalize ads. Google Analytics temporarily joins these identifiers to your Google Analytics data in order to support your audiences. When you enable this setting, you must adhere to the Google Analytics Advertising Features Policy, including rules around sensitive categories and the necessary privacy disclosures to your end users about the data you collect and share with Google.
 </details>
 <details>
-  <summary><b>Advertising Reporting Features</b> feature is turned <b>off</b>.</summary>
+  <summary><b>Advertising Reporting Features</b> are turned <b>off</b>.</summary>
   Enables Advertising Reporting features like Audience Demographics and Interests Reporting, Campaign Manager reporting, Display & Video 360 reporting, and Google Display Network Impression Reporting that help you better understand your users.
 </details>
 
