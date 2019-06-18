@@ -38,7 +38,7 @@ Paginate = 5
 
 	# edit this page
 	githubUsername = "stereobooster"
-	githubRepo = "hugo-pipes-parcel"
+	githubRepo = "stereobooster.com"
 
 [privacy]
   [privacy.disqus]
