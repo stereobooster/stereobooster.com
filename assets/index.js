@@ -41,7 +41,7 @@ const doNotTrackEnabled = doNotTrackSupported
 const gaEanbled = window.config.ga && window.location.hostname !== "localhost";
 const consent = window.localStorage["ga:consent"];
 if (gaEanbled && !doNotTrackEnabled) {
-  GAnalytics(config.ga, { consent });
+  GAnalytics(config.ga, { consent, aip: 1 });
 }
 
 // consent form
