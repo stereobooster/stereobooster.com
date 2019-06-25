@@ -1,3 +1,8 @@
+<meta name="twitter:title" content="{{ .Site.Title }}"/>
+<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
+{{ with .Site.Params.twitter }}
+  <meta name="twitter:site" content="@{{ . }}"/>
+{{ end }}
 {{ if .IsPage }}
   {{ if (isset .Params "cover_image") }}
     {{ $cover_image := printf "*%s*" .Params.cover_image }}
@@ -7,14 +12,8 @@
     <meta name="twitter:image:src" content="{{ $src.Permalink }}"/>
   {{ else }}
     <meta name="twitter:card" content="summary"/>
-    <!-- meta name="twitter:image" content="{{ .Site.BaseURL }}images/avatar.png" /-->
   {{ end }}
   <!-- Twitter Card data -->
-  <meta name="twitter:title" content="{{ .Title }}"/>
-  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
-  {{ with .Site.Params.twitter }}
-    <meta name="twitter:site" content="@{{ . }}"/>
-  {{ end }}
   {{ range .Site.Authors }}
     {{ with .twitter }}
       <meta name="twitter:creator" content="@{{ . }}"/>
@@ -24,18 +23,11 @@
   {{ if eq (len .Site.Authors) 0 }}
     <meta name="twitter:creator" content="@{{ .Site.Params.author }}"/>
   {{ end }}
-
 {{ else }}
-
   <meta name="twitter:card" content="summary" />
-  {{ with .Site.Params.twitter }}
-    <meta name="twitter:site" content="@{{ . }}"/>
-  {{ end }}
   {{ with .Site.Params.author }}
     <meta name="twitter:creator" content="@{{ . }}"/>
   {{ end }}
-  <meta name="twitter:title" content="{{ .Site.Title }}"/>
-  <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
   {{ if .Site.Params.twitterCardImage }}
     <meta name="twitter:image" content="{{ .Site.Params.twitterCardImage | absURL }}" />
   {{ end }}
