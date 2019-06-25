@@ -7,7 +7,7 @@ pygmentsOptions = "linenos=inline"
 baseurl = "https://stereobooster.com/"
 # for <html lang={}>
 languageCode = "en"
-title = "stereobooster personal blog"
+title = "stereobooster's personal blog"
 
 Paginate = 5
 
