@@ -5,11 +5,6 @@
 {{ partial "twitter-cards.html" . }}
 {{ partial "json-ld.html" . }}
 {{ partial "opengraph.html" . }}
-{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
-{{ with .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
-
-<link rel="shortcut icon" href="{{ .Site.BaseURL }}favicon.ico">
-
 {{ if .Site.Params.enableRSS }}
 <link href="{{ .Site.RSSLink }}" rel="alternate" type="application/rss+xml" title="{{ .Site.Title }}" />
 {{ end }}

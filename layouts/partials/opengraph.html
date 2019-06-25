@@ -1,4 +1,4 @@
-<meta property="og:title" content="{{ .Site.Title }}"/>
+<meta property="og:title" content="{{ .Title }}"/>
 <meta name="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
 <meta property="og:url" content="{{ .Permalink }}" />
 {{ if .IsPage }}
