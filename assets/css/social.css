@@ -45,33 +45,34 @@
 }
 
 .resp-sharing-button--twitter {
-  background-color: #55acee;
-  border-color: #55acee;
+  background-color: #1d8cec;
+  border-color: #1d8cec;
 }
 
 .resp-sharing-button--twitter:hover,
 .resp-sharing-button--twitter:active {
-  background-color: #2795e9;
-  border-color: #2795e9;
+  background-color: #1d8becdd;
+  background-color: #1d8becdd;
 }
 
 .resp-sharing-button--reddit {
-  background-color: #5f99cf;
-  border-color: #5f99cf;
+  background-color: #fb2c08;
+  border-color: #fb2c08;
 }
 
 .resp-sharing-button--reddit:hover,
 .resp-sharing-button--reddit:active {
-  background-color: #3a80c1;
-  border-color: #3a80c1;
+  background-color: #fb2c08dd;
+  border-color: #fb2c08dd;
 }
 
 .resp-sharing-button--hackernews {
-  background-color: #ff6600;
-  border-color: #ff6600;
+  background-color: #fb4f08;
+  border-color: #fb4f08;
 }
 
-.resp-sharing-button--hackernews:hover .resp-sharing-button--hackernews:active {
-  background-color: #fb6200;
-  border-color: #fb6200;
+.resp-sharing-button--hackernews:hover,
+.resp-sharing-button--hackernews:active {
+  background-color: #fb4f08dd;
+  border-color: #fb4f08dd;
 }

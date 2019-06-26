@@ -80,6 +80,11 @@ body {
   height: auto;
 }
 
+.content .simg {
+  width: initial;
+  margin: 0;
+}
+
 @media (min-width: 40em) {
   .content {
     width: 40em;
@@ -92,6 +97,11 @@ body {
   .content .highlight {
     margin: 0;
     width: 100%;
+  }
+
+  .content .simg {
+    width: auto;
+    margin: 0;
   }
 }
 
@@ -180,6 +190,11 @@ nav a {
   height: auto;
 }
 
+.img svg {
+  /* I have no idea where those 3px from */
+  margin-bottom: -3px;
+}
+
 .img {
   position: relative;
 }
@@ -209,8 +224,31 @@ button {
 .cookie {
   padding: 0.5em 1em;
   background: #f0f3f2;
+  margin: 0 -0.75em;
 }
 
-footer {
+@media (min-width: 40em) {
+  .cookie {
+    margin: 0;
+  }
+}
+
+.license {
   font-size: 0.8em;
+}
+
+table {
+  border-spacing: 0;
+  border-bottom: 1px solid #e1e1e1;
+  border-right: 1px solid #e1e1e1;
+}
+
+td, th {
+  border-top: 1px solid #e1e1e1;
+  border-left: 1px solid #e1e1e1;
+  padding: 0.5rem;
+}
+
+th {
+  background: #f0f3f3
 }

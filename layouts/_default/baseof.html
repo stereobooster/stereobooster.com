@@ -12,7 +12,7 @@
     <div class="content">
       <div class="cookie" hidden>
         <p>
-          Can we store cookies on your device? See <a href='{{ .Site.BaseURL }}privacy/'>Privacy Policy</a> for details.<br>
+          Can I store cookies on your device? See <a href='{{ .Site.BaseURL }}privacy/'>Privacy Policy</a> for details.<br>
           <button type="button" class="cookie-yes">Yes</button> <button type="button" class="cookie-close">Close</button>
         </p>
       </div>
@@ -21,7 +21,7 @@
         {{ partial "about.html" . }}
       {{ end }}
       {{ block "main" . }}{{ end }}
-      {{ partial "footer.html" . }}
+      {{ partial "license.html" . }}
     </div>
     {{ partial "scripts.html" . }}
   </body>
