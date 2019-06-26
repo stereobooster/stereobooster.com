@@ -6,6 +6,7 @@
   "repository": "https://github.com/theNewDynamic/hugo-starter.git",
   "author": "budparr <budparr@gmail.com>",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "clean": "rimraf public/ assets/output static/output resources",
     "build": "run-s deploy:assets build:hugo",
