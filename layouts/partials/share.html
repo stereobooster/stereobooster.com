@@ -6,12 +6,10 @@
     ·
     {{ with  .Page.Params.discuss.devto }}<a href="https://dev.to/stereobooster/{{ . }}">dev.to</a>{{ else }}dev.to{{ end }}
     ·
-    {{ with  .Page.Params.hn }}<a href="https://news.ycombinator.com/item?id={{ . }}">hackernews</a>{{ else }}hackernews{{ end }}
+    {{ with  .Page.Params.discuss.hn }}<a href="https://news.ycombinator.com/item?id={{ . }}">hackernews</a>{{ else }}hackernews{{ end }}
     ·
-    {{ with  .Page.Params.hn }}<a href="https://www.reddit.com/{{ . }}">reddit</a>{{ else }}reddit{{ end }}
-
-
-  <br/>
+    {{ with  .Page.Params.discuss.reddit }}<a href="https://www.reddit.com/{{ . }}">reddit</a>{{ else }}reddit{{ end }}
+    <br/>
     <a href="https://github.com/{{ with  .Site.Params.githubUsername }}{{ . }}{{ end }}/{{ with  .Site.Params.githubRepo }}{{ . }}{{ end }}/edit/master/content/{{.File.Path}}">
       Edit on GitHub
     </a>

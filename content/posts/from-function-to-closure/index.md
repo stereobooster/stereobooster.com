@@ -5,6 +5,9 @@ draft: false
 description: "Minimal introduction: from theoretical concept of function to practical usage of closures in programming. I show the same concept from different point views, so you can build a deeper understanding."
 tags: [explainlikeimfive, computerscience, javascript]
 cover_image: nyan-function.png
+discuss:
+  devto: introduction-from-function-to-closure-3h6o
+  hn: "20290645"
 ---
 
 Minimal introduction: from theoretical concept of function to practical usage of closures in programming. I show the same concept from different point views, so you can build a deeper understanding.
