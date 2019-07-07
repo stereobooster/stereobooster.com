@@ -240,11 +240,11 @@ In this example, `x` is a bound variable and `y` is a "free" variable.
 
 ## Closure
 
-We mentioned this magic technique of "keeping variable in mind" before, without proper explanation. How to attach variable to the function? To do this we need to use closures. The closure is a function with a context from where it was defined (or "created"). Closures are lexically scoped which means:
+We mentioned this magic technique of "keeping variable in mind" before, without proper explanation. How to attach variable to the function? To do this we need to use closures. The closure is a function with an environment (context where it was defined or "created"). Closures are lexically scoped which means:
 
 - that its scope is limited by the function body (variable of the function are in the scope as well)
 - closures can be nested e.g. sub-function can access its own scope and all it's parents scopes
-- but parent function can't access children scope
+- but parent function can't access children scopes
 
 Let's see the example:
 
