@@ -128,7 +128,7 @@ const y = x => {
 };
 ```
 
-First, we need to define what is the same output means - how we define equality (or identity) for values in programming.
+First, we need to define what is the same output means - how we can compare two values in programming.
 
 ### Comparison
 
