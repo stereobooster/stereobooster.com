@@ -23,7 +23,7 @@ Simplified definition:
 
 More formal definition:
 
-> A function is a relation that uniquely associates members of one set with members of another set. Function from `A` to `B` is an object `f` such that every `a in A` is uniquely associated with an object `f(a) in B`.
+> A function is a relation that uniquely associates members of one set with members of another set. Function from `A` to `B` is an object `f` such that every `a in A` is uniquely associated with an object `f(a) in B`. A function is therefore a many-to-one (or sometimes one-to-one) relation. The set `A` of values at which a function is defined is called its `domain`, while the set `f(A) subset B` of values that the function can produce is called its `range`. Here, the set `B` is called the `codomain` of `f`.
 > -- [Mathworld Wolfram](http://mathworld.wolfram.com/Function.html)
 
 Example of function:
