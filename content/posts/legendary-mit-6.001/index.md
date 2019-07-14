@@ -19,7 +19,7 @@ discuss:
 
 ## Introduction
 
-In 1980 Hal Abelson and Gerald Jay Sussman started a course at MIT. Later, in 1985,  based on this course they wrote a book - Structure and Interpretation of Computer Programs or SICP or wizard book. This course taught N generations of programmers in MIT.
+In 1980 Hal Abelson and Gerald Jay Sussman started a course at MIT. Later, in 1985, based on this course they wrote a book - Structure and Interpretation of Computer Programs or SICP or wizard book. This course taught N generations of programmers in MIT.
 
 Here is what people are saying about SICP:
 
@@ -93,4 +93,3 @@ Here are some alternatives to SICP:
 - [Programming Languages: Application and Interpretation](https://cs.brown.edu/~sk/Publications/Books/ProgLangs/2007-04-26/)
 - [More books about Scheme](https://racket-lang.org/books.html)
 - The Little Schemer, The Seasoned Schemer, The Reasoned Schemer
-

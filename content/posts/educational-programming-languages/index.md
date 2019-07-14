@@ -16,9 +16,9 @@ This is an overview, not a deep dive - I will talk about some aspects briefly an
 
 ## Logo, 1967
 
-[The Logo, a dialect of Lisp, was designed as a tool for learning.  Seymour Papert et al. created the first version of Logo in 1967](http://el.media.mit.edu/logo-foundation/what_is_logo/history.html). The logo is one of the first works in direction of constructionism.
+[The Logo, a dialect of Lisp, was designed as a tool for learning. Seymour Papert et al. created the first version of Logo in 1967](http://el.media.mit.edu/logo-foundation/what_is_logo/history.html). The logo is one of the first works in direction of constructionism.
 
-*Side note*: ConstructioNism is educational theory invented by Papert, it is the development of Jean Piaget idea called ConstructiVism. Papert worked with Piaget in Geneva. There are similar ideas: Piaget Constructivism, Vygotsky Social Constructivism. I will give a hand-wavy explanation here, not necessarily the fully correct one.
+_Side note_: ConstructioNism is educational theory invented by Papert, it is the development of Jean Piaget idea called ConstructiVism. Papert worked with Piaget in Geneva. There are similar ideas: Piaget Constructivism, Vygotsky Social Constructivism. I will give a hand-wavy explanation here, not necessarily the fully correct one.
 
 Key Idea is that knowledge is constructed by each learner, and it happens when learner actively interacts with some subject and explore it thyself. So all teacher attempts to pass knowledge by explaining or by forcing to learn some definitions by-heart are ineffective. Learning is happening when pupil willing to learn and teachers task is to create an environment which allows the pupil to experiment, interact with the subject and build their own knowledge.
 
@@ -45,7 +45,7 @@ cannot reference an identifier before its definition
 
 The learner can execute commands one by one in REPL, they don't need to write all program at once.
 
-The Logo uses dynamic type system with implicit coercions,  for example, strings can be automatically converted to numbers, which lowers barrier for kids, but as we know it can bite you back, if used a lot in big languages, like JavaSctipt or PHP.
+The Logo uses dynamic type system with implicit coercions, for example, strings can be automatically converted to numbers, which lowers barrier for kids, but as we know it can bite you back, if used a lot in big languages, like JavaSctipt or PHP.
 
 The Logo uses a small number of special symbols, so its text looks like natural language, which also supposes to lower barrier.
 
@@ -77,9 +77,9 @@ A potentially interesting idea is to be able to switch between block representat
 
 In 1970 N. Wirth published Pascal language, it was a variation of Algol X, basically, it contained all Wirth's ideas which wasn't accepted for Algol.
 
-*Side note*: Wirth was on the committee of Algol 68 along with Edsger Dijkstra, Tony Hoare, Peter Landin, John McCarthy, and others.
+_Side note_: Wirth was on the committee of Algol 68 along with Edsger Dijkstra, Tony Hoare, Peter Landin, John McCarthy, and others.
 
-In 1976 N. Wirth wrote a book "Algorithms + Data Structures = Programs", which covered: Fundamental Data Structures, Sorting,  Recursive Algorithms, Dynamic Information Structures, Language Structures and Compilers. In the last part, he showed how to implement mini Pascal-like language compiler in  400 lines of code.
+In 1976 N. Wirth wrote a book "Algorithms + Data Structures = Programs", which covered: Fundamental Data Structures, Sorting, Recursive Algorithms, Dynamic Information Structures, Language Structures and Compilers. In the last part, he showed how to implement mini Pascal-like language compiler in 400 lines of code.
 
 It is the only one language in this article with the static type system. Static type system seems to create a higher entry barrier - you need to declare the type of objects, you can mix objects of different types, you need to introduce sets to reason about types etc. Pascal on the other side has very straightforward and to some extent limited type system, for what it was criticized by Kernighan.
 
@@ -111,8 +111,8 @@ It has a simple static system and receives similar to Kernighan critiques. Pasca
 
 They basically "rediscovered" Lambda calculus - when in 1958 McCarthy created LISP, he heard about Lambda calculus, but haven't studied it. But Sussman and Steele saw the potential of Lambda and made changes to the language required to make it work, this way they opened the door from theory to practice.
 
-*Side note*: Seymour Papert was Doctoral Advisor of Sussman.
-*Side note 2*: one of the research subjects for which they developed Scheme was [the Actor Model developed by Carl Hewitt](https://www.youtube.com/watch?v=7erJ1DV_Tlo) inspired by the idea of cells from SmallTalk.
+_Side note_: Seymour Papert was Doctoral Advisor of Sussman.
+_Side note 2_: one of the research subjects for which they developed Scheme was [the Actor Model developed by Carl Hewitt](https://www.youtube.com/watch?v=7erJ1DV_Tlo) inspired by the idea of cells from SmallTalk.
 
 In 1985 Harold Abelson, Gerald Jay Sussman, Julie Sussman published a book "Structure and Interpretation of Computer Programs", which is basically a curriculum MIT 6.001.
 
@@ -149,9 +149,9 @@ They made some experiments with children and untrained adults. The experiment sh
 
 They thought maybe inheritance can be used for simplification - experts would write solution for complex problems and users can reuse it through inheritance. But it turns out this is also confusing concept.
 
-While the initial purpose was to develop a programming language for children, in the process Alan Kay and his lab invented the concept of "pure" OOP.  Alan Kay coined term Object-Oriented Programming and 6 basic principles of OOP style like everything is an object and objects communicate via messages (this was inspired by biological cells and computers in the network).
+While the initial purpose was to develop a programming language for children, in the process Alan Kay and his lab invented the concept of "pure" OOP. Alan Kay coined term Object-Oriented Programming and 6 basic principles of OOP style like everything is an object and objects communicate via messages (this was inspired by biological cells and computers in the network).
 
-*Side note*: there are some controversial opinions on who invented OOP and what OOP is about. Some think that Simula is the first OOP language, but it was a more procedural language with objects and the closest ancestor is C++, which is supposed to be better C. I believe there are two distinctive "schools" of OOP, but this subject is for a separate article. Kay's OOP is closer to the actor model (which it inspired).
+_Side note_: there are some controversial opinions on who invented OOP and what OOP is about. Some think that Simula is the first OOP language, but it was a more procedural language with objects and the closest ancestor is C++, which is supposed to be better C. I believe there are two distinctive "schools" of OOP, but this subject is for a separate article. Kay's OOP is closer to the actor model (which it inspired).
 
 They were able to construct working prototypes of the personal computer and effective language for it, but they seem to lose the initial idea of language for education. Kay tried to "reset" it back in 1976.
 
@@ -178,5 +178,3 @@ I believe that computer literacy should be taught the same way as we teach kids 
 It is nice to say that original Papert and Kay ideas are here. Latest OLPC is a tablet with a touchscreen and sun battery and it can run Scratch. But there are still a lot of unsolved questions, for example, Scratch teaches imperative programming and as soon as a child will start to learn the functional paradigm, the teacher will say that old schemas are bad, like assignments, mutations, for loops etc. And this is wrong as if they would teach you to prose for the first three years and later introduced poetry and explained that prose sucks. Instead, we should teach what is computation and that computation can be done in different ways and you need to choose an approach depending on the task.
 
 The last note: I'm talking about programming languages designed for education, this is not the same as languages designed or used for research. Python widely used for research, specifically in data science. Haskell and ML-family languages widely used for CS research.
-
-
