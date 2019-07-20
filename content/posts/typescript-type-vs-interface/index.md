@@ -2,8 +2,10 @@
 title: "TypeScript: type vs interface"
 date: 2019-07-21T00:34:03+02:00
 description: "Let's figure out what the difference between types and interfaces once and for all"
-tags: [typescript]
+tags: [typescript, webdev]
 cover_image: thekitze-tweet.png
+discuss:
+  devto: typescript-type-vs-interface-2n0c
 ---
 
 In one of my recent PRs I changed all `interface`s to `type`s because there were already more `type`s than `interface`s. In the review, I was asked to revert the change. I did it, but as well I wondered what the actual difference between `interface` and `type`. Let's figure out this. I use the latest TS (v3.5.1) for examples in this post.
@@ -270,6 +272,6 @@ export type NonUndefined<A> = A extends undefined ? never : A;
 
 Not all of those things were possible in early versions of TS, so people got used to interfaces. But in the latest version of TS, it seems that types are more capable and we can always use them 🤔. Or I miss something?
 
-There are a lot of nuances in TS - something may work for a small example (which I showed), but broken for big ones. **Please correct me if I missed something.**
+There are a lot of nuances in TS - something may work for a small example (which I showed), but broken for big ones. **[Please correct me if I missed something](https://github.com/stereobooster/stereobooster.com/edit/master/content/posts/typescript-type-vs-interface/index.md).**
 
 [Dedicated to @thekitze](https://twitter.com/thekitze/status/1150793200510148614).
