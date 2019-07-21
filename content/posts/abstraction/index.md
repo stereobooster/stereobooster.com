@@ -28,7 +28,7 @@ or
 >
 > -- [Dan Abramov](https://overreacted.io/the-elements-of-ui-engineering/)
 
-Also, Dan mentioned "abstraction ladder" in one of his tweets. I used "abstraction tower" in [my previous post](https://dev.to/stereobooster/complexity-5d62). What developers mean when they say "abstraction"?
+Also, Dan mentioned "abstraction ladder" in one of his tweets. I used "abstraction tower" in [my previous post](/posts/complexity/). What developers mean when they say "abstraction"?
 
 ## What is an abstraction?
 
@@ -79,7 +79,7 @@ When we say "focus on wrong details" we need to understand that "wrong" depends 
 
 ## Abstract thinking
 
-Abstraction is going beyond software development. It is a cognitive process. Abstract thinking has downsides the same way as [categorical thinking](https://dev.to/stereobooster/categorical-thinking-22kp). And we need to be aware of it.
+Abstraction is going beyond software development. It is a cognitive process. Abstract thinking has downsides the same way as [categorical thinking](/posts/categorical-thinking/). And we need to be aware of it.
 
 ### Different things may seem similar
 

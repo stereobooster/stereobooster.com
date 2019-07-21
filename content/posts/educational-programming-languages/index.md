@@ -173,7 +173,7 @@ If you want to know more about key people in CS education you can read [Outstand
 
 I would also mention Bret Victor, who is a big inspiration for a lot of developers. Amongst other ideas, he also has some for education, like [learnable programming](http://worrydream.com/#!/LearnableProgramming) and [Inventing on Principle](https://jamesclear.com/great-speeches/inventing-on-principle-by-bret-victor).
 
-I believe that computer literacy should be taught the same way as we teach kids to read, write and to do the math. And those kids can become programmers if they want, to fulfill ["next blue collar job"](https://dev.to/stereobooster/developer-is-the-next-blue-collar-job-269b) demand.
+I believe that computer literacy should be taught the same way as we teach kids to read, write and to do the math. And those kids can become programmers if they want, to fulfill ["next blue collar job"](/posts/developer-is-the-next-blue-collar-job/) demand.
 
 It is nice to say that original Papert and Kay ideas are here. Latest OLPC is a tablet with a touchscreen and sun battery and it can run Scratch. But there are still a lot of unsolved questions, for example, Scratch teaches imperative programming and as soon as a child will start to learn the functional paradigm, the teacher will say that old schemas are bad, like assignments, mutations, for loops etc. And this is wrong as if they would teach you to prose for the first three years and later introduced poetry and explained that prose sucks. Instead, we should teach what is computation and that computation can be done in different ways and you need to choose an approach depending on the task.
 

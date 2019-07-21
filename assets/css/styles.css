@@ -70,6 +70,10 @@ body {
   padding: 0 0.75em 2em;
 }
 
+img {
+  max-width: 100%;
+}
+
 .content .img,
 .content .highlight {
   /* undo padding on small devices */
@@ -80,7 +84,6 @@ body {
 }
 
 .content .simg {
-  max-width: 100%;
   width: initial;
   margin: 0;
 }
