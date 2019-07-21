@@ -3,7 +3,7 @@ title: "Developer eXperience: error messages"
 description: Let's talk about error messages and warnings in developer tools, like compilers, linters type checkers etc.
 tags: [dx]
 cover_image: error.jpg
-date: 2018-11-9T00:00:00+02:00
+date: 2018-11-09T00:00:00+02:00
 discuss:
   devto: developers-experience-error-messages-5cbn
 ---
