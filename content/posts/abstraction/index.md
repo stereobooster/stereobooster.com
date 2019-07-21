@@ -3,7 +3,6 @@ title: "Abstraction"
 date: 2019-01-06T00:00:00+02:00
 description: What developers mean when they talk about abstraction?
 tags: [programming, beginners]
-cover_image: abstraction.png
 discuss:
   devto: abstraction-1987
 ---
