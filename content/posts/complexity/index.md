@@ -10,10 +10,12 @@ discuss:
 **Clarification**: this post is not about computational complexity e.g. big O notation etc.
 
 There are classical works on the subject of complexity:
+
 - Frederick P. Brooks Jr. article "[No Silver Bullet: Essence and Accidents of Software Engineering](http://www.cs.nott.ac.uk/~pszcah/G51ISS/Documents/NoSilverBullet.html)", 1987
 - Rich Hickey talk "[Simple Made Easy](https://www.infoq.com/presentations/Simple-Made-Easy)", 2011
 
 Also worth to mention:
+
 - Justin Searls talk "[How to Stop Hating your Test Suite](https://www.youtube.com/watch?v=VD51AkG8EZw)", 2015. It is about testing, but also touches some ideas behind complexity, for example, [rule of product from combinatorics](http://cse.unl.edu/~choueiry/S06-235/files/Combinatorics-HandoutNoNotes.pdf).
 - Gerald M. Weinberg book "General Systems Thinking", 1975. Which I haven't read yet, but [I know it talks about complexity (specifically about "Organized complexity")](http://ryanbarringtoncox.github.io/notes/an-introduction-to-general-systems-thinking/).
 
