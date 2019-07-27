@@ -64,6 +64,10 @@ body {
   margin: 0;
 }
 
+li {
+  margin-bottom: 0.4em;
+}
+
 .content {
   border-top: 0.5em solid var(--primary);
   /* padding on small devices */
