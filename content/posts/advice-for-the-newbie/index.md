@@ -2,7 +2,7 @@
 title: "Advice for the Newbie"
 date: 2019-07-25T23:17:47+02:00
 draft: false
-tags: [beginners, explainlikeimfive, webdev]
+tags: [beginners, learning]
 discuss:
   devto: advice-for-the-newbie-11oj
 ---

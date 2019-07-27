@@ -62,3 +62,13 @@ Paginate = 5
     disable = true
     privacyEnhanced = true
 
+[related]
+  threshold = 90.0
+  includeNewer = true
+  toLower = true
+  [[related.indices]]
+    name = "tags"
+    weight = 100.0
+  [[related.indices]]
+    name = "date"
+    weight = 0.0
