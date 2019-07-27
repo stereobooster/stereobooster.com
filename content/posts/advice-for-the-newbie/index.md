@@ -3,6 +3,8 @@ title: "Advice for the Newbie"
 date: 2019-07-25T23:17:47+02:00
 draft: false
 tags: [beginners, explainlikeimfive, webdev]
+discuss:
+  devto: advice-for-the-newbie-11oj
 ---
 
 All advice applies to the beginners in software development if you already seasoned developer I guess you can find your way.
@@ -35,7 +37,7 @@ The bigger the number of instructions, the bigger complexity. As well some rules
 
 When we create software we want it to have some unique complex behavior (functionality).
 
- But complexity in software development can easily get out of hand, which would mean that it would be harder and harder to develop software. At some point, it can get so hard that you would force to throw away what you have and start from scratch.
+But complexity in software development can easily get out of hand, which would mean that it would be harder and harder to develop software. At some point, it can get so hard that you would be forced to throw away what you have and start from scratch.
 
 Complexity in software is like a salt, you add it a bit and food tastes better, you add a bit more - even better, but then at some point, you will notice that salt start to taste bitter. You need balance here, not too much of it, but no complexity only have programs which do nothing.
 
@@ -43,7 +45,7 @@ So your main task as a developer is to manage complexity. Control that it is not
 
 How would you do it? For example, divide and conquer - separate complexity in small buckets, so in case you need it you can throw away the whole bucket without need to rewrite the whole project.
 
-Or, for example, you can remove all not essential complexity - you need to ask: do we need this tool in our project, do we need this library, do we need this functionality. (Does it spark joy?) If not, then this is not essential complexity, it can be removed without loss.
+Or, for example, you can remove all non-essential complexity - you need to ask: do we need this tool in our project, do we need this library, do we need this functionality. (Does it spark joy?) If not, then this is not essential complexity, it can be removed without loss.
 
 ## Always choose simplicity
 
@@ -89,15 +91,14 @@ Or Don't Repeat Yourself (DRY) mantra. People try to write more dense code, but 
 
 Don't be fulled by overconfident tone. People under [Dunning-Kruger effect](https://ed.ted.com/lessons/why-incompetent-people-think-they-re-amazing-david-dunning) may sound very confident. If somebody advocates technology and names only pros, but not cons it means that they haven't used it long enough stumble upon tradeoffs. There are always tradeoffs (I haven't seen anything ideal).
 
-Don't be impressed with jargon words and terminology. People who want to help you and now what they talk about would use as less as possible terminology and would be able to explain the terminology they use. If they can't explain they don't know what they talk about. Or they want to feel better than you because they know "smart" words. Either way, don't waste your time here.
+Don't be impressed with jargon words and terminology. People who want to help you and know what they talk about would use as less as possible terminology and would be able to explain the terminology they use. If they can't explain they don't know what they talk about. Or they want to feel better than you because they know "smart" words. Either way, don't waste your time here.
 
 ## Don't get distracted
 
-You can get distracted by unimportant things, for example, which IDE to choose, or which plugins use, or which font. Who cares? Chose something that works and learn what you want to learn. Tooling is important, but if you spent 4 hours configuring ideal IDE and 1 on actually learning something is wrong here.
+You can get distracted by unimportant things, for example, which IDE to choose, or which plugins use, or which font. Who cares? Chose something that works and learn what you want to learn. Tooling is important, but if you spent 4 hours configuring ideal IDE and 1 on actually learning -  something is wrong here.
 
 ## Don't pay attention to gatekeepers
 
 There will be people who will say that for example, technology A is shit and you should not use it ever, or that you should follow some mantra, or that that CSS is not programming language (implying that you are not real programmer because you use it). Don't listen to them.
 
 Gatekeepers don't want good for you. They aren't here to spread the truth or ultimate knowledge. They do it only for the sake of gatekeeping itself.
-
