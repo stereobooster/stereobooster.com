@@ -185,3 +185,12 @@ Can you see it? It is glider moving across the screen, right? Now pause. Does it
 Or we can say it exists because squares are not independent (they depend on the neighbors), and even if glider itself doesn't exist, but the concept of the glider as platonic idea exist.
 
 One way or another I wouldn't simplify this question only down to compilers.
+
+## PS
+
+My previous attempts to write about types:
+
+- https://github.com/stereobooster/pragmatic-types
+- https://dev.to/t/pragmatictypes
+
+Those articles need updates and some rework, I want to incorporate them in this FAQ.
