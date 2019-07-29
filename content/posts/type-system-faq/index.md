@@ -5,6 +5,7 @@ draft: false
 tags: [explainlikeimfive, computerscience, typescript, beginners]
 discuss:
   devto: type-system-faq-3oi0
+  hn: 20559701
 ---
 
 The post is inspired by [this thread](https://dev.to/parkroolucas/typescript-is-a-waste-of-time-change-my-mind-pi8). People have so much misconception about types, use the wrong terminology and get to wrong conclusions. I'm not advocating static type system, my only concern let's use right terminology so we can have a constructive discussion.
@@ -20,7 +21,7 @@ Some people consider the dynamic type system to be the same as untyped. This is 
 
 Not a big deal, you may say, dynamic or untyped whatever. Actually, this is a big deal, because when you equate dynamic and untyped you automatically make the dynamic opposite of static type system, so people divided into two camps dynamic vs static types (which is incorrect, see dynamic vs static).
 
->Languages that do not restrict the range of variables are called untyped languages: they do not have types or, equivalently, have a single universal type that contains all values.
+> Languages that do not restrict the range of variables are called untyped languages: they do not have types or, equivalently, have a single universal type that contains all values.
 >
 > -- [Type Systems, Luca Cardelli](http://lucacardelli.name/papers/typesystems.pdf)
 
@@ -29,7 +30,7 @@ Not a big deal, you may say, dynamic or untyped whatever. Actually, this is a bi
 > Untyped — programs simply execute flat out; there is no attempt to check “consistency of shapes”
 >
 > Typed — some attempt is made, either at compile-time or at run-time, to
-check shape-consistency
+> check shape-consistency
 >
 > -- Type Systems for Programming Languages, Benjamin C. Pierce
 
@@ -114,9 +115,9 @@ Type system knows that `"test"` is a string (because of parsing rules). Type sys
 Other example (Flow):
 
 ```js
-const add = (x, y) => x / y
+const add = (x, y) => x / y;
 //                        ^ Cannot perform arithmetic operation because string [1] is not a number.
-add(1, "2")
+add(1, "2");
 ```
 
 Type checker sees that we call `add` with number and string, it traces back it to the definition. Type checker knows that division operation expects numbers as inputs, so it says this an error to use string as one of the inputs.
@@ -146,15 +147,15 @@ const makeSureIsNumber = (x: any) => {
     throw Error("Not a string");
   }
   return result;
-}
+};
 const read = (input: any) => {
   try {
     const n = makeSureIsNumber(input);
     // in this branch of code, n is for sure number
     // otherwise, we would get into a different branch of code
     // makeSureIsNumber "proofs" that n is number
-  } catch (e) { }
-}
+  } catch (e) {}
+};
 ```
 
 ## Are types only required for the compiler?
