@@ -6,21 +6,21 @@ description: Let's talk about learning, teaching, education system and knowledge
 tags: [education, beginners, computerscience, career]
 ---
 
-This is the collection of some **ideas** and my thoughts **about learning, teaching, and knowledge** in general. I wanted to separate this post in three parts, but all of them interconnected, so I guess this will be one long post. On the bright side - **sections are small** and there is **no need to read them all** or read them **in given order**.
+This is the collection of some **ideas** and my thoughts **about learning, teaching, and knowledge** in general. I wanted to separate this post into three parts, but all of them are interconnected so I guess this will be one long post. On the bright side, **sections are small** and there is **no need to read them all** or read them **in a given order**.
 
 <!--more-->
 
 ## Building from scratch
 
-To deeply understand some complex concept it is useful to analyze (disassemble, break to smaller parts) it, and understand how each part works. Another side of this approach is to build the thing (that you want to understand) from scratch.
+To deeply understand some complex concepts, it is useful to analyze (disassemble, break into smaller parts) it, and understand how each part works. Another side of this approach is to build the thing that you want to understand from scratch.
 
-This idea is present in [SICP](/posts/legendary-mit-6.001), authors start with the simplest concept of programming explained in the Lisp and then they show how to build the Lisp itself (circle closes).
+This idea is present in [SICP](/posts/legendary-mit-6.001), authors start with the simplest concept of programming explained in the Lisp and then they show how to build the Lisp itself (circle closes). <!-- What is a Lisp? A little context (1-2 lines) here could be helpful for readers. -->
 
-Gary Bernhardt likes to show how to build things from scratch in his [DAS "show"](https://www.destroyallsoftware.com/screencasts/catalog). [The Little Schemer](https://mitpress.mit.edu/books/little-schemer-fourth-edition) and [The Little Prover](http://the-little-prover.github.io/) written in the same vein.
+Gary Bernhardt likes to show how to build things from scratch in his [DAS "show"](https://www.destroyallsoftware.com/screencasts/catalog). [The Little Schemer](https://mitpress.mit.edu/books/little-schemer-fourth-edition) and [The Little Prover](http://the-little-prover.github.io/) are also written in the same vein.
 
-**Main idea is to have small isolated examples which focus on essentials**.
+**The main idea is to have small isolated examples which focus on essentials**.
 
-For example, to learn basic ideas behind different PL you can try to implement small programming languages like shown [here](https://plzoo.andrej.com/).
+For example, to learn basic ideas behind different programming languages, you can try to implement small programming languages like shown [here](https://plzoo.andrej.com/).
 
 ### But...
 
@@ -37,9 +37,9 @@ Another counterpoint can be that some subjects are very hard and can't be simpli
 
 ## "Problem first" approach
 
-I first saw this idea in a blog post where it was explained with an example based on the game. Imagine: the game starts and you need to accomplish a tutorial, you need to get out of the room. You try to get out but the door closed, so tutorial instructs you to find the key. After you found it you get back and get out of the room.
+I first saw this idea in a blog post where it was explained with an example based on the game. Imagine: the game starts and you need to accomplish a tutorial: you need to escape from a room. You try to get out but the door is locked. The tutorial instructs you to find the key. After you find it, you get back and get out of the room.
 
-Another variant of this tutorial could look like this, you got a task to get out of the room, but you already got key in your inventory, so you fastly accomplish the tutorial. Now when you face the closed door in the game, you don't know what to do because you have no key and have no idea where to get it.
+Another variant of this tutorial could look like this – you got a task to get out of the room, but you already have a key in your inventory, so you quickly accomplish the tutorial. Now when you face the closed door in the game, you don't know what to do because you have no key and have no idea where to get it.
 
 When you face the problem (closed door) before you got the solution (the key), you get to appreciate the solution more - you memorize it, you learn it.
 
@@ -71,7 +71,7 @@ Sir Ken Robinson explains the reasons behind the current educational system in [
 
 Some theoretical knowledge are not directly applicable, they rather help you build a general and deeper understanding, for example halting problem or lambda calculus will not help you to write websites.
 
-On the other side practical knowledge can get outdated fast (theoretical knowledge can get outdated as well, but this typically happens at a slower pace). For example, I worked with AS3 at one company, then layoff happened and I realized nobody is working with AS3 anymore (I was lucky that it wasn't the only one language I worked with, but those n-years with AS3 in a CV are useless now).
+On the other side practical knowledge can get outdated fast (theoretical knowledge can get outdated as well, but this typically happens at a slower pace). For example, I worked with AS3 at one company, then layoffs happened and I realized nobody is working with AS3 anymore (I was lucky that it wasn't the only one language I worked with, but those n-years with AS3 in a CV are useless now).
 
 A very simplified picture of longevity for different types of knowledge in IT:
 
