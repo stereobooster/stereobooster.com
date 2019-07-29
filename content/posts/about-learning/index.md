@@ -4,6 +4,8 @@ date: 2019-07-27T00:00:00+02:00
 draft: false
 description: Let's talk about learning, teaching, education system and knowledge in general.
 tags: [education, beginners, computerscience, career]
+discuss:
+  devto: about-learning-1bf
 ---
 
 This is the collection of some **ideas** and my thoughts **about learning, teaching, and knowledge** in general. I wanted to separate this post in three parts, but all of them interconnected, so I guess this will be one long post. On the bright side - **sections are small** and there is **no need to read them all** or read them **in given order**.

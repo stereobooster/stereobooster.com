@@ -2,7 +2,9 @@
 title: "Type System FAQ"
 date: 2019-07-29T21:53:33+02:00
 draft: false
-tags: [explainlikeimfive, computerscience, typescript]
+tags: [explainlikeimfive, computerscience, typescript, beginners]
+discuss:
+  devto: type-system-faq-3oi0
 ---
 
 The post is inspired by [this thread](https://dev.to/parkroolucas/typescript-is-a-waste-of-time-change-my-mind-pi8). People have so much misconception about types, use the wrong terminology and get to wrong conclusions. I'm not advocating static type system, my only concern let's use right terminology so we can have a constructive discussion.
