@@ -185,7 +185,7 @@ Can you see it? It is glider moving across the screen, right? Now pause. Does it
 
 Or we can say it exists because squares are not independent (they depend on the neighbors), and even if glider itself doesn't exist, but the concept of the glider as platonic idea exist.
 
-One way or another I wouldn't simplify this question only down to compilers.
+Now think about any program in a typed programming language. We can see types, right? But it is compiled down assembly code. Assembly code and program represents the same thing, the same logic (the second one is harder to read for human). From a computer point of view, there are no types, there are only bit strings - a collection of 0s and 1s (dead, alive cells). **Types exist for people**.
 
 ## PS
 
