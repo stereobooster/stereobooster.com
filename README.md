@@ -16,6 +16,11 @@
 - [Automate crosspost](https://dev.to/maxime1992/manage-your-dev-to-blog-posts-from-a-git-repo-and-use-continuous-deployment-to-auto-publish-update-them-143j)
   - [The State of dev.to API](https://dev.to/alfredosalzillo/the-state-of-devto-v0-api-1o2)
 - [Dark theme](https://dev.to/alexandersandberg/creating-a-website-theme-switcher-with-css-only-4kp2)
+- Anchors for the links (the same as they have in GitHub)
+- Create "about me" page (https://github.com/stereobooster/readme)
+- Improve 404 page
+  - maybe add Glitch effect?
+- Support series, like in dev.to
 
 ## License
 

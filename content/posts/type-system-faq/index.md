@@ -187,6 +187,18 @@ Or we can say it exists because squares are not independent (they depend on the 
 
 Now think about any program in a typed programming language. We can see types, right? But it is compiled down assembly code. Assembly code and program represents the same thing, the same logic (the second one is harder to read for human). From a computer point of view, there are no types, there are only bit strings - a collection of 0s and 1s (dead, alive cells). **Types exist for people**.
 
+## More questions to be discussed
+
+- Why we need types?
+- What is type?
+- Types vs tests
+- Types vs classes
+  - Nominal vs structural typing
+  - Liskov principle
+- Types vs sets
+- Type theory vs logic (types vs proofs)
+- Are JS, Ruby etc. untyped?
+
 ## PS
 
 My previous attempts to write about types:
