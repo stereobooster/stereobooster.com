@@ -21,9 +21,9 @@ You **need to understand syntax to write programs**, but there is no reason to r
 
 ## Learn Python
 
-One person asked what is the best way to start to learn JavaScript. And the advice was to learn Python. Wait, what? So the reasoning is following, JS is very confusing (I agree), and Python less confusing, so if you learn basics in Python you can switch to JS.
+One person asked what is the **best way to learn JavaScript**. And the advice was to learn Python. Wait, what? So the reasoning is following, JS is very confusing (I agree), and Python less confusing, so if you learn basics in Python you can switch to JS.
 
-The intention is nice, but the advice is awfull. A newbie will spend time learning Python, and then will switch to JS and will find it even more confusing than before learning Python, because eloquent Python is a bit different from eloquent JS. In JS you have an event loop, and async/await and awfull coercion rules, which you should avoid as plague.
+The intention is nice, but the advice is awful. A newbie will spend time learning Python, and then will switch to JS and will find it even more confusing than before learning Python, because eloquent Python is a bit different from eloquent JS. In JS you have an event loop, and async/await and awful coercion rules, which you should avoid as plague.
 
 The better advice would be: learn JS but learn the best parts of it e.g. avoid coercions with triple equality, use `let`/`const` to avoid problems with scoping (`var`), use arrow functions to avoid problems with `this`, etc.
 
@@ -33,7 +33,7 @@ Don't get me wrong **Python as a language is ok**, if you want to learn Python p
 
 ## Learn webpack
 
-The person asked how to get started with modern web development. And the advice was: sit down and write web pack config from scratch, so you would understand who bundler works and then you can write website.
+The person asked how to **get started with modern web development**. And the advice was: sit down and write web pack config from scratch, so you would understand who bundler works and then you can write website.
 
 Webpack is nice, but it is a very complex tool. It has so much accidental complexity exposed to end-user. Error messages are confusing. Version migrations are hard. Documentation sometimes missing. It would be so hard to learn for the newbie. I think the person will give up before they accomplish something.
 
