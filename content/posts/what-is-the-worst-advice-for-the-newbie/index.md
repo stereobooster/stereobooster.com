@@ -2,6 +2,9 @@
 title: "What is the worst advice for the newbie?"
 date: 2019-08-01T00:32:11+02:00
 draft: false
+tags: [beginners, discuss, career, webdev]
+discuss:
+  devto: what-is-the-worst-advice-for-the-newbie-4bg2
 ---
 
 Today I was at the meetup for the newbies. (Again. After the previous time, I wrote [Advice for the Newbie](https://stereobooster.com/posts/advice-for-the-newbie/).) And this meetup inspired me to write this article.
