@@ -107,11 +107,11 @@ Some examples of subjects that reference may cover (or may not, because this is 
 Each article composed of at least title and definition. Optional parameters:
 
 - cover image: for social networks
-- can be generated automatically. like they do for dev.to
+  - can be generated automatically. like they do for dev.to
 - tags
 - related - related articles
 - aka - other names for the terms
-- can be used to generate redirect pages
+  - can be used to generate redirect pages
 
 ## How can I help?
 
