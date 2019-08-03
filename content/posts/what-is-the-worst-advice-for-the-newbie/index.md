@@ -19,7 +19,7 @@ Why would you spend time on something that machines can do and can do much faste
 
 You **need to understand syntax to write programs**, but there is no reason to refuse help from the machine.
 
-## Learn Python
+## Learn Python (to learn JS)
 
 One person asked what is the **best way to learn JavaScript**. And the advice was to learn Python. Wait, what? So the reasoning is following, JS is very confusing (I agree), and Python less confusing, so if you learn basics in Python you can switch to JS.
 
