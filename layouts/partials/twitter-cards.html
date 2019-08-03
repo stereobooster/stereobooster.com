@@ -1,7 +1,7 @@
 <meta name="twitter:title" content="{{ .Title }}"/>
 <meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}"/>
 {{ with .Site.Params.twitter }}
-  <meta name="twitter:site" content="@{{ . }}"/>
+  <meta name='twitter:site' content='@{{ . }}'/>
 {{ end }}
 {{ if .IsPage }}
   {{ if (isset .Params "cover_image") }}
