@@ -1,8 +1,8 @@
 ---
-title: "dev.wtf"
+title: "dev.wtf - developer's reference"
 date: 2019-08-03T09:27:04+02:00
 draft: false
-tags: [beginners, discuss, explainlikeimfive, webdev]
+tags: [beginners, showdev, explainlikeimfive, webdev]
 ---
 
 ## WTF developers are talking about?
