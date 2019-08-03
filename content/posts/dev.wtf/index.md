@@ -3,6 +3,7 @@ title: "dev.wtf - developer's reference"
 date: 2019-08-03T09:27:04+02:00
 draft: false
 tags: [beginners, showdev, explainlikeimfive, webdev]
+description: WTF developers are talking about?
 ---
 
 ## WTF developers are talking about?
