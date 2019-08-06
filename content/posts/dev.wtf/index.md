@@ -4,6 +4,8 @@ date: 2019-08-03T09:27:04+02:00
 draft: false
 tags: [beginners, showdev, explainlikeimfive, webdev]
 description: WTF developers are talking about?
+discuss:
+  devto: dev-wtf-developer-s-reference-4j65
 ---
 
 ## WTF developers are talking about?
