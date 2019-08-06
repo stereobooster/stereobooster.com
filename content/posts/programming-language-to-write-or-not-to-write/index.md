@@ -2,6 +2,9 @@
 title: "Programming Language: To Write or Not To Write?"
 date: 2019-08-05T23:36:29+02:00
 draft: false
+tags: [beginner, explainlikeimfive, computerscience, javascript]
+discuss:
+  devto: programming-language-to-write-or-not-to-write-1aci
 ---
 
 Programming languages (PL) are treated as a religion. People have holly wars around PL. People confuse paradigms and languages.
@@ -145,7 +148,7 @@ const tree = [
 > - One node is distinguished as a root;
 > - Every node (exclude a root) is connected by a directed edge from exactly one other node; A direction is: parent -> children
 >
-> -- [n Online Textbook for 15-111 Intermediate and Advanced Programming](http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm)
+> -- [Online Textbook for 15-111 Intermediate and Advanced Programming](http://www.cs.cmu.edu/~clo/www/CMU/DataStructures/Lessons/lesson4_1.htm)
 
 By parsing following program
 
@@ -185,7 +188,7 @@ This is not essential, but this sub-step will make parsing a bit easier.
 Simple (not optimal) implementation of tokenizer:
 
 - take text (string in JS)
-- replace all parenthesis (`(`, `)`) with parenthesis surrounded by spaces (`(`, `)`)
+- replace all parenthesis (`(`, `)`) with parenthesis surrounded by spaces (` ( `, ` ) `)
 - replace any number of consequent space-like characters (tabs, spaces, newlines) with one space
 - split by space
 
