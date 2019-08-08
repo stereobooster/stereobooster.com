@@ -255,10 +255,10 @@ const tokens_to_ast = tokens => {
   } else if (token === ")") {
     throw new SyntaxError("Unexpected ')'");
   } else if (!isNaN(parseFloat(token))) {
-    // Numbers become numbers
+    // numbers
     return parseFloat(token);
   } else {
-    // Every other token is a symbol, in JS use strings
+    // symbols, which we represent as JS strings
     return token;
   }
 };
@@ -393,4 +393,4 @@ In this tutorial, we did the groundwork for future learning. Next task can be, f
 
 I guess in the next tutorial we will add variables, [functions and closures](/posts/from-function-to-closure).
 
-Source code is [here](https://github.com/stereobooster/write-a-language/tree/master/calcy).
+Source code is [here](https://github.com/stereobooster/write-a-language/tree/master/1.calcy).
