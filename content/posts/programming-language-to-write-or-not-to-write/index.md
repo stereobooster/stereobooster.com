@@ -1,5 +1,5 @@
 ---
-title: "Programming Language: To Write or Not To Write?"
+title: "Demystify Programming Languages"
 date: 2019-08-05T23:36:29+02:00
 draft: false
 tags: [beginner, explainlikeimfive, computerscience, javascript]
@@ -205,7 +205,7 @@ const tokenize = program =>
 Test for it:
 
 ```js
-const assert = requires("assert");
+const assert = require("assert");
 const program = "(- 5 (+ 2 1))";
 assert.deepStrictEqual(tokenize(program), [
   "(",
@@ -242,7 +242,7 @@ const parse = program => tokens_to_ast(tokenize(program));
 
 const tokens_to_ast = tokens => {
   if (tokens.length === 0) {
-    throw new SyntaxError("Can't parse empty program");
+    throw new SyntaxError("Expected ')' at the end of input");
   }
   const token = tokens.shift();
   if (token === "(") {
@@ -253,13 +253,12 @@ const tokens_to_ast = tokens => {
     tokens.shift(); // pop off ')'
     return L;
   } else if (token === ")") {
-    throw new SyntaxError("Unexpected closing parenthesis");
+    throw new SyntaxError("Unexpected ')'");
   } else if (!isNaN(parseFloat(token))) {
     // Numbers become numbers
     return parseFloat(token);
   } else {
-    // every other token is a symbol or an atom
-    // for simplicity we use strings
+    // Every other token is a symbol, in JS use strings
     return token;
   }
 };
@@ -283,9 +282,6 @@ const evaluate = ast => {
     return first + second;
   } else if (name === "-") {
     return first - second;
-  } else {
-    // runtime error
-    throw new Error(`${name} is not a function`);
   }
 };
 ```
@@ -304,9 +300,6 @@ const evaluate = ast => {
       return evaluate(first) + evaluate(second);
     } else if (name === "-") {
       return evaluate(first) - evaluate(second);
-    } else {
-      // runtime error
-      throw new Error(`${name} is not a function`);
     }
   }
 };
@@ -353,10 +346,12 @@ Let's try a web page. We will read user input from the HTML text field, evaluate
         // prevent page reload
         e.preventDefault();
         try {
-          // evaluate a program
-          const result = evaluate(parse(programInput.value));
-          // and print it to the textarea
-          resultOutput.value = result;
+          if (input.trim() !== "") {
+            // evaluate a program
+            const result = evaluate(parse(programInput.value));
+            // and print it to the textarea
+            resultOutput.value = result;
+          }
         } catch (e) {
           // in case of error print the error to the textarea
           resultOutput.value = e.message;
@@ -382,7 +377,9 @@ rl.prompt();
 
 rl.on("line", input => {
   try {
-    console.log(evaluate(parse(input)));
+    if (input.trim() !== "") {
+      console.log(evaluate(parse(input)));
+    }
   } catch (e) {
     console.log(e.message);
   }
