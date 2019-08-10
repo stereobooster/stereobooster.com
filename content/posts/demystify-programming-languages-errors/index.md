@@ -37,6 +37,8 @@ Errors are the product of a human's mind. Error happens when:
 
 {{< simg src="division-by-zero.gif" width="480" height="360" alt="mechanical calculator rotor infinitely spins, when you try delete by zero">}}
 
+Image credit: [popularmechanics.com](https://www.popularmechanics.com/technology/gadgets/a20152/dividing-by-zero-will-mechanical-calculator/).
+
 ### Paradoxes
 
 > Paradox: a self-contradictory statement that at first seems true
@@ -46,7 +48,7 @@ Errors are the product of a human's mind. Error happens when:
 
 {{< simg src="penrose-triangle.jpg" width="310" height="268" alt="Penrose Triangle">}}
 
-Source: [illusionsindex](https://www.illusionsindex.org/i/impossible-triangle).
+Image credit: [illusionsindex](https://www.illusionsindex.org/i/impossible-triangle).
 
 ## Computer error
 
