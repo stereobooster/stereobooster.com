@@ -35,6 +35,8 @@ Errors are the product of a human's mind. Error happens when:
 >
 > -- [merriam-webster](https://www.merriam-webster.com/dictionary/undefined)
 
+For example, this what happens when you try to divide by 0 in a mechanical calculator.
+
 {{< simg src="division-by-zero.gif" width="480" height="360" alt="mechanical calculator rotor infinitely spins, when you try delete by zero">}}
 
 Image credit: [popularmechanics.com](https://www.popularmechanics.com/technology/gadgets/a20152/dividing-by-zero-will-mechanical-calculator/).
