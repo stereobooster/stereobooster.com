@@ -3,9 +3,13 @@ title: "Demystify Programming Languages: Errors"
 date: 2019-08-09T23:49:15+02:00
 draft: false
 tags: [beginner, explainlikeimfive, computerscience, javascript]
+discuss:
+  devto: demystify-programming-languages-errors-3fbp
 ---
 
 In [previous post](/posts/programming-language-to-write-or-not-to-write) we talked about parsing, evaluation and REPL. In this post, we will talk about errors.
+
+<!--more-->
 
 ## What are errors?
 
