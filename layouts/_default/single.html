@@ -23,7 +23,7 @@
         </header>
         {{ if .Params.series }}
           <section>
-            <p>This post is part of the series "{{ .Params.series }}":</p>
+            <p>Part of "{{ .Params.series }}" series</p>
             <ol>
             {{ range (where .Site.Pages ".Params.series" "==" .Params.series).Reverse }}
               <li>

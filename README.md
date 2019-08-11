@@ -20,7 +20,6 @@
 - Create "about me" page (https://github.com/stereobooster/readme)
 - Improve 404 page
   - maybe add Glitch effect?
-- Support series, like in dev.to
 
 ## License
 
