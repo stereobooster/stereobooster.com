@@ -21,6 +21,22 @@
             {{ end}}
             </aside>
         </header>
+        {{ if .Params.series }}
+          <section>
+            <p>This post is part of the series "{{ .Params.series }}":</p>
+            <ol>
+            {{ range (where .Site.Pages ".Params.series" "==" .Params.series).Reverse }}
+              <li>
+                {{ if eq .Permalink $.Permalink }}
+                  {{ .Title }}
+                {{ else }}
+                  <a href="{{ .Permalink }}">{{ .Title }}</a>
+                {{ end }}
+              </li>
+            {{ end }}
+            </ol>
+          </section>
+        {{ end }}
         {{ if and (gt .WordCount 500 ) (.Site.Params.enableToc) }}
           {{ if .TableOfContents }}
             <div>

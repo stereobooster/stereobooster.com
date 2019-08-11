@@ -3,6 +3,7 @@ title: "Demystify Programming Languages: Errors"
 date: 2019-08-09T23:49:15+02:00
 draft: false
 tags: [beginner, explainlikeimfive, computerscience, javascript]
+series: "Demystify Programming Languages"
 discuss:
   devto: demystify-programming-languages-errors-3fbp
 ---

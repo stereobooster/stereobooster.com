@@ -11,6 +11,10 @@ title = "stereobooster's personal blog"
 
 Paginate = 5
 
+[taxonomies]
+  tag = "tags"
+  series = "series"
+
 [params]
   # twitter:creator
   # <meta name="author">

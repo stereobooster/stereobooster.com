@@ -3,6 +3,7 @@ title: "Demystify Programming Languages"
 date: 2019-08-05T23:36:29+02:00
 draft: false
 tags: [beginner, explainlikeimfive, computerscience, javascript]
+series: "Demystify Programming Languages"
 discuss:
   devto: programming-language-to-write-or-not-to-write-1aci
 ---
