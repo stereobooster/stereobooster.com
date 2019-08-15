@@ -9,7 +9,7 @@ discuss:
   devto: symbolic-thinking-12co
 ---
 
-I talked about categorical and abstract thinking, let's talk about symbolic thinking.
+I talked about [categorical](/posts/categorical-thinking/) and [abstract](/posts/abstraction/) thinking, let's talk about symbolic thinking.
 
 ## What is symbolic thinking?
 
