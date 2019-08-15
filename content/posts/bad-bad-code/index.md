@@ -3,7 +3,7 @@ title: "Bad, Bad Code!"
 date: 2019-08-15T23:53:16+02:00
 draft: false
 tags: [healthydebate, discuss, programming]
-description: Five reasons why I don't like the idea of bad code.
+description: "Five reasons why I don't like the idea of bad code."
 ---
 
 I don't like the concept of "bad code". I thought: ["Let's ask people what they consider to be bad code"](https://dev.to/stereobooster/what-is-bad-code-ndj). I got some responses. (It's hard to say this is a representative sample of opinions, but better than nothing.)

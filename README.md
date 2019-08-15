@@ -1,5 +1,7 @@
 # My personal blog
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1e0eb121-52b3-4f50-8a2a-6c75e96ff3ae/deploy-status)](https://app.netlify.com/sites/stereobooster/deploys)
+
 ## tools
 
 ### development
