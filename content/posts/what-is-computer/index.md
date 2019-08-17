@@ -3,9 +3,14 @@ title: "What is a computer?"
 date: 2019-08-17T14:42:40+02:00
 draft: false
 description: "Which kind of computer do they talk about when they say computer science?"
+tags: [beginners, computerscience, programming, explainlikeimfive]
+discuss:
+  devto: what-is-a-computer-3ag4
 ---
 
 If we say that computer science is a branch of knowledge which studies "computers". What does "computer" mean in this case?
+
+<!--more-->
 
 ## Definition
 
@@ -73,7 +78,7 @@ Some examples of computing devices.
 
 **Leibniz's stepped reckoner** (replica in the Deutsches Museum). The device was discovered in 1879 in an attic at the University of Göttingen by workers fixing a leak in the roof. Image source: [Wikipedia](https://en.wikipedia.org/wiki/Stepped_reckoner#/media/File:Leibnitzrechenmaschine.jpg).
 
-{{< simg src="leibnitz-rechenmaschine.jpg" width="2048" height="1536" alt="" >}}
+{{< img src="leibnitz-rechenmaschine.jpg" width="2048" height="1536" alt="" >}}
 
 **Babbage’s Difference Engine** No.1, Woodcut, 1853. This woodcut depicts a trial piece of the Difference Engine No. 1, built-in 1833 and held by the Science Museum, London. Image source: [University of Minnesota](http://www.cbi.umn.edu/about/babbage.html).
 
@@ -89,7 +94,7 @@ BOMBE - **electro-mechanical machine**, developed during WWII by Alan Turing and
 
 ENIAC was the first **vacuum tubes** general-purpose computer. Its first program was a study of the feasibility of the thermonuclear weapon - project Manhattan, where John von Neumann took part. Image source: [Columbia University Computing History](http://www.columbia.edu/cu/computinghistory/eniac.html)
 
-{{< simg src="eniac.png" width="3758" height="2448" alt="" >}}
+{{< img src="eniac.png" width="3758" height="2448" alt="" >}}
 
 **Billiard-ball model** of computation proposed by Edward Fredkin and Tommaso Toffoli in their paper [Conservative Logic](http://fab.cba.mit.edu/classes/862.16/notes/computation/Fredkin-2002.pdf). Image source: [Wikipedia](https://en.wikipedia.org/wiki/Billiard-ball_computer#/media/File:Toffoli_BilliardBall.gif).
 
@@ -97,11 +102,11 @@ ENIAC was the first **vacuum tubes** general-purpose computer. Its first program
 
 IBM’s **quantum computer**. Image source: [Quantamagazine](https://www.quantamagazine.org/quantum-supremacy-is-coming-heres-what-you-should-know-20190718/).
 
-{{< simg src="quantum-computer.jpg" width="2880" height="1620" alt="" >}}
+{{< img src="quantum-computer.jpg" width="2880" height="1620" alt="" >}}
 
 [**Bio computer**](http://lucacardelli.name/BioComputing.htm). Cells compute. For example, finding food, avoiding predators. Image source: [lucacardelli.name](<http://lucacardelli.name/Talks/2009-03-12%20Abstract%20Machines%20of%20Systems%20Biology%20(Warsaw).pdf>).
 
-{{< simg src="membrane-machine.png" width="1948" height="1392" alt="" >}}
+{{< img src="membrane-machine.png" width="1948" height="1392" alt="" >}}
 
 This is my random selection simply to show that there are computers other than transistor-based. You can find more examples here [computerhistory](https://www.computerhistory.org/timeline/), [Wikipedia](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science).
 
