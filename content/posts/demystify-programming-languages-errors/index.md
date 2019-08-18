@@ -1,5 +1,5 @@
 ---
-title: "Demystify Programming Languages: Errors"
+title: "Demystify Errors"
 date: 2019-08-09T23:49:15+02:00
 draft: false
 tags: [beginner, explainlikeimfive, computerscience, javascript]
