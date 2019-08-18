@@ -31,6 +31,8 @@ For example,
 | input     | keyboard, mouse   | tape, choice device | directly write to memory | read                   |
 | output    | screen, printer   | tape                | output register          | print                  |
 
+See: [What makes a computer, a computer?](https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-what-makes-a-computer-a-computer)
+
 ## It's about computations
 
 > Computer science is a terrible name for this business. First of all, it’s not a science. It might be engineering or it might be art, but we’ll actually see that computer so-called science actually has a lot in common with magic… So it’s not a science. It’s also not really very much about computers. And it’s not about computers in the same sense that physics is not really about particle accelerators, and biology is not really about microscopes and petri dishes. And it’s not about computers in the same sense that geometry is not really about using surveying instruments.
@@ -78,7 +80,7 @@ Some examples of computing devices.
 
 **Leibniz's stepped reckoner** (replica in the Deutsches Museum). The device was discovered in 1879 in an attic at the University of Göttingen by workers fixing a leak in the roof. Image source: [Wikipedia](https://en.wikipedia.org/wiki/Stepped_reckoner#/media/File:Leibnitzrechenmaschine.jpg).
 
-{{< img src="leibnitz-rechenmaschine.jpg" width="2048" height="1536" alt="" >}}
+{{< simg src="leibnitz-rechenmaschine.jpg" width="2048" height="1536" alt="" >}}
 
 **Babbage’s Difference Engine** No.1, Woodcut, 1853. This woodcut depicts a trial piece of the Difference Engine No. 1, built-in 1833 and held by the Science Museum, London. Image source: [University of Minnesota](http://www.cbi.umn.edu/about/babbage.html).
 
@@ -94,7 +96,7 @@ BOMBE - **electro-mechanical machine**, developed during WWII by Alan Turing and
 
 ENIAC was the first **vacuum tubes** general-purpose computer. Its first program was a study of the feasibility of the thermonuclear weapon - project Manhattan, where John von Neumann took part. Image source: [Columbia University Computing History](http://www.columbia.edu/cu/computinghistory/eniac.html)
 
-{{< img src="eniac.png" width="3758" height="2448" alt="" >}}
+{{< simg src="eniac.png" width="3758" height="2448" alt="" >}}
 
 **Billiard-ball model** of computation proposed by Edward Fredkin and Tommaso Toffoli in their paper [Conservative Logic](http://fab.cba.mit.edu/classes/862.16/notes/computation/Fredkin-2002.pdf). Image source: [Wikipedia](https://en.wikipedia.org/wiki/Billiard-ball_computer#/media/File:Toffoli_BilliardBall.gif).
 
@@ -102,11 +104,11 @@ ENIAC was the first **vacuum tubes** general-purpose computer. Its first program
 
 IBM’s **quantum computer**. Image source: [Quantamagazine](https://www.quantamagazine.org/quantum-supremacy-is-coming-heres-what-you-should-know-20190718/).
 
-{{< img src="quantum-computer.jpg" width="2880" height="1620" alt="" >}}
+{{< simg src="quantum-computer.jpg" width="2880" height="1620" alt="" >}}
 
 [**Bio computer**](http://lucacardelli.name/BioComputing.htm). Cells compute. For example, finding food, avoiding predators. Image source: [lucacardelli.name](<http://lucacardelli.name/Talks/2009-03-12%20Abstract%20Machines%20of%20Systems%20Biology%20(Warsaw).pdf>).
 
-{{< img src="membrane-machine.png" width="1948" height="1392" alt="" >}}
+{{< simg src="membrane-machine.png" width="1948" height="1392" alt="" >}}
 
 This is my random selection simply to show that there are computers other than transistor-based. You can find more examples here [computerhistory](https://www.computerhistory.org/timeline/), [Wikipedia](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science).
 

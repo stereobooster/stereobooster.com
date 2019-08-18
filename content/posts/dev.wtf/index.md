@@ -6,6 +6,7 @@ tags: [beginners, showdev, explainlikeimfive, webdev]
 description: WTF developers are talking about?
 discuss:
   devto: dev-wtf-developer-s-reference-4j65
+  hn: 20726710
 ---
 
 ## WTF developers are talking about?
