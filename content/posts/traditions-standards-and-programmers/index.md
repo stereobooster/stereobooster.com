@@ -3,6 +3,8 @@ title: "Traditions, Standards and Programmers"
 date: 2019-08-21T19:42:12+02:00
 draft: false
 tags: [programming]
+discuss:
+  devto: traditions-standards-and-programmers-5477
 ---
 
 <!--more-->
@@ -13,7 +15,7 @@ tags: [programming]
 >
 > -- [Merriam-Webster](https://www.merriam-webster.com/dictionary/tradition)
 
-There are things which we do without questioning. Why we do it that way? Because this is how we've been taught to do things or this is how everybody else doing it. Those unformalized rules (traditions), as well can be called [known unknowns](https://www.destroyallsoftware.com/talks/ideology) or [idealogy](https://www.youtube.com/watch?v=ql80Klk4pSU).
+There are things which we do without questioning. Why we do it that way? Because this is how we've been taught to do things or this is how everybody else doing it. Those unformalized rules (traditions), as well can be called [known unknowns](https://www.destroyallsoftware.com/talks/ideology) or [ideology](https://www.youtube.com/watch?v=ql80Klk4pSU).
 
 Have you seen or written this kind of code:
 
@@ -141,4 +143,4 @@ To be fair programmers are not the first reinventors in this field. In 1792 duri
 
 ### Devil in the details
 
-Programmers can improve standards, but can as well make it worse. We need to ba aware of [falsehood believes](https://github.com/kdeldycke/awesome-falsehood) and biases. Standards should be created by diverse groups.
+Programmers can improve standards, but can as well make it worse. We need to be aware of [falsehood believes](https://github.com/kdeldycke/awesome-falsehood) and biases. Standards should be created by diverse groups.
