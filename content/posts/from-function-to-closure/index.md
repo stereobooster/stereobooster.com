@@ -3,7 +3,7 @@ title: "Introduction: from function to closure"
 date: 2019-06-26T18:00:00+02:00
 draft: false
 description: "Minimal introduction: from theoretical concept of function to practical usage of closures in programming. I show the same concept from different point views, so you can build a deeper understanding."
-tags: [explainlikeimfive, computerscience, javascript]
+tags: [explainlikeimfive, computerscience, javascript, function]
 cover_image: nyan-function.png
 discuss:
   devto: introduction-from-function-to-closure-3h6o

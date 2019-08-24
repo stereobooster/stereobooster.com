@@ -39,7 +39,7 @@ Another counterpoint can be that some subjects are very hard and can't be simpli
 
 ## "Problem first" approach
 
-I first saw this idea in a blog post where it was explained with an example based on the game. Imagine: the game starts and you need to accomplish a tutorial: you need to escape from a room. You try to get out but the door is locked. The tutorial instructs you to find the key. After you find it, you get back and get out of the room.
+I first saw this idea in a [blog post where it was explained with an example based on the game](http://mkremins.github.io/blog/doors-headaches-intellectual-need/). Imagine: the game starts and you need to accomplish a tutorial: you need to escape from a room. You try to get out but the door is locked. The tutorial instructs you to find the key. After you find it, you get back and get out of the room.
 
 Another variant of this tutorial could look like this – you got a task to get out of the room, but you already have a key in your inventory, so you quickly accomplish the tutorial. Now when you face the closed door in the game, you don't know what to do because you have no key and have no idea where to get it.
 

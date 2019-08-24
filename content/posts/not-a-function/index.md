@@ -3,13 +3,13 @@ title: "Not a Function"
 date: 2019-07-07T12:31:50+02:00
 draft: false
 description: "Let's talk about things which may look like a function, but actually not. This post may leave you with more questions than answers"
-tags: [explainlikeimfive, computerscience, javascript]
+tags: [explainlikeimfive, computerscience, javascript, function]
 cover_image: not-a-function.png
 discuss:
   devto: not-a-function-2a3g
 ---
 
-In [the previous post](/posts/not-a-function/) we talked about what is a function. In this post let's talk about things that look like a function, but actually are not.
+In [the previous post](/posts/from-function-to-closure/) we talked about what is a function. In this post let's talk about things that look like a function, but actually are not.
 
 <!--more-->
 
