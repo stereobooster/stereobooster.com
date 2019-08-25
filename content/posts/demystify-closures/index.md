@@ -13,7 +13,7 @@ In the previous post we implemented functions, but not about [closures](/posts/f
 
 ## The problem
 
-Without closures following code snipper doesn't work as expected:
+Without closures following code snippet doesn't work as expected:
 
 ```repl
 > (define getFun
