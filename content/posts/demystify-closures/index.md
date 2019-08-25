@@ -116,4 +116,4 @@ Closures provide encapsulation as well. Closure carries a piece of the environme
 
 ## PS
 
-Code for this post is [here](https://github.com/stereobooster/write-a-language/tree/master/6.closures). In the next post will probably talk about the evaluation strategies.
+Code for this post is [here](https://github.com/stereobooster/write-a-language/tree/master/6.closure). In the next post will probably talk about the evaluation strategies.
