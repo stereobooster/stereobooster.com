@@ -5,7 +5,9 @@ draft: true
 series: "fp vs oop"
 draft: false
 tags: [beginner, explainlikeimfive, computerscience, javascript, function]
-descritpion: "There is an ongoing discussion about the difference between object-oriented programming (OOP) and functional programming (FP). Let's talk about similarities instead. Let's talk about the main building blocks: functions and objects."
+descriptpion: "There is an ongoing discussion about the difference between object-oriented programming (OOP) and functional programming (FP). Let's talk about similarities instead. Let's talk about the main building blocks: functions and objects."
+discuss:
+  devto: function-vs-object-1pe3
 ---
 
 There is an ongoing discussion about the difference between object-oriented programming (OOP) and functional programming (FP). Let's talk about similarities instead. Let's talk about the main building blocks: functions and objects.
@@ -30,14 +32,14 @@ Pretty approachable definition. I will rephrase it a bit. The object is a state 
 
 I wrote 2 posts about it:
 
-- [Introduction: from function to closure](https://stereobooster.com/posts/from-function-to-closure/)
-- [Not a Function](https://stereobooster.com/posts/not-a-function/)
+- [Introduction: from function to closure](/posts/from-function-to-closure/)
+- [Not a Function](/posts/not-a-function/)
 
 Let's go with the simplified definition (in the same vein as the object definition) and say that function is a behavior (for precise definition see links above).
 
 In functional programming, they like to pass functions as values, to be able to do this functions "converted" to closures (converted is not a precise word here, because closure is a function with free variables, but let's go with a simplified view).
 
-What is [closure](https://stereobooster.com/posts/demystify-closures/) (in programming language)?
+What is [closure](/posts/demystify-closures/) (in programming language)?
 
 > Closures are data structures with both a code and a data component.
 >
@@ -74,7 +76,7 @@ belka.bark();
 
 _Note_: this example uses ["Class field declarations for JavaScript"](https://github.com/tc39/proposal-class-fields#private-fields) proposal to declare private field name. At the moment of posting example works in Chrome.
 
-```
+```js
 const DogFunction = (name) => {
   return {
     bark: () => {
@@ -90,7 +92,7 @@ _Note_: function returns record data structure (which in JS confusingly named "O
 
 ## Not a new idea
 
-If you think about it makes a lot of sense all [computers](https://stereobooster.com/posts/what-is-computer/) deal with state (data) and behavior. This idea was discovered again and again:
+If you think about it makes a lot of sense all [computers](/posts/what-is-computer/) deal with state (data) and behavior. This idea was discovered again and again:
 
 Here is how Lamport defines computation:
 
