@@ -1,7 +1,6 @@
 ---
 title: "Function vs Object"
 date: 2019-08-27T00:42:33+02:00
-draft: true
 series: "fp vs oop"
 draft: false
 tags: [beginner, explainlikeimfive, computerscience, javascript, function]
