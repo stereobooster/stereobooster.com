@@ -5,6 +5,8 @@ draft: false
 tags: [beginner, explainlikeimfive, computerscience, javascript, function]
 series: "Demystify Programming Languages"
 description: In the previous post we implemented functions, but not about closures. Let's fix this.
+discuss:
+  devto: demystify-closures-5g42
 ---
 
 In the previous post we implemented functions, but not about [closures](/posts/from-function-to-closure/). Let's fix this.
