@@ -269,7 +269,7 @@ On practice closures are implemented as "environment" which is get passed along 
 
 Closure typically use lexical scope, but there are different ways to resolve scope, for example, dynamic scope. Lexical scope is easier to reason about.
 
-In lambda calculus terms: closure is a function that makes use of free variables in its definition.
+In lambda calculus terms: a closure consists of an (open) lambda term, plus an environment containing the values of its free variables.
 
 ### Closure on practice
 

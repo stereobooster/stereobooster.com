@@ -35,7 +35,11 @@ This kind of variable resolution (nested scopes) is called lexical scope.
 
 ## The solution
 
-The solution is to store the environment (at which function was created) together with function. The function which comes with environment called closure (there is some disagreement about terminology, see below).
+The solution is to store the environment (at which function was created) together with function. The function which comes with environment called closure.
+
+> Closures are data structures with both a code and a data component.
+>
+> -- [Closure conversion: How to compile lambda](http://matt.might.net/articles/closure-conversion/)
 
 For now, we store a function as a list with 3 items: symbol "function", list of arguments, the body of the function. Let's store environment as the fourth item:
 
@@ -79,18 +83,6 @@ const evaluate = (ast, environment = { ...defaultEnvironment }) => {
 ```
 
 And this is the whole secret behind closures. Note: proposed implementation of environment storage is not the most effective, because we will have a lot of copies of the environment.
-
-## About terminology issue
-
-In math (in lambda calculus): closure is a function that makes use of free variables in its definition.
-
-For example `(function (x) (+ x z))` is a closure from math point of view (`z` is free variable, because it is not mentioned in the argument list), but `(function (y) (+ y y))` isn't a closure.
-
-But in the terminology of this article and based on the given implementation both functions will be closures (with environment stored along). Some other sources use word closure same way, for example:
-
-> Closures are data structures with both a code and a data component.
->
-> -- [Closure conversion: How to compile lambda](http://matt.might.net/articles/closure-conversion/)
 
 ## Local scope
 
