@@ -4,7 +4,9 @@ date: 2019-08-27T11:36:29+02:00
 draft: false
 series: "fp vs oop"
 tags: [beginner, explainlikeimfive, computerscience, javascript, function]
-descriptpion: "In the previous post, we talked about atoms: objects and functions. In this post let's talk about bigger building blocks."
+description: "In the previous post, we talked about atoms: objects and functions. In this post let's talk about bigger building blocks."
+discuss:
+  devto: category-vs-design-pattern-483j
 ---
 
 There is an ongoing discussion about the difference between object-oriented programming (OOP) and functional programming (FP). Let's talk about similarities instead.
