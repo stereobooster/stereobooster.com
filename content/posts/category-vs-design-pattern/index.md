@@ -44,7 +44,7 @@ Image source: Towards the Identification of Cross-Cutting Concerns: A Comprehens
 
 There is no same concept of "design pattern" in FP in sense of "bigger building blocks", the closest thing I can think of is categories from category theory. It is not bigger scale because function itself can be thought as a category.
 
-I don't want to deep dive in category theory so I will give simplified pictures, so we can do a simple comparison.
+I don't want to deep dive in category theory so I will give simplified picture, so we can do a simple comparison.
 
 > Category theory is a toolset for describing the general abstract structures in mathematics.
 >
@@ -52,7 +52,7 @@ I don't want to deep dive in category theory so I will give simplified pictures,
 >
 > -- [ncatlab.org](https://ncatlab.org/nlab/show/category+theory)
 
-You should have **approximate** understanding of what is category after this definition, not precise. We don't need precise because we will compare one patter to the function as an example and stop there.
+You should have **approximate** understanding of what is category after this definition, not precise. We don't need precise because we will compare one pattern to the function as an example and stop there.
 
 Typical critics of categories (in programming) is that it is hard to understand. By hard to understand I mean that they are very abstract and it is hard to relate to it.
 
@@ -62,7 +62,7 @@ Typical critics of categories (in programming) is that it is hard to understand.
 
 Other people may say that categories are easier to understand than design patterns because they are precisely defined (this is math). I look at it from this PoV: I was able to explain what pattern is (I hope), but for category theory, I gave only mare shadow of an explanation.
 
-## Startegy vs function
+## Strategy vs function
 
 There is a [big article which compares design patterns to categories](https://github.com/thma/LtuPatternFactory/blob/master/README.md). You can read it if you want more details. We will talk about one approachable example.
 

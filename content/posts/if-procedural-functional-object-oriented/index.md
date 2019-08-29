@@ -5,6 +5,8 @@ draft: false
 series: "fp vs oop"
 tags: [beginner, explainlikeimfive, computerscience, javascript, if]
 description: "Let's talk about the if statement. A lot of people view it as the corner-stone of programming"
+discuss:
+  devto: if-procedural-functional-object-oriented-a4d
 ---
 
 Let's talk about the `if` statement. A lot of people view it as the corner-stone of programming, for example, whenever I discuss the question if CSS is a programming language or not (it is) somebody would say: "CSS doesn't have `if` statement so it can't be considered as PL". I don't know where this idea comes from. `if` statement is one of the many control flow structures, like goto, jump, exceptions, loops, etc.
@@ -14,14 +16,14 @@ Let's talk about the `if` statement. A lot of people view it as the corner-stone
 I guess the most known form of `if` is it's "procedural" (or [structured](https://pdfs.semanticscholar.org/013b/f90f472e49c05263b90d9e36f8d2705e7fc7.pdf)) form:
 
 ```js
-if (condtion) {
+if (condition) {
   thenAction();
 } else {
   elseAction();
 }
 ```
 
-By "procedural" I mean the type of imperative programming, but more organized than just Von Neuman machine. (Imperative style of programming is when you give direct instructions to the machine do step 1, step 2, etc.)
+By "procedural" I mean the type of imperative programming, but more organized than just Von Neumann machine. (Imperative style of programming is when you give direct instructions to the machine do step 1, step 2, etc.)
 
 Instead of the precise definition, I will give examples:
 
@@ -36,12 +38,12 @@ To impelemnt `if` in functional style we need to restrict ourselves to functions
 // Implementation:
 const True = (x) => (y) => x;
 const False = (x) => (y) => y;
-const If = (condtion, thenAction, elseAction) => {
-  const action = condtion(thenAction)(elseAction);
+const If = (condition, thenAction, elseAction) => {
+  const action = condition(thenAction)(elseAction);
   return action();
 }
 // Usage:
-If(condtion, thenAction, elseAction);
+If(condition, thenAction, elseAction);
 ```
 
 This idea is a direct translation of Church Encoded `True`, `False` in lambda calculus:
@@ -84,6 +86,6 @@ condition.Then(thenAction).Else(elseAction)
 
 ## Conclusions
 
-In practice, a lot of OOP and [FP languages](https://wiki.haskell.org/If-then-else) use procedural-style `if` (if they use, you can get away without it).
+In practice, a lot of OOP and [FP languages](https://wiki.haskell.org/If-then-else) use procedural-style `if` (you can get away without it).
 
-The reason I presented those examples is to show "pure" FP and OOP implementations so you could compare them. For the full picture, I need to mention that OOP example is SmallTalk style, and SmallTalk took some inspiration from Scheme, which in turn uses ideas from lambda calculus `¯\_(ツ)_/¯`.
+The reason I presented those examples is to show "pure" FP and OOP implementations so you could compare them. For the full picture, I need to mention that OOP example is SmallTalk style, and SmallTalk (some people would argue definition of pure OOP as SmallTalk, let's leave it for another article) took some inspiration from Scheme, which in turn uses ideas from lambda calculus `¯\_(ツ)_/¯`.
