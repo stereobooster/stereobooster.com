@@ -88,4 +88,4 @@ condition.Then(thenAction).Else(elseAction)
 
 In practice, a lot of OOP and [FP languages](https://wiki.haskell.org/If-then-else) use procedural-style `if` (you can get away without it).
 
-The reason I presented those examples is to show "pure" FP and OOP implementations so you could compare them. For the full picture, I need to mention that OOP example is SmallTalk style, and SmallTalk (some people would argue definition of pure OOP as SmallTalk, let's leave it for another article) took some inspiration from Scheme, which in turn uses ideas from lambda calculus `¯\_(ツ)_/¯`.
+The reason I presented those examples is to show "pure" FP and OOP implementations so you could compare them. For the full picture, I need to mention that OOP example is SmallTalk style, and SmallTalk took some inspiration from Scheme, which in turn uses ideas from lambda calculus `¯\_(ツ)_/¯`. Some people would argue definition of "pure" OOP as SmallTalk, let's leave it for another article.
