@@ -77,9 +77,7 @@ Definition for routine from [Pascal](https://wiki.freepascal.org/):
 
 From [The C Programming Language](https://www.dipmat.univpm.it/~demeio/public/the_c_programming_language_2.pdf):
 
-> In C, a function is equivalent to a subroutine or function in Fortran, or a
-procedure or function in Pascal. A function provides a convenient way to
-encapsulate some computation, which can then be used without worrying about its implementation.
+> In C, a function is equivalent to a subroutine or function in Fortran, or a procedure or function in Pascal. A function provides a convenient way to encapsulate some computation, which can then be used without worrying about its implementation.
 
 All of those are the same: routine (subroutine), program (subprogram), application (as a noun) - some re-usable computations.
 
