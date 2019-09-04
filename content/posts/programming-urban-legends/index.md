@@ -18,13 +18,12 @@ description: "Lisp is a functional language. Turing machines are the most \"powe
 Of course, it depends on how you define functional language. I define it as lambda calculus-based, which includes:
 
   - lexicographic scope
-  - normal-order evaluation (or lazy evaluation, or call-by-need)
+  - normal-order evaluation (or lazy evaluation, or call-by-need). See [CLAZY: Lazy Calling in Common Lisp](https://common-lisp.net/project/clazy/).
   - to do IO it would need to use monads because otherwise, the order of evaluation would matter (which is not the case for lambda calculus). This is based on my current understanding, I need to learn more about monads.
 
 ## Turing machines are the most "powerful" computation model
 
-> TMs cannot compute all problems, nor can they do everything that real computers
-> can do.
+> TMs cannot compute all problems, nor can they do everything that real computers can do.
 >
 > -- [The Origins of the Turing Thesis](https://pdfs.semanticscholar.org/9a9d/3d5393dd90a37ef9a0b8420fe4c41fc5d8f9.pdf). Dina Goldin, Peter Wegner, June 25, 2004
 
@@ -47,4 +46,4 @@ A sound type system can prove only the absence of type errors. It doesn't prove 
 
 - It doesn't prove that program behaves as expected
 - It doesn't prove that the program will have no issues with memory
-- It doesn't prove that the program will produce result instead of running infinitely (it is unprovable for Turing complete systems in general). This is based on my current understanding but simply typed lambda calculus isn't Turing complete.
+- It doesn't prove that the program will produce result instead of running infinitely (it is unprovable for Turing complete systems in general). This is based on my current understanding but simply typed lambda calculus isn't Turing complete 🤔.

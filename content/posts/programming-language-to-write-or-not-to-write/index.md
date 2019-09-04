@@ -85,7 +85,7 @@ Programming language runtime (aka interpreter) does the following steps:
 
 Evaluation for a calculator language is the same as calculation, but for more complex language evaluation as well means it will make computer to do other things, like read from the input, print to the output, make sounds, make lights blink, etc.
 
-For example, `5 - (2 + 1)` evaluate to `2`. As the first step we need evaluate `(2 + 1)` to `3`, then `5 - 3` to `2`.
+For example, `5 - (2 + 1)` evaluates to `2`. As the first step we need evaluate `(2 + 1)` to `3`, then `5 - 3` to `2`.
 
 This example is a small program. The program consists of small instructions (steps), which computer can evaluate one by one or in parallel. For simplicity, we will assume instructions executed one by one.
 
@@ -393,7 +393,5 @@ rl.on("line", input => {
 ## Conclusion
 
 In this tutorial, we did the groundwork for future learning. Next task can be, for example, add variables to the language (a way to save the result of the calculation, to be able to reuse it in the different task), or add functions, or add handling of bigger or smaller number of arguments in functions (for now all functions take exactly two arguments). So much learning opportunities.
-
-I guess in the next tutorial we will add variables, [functions and closures](/posts/from-function-to-closure).
 
 Source code is [here](https://github.com/stereobooster/write-a-language/tree/master/1.calcy).
