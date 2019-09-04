@@ -4,6 +4,8 @@ date: 2019-09-04T11:26:11+02:00
 draft: false
 tags: [meta, discuss]
 description: What would you change in the commenting system to make it good?
+discuss:
+  devto: how-to-create-an-ideal-commenting-system-gng
 ---
 
 > The first rule of the internet: Don't read the comments.
@@ -94,7 +96,7 @@ To help to moderate comments system can provide flags, so the user can help with
 
 ### Logical fallacies
 
-![Screenshot of yourlogicalfallacyis.com](yourlogicalfallacyis.com.png)
+![Screenshot of yourlogicalfallacyis.com](./yourlogicalfallacyis.com.png)
 
 Typical set of flags can be extended with [logical fallacies](https://yourlogicalfallacyis.com/).
 
