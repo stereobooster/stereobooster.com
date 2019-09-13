@@ -80,64 +80,62 @@ There is a different approach to this problem - [A Non-Circular Dictionary](http
 
 ### Defintion
 
-> **Nominal definitions** — definitions that explain the meaning of a term.
->
-> A **stipulative definition** imparts a meaning to the defined term, and involves no commitment that the assigned meaning agrees with prior uses (if any) of the term. Stipulative definitions are epistemologically special. They yield judgments with epistemological characteristics that are puzzling elsewhere.
->
-> **Descriptive definitions**, like stipulative ones, spell out meaning, but they also aim to be adequate to existing usage.
->
-> An **explication** aims to respect some central uses of a term but is stipulative on others. The explication may be offered as an absolute improvement of an existing, imperfect concept. Or, it may be offered as a “good thing to mean” by the term in a specific context for a particular purpose.
->
-> **Ostensive definitions** typically depend on context and on experience... Thus, Russell maintains in Human Knowledge that
->
-> all nominal definitions, if pushed back far enough, must lead ultimately to terms having only ostensive definitions, and in the case of an empirical science the empirical terms must depend upon terms of which the ostensive definition is given in perception
->
-> The kinds into which we have sorted definitions are not mutually exclusive, **nor exhaustive**.
->
-> -- [SEP](https://plato.stanford.edu/entries/definitions/)
+From [SEP](https://plato.stanford.edu/entries/definitions/):
 
-> ---
->
-> The Two Parts of a Definition:
->
-> - Definiendum - the thing (i.e., the 'term') being defined
-> - Definiens - the linguistic expression (i.e., the definition itself) of the definition, the qualities or properties asserted of the term.
->
-> Types of Definitions
->
-> - Intensional - (connotation) assigns meaning by indicating the qualities of the term
-> - Extensional - (denotation) assigns meaning by indicating the members of the class of the definiendum
->
-> Ways of Defining Terms
->
-> - Stipulative - assigning or giving a meaning to a term for a specific context
->   - **Demonstrative** - (i.e., ostension) pointing to an object
->   - **Extension/Enumeration** - naming the members of a class
->   - **Difference** (i.e., negation) - listing what is not meant by a term; noting the distinctive characteristics of the term relative to what is not intended
->     - **Genus** - the meta or larger class of things
->     - **Species** - the smaller or subclass of things
-> - Lexical - The common meaning or usage of a term
->   - **Synonymy** - giving other words which have the same meaning
->   - **Enumeration** - listing the members of the class which the term denotes
->   - **Etymology** - assigning meaning by noting a term's linguistic ancestry.
-> - **Theoretical** - assigning meaning based on the theoretical framework the term denotes.
-> - (Precising - assigning a meaning in a legal or theoretical context in order to clarify the contextual meaning of a word.)
-> - **Persuasive** - assigning meaning using emotive language intended to create an emotional response toward the definiendum.
->
-> Problems with Definitions
->
-> - Vagueness - lack of precision (a fuzzy definition)
->   - Quantitative Vagueness - more precise numerical expression needed
->   - Task-Related Vagueness
->     - does it apply to a specific case
->     - further factual information is not helpful in determining
-> - Ambiguity - more than one meaning is possible; it is unclear which is intended by the context
->   - Referential Ambiguity - assuming the audience understands which of two possible references is meant.
->   - Grammatical Ambiguity:
->     - grammatical structure allows more than one interpretation
->     - context does not clarify the meaning
->
-> -- [Definitions in Arguments](http://www.mesacc.edu/~barsp59601/text/103/notes/5.html)
+**Nominal definitions** — definitions that explain the meaning of a term.
+
+A **stipulative definition** imparts a meaning to the defined term, and involves no commitment that the assigned meaning agrees with prior uses (if any) of the term. Stipulative definitions are epistemologically special. They yield judgments with epistemological characteristics that are puzzling elsewhere.
+
+**Descriptive definitions**, like stipulative ones, spell out meaning, but they also aim to be adequate to existing usage.
+
+An **explication** aims to respect some central uses of a term but is stipulative on others. The explication may be offered as an absolute improvement of an existing, imperfect concept. Or, it may be offered as a “good thing to mean” by the term in a specific context for a particular purpose.
+
+**Ostensive definitions** typically depend on context and on experience... Thus, Russell maintains in Human Knowledge that
+
+> all nominal definitions, if pushed back far enough, must lead ultimately to terms having only ostensive definitions, and in the case of an empirical science the empirical terms must depend upon terms of which the ostensive definition is given in perception
+
+The kinds into which we have sorted definitions are not mutually exclusive, **nor exhaustive**.
+
+From [Definitions in Arguments](http://www.mesacc.edu/~barsp59601/text/103/notes/5.html):
+
+The Two Parts of a Definition:
+
+- Definiendum - the thing (i.e., the 'term') being defined
+- Definiens - the linguistic expression (i.e., the definition itself) of the definition, the qualities or properties asserted of the term.
+
+Types of Definitions
+
+- Intensional - (connotation) assigns meaning by indicating the qualities of the term
+- Extensional - (denotation) assigns meaning by indicating the members of the class of the definiendum
+
+Ways of Defining Terms
+
+- Stipulative - assigning or giving a meaning to a term for a specific context
+  - **Demonstrative** - (i.e., ostension) pointing to an object
+  - **Extension/Enumeration** - naming the members of a class
+  - **Difference** (i.e., negation) - listing what is not meant by a term; noting the distinctive characteristics of the term relative to what is not intended
+    - **Genus** - the meta or larger class of things
+    - **Species** - the smaller or subclass of things
+- Lexical - The common meaning or usage of a term
+  - **Synonymy** - giving other words which have the same meaning
+  - **Enumeration** - listing the members of the class which the term denotes
+  - **Etymology** - assigning meaning by noting a term's linguistic ancestry.
+- **Theoretical** - assigning meaning based on the theoretical framework the term denotes.
+- (Precising - assigning a meaning in a legal or theoretical context in order to clarify the contextual meaning of a word.)
+- **Persuasive** - assigning meaning using emotive language intended to create an emotional response toward the definiendum.
+
+Problems with Definitions
+
+- Vagueness - lack of precision (a fuzzy definition)
+  - Quantitative Vagueness - more precise numerical expression needed
+  - Task-Related Vagueness
+    - does it apply to a specific case
+    - further factual information is not helpful in determining
+- Ambiguity - more than one meaning is possible; it is unclear which is intended by the context
+  - Referential Ambiguity - assuming the audience understands which of two possible references is meant.
+  - Grammatical Ambiguity:
+    - grammatical structure allows more than one interpretation
+    - context does not clarify the meaning
 
 Table from [Definitions, Dictionaries, and Meanings
 ](https://www.sfu.ca/~swartz/definitions.htm).
