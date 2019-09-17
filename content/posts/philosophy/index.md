@@ -33,6 +33,8 @@ Another question is "how to interpret results of science": some results have pra
 > **Scientific realism and instrumentalism**
 >
 > Two central questions about science are (1) what are the aims of science and (2) how should one interpret the results of science? Scientific realists claim that science aims at truth and that one ought to regard scientific theories as true, approximately true, or likely true. Conversely, a scientific antirealist or instrumentalist argues that science does not aim (or at least does not succeed) at truth, and that it is a mistake to regard scientific theories as even potentially true. Some antirealists claim that scientific theories aim at being instrumentally useful and should only be regarded as useful, but not true, descriptions of the world.
+>
+> -- [Philosophy of science (Stanford)](https://web.stanford.edu/class/symsys130/Philosophy%20of%20science.pdf)
 
 ![](./philosophy-of-science.jpg)
 

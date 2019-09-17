@@ -148,3 +148,11 @@ What is your routine here?
 ## PS
 
 Are there other questions at "top-level" that I miss?
+
+**UPD**:
+
+- [Climate jobs for software engineers](https://github.com/jakedouglas/climatejobs)
+- [Did you know that there is literally a class in Stanford's CS curriculum, that is basically "How to pass Google's Interview?"](https://twitter.com/mekkaokereke/status/1135981938437632001) ([CS9: Problem-Solving for the CS Technical Interview](https://web.stanford.edu/class/cs9/))
+- [An app for tracking job listings](https://github.com/kkemple/journey)
+- [toxic / finding a safe place to work](http://lowercaseopinions.com/safe-place)
+- [The Soft Skills of Interviewing (cheat sheet edition)](https://dev.to/kaylasween/the-soft-skills-of-interviewing-cheat-sheet-edition-2ica)
