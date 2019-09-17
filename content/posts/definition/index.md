@@ -125,3 +125,7 @@ Cluster analysis divide data into groups (clusters) that are meaningful, useful,
 > - Non-hierarchical methods (often known as k-means clustering methods)
 >
 > -- [Statistics: 3.1 Cluster Analysis](http://www.statstutor.ac.uk/resources/uploaded/clusteranalysis.pdf), Rosie Cornish. 2007
+
+![](.how-people-interpret-probabilistic-words.png)
+
+Image source: [@jxxf](https://twitter.com/jxxf/status/1149837396847947776)
