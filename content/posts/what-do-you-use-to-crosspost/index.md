@@ -3,6 +3,7 @@ title: "What do you use to crosspost?"
 date: 2019-09-21T15:02:54+02:00
 draft: false
 tags: [help, discuss, blogging, writing]
+description: "POSSE is an abbreviation for Publish (on your) Own Site, Syndicate Elsewhere, a content publishing model that starts with posting content on your own domain first, then syndicating out copies to 3rd party services"
 ---
 
 > POSSE is an abbreviation for Publish (on your) Own Site, Syndicate Elsewhere, a content publishing model that starts with posting content on your own domain first, then syndicating out copies to 3rd party services with permashortlinks back to the original on your site.

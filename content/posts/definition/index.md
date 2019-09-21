@@ -2,6 +2,7 @@
 title: "Definition"
 date: 2019-09-14T10:08:21+02:00
 draft: false
+description: "Definition as the system of meaning - we use symbols to communicate, to think, to store the information."
 ---
 
 Definition as the system of meaning - we use symbols to communicate, to think, to store the information. Definition associate some symbol (word) with meaning (explained with other words, or conveyed by other means).
