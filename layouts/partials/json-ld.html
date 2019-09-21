@@ -20,7 +20,7 @@
     "url" : "{{ .Permalink }}",
     "wordCount" : "{{ .WordCount }}",
     {{ if .Params.image }}"image" : "{{ .Params.image | absURL }}",{{ end }}
-    "keywords" : [ "{{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}" ]
+    "keywords" : [ "{{ range $i, $e := .Params.tags }}{{ if $i }}", {{ end }}"{{ $e }}"{{ end }} ]
 }
 </script>
 {{ end }}
