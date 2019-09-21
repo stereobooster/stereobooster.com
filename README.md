@@ -15,13 +15,6 @@
 ## TODO
 
 - [Crosspost to other platforms](https://dev.to/maxkatz/where-to-publish-content-53ao)
- - Lobsters
- - Medium (plus various Medium publications)
- - Devada (formerly Dzone)
- - Dev.to
- - InfoQ
- - Hacker News
- - https://hashnode.com/pos
 - [Automate crosspost](https://dev.to/maxime1992/manage-your-dev-to-blog-posts-from-a-git-repo-and-use-continuous-deployment-to-auto-publish-update-them-143j)
   - [The State of dev.to API](https://dev.to/alfredosalzillo/the-state-of-devto-v0-api-1o2)
 - [Dark theme](https://dev.to/alexandersandberg/creating-a-website-theme-switcher-with-css-only-4kp2)
