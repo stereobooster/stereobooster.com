@@ -3,7 +3,7 @@ title: "Programming urban legends"
 date: 2019-08-31T14:55:27+02:00
 draft: false
 tags: [beginner, computerscience]
-description: "Lisp is a functional language. Turing machines are the most powerful computation model. Sound type system guarantees the correctness of the program"
+description: "Lisp is a functional language. Turing machines are the most 'powerful' computation model. Sound type system guarantees the correctness of the program"
 ---
 
 ## Lisp is a functional language

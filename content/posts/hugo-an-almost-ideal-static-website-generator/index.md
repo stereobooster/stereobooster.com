@@ -2,7 +2,7 @@
 title: "Hugo: an almost ideal static website generator"
 date: 2019-08-19T20:43:44+02:00
 draft: false
-description: I use Hugo for my blog. For me, as a developer, this is an ideal experience
+description: "I use Hugo for my blog. For me, as a developer, this is an ideal experience"
 tags: [hugo, blog, webdev, go]
 ---
 

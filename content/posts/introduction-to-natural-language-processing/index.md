@@ -3,6 +3,7 @@ title: "Introduction to natural language processing"
 date: 2019-09-21T10:16:41+02:00
 draft: false
 tags: [python, machinelearning, datascience, beginners]
+description: "Natural language processing allows computers to access unstructured data expressed as speech or text. Speech or text data does involve linguistic structure. Linguistic structures vary depending on the language"
 ---
 
 ## What is NLP?
