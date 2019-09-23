@@ -9,6 +9,8 @@ tags: [career, motivation, startup]
 
 Startups are looking for their business model. A startup can start with one idea but become mature wit different one, for example, youtube started as a dating site
 
+<!--more-->
+
 ![](./youtube.jpg)
 
 Image source: [@spencernoon](https://twitter.com/spencernoon/status/1016713164610732035?s=20).
