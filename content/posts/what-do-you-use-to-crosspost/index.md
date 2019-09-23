@@ -4,6 +4,8 @@ date: 2019-09-21T15:02:54+02:00
 draft: false
 tags: [help, discuss, blogging, writing]
 description: "POSSE is an abbreviation for Publish (on your) Own Site, Syndicate Elsewhere, a content publishing model that starts with posting content on your own domain first, then syndicating out copies to 3rd party services"
+discuss:
+  devto: what-do-you-use-to-crosspost-4iog
 ---
 
 > POSSE is an abbreviation for Publish (on your) Own Site, Syndicate Elsewhere, a content publishing model that starts with posting content on your own domain first, then syndicating out copies to 3rd party services with permashortlinks back to the original on your site.
@@ -22,7 +24,7 @@ I want fully automated posting to 3-rd party platforms (from CI server). Bonus p
 
 **What would you use to do this?**
 
-### Wher do I want to crosspost?
+### Where do I want to crosspost?
 
 - dev.to (for sure)
 - Medium (various Medium communities)
