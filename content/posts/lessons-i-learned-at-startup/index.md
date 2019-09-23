@@ -3,6 +3,7 @@ title: "Lessons I learned at a startup"
 date: 2019-09-23T08:46:42+02:00
 draft: false
 tags: [career, motivation, startup]
+description: "Lessons I learned at a startup"
 ---
 
 ## Course changes overnight
@@ -31,4 +32,4 @@ Be ready to help your teammates with some tasks beyond programming, for example,
 
 Startups often fight with time - to make sure you did not run out of money or to make sure somebody else won't deliver your idea first.
 
-It is hard to guess what will work and what will not, so prototyping is your best friend. Throw some quick PoC enough to test your hypothesis and let it fail (or sustain) fast. Show it to colleagues, show it to potential clients, show it to investors and ask what they think about it.
+It is hard to guess what will work and what will not, so [prototyping](https://www.youtube.com/watch?v=d5_h1VuwD6g) is your best friend. Throw some quick PoC enough to test your hypothesis and let it fail (or sustain) fast. Show it to colleagues, show it to potential clients, show it to investors and ask what they think about it.
