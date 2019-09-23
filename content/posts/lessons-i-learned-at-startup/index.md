@@ -1,5 +1,5 @@
 ---
-title: "Lessons I Learned at Startup"
+title: "Lessons I learned at a startup"
 date: 2019-09-23T08:46:42+02:00
 draft: false
 tags: [career, motivation, startup]
