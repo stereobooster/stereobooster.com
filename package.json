@@ -30,7 +30,7 @@
   "dependencies": {
     "@stereobooster/ganalytics": "^3.3.0",
     "lazysizes": "^5.1.1",
-    "quicklink": "^1.0.0"
+    "quicklink": "^1.0.1"
   },
   "browserslist": [
     "defaults"
