@@ -3,6 +3,7 @@ title: "Lessons learned about code after my recent project"
 date: 2019-09-24T13:13:21+02:00
 draft: false
 tags: [typescript, webdev, programming]
+description: "Lessons learned (and other thoughts) after writing code for operational-visualizations"
 ---
 
 Lessons learned (and other thoughts) after writing code for [operational-visualizations](https://github.com/contiamo/operational-visualizations).
