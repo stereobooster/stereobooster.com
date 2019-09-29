@@ -10,9 +10,11 @@ description: "A systematic arrangement in groups or categories according to esta
 > [Definition of classification](https://www.merriam-webster.com/dictionary/classification)
 >
 > 1: the act or process of classifying
+>
 > 2a: systematic arrangement in groups or categories according to established criteria
 > specifically : TAXONOMY
-> b: CLASS, CATEGORY
+>
+> 2b: CLASS, CATEGORY
 
 <!--more-->
 
@@ -67,7 +69,9 @@ Another way would be to use tags (or labels). This classification is represented
 
 > [Definition of catalog](https://www.merriam-webster.com/dictionary/catalog)
 > 1: LIST, REGISTER
+>
 > a catalog of the band's songs
+>
 > 2a: a complete enumeration of items arranged systematically with descriptive details
 
 _Synonyms_: canon, checklist, list, listing, menu, register, registry, roll, roll call, roster, schedule, table
@@ -96,6 +100,7 @@ On the other hand, classification is an attempt to find some similarities inside
 > [Definition of taxonomy](https://www.merriam-webster.com/dictionary/taxonomy)
 >
 > 1: the study of the general principles of scientific classification : SYSTEMATICS
+>
 > 2: CLASSIFICATION
 > especially : orderly classification of plants and animals according to their presumed natural relationships
 
