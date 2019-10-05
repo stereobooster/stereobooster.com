@@ -27,7 +27,7 @@ Not a big deal, you may say, dynamic or untyped whatever. Actually, this is a bi
 
 ---
 
-> Untyped — programs simply execute flat out; there is no attempt to check “consistency of shapes”
+> Untyped — programs simply execute flat out; there is no attempt to check “consistency of shapes”
 >
 > Typed — some attempt is made, either at compile-time or at run-time, to
 > check shape-consistency
