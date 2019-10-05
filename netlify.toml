@@ -7,3 +7,5 @@
   for = "*.css" # css files too
   [headers.values]
     Cache-Control = "public, max-age=2592000"
+[context.production.environment]
+  HUGO_VERSION = "0.58"
