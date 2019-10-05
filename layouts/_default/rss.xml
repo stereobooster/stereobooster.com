@@ -1,6 +1,6 @@
-{{- $pages := .Pages -}}
+{{- $pages := .RegularPages -}}
 {{- if .IsHome -}}
-  {{- $pages = .Site.Pages -}}
+  {{- $pages = .Site.RegularPages -}}
 {{- else -}}
 {{- end -}}
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
