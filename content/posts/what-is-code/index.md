@@ -3,6 +3,9 @@ title: "What is code?"
 date: 2019-10-04T00:00:00+02:00
 draft: false
 description: "What is code? There is more than one answer"
+tags: [programming]
+discuss:
+  devto: what-is-code-4kea
 ---
 
 ## Definition
@@ -131,9 +134,9 @@ AST instead of text, hashes instead of names, no file system:
 
 - highlighting (for example, [tree-sitter](http://tree-sitter.github.io/tree-sitter/))
 - autocomplete (for example, [intellisense](https://code.visualstudio.com/docs/editor/intellisense), [langserver](https://langserver.org/), [tabnine](https://tabnine.com/blog/deep/), [kite](https://kite.com/))
-- highlight matching brackets, show lines of identation, collapse code blocks
+- highlight matching brackets, show lines of indentation, collapse code blocks
 - showing contextual documentation with tooltips
-- [code specific navigation](https://code.visualstudio.com/docs/editor/editingevolved), for example, "jump to defintion"
+- [code specific navigation](https://code.visualstudio.com/docs/editor/editingevolved), for example, "jump to definition"
 - and other editing specific improvements, like [Emmet](https://emmet.io/), [parinfer](https://shaunlebron.github.io/parinfer/) (see [history of editors for Lisp](https://github.com/shaunlebron/history-of-lisp-parens/blob/master/editors.md)).
 - "[projectional code editing](https://twitter.com/gr__or/status/1135237918719696896)", for example, [tofu](https://gregoor.github.io/tofu/)
 
@@ -181,7 +184,7 @@ People used punch cards to write code and store information in the past:
 
 ![](./punchcard.jpg)
 
-Image source: [wikipedia](<https://en.wikipedia.org/wiki/Punched_card#/media/File:Used_Punchcard_(5151286161).jpg>)
+Image source: [wikipedia](https://en.wikipedia.org/wiki/Punched_card#/media/File:Used_Punchcard_(5151286161).jpg)
 
 Plug boards can be used to "write" code:
 

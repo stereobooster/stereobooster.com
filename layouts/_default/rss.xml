@@ -1,4 +1,4 @@
-{{- $pages := .RegularPages -}}
+{{- $pages := .Pages -}}
 {{- if .IsHome -}}
   {{- $pages = .Site.RegularPages -}}
 {{- else -}}
