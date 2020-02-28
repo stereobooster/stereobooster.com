@@ -2,7 +2,7 @@
 title: "Code Indirection"
 date: 2020-02-23T16:11:20+01:00
 description: In this post, I want to talk about one specific readability metric - code indirection
-tags: [codereadbility, readbility]
+tags: [codereadability, readability, programming]
 ---
 
 # Code indirection
@@ -19,7 +19,7 @@ tags: [codereadbility, readbility]
 >
 > -- [The Principles of Readability](https://files.eric.ed.gov/fulltext/ED490073.pdf)
 
-Many factors play into the readability of text. For example, contrast, font, choice of words and many more. (See: [readbility for natural languages](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide))
+Many factors play into the readability of text. For example, contrast, font, choice of words and many more. (See: [readability for natural languages](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide))
 
 Some factors are **subjective** e.g. depends on the reader - if the reader knows given programming language, if the reader knows the context if the reader familiar with the jargon, etc. There is a great talk on the subject: [Laura Savino - Talk Session: Readable Code](https://www.youtube.com/watch?v=IbOp_e9yh0k). She says that "readability needs a reader".
 
