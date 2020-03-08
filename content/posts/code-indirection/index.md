@@ -21,7 +21,7 @@ tags: [codereadability, readability, programming]
 
 Many factors play into the readability of text. For example, contrast, font, choice of words and many more. (See: [readability for natural languages](https://www.bdadyslexia.org.uk/advice/employers/creating-a-dyslexia-friendly-workplace/dyslexia-friendly-style-guide))
 
-Some factors are **subjective** e.g. depends on the reader - if the reader knows given programming language, if the reader knows the context if the reader familiar with the jargon, etc. There is a great talk on the subject: [Laura Savino - Talk Session: Readable Code](https://www.youtube.com/watch?v=IbOp_e9yh0k). She says that "readability needs a reader".
+Some factors are **subjective** e.g. depends on the reader - if the reader knows given programming language, if the reader knows the context, if the reader familiar with the jargon, etc. There is a great talk on the subject: [Laura Savino - Talk Session: Readable Code](https://www.youtube.com/watch?v=IbOp_e9yh0k). She says that "readability needs a reader".
 
 Some factors are **objective** e.g. doesn't depend on the reader - length of the text, indirection in code, etc.
 
