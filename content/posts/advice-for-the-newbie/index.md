@@ -61,7 +61,7 @@ Always choose beginner-friendly tools to learn first, before you will dive in so
 
 Look for the following keywords: zero-configuration, convention over configuration, [developer experience (DX)](/posts/evaluating-dx-of-a-programming-language). Don't pay attention to: blazing fast, small bundle size, other hype words.
 
-Choose an older, more stable, programing language, library, and framework, because it will be more polished, more robust, and better documented.
+Choose an older, more stable, programming language, library, and framework, because it will be more polished, more robust, and better documented.
 
 When you start to learn you need to learn a lot of things at once, so you want to remove any non-essential knowledge from your way, to get to the confidence level where you feel you can accomplish something.
 
