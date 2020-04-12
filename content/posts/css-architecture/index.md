@@ -1,7 +1,7 @@
 ---
 title: "CSS architecture?"
-date: 2020-04-11T20:22:03+02:00
-draft: true
+date: 2020-04-12T11:30:00+02:00
+draft: false
 tags: [programming, css, webdev]
 ---
 
@@ -19,8 +19,8 @@ Have you heard about SQL architecture? There are database architects, but they n
 
 There are a lot of layout engines, for example, [flutter](https://youtu.be/UUfXWzp0-DU), [subformapp](https://www.deconstructconf.com/2017/kevin-lynagh-choosing-features), [yoga](https://yogalayout.com/), [layoutkit](http://layoutkit.org/), [Render](https://github.com/alexdrone/Render) (see [#layout-engine](https://github.com/topics/layout-engine)).
 
-It seems they don't have dedicated practices on how to write a lot of layout code. Maybe they don't have the same requirements, maybe layout in their case can't be separated from components.
+It seems they don't have dedicated practices on how to write a lot of layout code. Maybe they don't have the same requirements, maybe layout and visual presentation in their case can't be separated from components.
 
 ## 🤔 Wondering
 
-Did we by any chance gone too far with this CSS thing? Maybe it brings more incidental complexity in the long run than it solves essential complexity?
+Did we, by any chance, gone too far with this CSS thing? Maybe it brings more incidental complexity in the long run than it solves essential complexity?
