@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@stereobooster/ganalytics": "^3.3.0",
-    "lazysizes": "^5.1.2",
+    "lazysizes": "^5.2.2",
     "quicklink": "^1.0.1"
   },
   "browserslist": [
