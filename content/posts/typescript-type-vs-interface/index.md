@@ -122,20 +122,6 @@ interface ITree<P> {
 }
 ```
 
-### Exact
-
-```ts
-type Close = { a: string };
-const x: Close = { a: "a", b: "b", c: "c" };
-// Type '{ a: string; b: string; c: string; }' is not assignable to type 'Close'.
-
-interface IClose {
-  a: string;
-}
-const y: IClose = { a: "a", b: "b", c: "c" };
-// Type '{ a: string; b: string; c: string; }' is not assignable to type 'IClose'.
-```
-
 ### Indexable
 
 ```ts
@@ -149,6 +135,20 @@ interface IStringRecord {
 ```
 
 ## Differences
+
+### Exact
+
+```ts
+type Close = { a: string };
+const x: Close = { a: "a", b: "b", c: "c" };
+// Type '{ a: string; b: string; c: string; }' is not assignable to type 'Close'.
+
+interface IClose {
+  a: string;
+}
+const y: IClose = { a: "a", b: "b", c: "c" };
+// It is OK
+```
 
 ### Primitive types
 
