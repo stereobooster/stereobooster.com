@@ -1,12 +1,12 @@
 ---
-title: "Code comprehension: navigation"
+title: "Code navigation"
 date: 2020-11-01T23:46:40+01:00
 draft: false
 series: "Code Comprehension"
 tags: [computerscience, codereadability, readability, programming]
 ---
 
-Code navigation - one of the basic techniques required for code comprehension. For example, you want to understand how some piece of code works, you need to understand how each function (or class, or subroutine, etc) works, to do this you can jump to the definition of each function and read (or read the documentation if it is a built-in function).
+Code navigation - one of the basic techniques required for code comprehension. For example, you want to understand how some piece of code works, you need to understand how each function (or class, or subroutine, etc) works, to do this you can jump to the definition of each function and read source (or read the documentation if it is a built-in function).
 
 ## Text search
 
@@ -78,11 +78,15 @@ Metaprogramming and "smart" code (see **text search** section).
 
 ## Find all references
 
-_aka find all references_
+_aka find all usages_
 
 Basically a fancy **ctags**. Quickly see all the places that use a class, method, variable, or similar. Kind of the opposite of **Go to definition**.
 
-Gives less false positives in languages with explicit imports and exports and languages with static types.
+Gives less false positives in languages with explicit imports and languages with static types.
+
+### When fails
+
+Metaprogramming (see **text search** section).
 
 ## Go to definition
 
@@ -126,21 +130,17 @@ Metaprogramming (see **text search** section).
 
 May fail (fallback to ctags-like approach) for programming languages without explicit imports, for example, Rails project.
 
-May fail for (fallback to ctags-like approach) for programming languages with redeclarations, for example, classes in CSS or interfaces in TypeScript.
+May fail (fallback to ctags-like approach) for programming languages with redeclarations, for example, classes in CSS or interfaces in TypeScript.
 
-Callbacks (and any other function arguments) will break the chain. After this, you will need to switch to ctags or text search to get places where function used and trace the desired value from there.
-
-### When fails
-
-Metaprogramming (see **text search** section).
+Callbacks (and any other function arguments) will break the chain. After this, you will need to use **Find all references** (or **ctags** or **text search**) to get places where function used and trace the desired value from there.
 
 ## Go To Implementation
 
-Using Go To Implementation, you can navigate from a base class or type to its implementations. Useful for OOP languages or statically typed languages. Most likely will work only for statically typed languages.
+Using Go To Implementation, you can navigate from a base class or type to its implementations. Useful for OOP languages or statically typed languages. Most likely will work only with **statically typed** languages.
 
 ## Go To Base
 
-Using Go To Base, you can navigate up the inheritance chain of the selected element. Useful for OOP languages or statically typed languages. Most likely will work only for statically typed languages.
+Using Go To Base, you can navigate up the inheritance chain of the selected element. Useful only for OOP languages. Most likely will work only with **statically typed** languages.
 
 ## Type search
 
@@ -164,10 +164,18 @@ Go to file as URI scheme, like `some/file.js:30:10`. For example, when you see a
 
 ## Go back, go forward
 
-This approach similar to browser history behavior, but instead of web-pages it jumps between cursor positions.
+This approach is similar to browser history behavior, but instead of web-pages it jumps between cursor positions.
 
 When you jump between files or position in a big file, for example with **Go to definition** or **Go to file**, it is useful to jump back to the previous place where you came from.
 
 ## Bookmarks
 
-One more technique is inspired by browsers. Useful when you need to jump around (back and forth) some code places many times.
+One more technique inspired by browsers. Useful when you need to jump around (back and forth) some code places many times.
+
+## References
+
+- [Visual Studio Code, Code Navigation](https://code.visualstudio.com/docs/editor/editingevolved)
+- [Visual Studio IDE, Navigate your code](https://docs.microsoft.com/en-us/visualstudio/ide/navigating-code?view=vs-2019)
+- [CLion, Navigation and usages search](https://www.jetbrains.com/clion/features/navigation-and-usages-searches.html)
+- [PyCharm, Smart code navigation](https://www.jetbrains.com/pycharm/features/coding_assistance.html)
+- [RubyMine, Navigation and usages search](https://www.jetbrains.com/ruby/features/#navigation-and-search)

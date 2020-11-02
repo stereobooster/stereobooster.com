@@ -12,7 +12,7 @@ I have thought that the following characteristics are important for code quality
 - correctness
 - performance
 
-Note: Yes readability is more important because it would be easy to fix readable, code but it would be harder to change unreadable code.
+Note: Yes readability is more important because it would be easy to fix readable code, but it would be harder to change unreadable code.
 
 Recently I realized that code readability is a too narrow term here - code comprehensibility is the better one. Reading is only one of the activities required for understanding the code. Code comprehension includes: reading, navigating in code, debugging, experimenting with code, etc.
 
@@ -39,3 +39,5 @@ There are scientific researches on the subject. A lot of them are focused on cog
 > We conduct behavioral studies and also basic research on program comprehension, including eye-tracking and fMRI studies.
 
 I want to write a series of articles on code comprehension and corresponding tools.
+
+**What code comprehension tools do you use?**
