@@ -2,7 +2,7 @@
 title: "Type System FAQ"
 date: 2019-07-29T21:53:33+02:00
 draft: false
-tags: [explainlikeimfive, computerscience, typescript, beginners]
+tags: [explainlikeimfive, computerscience, typescript, beginners, type-system]
 discuss:
   devto: type-system-faq-3oi0
   hn: 20559701
@@ -61,7 +61,7 @@ Parser knows that `"test"` is a string. Does this make JS statically typed? No.
 
 ## Gradual type system
 
-The gradual type system is a static type system which allows skipping type checking of parts of the program, for example, `any` or `@ts-ignore` in typescript.
+The gradual type system is a static type system which allows skipping type checking of parts of the program, for example, `any` or `@ts-ignore` in TypeScript.
 
 From one side, it makes it less safe. From another side, gradual type system allows adding types gradually to dynamically typed languages.
 
