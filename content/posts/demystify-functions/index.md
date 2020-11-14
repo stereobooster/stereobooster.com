@@ -304,4 +304,4 @@ const evaluate = (ast, environment = { ...defaultEnvironment }) => {
 
 This is just a start for functions. We still need to cover a lot of subjects, but the basic idea is in place.
 
-Source code for this post is [here](https://github.com/stereobooster/write-a-language/tree/master/4.function) and [here](https://github.com/stereobooster/write-a-language/tree/master/5.functions-in-environment).
+Source code for this post is [here](https://github.com/stereobooster/write-a-language/tree/master/04.function) and [here](https://github.com/stereobooster/write-a-language/tree/master/05.functions-in-environment).

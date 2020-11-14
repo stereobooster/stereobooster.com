@@ -377,6 +377,6 @@ try {
 
 ## PS
 
-Source code for this post is [here](https://github.com/stereobooster/write-a-language/tree/master/3.variable).
+Source code for this post is [here](https://github.com/stereobooster/write-a-language/tree/master/03.variable).
 
 Guess what. Next subject would be functions, closures, and scopes.

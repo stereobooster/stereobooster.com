@@ -238,4 +238,4 @@ At the moment we are doing type checking at runtime (at evaluation time), but we
 
 In this post, we talked about errors and types a bit. In the next step probably we will add variables or user-defined functions.
 
-Source code for this post is [here](https://github.com/stereobooster/write-a-language/tree/master/2.error).
+Source code for this post is [here](https://github.com/stereobooster/write-a-language/tree/master/02.error).

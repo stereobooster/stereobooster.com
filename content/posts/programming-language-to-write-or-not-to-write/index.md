@@ -394,4 +394,4 @@ rl.on("line", input => {
 
 In this tutorial, we did the groundwork for future learning. Next task can be, for example, add variables to the language (a way to save the result of the calculation, to be able to reuse it in the different task), or add functions, or add handling of bigger or smaller number of arguments in functions (for now all functions take exactly two arguments). So much learning opportunities.
 
-Source code is [here](https://github.com/stereobooster/write-a-language/tree/master/1.calcy).
+Source code is [here](https://github.com/stereobooster/write-a-language/tree/master/01.calcy).
