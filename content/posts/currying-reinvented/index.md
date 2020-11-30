@@ -1,10 +1,10 @@
 ---
-title: "Currying reinvented"
+title: "Currying reimagined"
 date: 2020-11-30T23:29:50+01:00
 draft: false
 tags: [function, js, programming]
 ---
-s
+
 ## What is currying?
 
 > Currying is the process of transforming a function that takes multiple arguments in a tuple as its argument, into a function that takes just a single argument and returns another function which accepts further arguments, one by one
