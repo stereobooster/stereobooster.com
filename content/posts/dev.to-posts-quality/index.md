@@ -21,13 +21,15 @@ Is there a way out? What are the alternatives?
 - Is the reputation (or karma) system tends to make community elitist? [In my opinion, the absence of CoC makes the community toxic (not a downvoting function)](https://dev.to/swyx/moderating-a-220k-developer-community-3doj).
 - What if we would allow downvoting, but will show counter only to the author (so there is no public shaming)? The same way as dev.to doesn't show the number of followers. And as soon as the post passes some positive number of likes it would get some badge (50 likes = 🦄, for example).
 
+**I don't know what is the solution here. I'm throwing some ideas to discuss.**
+
 Beginner friendliness is a nice goal, but some authors didn't bother even to put in some content and send this post to feed of thousands of users. How is that different from spam? There should be some reasonable line between beginner friendliness and respect to the other users, right?
 
 ## Quality
 
 I also feel like the quality of the average article on dev.to is quite low.
 
-> **Important**: I'm criticizing it because I write for dev.to myself. So the critics can be applied to me as well. ([Only a ginger can call another ginger](https://www.youtube.com/watch?v=KVN_0qvuhhw)).
+> **Important**: I'm criticizing it because I write for dev.to myself. So the critics can be applied to me as well. [Only a ginger can call another ginger](https://www.youtube.com/watch?v=KVN_0qvuhhw).
 
 But there is a trick to it. How would you define the quality of a post? If you read the comments of the first post you would see that there are different opinions.
 
@@ -65,7 +67,7 @@ Not arguably bad.
 
 Posts without any sense, like unreadable text or only title with "test" or similar.
 
-**Ways to fight**: give caution to the author "you about to post an empty article, while you can do it, we recommend to do at least some text"
+**Ways to fight**: give caution to the author "you about to post an empty article, while you can do it, we recommend to add at least some text"
 
 ### Factually wrong
 
