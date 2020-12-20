@@ -31,7 +31,7 @@ But there are two main issues with this approach:
 
 - complexity is `O(n)`
 - we need a cycle detection algorithm, otherwise, it would it will overflow the stack (or run infinitely if there is tail call optimization)
-- even in this case it is possible to overflow the stack (if we use recursive function)
+  - even in this case it is possible to overflow the stack (if we use recursive function)
 
 That is why most programming languages prefer to use referential comparison.
 
