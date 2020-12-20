@@ -3,6 +3,7 @@ title: "Make a Lisp - review"
 date: 2020-12-20T03:08:24+01:00
 draft: false
 tags: [lisp, pony, computerscience, til]
+series: "Make-A-Lisp in Pony"
 ---
 
 Writing a Lisp is a good learning exercise for a programmer. It will provide you with a deeper understanding of basic concepts: what is lambda, what is closure, what is binding etc. Is it relevant to modern programming (LISP was invented in 1958)? Well yes. First of all, because modern Lisps are quite different from the original version (it got the main revamp in 1975 when Scheme was created). Second, a lot of modern languages borrow basic concepts from Lisp, for example, JavaScript uses some concepts from Scheme: lexical scope, call-by-reference, anonymous functions (sometimes called Lambdas), closures, etc.
