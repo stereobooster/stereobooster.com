@@ -1,7 +1,7 @@
 ---
 title: "Truly Integrated Development Environment"
 date: 2019-05-05T00:00:00+01:00
-draft: true
+draft: false
 description: What does it take to create a development environment?
 tags: [webdev, discuss, productivity, docker]
 discuss:
