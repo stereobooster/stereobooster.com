@@ -2,7 +2,7 @@
 title: "On Lisp Syntax"
 date: 2020-12-26T22:59:37+01:00
 draft: false
-tags: [lisp]
+tags: [lisp, syntax, grammar, paser]
 ---
 
 **Note**: when I say Lisp I mean any member of the Lisp family, for example, Common Lisp, Scheme, Racket, Clojure, etc. - all languages that use S-expressions. They all are different, but for this article, it doesn't matter.
@@ -178,7 +178,7 @@ Infer `()` from indentation (Pythonish syntax), for example, for each indent we 
 - [LISP Infix Syntax Survey](http://xahlee.info/comp/lisp_sans_sexp.html)
 - [Curly infix, Modern-expressions, and Sweet-expressions: A suite of readable formats for Lisp-like languages](https://dwheeler.com/readable/sweet-expressions.html)
 - [nonelang](https://nonelang.readthedocs.io/en/latest/dataformat.html)
-- [rhombus-brainstorming](https://github.com/racket/rhombus-brainstorming/issues/3)
+- [Thoughts on Rhombus](https://beautifulracket.com/appendix/thoughts-on-rhombus.html), [Rhombus brainstorming](https://github.com/racket/rhombus-brainstorming/issues/3)
 
 ### See also
 

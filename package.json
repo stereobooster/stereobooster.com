@@ -17,7 +17,8 @@
     "build:assets": "cross-env NODE_ENV=development parcel build ./assets/index.js --out-dir assets/output --experimental-scope-hoisting --no-cache",
     "deploy:assets": "cross-env NODE_ENV=production parcel build ./assets/index.js --out-dir assets/output --experimental-scope-hoisting --no-cache",
     "build:hugo": "cross-env NODE_ENV=production hugo --gc --minify",
-    "mermaid": "node scripts/mermaid.js"
+    "mermaid": "node scripts/mermaid.js",
+    "graphviz": "node scripts/graphviz.js"
   },
   "devDependencies": {
     "autoprefixer": "^9.7.0",
@@ -31,6 +32,7 @@
     "rimraf": "^3.0.0"
   },
   "dependencies": {
+    "@hpcc-js/wasm": "^1.0.1",
     "@stereobooster/ganalytics": "^3.3.0",
     "lazysizes": "^5.1.2",
     "quicklink": "^1.0.1"

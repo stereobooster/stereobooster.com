@@ -1,6 +1,7 @@
-// https://marketplace.visualstudio.com/items?itemName=bierner.markdown-mermaid
+// https://marketplace.visualstudio.com/items?itemName=geeklearningio.graphviz-markdown-preview
+// https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced
 import marked from "marked";
-import { renderMermaid } from "mermaid-render";
+import hpccWasm from "@hpcc-js/wasm";
 import fs from "fs";
 import util from "util";
 import path from "path";
@@ -11,7 +12,7 @@ const access = util.promisify(fs.access);
 const graphs = [];
 
 const walkTokens = (token) => {
-  if (token.type === "code" && token.lang === "mermaid") {
+  if (token.type === "code" && token.lang === "dot") {
     graphs.push(token);
   }
 };
@@ -42,13 +43,10 @@ if (!orginalExist) {
 let i = 0;
 while (i < graphs.length) {
   const token = graphs[i];
-  const svg = await renderMermaid(token.text);
+  const svg = await hpccWasm.graphviz.layout(token.text, "svg", "dot")
   const fileName = `${i}.svg`;
   await writeFile(`${markdownDir}/${fileName}`, svg, "utf-8");
-  markdown = markdown.replace(
-    token.raw,
-    `![](./${fileName})` + "\n\n"
-  );
+  markdown = markdown.replace(token.raw, `![](./${fileName})` + "\n\n");
   i++;
 }
 
