@@ -161,14 +161,7 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 > -- [On the relation between context-free grammars and parsing expression grammars](https://www.sciencedirect.com/science/article/pii/S0167642314000276)
 
 - [Adaptable Parsing Expression Grammars (APEG), 2014](https://repositorio.ufmg.br/bitstream/1843/ESBF-9TELDQ/1/leonardovieiradossantosreis.pdf)
-- [NezCC: A Cross-Language PEG Parser Generator, 2017](http://jssst.or.jp/files/user/taikai/2017/SOFTWARE/software2-1.pdf)
-  - [A Declarative Extension of Parsing Expression Grammarsfor Recognizing Most Programming Languages, 2015](https://www.jstage.jst.go.jp/article/ipsjjip/24/2/24_256/_pdf/-char/ja)
 - [Parsing Expression Grammars with Unordered Choices, 2017](https://www.jstage.jst.go.jp/article/ipsjjip/25/0/25_975/_pdf/-char/ja)
-- [Implementation of Tamias to Check Production Rules for Parsing Expression Grammar](https://www.atlantis-press.com/journals/jrnal/125917289/view)
-  - [PetitParser: BuildingModular Parsers](https://boris.unibe.ch/47152/1/Kurs13a-PetitParser.pdf)
-- [Writing a PEG parser for fun and profit - Guido van Rossum, 2019](https://www.youtube.com/watch?v=QppWTvh7_sI)
-  - [PEG parser generator experiments](https://github.com/we-like-parsers/pegen)
-
 ### Earley variations
 
 - [Yakker Parser, 2010](https://dl.acm.org/doi/abs/10.1145/1706299.1706347)

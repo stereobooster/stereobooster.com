@@ -11,8 +11,14 @@ tags: [computerscience, syntax, grammar, parser]
 >
 > -- [GLL Parsing](https://www.sciencedirect.com/science/article/pii/S1571066110001209)
 
+> A chart parser is a type of parser suited to parsing ambiguous grammars [23]. Chart parsers avoid exponential blowup in parsing time arising from the nondeterminism of a grammar by reducing duplication of work through the use of memoization. Top-down chart parsers (such as packrat parsers) use memoized recursion, whereas bottom-up chart parsers more specifically use dynamic programming (Section 1.7).
+> The `Earley` parser is a top-down chart parser, and is mainly used for parsing natural language in computational linguistics [14]. It can parse any context-free grammar, including left-recursive grammars. The `Earley` parser executesin cubic time in the general case, quadratic time for unambiguous grammars, and linear time for all `LR(k)` grammars... The `Earley` parser may be converted from top-down memoized recursive form into bottom-up dynamic programming form [43]
+> Parsing with pictures” is a chart parsing algorithm that provides an alternative approach to parsing context-free languages. The authors claim that this method is simpler and easier to understand than standard parsers using derivationsor pushdown automata [35]. This parsing method unifies `Earley`, `SLL`, `LL`, `SLR`, and `LR` parsers, and demonstrates that `Earley` parsing is the most fundamental Chomskyan context-free parsing algorithm, from which all others derive.
+>
+> -- [Pika parsing: reformulating packrat parsing as a dynamic programmingalgorithm solves the left recursion and error recovery problems](https://arxiv.org/pdf/2005.06444.pdf)
+
 ```dot
-digraph shells {
+digraph timeline {
     size="7,8";
 
     edge [style=invis];
@@ -231,14 +237,7 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 > -- [On the relation between context-free grammars and parsing expression grammars](https://www.sciencedirect.com/science/article/pii/S0167642314000276)
 
 - [Adaptable Parsing Expression Grammars (APEG), 2014](https://repositorio.ufmg.br/bitstream/1843/ESBF-9TELDQ/1/leonardovieiradossantosreis.pdf)
-- [NezCC: A Cross-Language PEG Parser Generator, 2017](http://jssst.or.jp/files/user/taikai/2017/SOFTWARE/software2-1.pdf)
-  - [A Declarative Extension of Parsing Expression Grammarsfor Recognizing Most Programming Languages, 2015](https://www.jstage.jst.go.jp/article/ipsjjip/24/2/24_256/_pdf/-char/ja)
 - [Parsing Expression Grammars with Unordered Choices, 2017](https://www.jstage.jst.go.jp/article/ipsjjip/25/0/25_975/_pdf/-char/ja)
-- [Implementation of Tamias to Check Production Rules for Parsing Expression Grammar](https://www.atlantis-press.com/journals/jrnal/125917289/view)
-  - [PetitParser: BuildingModular Parsers](https://boris.unibe.ch/47152/1/Kurs13a-PetitParser.pdf)
-- [Writing a PEG parser for fun and profit - Guido van Rossum, 2019](https://www.youtube.com/watch?v=QppWTvh7_sI)
-  - [PEG parser generator experiments](https://github.com/we-like-parsers/pegen)
-
 ### Earley variations
 
 - [Yakker Parser, 2010](https://dl.acm.org/doi/abs/10.1145/1706299.1706347)
@@ -344,7 +343,10 @@ About ambiguity:
 
 More reading:
 
+- [Parsing with pictures, Keshav Pingali and Gianfranco Bilardi, UTCS tech report TR-2012.](https://apps.cs.utexas.edu/tech_reports/reports/tr/TR-2102.pdf)
+- [On the Complexity and Performance of Parsing with Derivatives](https://raw.githubusercontent.com/emeryberger/PLDI-2016/master/preprints/pldi16-paper317-preprint.pdf)
 - [Unifying LL and LR parsing](https://www.researchgate.net/publication/2619317_Unifying_LL_and_LR_parsing)
 - [Fast Context-Free Grammar Parsing Requires Fast Boolean Matrix Multiplication](https://arxiv.org/pdf/cs/0112018.pdf)
 - [Comparison of Parsing Techniques](https://www.academia.edu/43432462/Comparison_of_Parsing_Techniques)
 - [Critical Analysis of Extensible Parsing Tools andTechniques](https://www.bjmc.lu.lv/fileadmin/user_upload/lu_portal/projekti/bjmc/Contents/5_1_09_Saikunas.pdf)
+- [Awesome binary parsing](https://github.com/dloss/binary-parsing)
