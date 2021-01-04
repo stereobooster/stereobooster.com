@@ -11,6 +11,12 @@ tags: [computerscience, syntax, grammar, parser]
 >
 > -- [GLL Parsing](https://www.sciencedirect.com/science/article/pii/S1571066110001209)
 
+> A chart parser is a type of parser suited to parsing ambiguous grammars [23]. Chart parsers avoid exponential blowup in parsing time arising from the nondeterminism of a grammar by reducing duplication of work through the use of memoization. Top-down chart parsers (such as packrat parsers) use memoized recursion, whereas bottom-up chart parsers more specifically use dynamic programming (Section 1.7).
+> The `Earley` parser is a top-down chart parser, and is mainly used for parsing natural language in computational linguistics [14]. It can parse any context-free grammar, including left-recursive grammars. The `Earley` parser executes in cubic time in the general case, quadratic time for unambiguous grammars, and linear time for all `LR(k)` grammars... The `Earley` parser may be converted from top-down memoized recursive form into bottom-up dynamic programming form [43]
+> Parsing with pictures is a chart parsing algorithm that provides an alternative approach to parsing context-free languages. The authors claim that this method is simpler and easier to understand than standard parsers using derivations or pushdown automata [35]. This parsing method unifies `Earley`, `SLL`, `LL`, `SLR`, and `LR` parsers, and demonstrates that `Earley` parsing is the most fundamental Chomskyan context-free parsing algorithm, from which all others derive.
+>
+> -- [Pika parsing: reformulating packrat parsing as a dynamic programmingalgorithm solves the left recursion and error recovery problems](https://arxiv.org/pdf/2005.06444.pdf)
+
 ![](./0.svg)
 
 List of algorithms (based on [this page](https://w3.cs.jmu.edu/lam2mo/cs630_2015_01/files/09-parsing3.txt)):
@@ -246,7 +252,10 @@ About ambiguity:
 
 More reading:
 
+- [Parsing with pictures, Keshav Pingali and Gianfranco Bilardi, UTCS tech report TR-2012.](https://apps.cs.utexas.edu/tech_reports/reports/tr/TR-2102.pdf)
+- [On the Complexity and Performance of Parsing with Derivatives](https://raw.githubusercontent.com/emeryberger/PLDI-2016/master/preprints/pldi16-paper317-preprint.pdf)
 - [Unifying LL and LR parsing](https://www.researchgate.net/publication/2619317_Unifying_LL_and_LR_parsing)
 - [Fast Context-Free Grammar Parsing Requires Fast Boolean Matrix Multiplication](https://arxiv.org/pdf/cs/0112018.pdf)
 - [Comparison of Parsing Techniques](https://www.academia.edu/43432462/Comparison_of_Parsing_Techniques)
 - [Critical Analysis of Extensible Parsing Tools andTechniques](https://www.bjmc.lu.lv/fileadmin/user_upload/lu_portal/projekti/bjmc/Contents/5_1_09_Saikunas.pdf)
+- [Awesome binary parsing](https://github.com/dloss/binary-parsing)

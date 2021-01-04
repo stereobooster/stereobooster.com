@@ -98,3 +98,10 @@ Is it possible to construct some common corpus of syntactic constructs (assume t
 - [PEG](https://docs.racket-lang.org/peg/index.html)
 - [LALR(1)](https://docs.racket-lang.org/parser-tools/)
 - Parsec inspired: [megaparsack](https://docs.racket-lang.org/megaparsack/index.html), [parsack](https://docs.racket-lang.org/parsack/index.html)
+
+## Language Workbench
+
+- [Spoofax](http://www.metaborg.org/en/latest/index.html)
+  - [PLDI 2020 - Declarative Language Definition with Spoofax Tutorial](https://www.youtube.com/watch?v=TMhjttXnN54)
+- [textX](http://textx.github.io/textX/stable/about/comparison/)
+- [Evaluating and Comparing Language Workbenches](https://www.informatik.uni-marburg.de/~seba/publications/language-workbench-results-benchmarks.pdf)
