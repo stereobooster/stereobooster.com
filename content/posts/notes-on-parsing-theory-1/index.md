@@ -3,6 +3,7 @@ title: "Notes on parsing theory, part 1"
 date: 2021-01-04T01:57:46+01:00
 draft: false
 tags: [computerscience, syntax, grammar, parser]
+series: "Parsing"
 ---
 
 When I tried to read [papers on parsing algorithms](/posts/an-overview-of-parsing-algorithms/) I found a lot of terminologies (sometimes used inconsistently), a lot of abbreviations, and contradictory claims.

@@ -3,19 +3,8 @@ title: "An overview of parsing algorithms"
 date: 2020-12-28T04:22:13+01:00
 draft: false
 tags: [computerscience, syntax, grammar, parser]
+series: "Parsing"
 ---
-
-## Algorithms
-
-> Parser users tend to separate themselves into bottom-up and top-down tribes. Top-down users value the readability of recursive descent (`RD`) implementations of `LL` parsing along with the ease of semantic action incorporation. Bottom-up users value the extended parsing power of `LR` parsers, in particular the admissibility of left recursive grammars, although `LR` parsers cannot cope with hidden left recursion and even `LR(0)` parse tables can be exponential in the size of the grammar, while an `LL` parser is linear in the size of the grammar.
->
-> -- [GLL Parsing](https://www.sciencedirect.com/science/article/pii/S1571066110001209)
-
-> A chart parser is a type of parser suited to parsing ambiguous grammars [23]. Chart parsers avoid exponential blowup in parsing time arising from the nondeterminism of a grammar by reducing duplication of work through the use of memoization. Top-down chart parsers (such as packrat parsers) use memoized recursion, whereas bottom-up chart parsers more specifically use dynamic programming (Section 1.7).
-> The `Earley` parser is a top-down chart parser, and is mainly used for parsing natural language in computational linguistics [14]. It can parse any context-free grammar, including left-recursive grammars. The `Earley` parser executes in cubic time in the general case, quadratic time for unambiguous grammars, and linear time for all `LR(k)` grammars... The `Earley` parser may be converted from top-down memoized recursive form into bottom-up dynamic programming form [43]
-> Parsing with pictures is a chart parsing algorithm that provides an alternative approach to parsing context-free languages. The authors claim that this method is simpler and easier to understand than standard parsers using derivations or pushdown automata [35]. This parsing method unifies `Earley`, `SLL`, `LL`, `SLR`, and `LR` parsers, and demonstrates that `Earley` parsing is the most fundamental Chomskyan context-free parsing algorithm, from which all others derive.
->
-> -- [Pika parsing: reformulating packrat parsing as a dynamic programmingalgorithm solves the left recursion and error recovery problems](https://arxiv.org/pdf/2005.06444.pdf)
 
 ```dot
 digraph timeline {
@@ -88,6 +77,18 @@ digraph timeline {
     GLR -> GLL [ style=dotted arrowhead=none];
 }
 ```
+
+> Parser users tend to separate themselves into bottom-up and top-down tribes. Top-down users value the readability of recursive descent (`RD`) implementations of `LL` parsing along with the ease of semantic action incorporation. Bottom-up users value the extended parsing power of `LR` parsers, in particular the admissibility of left recursive grammars, although `LR` parsers cannot cope with hidden left recursion and even `LR(0)` parse tables can be exponential in the size of the grammar, while an `LL` parser is linear in the size of the grammar.
+>
+> -- [GLL Parsing](https://www.sciencedirect.com/science/article/pii/S1571066110001209)
+
+> A chart parser is a type of parser suited to parsing ambiguous grammars [23]. Chart parsers avoid exponential blowup in parsing time arising from the nondeterminism of a grammar by reducing duplication of work through the use of memoization. Top-down chart parsers (such as packrat parsers) use memoized recursion, whereas bottom-up chart parsers more specifically use dynamic programming (Section 1.7).
+> The `Earley` parser is a top-down chart parser, and is mainly used for parsing natural language in computational linguistics [14]. It can parse any context-free grammar, including left-recursive grammars. The `Earley` parser executes in cubic time in the general case, quadratic time for unambiguous grammars, and linear time for all `LR(k)` grammars... The `Earley` parser may be converted from top-down memoized recursive form into bottom-up dynamic programming form [43]
+> Parsing with pictures is a chart parsing algorithm that provides an alternative approach to parsing context-free languages. The authors claim that this method is simpler and easier to understand than standard parsers using derivations or pushdown automata [35]. This parsing method unifies `Earley`, `SLL`, `LL`, `SLR`, and `LR` parsers, and demonstrates that `Earley` parsing is the most fundamental Chomskyan context-free parsing algorithm, from which all others derive.
+>
+> -- [Pika parsing: reformulating packrat parsing as a dynamic programmingalgorithm solves the left recursion and error recovery problems](https://arxiv.org/pdf/2005.06444.pdf)
+
+## Algorithms
 
 List of algorithms (based on [this page](https://w3.cs.jmu.edu/lam2mo/cs630_2015_01/files/09-parsing3.txt)):
 
@@ -238,6 +239,7 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 
 - [Adaptable Parsing Expression Grammars (APEG), 2014](https://repositorio.ufmg.br/bitstream/1843/ESBF-9TELDQ/1/leonardovieiradossantosreis.pdf)
 - [Parsing Expression Grammars with Unordered Choices, 2017](https://www.jstage.jst.go.jp/article/ipsjjip/25/0/25_975/_pdf/-char/ja)
+
 ### Earley variations
 
 - [Yakker Parser, 2010](https://dl.acm.org/doi/abs/10.1145/1706299.1706347)
@@ -253,79 +255,9 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 
 - [Introducing Glush: a robust, human-readable, top-down parser compiler](https://www.sanity.io/blog/why-we-wrote-yet-another-parser-compiler)
 
-## Chomsky hierarchy
-
-| Grammar | Languages              | Automaton                                       | Complexity  |
-| ------- | ---------------------- | ----------------------------------------------- | ----------- |
-| Type-0  | Recursively enumerable | Turing machine                                  | undecidable |
-| Type-0  | Recursive              |                                                 |             |
-| Type-1  | Context-sensitive      | Linear-bounded non-deterministic Turing machine | exponential |
-| Type-2  | non-determnisitic CFG  | Non-deterministic pushdown automaton            | polynomial  |
-| Type-2  | deterministic CFG      | Deterministic pushdown automaton                |             |
-| Type-3  | Regular expressions    | Finite state automaton                          | linear      |
-
-**Note**: **CFG** - context-free grammars; **REG** - regular expressions; **CSG** - context-sensitive grammars; **DFA** - deterministic finite automaton;
-
-```dot
-digraph D {
-  node [ shape = box];
-  subgraph cluster_1 {
-    label = "Recursively enumerable";
-    subgraph cluster_2 {
-      label = "Recursive";
-      subgraph cluster_3 {
-        label = "Context-sensitive";
-        subgraph cluster_4 {
-          label = "non-determnisitic CFG";
-          subgraph cluster_5 {
-            label = "deterministic CFG";
-
-            "Regular expressions";
-          }
-        }
-      }
-    }
-  }
-}
-```
-
-Chomsky initially identified 4 types in his hierarchy, but then we discovered correspondence between language hierarchies and [computational complexity](https://www.youtube.com/watch?v=YX40hbAHx3s). So we can refine initial categorization with more classes, for example [mildly context-sensitive](http://www.sfs.uni-tuebingen.de/~gjaeger/publications/philtransSpecialIssue.pdf).
-
-Side note: [diagram of the world of computability and complexity](https://people.cs.umass.edu/~immerman/), [complexity zoology: active inclusion diagram](https://www.math.ucdavis.edu/~greg/zoology/diagram.xml), [complexity zoo](https://complexityzoo.net/Complexity_Zoo), [computational complexity theory at SEP](https://plato.stanford.edu/entries/computational-complexity/).
-
-Regular expressions can't specify, for example:
-
-- Palindromes
-- Strings with an equal number of 0's and 1's
-- Matched parentheses
-- Properly formed arithmetic expressions
-
-REG is not enough for a general programming language (**PL**), CSG is too much (it is exponential), **so the default choice for PL is CFG**. BNF is used to formally specify PL (which is non-deterministic CFG), but I would say that deterministic CFG is preferred for parsing, for example, PEG.
-
-Side note: [What's the Difference Between BNF, EBNF, ABNF?](http://xahlee.info/parser/bnf_ebnf_abnf.html), [On the Expressive Power of Programming Languages by Shriram Krishnamurthi](https://www.youtube.com/watch?v=43XaZEn2aLc).
-
-### Tasks
-
-Non-deterministic CFG algorithms useful for [natural language processing](https://stereobooster.com/posts/introduction-to-natural-language-processing/), but they tend to be slower (and non-deterministic, obviously). For PL parsing deterministic CFG seems to be more practical - they can be less expressive, but faster and much simpler to implement. This is the key idea of the PEG parser, it is deterministic by construction and not left recursive (but it is always possible to rewrite from left-recursive form to right recursive).
-
-Typical tasks for programs working with deterministic CFG are:
-
-- Identify if a given sentence is a member of language or not, for example, validate the email
-- Generate valid sentences for a given language, for example, [generate fake emails](https://github.com/faker-ruby/faker)
-- Parse given sentence, for example, generate AST for compiler/interpreter or highlight syntax
-
-Current research:
-
-- Parallel parsing algorithms - mainly for non-deterministic CFG
-- Streaming parsers - to parse input from a socket
-- Error recovery, for better error messages or to be able to highlight syntax in presence of an error
-- Incremental parsing, for example, to be able to do syntax highlighting in IDE on each keystroke. See [tree-sitter](https://tree-sitter.github.io/tree-sitter/#underlying-research)
-
 ## PS
 
 If you want to know more history of BNF and REG see [Guy Steele talk](https://youtu.be/dCuZkaaou0Q?t=825).
-
-If you want to understand the terminology, like LR, LL, backtracking, etc. see [this course](https://web.stanford.edu/class/archive/cs/cs143/cs143.1128/).
 
 If you want to learn more about dynamic programming read [this](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap6.pdf).
 
@@ -343,10 +275,9 @@ About ambiguity:
 
 More reading:
 
-- [Parsing with pictures, Keshav Pingali and Gianfranco Bilardi, UTCS tech report TR-2012.](https://apps.cs.utexas.edu/tech_reports/reports/tr/TR-2102.pdf)
 - [On the Complexity and Performance of Parsing with Derivatives](https://raw.githubusercontent.com/emeryberger/PLDI-2016/master/preprints/pldi16-paper317-preprint.pdf)
 - [Unifying LL and LR parsing](https://www.researchgate.net/publication/2619317_Unifying_LL_and_LR_parsing)
 - [Fast Context-Free Grammar Parsing Requires Fast Boolean Matrix Multiplication](https://arxiv.org/pdf/cs/0112018.pdf)
 - [Comparison of Parsing Techniques](https://www.academia.edu/43432462/Comparison_of_Parsing_Techniques)
-- [Critical Analysis of Extensible Parsing Tools andTechniques](https://www.bjmc.lu.lv/fileadmin/user_upload/lu_portal/projekti/bjmc/Contents/5_1_09_Saikunas.pdf)
+- [Critical Analysis of Extensible Parsing Tools and Techniques](https://www.bjmc.lu.lv/fileadmin/user_upload/lu_portal/projekti/bjmc/Contents/5_1_09_Saikunas.pdf)
 - [Awesome binary parsing](https://github.com/dloss/binary-parsing)
