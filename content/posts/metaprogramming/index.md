@@ -247,8 +247,9 @@ See also:
 - [Dependent Type Systems as Macros](https://www.ccs.neu.edu/home/stchang/pubs/cbtb-popl2020.pdf)
 - [Typed Lisp, A Primer](https://alhassy.github.io/TypedLisp.html)
   - [The Typed Racket Guide](https://docs.racket-lang.org/ts-guide/)
-  - [Lux](https://github.com/LuxLang/lux)
-  - [Shen](https://shen-language.github.io/)
+  - [Lux](https://luxlang.github.io/lux/lux_macro/#macros)
+  - [Shen](http://shenlanguage.org/osmanual.htm#5.9%20Macros)
+- [Typer: An infix statically typed LISP](https://www.youtube.com/watch?v=tjPG7TAoMUY)
 
 ## Other languages
 
@@ -262,6 +263,8 @@ Other languages with interesting metaprogramming facilities which I haven't expl
 - [Marco: Safe, Expressive Macros for Any Language](https://www.cs.utexas.edu/users/mckinley/papers/marco-ecoop-2012.pdf)
 - [Julia](https://docs.julialang.org/en/v1/manual/metaprogramming/)
 - [D-Expressions: Lisp Power, Dylan Style](http://people.csail.mit.edu/jrb/Projects/dexprs.pdf)
+- [Crystal](https://crystal-lang.org/reference/syntax_and_semantics/macros/index.html)
+
 
 ### Quotation
 
