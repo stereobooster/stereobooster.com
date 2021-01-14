@@ -7,7 +7,7 @@ tags: [programming, computerscience, programming-language]
 
 I [started to collect small programming languagess](https://github.com/stereobooster/write-you-a-programming-language) that you can implement in a relatively small amount of time for educational purposes.
 
-What does it mean to write a language? One way to put it is: you need to write a program that will interpret or compile programming language (New language). But to write a program you need to use existing some existing programming language (Host language). It is also possible to write a program in raw machine code.
+What does it mean to write a language? One way to put it is: you need to write a program that will interpret or compile programming language (New language). But to write a program you need to use some existing programming language (Host language). It is also possible to write a program in raw machine code.
 
 ## interpreter vs compiler
 

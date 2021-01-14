@@ -241,6 +241,8 @@ There are different attempts to make macros work better with static types, for e
 
 - [Hackett](https://lexi-lambda.github.io/hackett/index.html)
 - [Inferring Type Rules for Syntactic Sugar](https://cs.brown.edu/~sk/Publications/Papers/Published/pk-resuarging-types/paper.pdf)
+- [unseemly](https://github.com/paulstansifer/unseemly) Macros have types!
+- [finkel](https://finkel.readthedocs.io/en/latest/contents/macros.html) Haskell in S-expression
 
 See also:
 
@@ -250,6 +252,12 @@ See also:
   - [Lux](https://luxlang.github.io/lux/lux_macro/#macros)
   - [Shen](http://shenlanguage.org/osmanual.htm#5.9%20Macros)
 - [Typer: An infix statically typed LISP](https://www.youtube.com/watch?v=tjPG7TAoMUY)
+- [Composable Type-Specific Languages](http://www.cs.cmu.edu/~aldrich/papers/ecoop14-tsls.pdf)
+  - [wyvernlang](http://wyvernlang.github.io/)
+- [Type-sound Syntactic Language Extension](https://depositonce.tu-berlin.de/bitstream/11303/5033/1/lorenzen_florian.pdf)
+  - [SoundX](https://github.com/florenzen/soundx)
+- [Sound Type-Dependent Syntactic Language Extension](https://www.informatik.uni-marburg.de/~seba/publications/soundx-popl16.pdf)
+- [sugar-lang](https://github.com/sugar-lang)
 
 ## Other languages
 
