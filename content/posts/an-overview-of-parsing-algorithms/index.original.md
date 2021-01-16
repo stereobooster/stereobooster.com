@@ -13,15 +13,16 @@ digraph timeline {
     edge [style=invis];
     node [fontsize=24, shape = plaintext];
 
-    1961 -> 1965 -> 1968 -> 1969 -> 1970 ->
+    1961 -> 1964-> 1965 -> 1968 -> 1969 -> 1970 ->
     1971 -> 1984 -> 1990 -> 1993 ->
     1999 -> 2004 -> 2005 -> 2006 ->
-    2007 -> 2010 -> 2011 -> 2014 ->
+    2007 -> 2009 -> 2010 -> 2011 -> 2014 ->
     2016 -> 2018 -> 2019 -> 2020;
 
 
     node [fontsize=20, shape = box];
     { rank=same;  1961 CYK; }
+    { rank=same;  1964 "Brzozowski Derivative"; }
     { rank=same;  1965 LR; }
     { rank=same;  1968 Earley "LL(k)"; }
     { rank=same;  1969 LALR; }
@@ -35,12 +36,13 @@ digraph timeline {
     { rank=same;  2005 RIGLR; }
     { rank=same;  2006 RNGLR; }
     { rank=same;  2007 BRNGLR; }
+    { rank=same;  2009 "Regular-expression derivatives"; }
     { rank=same;  2010 GLL IGLR Yakker "Tratt's PEG"; }
-    { rank=same;  2011 "LL(*)"; }
+    { rank=same;  2011 "LL(*)" "Parsing with Derivatives"; }
     { rank=same;  2014 "ALL(*)"; }
     { rank=same;  2016 LLLR; }
     { rank=same;  2018 MSGLR; }
-    { rank=same;  2019 SEVM; }
+    { rank=same;  2019 SEVM "LL(1) Parsing with Derivatives and Zippers"; }
     { rank=same;  2020 ISGLR Pika; }
 
     edge[ style=dashed ];
@@ -75,6 +77,8 @@ digraph timeline {
 
     "LAR(m)" -> "LL(*)" [ style=dotted arrowhead=none];
     GLR -> GLL [ style=dotted arrowhead=none];
+
+    "Brzozowski Derivative" -> "Regular-expression derivatives" -> "Parsing with Derivatives" -> "LL(1) Parsing with Derivatives and Zippers";
 }
 ```
 
@@ -251,6 +255,16 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 
 > We present a new, virtual machine based approach to parsing, heavily based on the original Earley parser. We show how to translate grammars into virtual machine instruction sequences that are then used by the parsing algorithm. Additionally, we introduce an optimization that merges shared rule prefixes to increase parsing performance. Finally, we present and evaluate an implementation of Scannerless Earley Virtual Machine
 
+### Parsing with derivatives
+
+> Might et al. (2011) introduced parsing with derivatives,which  handles  arbitrary  context-free  grammars  while  be-ing both easy to understand and simple to implement. De-spite much initial enthusiasm and a multitude of independentimplementations, its worst-case complexity has never beenproven to be better than exponential. In fact, high-level ar-guments claiming it is fundamentally exponential have beenadvanced and even accepted as part of the folklore. Perfor-mance ended up being sluggish in practice, and this slug-gishness was taken as informal evidence of exponentiality
+> -- [On  the  Complexity  and  Performance  of  Parsing  with  Derivatives](https://arxiv.org/pdf/1604.04695.pdf)
+
+- [Derivatives of Regular Expressions](http://krchowdhary.com/me-tfl/5-derivatives-of-regex-brzozowski.pdf), JANUSZ A. BRZOZOWSKI, 1964
+- [Regular-expression derivatives re-examined](https://www.cs.kent.ac.uk/people/staff/sao/documents/jfp09.pdf), 2009
+- [Parsing with Derivatives](http://matt.might.net/papers/might2011derivatives.pdf), 2011
+- [POSIX Regular Expression Parsing withDerivatives](http://www.home.hs-karlsruhe.de/~suma0002/publications/regex-parsing-derivatives.pdf), 2014
+- [LL(1) Parsing with Derivatives and Zippers](https://arxiv.org/pdf/1911.12737.pdf), 2019
 ### Regular grammars
 
 - [Introducing Glush: a robust, human-readable, top-down parser compiler](https://www.sanity.io/blog/why-we-wrote-yet-another-parser-compiler)
@@ -275,7 +289,6 @@ About ambiguity:
 
 More reading:
 
-- [On the Complexity and Performance of Parsing with Derivatives](https://raw.githubusercontent.com/emeryberger/PLDI-2016/master/preprints/pldi16-paper317-preprint.pdf)
 - [Unifying LL and LR parsing](https://www.researchgate.net/publication/2619317_Unifying_LL_and_LR_parsing)
 - [Fast Context-Free Grammar Parsing Requires Fast Boolean Matrix Multiplication](https://arxiv.org/pdf/cs/0112018.pdf)
 - [Comparison of Parsing Techniques](https://www.academia.edu/43432462/Comparison_of_Parsing_Techniques)

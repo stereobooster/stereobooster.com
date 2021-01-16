@@ -1,5 +1,9 @@
 {{ if eq (path.Ext .Destination) ".svg" }}
   <img src="{{ .Destination | safeURL }}"  alt="{{ $.Text }}" />
+  {{/* https://discourse.gohugo.io/t/error-calling-readfile-file-is-too-big/25460 */}}
+  {{/* https://discourse.gohugo.io/t/embedding-inline-svg-in-content-markdown/7511/7 */}}
+  {{/* $img := print (path.Join (path.Dir .Page.File.Path) (path.Base .Destination)) */}}
+  {{/* readFile $img | safeHTML */}}
 {{ else }}
   {{ $img := .Page.Resources.GetMatch (path.Base .Destination) }}
   {{ with $img }}
