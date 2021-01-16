@@ -1,0 +1,25 @@
+{{ if eq (path.Ext .Destination) ".svg" }}
+  <img src="{{ .Destination | safeURL }}"  alt="{{ $.Text }}" />
+{{ else }}
+  {{ $img := .Page.Resources.GetMatch (path.Base .Destination) }}
+  {{ with $img }}
+    <img
+      class="lazyload simg"
+      data-src="{{ .RelPermalink }}"
+      width="{{ .Width }}"
+      height="{{ .Height }}"
+      alt="{{ $.Text }}"
+    />
+    <noscript>
+    <img
+      class="simg"
+      src="{{ .RelPermalink }}"
+      width="{{ .Width }}"
+      height="{{ .Height }}"
+      alt="{{ $.Text }}"
+    />
+    </noscript>
+  {{ else }}
+    <img src="{{ .Destination | safeURL }}"  alt="{{ $.Text }}" />
+  {{ end }}
+{{ end }}

@@ -9,10 +9,10 @@
     Cache-Control = "public, max-age=2592000"
 
 [context.production.environment]
-HUGO_VERSION = "0.77.0"
+HUGO_VERSION = "0.80.0"
 
 [context.deploy-preview.environment]
-HUGO_VERSION = "0.77.0"
+HUGO_VERSION = "0.80.0"
 
 [context.branch-deploy.environment]
-HUGO_VERSION = "0.77.0"
+HUGO_VERSION = "0.80.0"

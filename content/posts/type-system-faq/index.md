@@ -179,7 +179,7 @@ It is a bunch of squares which "blink" (turn on and off). Play with it [online](
 
 But then you have some structures, like "glider":
 
-{{< simg src="glider.gif" width="360" height="360" alt="glider structure in game of life">}}
+![glider structure in game of life](./glider.gif)
 
 Can you see it? It is glider moving across the screen, right? Now pause. Does it actually exist? It just separates squares which appear and disappear. But our brain can observe the structure as an entity.
 

@@ -22,8 +22,9 @@
 - Create "about me" page (https://github.com/stereobooster/readme)
 - Improve 404 page
   - maybe add Glitch effect?
-- [render hook for image](https://github.com/Brixy/hugo-image-render-hook-test/blob/master/layouts/_default/_markup/render-image.html)
 - is it possible to skip generation of line numbers for code-blocks in RSS?
+- is it possible to skip generation of anchor for headers in RSS?
+- make scrolable objects focusable (code, table)
 
 ## License
 

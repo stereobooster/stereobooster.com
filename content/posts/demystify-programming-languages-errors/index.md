@@ -43,7 +43,7 @@ Errors are the product of a human's mind. Error happens when:
 
 For example, this what happens when you try to divide by 0 in a mechanical calculator.
 
-{{< simg src="division-by-zero.gif" width="480" height="360" alt="mechanical calculator rotor infinitely spins, when you try delete by zero">}}
+![mechanical calculator rotor infinitely spins, when you try delete by zero](./division-by-zero.gif)
 
 Image credit: [popularmechanics.com](https://www.popularmechanics.com/technology/gadgets/a20152/dividing-by-zero-will-mechanical-calculator/).
 
@@ -53,14 +53,13 @@ Image credit: [popularmechanics.com](https://www.popularmechanics.com/technology
 >
 > -- [merriam-webster](https://www.merriam-webster.com/dictionary/paradox)
 
-
-{{< simg src="penrose-triangle.jpg" width="310" height="268" alt="Penrose Triangle">}}
+![Penrose Triangle](./penrose-triangle.jpg)
 
 Image credit: [illusionsindex](https://www.illusionsindex.org/i/impossible-triangle).
 
 ## Computer error
 
-{{< simg src="computer-says-no.gif" width="326" height="192" alt="computer says no">}}
+![computer says no](./computer-says-no.gif)
 
 When computer (software or hardware) error happens this basically means, that creator of software or hardware, don't know or can't handle given situation and decided to "give up" and return the error to a higher level, which can be other software or hardware or user.
 
@@ -95,15 +94,15 @@ We can further refine the classification of runtime errors to:
 
 So our hierarchy can look like this:
 
-{{< simg src="dynamic-type-errors.svg" width="450" height="220" alt="Dynamic type errors">}}
+![Dynamic type errors](./dynamic-type-errors.svg)
 
 But for example, we can introduce type checking prior evaluation (static type checking), if our type checker can't catch all errors and we still have to do some type checking at runtime it means that error hierarchy will look like this:
 
-{{< simg src="both-type-errors.svg" width="450" height="220" alt="Both type errors">}}
+![Both type errors](./both-type-errors.svg)
 
 If our type checker is ideal and we can prevent all type errors, it will look like this:
 
-{{< simg src="static-type-errors.svg" width="450" height="220" alt="Static type errors">}}
+![Static type errors](./static-type-errors.svg)
 
 **Note**: absence type errors at runtime, doesn't mean there is no dynamic type checking, it simply means that we handled all edge cases related to types (including unsuccessful dynamic type checks).
 

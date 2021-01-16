@@ -109,18 +109,23 @@ But you can't measure knowledge with one number (it's not a scalar value). Knowl
 
 Even if you an expert in some subject you still can learn something from a newbie in case your knowledge doesn't intersect enough:
 
-{{< simg src="newbie-vs-expert.svg" width="266" height="171"  alt="">}}
+![](./newbie-vs-expert.svg)
 
 Proficiency in one subject doesn't guarantee knowledge or even basic understanding in another subject:
 
-{{< simg src="uncle-bob-tweet.jpeg" width="512" height="377" alt="Tweet by Uncle Bob Martin">}}
+![Tweet by Uncle Bob Martin](./uncle-bob-tweet.jpeg)
 
-<blockquote class="twitter-tweet">
-<p lang="en" dir="ltr">bool is_odd_perfect_number(int n) {return false;} </p>
-<p lang="en" dir="ltr">I know the usual counter here is &quot;concurrency&quot; but he went &quot;nuh-uh you CAN write all 300,000,000 test cases if you really wanted to&quot; and that&#39;s irrefutable</p>
-<p lang="en" dir="ltr">Another is &quot;many functions have infinite input classes&quot; but he went &quot;REAL programmers exclusively write finite state machines&quot; and again, irrefutable</p>
-<p lang="en" dir="ltr">So here&#39;s a case he hasn&#39;t yet handwaved away: simulations! To unit test an input you need to already know the output, which is what you&#39;re writing the simulation to find in the first place!</p>
-<p lang="en" dir="ltr">Another one: programs that effect the real world. You can test the code all you want but you eventually gotta check the real world effect happened, and that it was the effect you needed. Those are very different tests!</p> &mdash; Hillel (@hillelogram) <a href="https://twitter.com/hillelogram/status/1136000857496084480?ref_src=twsrc%5Etfw">June 4, 2019</a></blockquote>
+> bool is_odd_perfect_number(int n) {return false;}
+>
+> I know the usual counter here is &quot;concurrency&quot; but he went &quot;nuh-uh you CAN write all 300,000,000 test cases if you really wanted to&quot; and that&#39;s irrefutable
+>
+> Another is &quot;many functions have infinite input classes&quot; but he went &quot;REAL programmers exclusively write finite state machines&quot; and again, irrefutable
+>
+> So here&#39;s a case he hasn&#39;t yet handwaved away: simulations! To unit test an input you need to already know the output, which is what you&#39;re writing the simulation to find in the first place!
+>
+> Another one: programs that effect the real world. You can test the code all you want but you eventually gotta check the real world effect happened, and that it was the effect you needed. Those are very different tests!
+>
+> &mdash; Hillel (@hillelogram) [June 4, 2019](https://twitter.com/hillelogram/status/1136000857496084480?ref_src=twsrc%5Etfw)
 
 ## Unlearning and Pushback effect
 
@@ -132,7 +137,7 @@ The main problem with pushback effect is that it works through emotion, so the f
 
 ## Confirmation bias
 
-{{< simg src="confirmation-bias.png" width="700" height="250" alt="">}}
+![](./confirmation-bias.png)
 
 > Confirmation bias, the tendency to process information by looking for, or interpreting, information that is consistent with one’s existing beliefs. This biased approach to decision making is largely unintentional and often results in ignoring inconsistent information.
 >

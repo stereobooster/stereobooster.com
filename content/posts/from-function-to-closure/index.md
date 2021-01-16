@@ -42,9 +42,7 @@ _Side note_: I provide examples in lambda calculus, but they are not essential, 
 
 or "map" e.g. it maps from `A` to `B`:
 
-<!-- ![image shows how set A maps to set B](./from-a-to-b.svg) -->
-
-{{< simg src="from-a-to-b.svg" width="280" height="210" alt="image shows how set A maps to set B">}}
+![image shows how set A maps to set B](./from-a-to-b.svg)
 
 or we can think about function as a table (set of tuples `(x, f(x))`):
 
@@ -56,9 +54,7 @@ or we can think about function as a table (set of tuples `(x, f(x))`):
 
 or it can be represented as points in Cartesian coordinates:
 
-<!-- ![illustration of a Cartesian coordinate plane](./cartesian-coordinates.svg) -->
-
-{{< simg src="cartesian-coordinates.svg" width="180" height="180" alt="illustration of a Cartesian coordinate plane">}}
+![illustration of a Cartesian coordinate plane](./cartesian-coordinates.svg)
 
 In programming they are called functions or "anonymous functions" or "lambdas", for example in JS:
 
