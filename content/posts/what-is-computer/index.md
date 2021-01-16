@@ -24,12 +24,12 @@ If you take most popular computational models (see below) you will see that one 
 
 For example,
 
-|           | Personal Computer | Turing Machine      | von Neumann computer     | Programming Language   |
-| --------- | ----------------- | ------------------- | ------------------------ | ---------------------- |
-| processor | CPU, GPU          | machine, oracle     | computer                 | eval                   |
-| memory    | RAM, hard drive   | tape                | memory                   | environment, variables |
-| input     | keyboard, mouse   | tape, choice device | directly write to memory | read                   |
-| output    | screen, printer   | tape                | output register          | print                  |
+|           | Personal Computer | Turing Machine      | von Neumann computer     | Programming Language Interpeter |
+| --------- | ----------------- | ------------------- | ------------------------ | ------------------------------- |
+| processor | CPU, GPU          | machine, oracle     | computer                 | eval                            |
+| memory    | RAM, hard drive   | tape                | memory                   | environment, variables          |
+| input     | keyboard, mouse   | tape, choice device | directly write to memory | read                            |
+| output    | screen, printer   | tape                | output register          | print                           |
 
 See: [What makes a computer, a computer?](https://www.khanacademy.org/computing/computer-science/how-computers-work2/v/khan-academy-and-codeorg-what-makes-a-computer-a-computer)
 
@@ -66,7 +66,7 @@ The idea of mechanization of reasoning appeared at least in the middle ages (if 
 
 This is what computers were about from the beginning - we try to answer the question if we can automate reasoning process (if we assume it to be symbolic manipulations)?
 
-Turing took a similar approach (1936), he proposed machine which would do the work instead of the human, it would write (erase) symbols on paper the same way a mathematician does while calculating something.
+Turing took a similar approach (1936), he proposed machine which would do the work instead of the human, it would write (or erase) symbols on paper the same way a mathematician does while calculating something.
 
 > We may compare a man in the process of computing a real number to machine which...
 
