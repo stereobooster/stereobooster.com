@@ -3,15 +3,15 @@ title: "On Lisp Syntax"
 date: 2020-12-26T22:59:37+01:00
 draft: false
 tags: [lisp, syntax, grammar, paser]
+description: "There is nothing specifically bad about Lisp syntax. There are a lot of people who write Lisp in a day to day job. The problem is rather the first impression"
 ---
-
-**Note**: when I say Lisp I mean any member of the Lisp family, for example, Common Lisp, Scheme, Racket, Clojure, etc. - all languages that use S-expressions. They all are different, but for this article, it doesn't matter.
-
 ## Why Lisp?
 
 Lisp is a micro language - it is [trivial to implement basic Lisp interpreter](http://www.norvig.com/lispy.html). Lisp is a source of many discoveries in computer science, for example, garbage collection, tail call optimization, macros, etc. Lisp is used for teaching - SICP, MIT 6.001, How to design programs. Lisp is used for production - Clojure, Clasp. Lisp is used for research - Scheme, Racket.
 
 It is a majestic language, except for the syntax.
+
+**Note**: when I say Lisp I mean any member of the Lisp family, for example, Common Lisp, Scheme, Racket, Clojure, etc. - all languages that use S-expressions. They all are different, but for this article, it doesn't matter.
 
 ## What is the problem?
 

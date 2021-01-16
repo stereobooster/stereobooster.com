@@ -10,6 +10,8 @@ When I tried to read [papers on parsing algorithms](/posts/an-overview-of-parsin
 
 I decided to make some notes - write down definitions and abbreviations to understand papers.
 
+<!--more-->
+
 Those notes are mainly based on [cs143](https://web.stanford.edu/class/archive/cs/cs143/cs143.1128/), but I had to consult a lot of other sources. For example, this course misused the terminology "alphabet", didn't provide a definition of "token", considered only Chomsky's formalism... I'm saying this not to insult authors of the crouse, just to show how hard it can be to get good introductory material on the subject.
 
 ## Introduction

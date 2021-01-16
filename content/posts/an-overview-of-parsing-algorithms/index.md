@@ -4,6 +4,7 @@ date: 2020-12-28T04:22:13+01:00
 draft: false
 tags: [computerscience, syntax, grammar, parser]
 series: "Parsing"
+description: "List of parsing algorithms"
 ---
 
 ![](./0.svg)
@@ -181,6 +182,7 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 
 > We present a new, virtual machine based approach to parsing, heavily based on the original Earley parser. We show how to translate grammars into virtual machine instruction sequences that are then used by the parsing algorithm. Additionally, we introduce an optimization that merges shared rule prefixes to increase parsing performance. Finally, we present and evaluate an implementation of Scannerless Earley Virtual Machine
 
+- [MARPA,  A  PRACTICAL  GENERAL  PARSER:  THERECOGNIZER](http://dinhe.net/~aredridel/.notmine/PDFs/Parsing/KEGLER,%20Jeffrey%20-%20Marpa,%20a%20practical%20general%20parser:%20the%20recognizer.pdf), 2013
 ### Parsing with derivatives
 
 > Might et al. (2011) introduced parsing with derivatives,which  handles  arbitrary  context-free  grammars  while  be-ing both easy to understand and simple to implement. De-spite much initial enthusiasm and a multitude of independentimplementations, its worst-case complexity has never beenproven to be better than exponential. In fact, high-level ar-guments claiming it is fundamentally exponential have beenadvanced and even accepted as part of the folklore. Perfor-mance ended up being sluggish in practice, and this slug-gishness was taken as informal evidence of exponentiality
@@ -191,6 +193,7 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 - [Parsing with Derivatives](http://matt.might.net/papers/might2011derivatives.pdf), 2011
 - [POSIX Regular Expression Parsing withDerivatives](http://www.home.hs-karlsruhe.de/~suma0002/publications/regex-parsing-derivatives.pdf), 2014
 - [LL(1) Parsing with Derivatives and Zippers](https://arxiv.org/pdf/1911.12737.pdf), 2019
+- [Derivative Grammars: A Symbolic Approach to Parsing with Derivatives](https://www.researchgate.net/publication/336448127_Derivative_grammars_a_symbolic_approach_to_parsing_with_derivatives), 2019
 ### Regular grammars
 
 - [Introducing Glush: a robust, human-readable, top-down parser compiler](https://www.sanity.io/blog/why-we-wrote-yet-another-parser-compiler)

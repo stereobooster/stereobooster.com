@@ -9,7 +9,7 @@ baseurl = "https://stereobooster.com/"
 languageCode = "en"
 title = "stereobooster's personal blog"
 
-Paginate = 5
+Paginate = 10
 
 [taxonomies]
   tag = "tags"
