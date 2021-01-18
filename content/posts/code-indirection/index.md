@@ -5,8 +5,6 @@ description: In this post, I want to talk about one specific readability metric 
 tags: [codereadability, readability, programming]
 ---
 
-# Code indirection
-
 ## Code readability
 
 > Readability is the ease with which a reader can understand a written text.

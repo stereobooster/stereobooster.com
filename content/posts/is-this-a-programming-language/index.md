@@ -5,7 +5,7 @@ draft: false
 tags: [programming, computerscience, programming-language]
 ---
 
-## Definttion
+## Definition
 
 I would say that something is programming language (PL) if:
 

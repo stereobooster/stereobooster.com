@@ -11,6 +11,8 @@ title = "stereobooster's personal blog"
 
 Paginate = 10
 
+enableGitInfo = true
+
 [taxonomies]
   tag = "tags"
   series = "series"

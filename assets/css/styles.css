@@ -245,12 +245,19 @@ table {
   border-right: 1px solid #e1e1e1;
 }
 
-td, th {
+td,
+th {
   border-top: 1px solid #e1e1e1;
   border-left: 1px solid #e1e1e1;
   padding: 0.5rem;
 }
 
 th {
-  background: #f0f3f3
+  background: #f0f3f3;
+}
+
+.old_content_disclaimer {
+  padding: 0.5em 1em;
+  background: #f0f3f2;
+  margin: 1em 0;
 }

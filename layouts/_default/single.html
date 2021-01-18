@@ -10,7 +10,10 @@
                 {{ .Title }}
             </h1>
             <aside>
-            {{ .Date.Format "Jan 2, 2006 15:04" }}
+            {{ $createdAt :=  .Date.Format "Jan 2, 2006"  }}
+            {{ $updatedAt :=  .Lastmod.Format "Jan 2, 2006"  }}
+            {{ $createdAt }}
+            {{ if ne $createdAt $updatedAt }}(last updated {{ $updatedAt }}){{ end }}
             · {{ .ReadingTime }} minute read
             {{ with .Params.tags }}
               {{ if ge (len .) 1 }}
@@ -20,6 +23,12 @@
               {{ end }}
             {{ end}}
             </aside>
+            {{ $ageDays := div (sub now.Unix .Lastmod.Unix) 86400 }}
+            {{ if gt $ageDays 180 }}
+            <aside class="old_content_disclaimer">
+              <b>Disclaimer</b>: This article is older than 180 days. The author may not hold that opinion anymore
+            </aside>
+            {{ end }}
         </header>
         {{ if .Params.series }}
           <section>
