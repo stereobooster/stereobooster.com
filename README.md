@@ -26,15 +26,6 @@
 - is it possible to skip generation of anchor for headers in RSS?
 - make scrolable objects focusable (code, table)
 
-> Those who cannot change their minds cannot change anything.
-> ― George Bernard Shaw
-
-> The man who never alters his opinion is like standing water, and breeds reptiles of the mind.
-> ― William Blake, The Marriage of Heaven and Hell
-
-> When the Facts Change, I Change My Mind.
-> ― [John Maynard Keynes](https://quoteinvestigator.com/2011/07/22/keynes-change-mind/)
-
 ## License
 
 Content is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0](http://creativecommons.org/licenses/by-nc-sa/4.0/).

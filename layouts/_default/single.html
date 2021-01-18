@@ -26,7 +26,7 @@
             {{ $ageDays := div (sub now.Unix .Lastmod.Unix) 86400 }}
             {{ if gt $ageDays 180 }}
             <aside class="old_content_disclaimer">
-              <b>Disclaimer</b>: This article is older than 180 days. The author may not hold that opinion anymore
+              <a href="/disclaimer/"><b>Disclaimer</b>: This article is older than 180 days. The author may not hold that opinion anymore.</a>
             </aside>
             {{ end }}
         </header>
