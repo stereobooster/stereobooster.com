@@ -10,9 +10,9 @@ or an ode to command palette.
 
 <!--more-->
 
-Many editors adopted this idea after Sublime - when you type <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Mac OS)or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows, Linus) it will open command palette, where you can easily find all actions (with or without shortcuts). This is very powerfull idea - you don't need to remeber all shortcuts, you can simply find one. And eventually you will memorise most used ones.
+Many editors adopted this idea after Sublime - when you type <kbd>Command</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Mac OS)or <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>P</kbd> (Windows, Linux) it will open command palette, where you can easily find all actions (with or without shortcuts). This is very powerful idea - you don't need to remember all shortcuts, you can simply find one. And eventually you will memorize most used ones.
 
-Supportt across IDEs (or text-editors if you like):
+Support across IDEs (or text-editors if you like):
 
 - Sublime: built-in
 - VSCode: built-in

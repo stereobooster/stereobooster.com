@@ -24,7 +24,10 @@
   - maybe add Glitch effect?
 - is it possible to skip generation of line numbers for code-blocks in RSS?
 - is it possible to skip generation of anchor for headers in RSS?
-- make scrolable objects focusable (code, table)
+- wide code blocks, wide tables, wide images?
+- move logic from image shortcode (img.html) to image template (render-image.html)
+  - https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
+  - https://matthiasott.com/notes/aspect-ratio-in-css
 
 ## License
 

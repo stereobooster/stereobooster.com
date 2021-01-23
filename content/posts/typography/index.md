@@ -90,6 +90,4 @@ spatium et patrios insignia genitor: regia!
 Spectat subit pectora **quibus**. Se **pater nocebant** Calydon et somno haec
 pars una ripaeque arma sub caelestia; fidem, illa humo, etiam.
 
-<!-- ![test](./image.jpg) -->
-
-{{< img src="image.jpg" >}}
+![test](./image.jpg)
