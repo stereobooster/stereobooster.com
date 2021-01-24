@@ -18,7 +18,7 @@ Note: I can't use JS to do additional rendering on the client-side, because:
 
 ### Diagrams
 
-I would like to create diagrams with-in markdown. Something like this:
+I would like to create diagrams with-in Markdown. Something like this:
 
 ````
 ```mermaid
@@ -65,6 +65,16 @@ For example, [xkcd #1064](https://xkcd.com/1064/):
 
 ![](./front_door.png)
 
+````
+```dot {style=xkcd}
+digraph graphname {
+  splines="curved";
+  a -> b -> c;
+  b -> d -> a;
+}
+```
+````
+
 **Support**:
 
 - Markdown: Yes
@@ -73,9 +83,9 @@ For example, [xkcd #1064](https://xkcd.com/1064/):
 
 ### Math notation
 
-I don't need anything fancy - some greek letters, superscript, and subscript. Most of the time copy paster Unicode characters, for example: `Σ¹`. But there are some edge cases, for example, there is no superscript variation for the asterisk (`*`).
+I don't need anything fancy - some greek letters, superscript, and subscript. Most of the time copy-paste Unicode characters, for example: `Σ¹`. But there are some edge cases, for example, there is no superscript variation for the asterisk (`*`).
 
-It would be nice to use AsciiMath inside markdown, like this:
+It would be nice to use AsciiMath inside Markdown, like this:
 
 Inline:
 
