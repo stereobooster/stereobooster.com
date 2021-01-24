@@ -13,6 +13,8 @@ Paginate = 10
 
 enableGitInfo = true
 
+unsafe= true
+
 [taxonomies]
   tag = "tags"
   series = "series"
@@ -29,7 +31,6 @@ enableGitInfo = true
 	twitter = "stereobooster"
 
 	enableRSS = true
-	enableToc = false
 
 	enableSummary = true
 	# Set the value to true if use description in post front matter replace content summary
@@ -78,3 +79,13 @@ enableGitInfo = true
   [[related.indices]]
     name = "date"
     weight = 0.0
+
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel = 4
+    ordered = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

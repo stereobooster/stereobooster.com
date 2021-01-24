@@ -52,6 +52,21 @@ h4 {
   margin-bottom: 0.952em;
 }
 
+/* TODO use postcss plugin for nested selectors */
+h1 .header-link,
+h2 .header-link,
+h3 .header-link,
+h4 .header-link {
+  visibility: hidden;
+}
+
+h1:hover .header-link,
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link {
+  visibility: visible;
+}
+
 p {
   font-size: 1em;
   line-height: 1.63em;
@@ -128,7 +143,7 @@ kbd {
   border: solid 1px #d9d9d9;
   border-radius: 3px;
   background-color: #fefefe;
-  box-shadow: rgb(149, 157, 165) -1px -1px 0px 0px inset;
+  box-shadow: #959da5 -1px -1px 0px 0px inset;
 }
 
 code {
@@ -145,6 +160,13 @@ code {
 
 pre {
   overflow-x: scroll;
+  display: block;
+}
+
+/* TODO need to use negative margins for mobile */
+pre code {
+  padding: 1em 0.75em;
+  line-height: 1.5em;
   display: block;
 }
 

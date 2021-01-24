@@ -1,0 +1,4 @@
+{{/* this doesn't work */}}
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+  {{ .Text | safeHTML }}
+</h{{ .Level }}>

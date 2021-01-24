@@ -46,7 +46,7 @@
             </ol>
           </section>
         {{ end }}
-        {{ if and (gt .WordCount 500 ) (.Site.Params.enableToc) }}
+        {{ if (.Params.toc) }}
           {{ if .TableOfContents }}
             <div>
               {{ .TableOfContents }}
