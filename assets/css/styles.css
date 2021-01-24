@@ -153,7 +153,6 @@ code {
   /* inspired by Github */
   font-size: 0.75em;
   padding: 1px 2px;
-  /* border: solid 1px #d9d9d9; */
   border-radius: 3px;
   background-color: #f0f3f2;
 }
@@ -168,6 +167,7 @@ pre code {
   padding: 1em 0.75em;
   line-height: 1.5em;
   display: block;
+  border-radius: 0;
 }
 
 .highlight pre {
