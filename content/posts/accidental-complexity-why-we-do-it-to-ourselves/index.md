@@ -1,5 +1,5 @@
 ---
-title: "Accidental complexity: why do we it to ourselves?"
+title: "Accidental complexity: why do we do it to ourselves?"
 date: 2021-01-27T06:21:57+01:00
 draft: false
 tags: [aws,opensource,watercooler,ruby,rails,complexity]
@@ -73,8 +73,8 @@ Recently ElasticSearch changed its license in an attempt to pushback against AWS
 
 In response, AWS decided to fork ElasticSearch. And the title of the article where they said it is ["Stepping up for a truly open source Elasticsearch"](https://aws.amazon.com/blogs/opensource/stepping-up-for-a-truly-open-source-elasticsearch/).
 
-AWS, while you at it, maybe you will opensource API gateway as well? So I could read the source code instead of poking. So I could run it locally instead of waiting for deployments for 15 minutes.
+AWS, while you at it, maybe you will opensource API Gateway as well? So I could read the source code instead of poking. So I could run it locally instead of waiting for deployments for 15 minutes.
 
 ## PS
 
-This is just one story. I'm sure you have a lot of the same stories. Why do we it to ourselves? Sigh.
+This is just one story. I'm sure you have a lot of the same stories. Why do we do it to ourselves? Sigh.
