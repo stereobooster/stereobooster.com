@@ -245,6 +245,7 @@ There are different attempts to make macros work better with static types, for e
 - [Inferring Type Rules for Syntactic Sugar](https://cs.brown.edu/~sk/Publications/Papers/Published/pk-resuarging-types/paper.pdf)
 - [unseemly](https://github.com/paulstansifer/unseemly) Macros have types!
 - [finkel](https://finkel.readthedocs.io/en/latest/contents/macros.html) Haskell in S-expression
+- [Beyond Notations: Hygienic Macro Expansion forTheorem Proving Languages](https://arxiv.org/pdf/2001.10490.pdf)
 
 See also:
 
@@ -260,6 +261,7 @@ See also:
   - [SoundX](https://github.com/florenzen/soundx)
 - [Sound Type-Dependent Syntactic Language Extension](https://www.informatik.uni-marburg.de/~seba/publications/soundx-popl16.pdf)
 - [sugar-lang](https://github.com/sugar-lang)
+- [cur](https://github.com/wilbowma/cur)
 
 ## Other languages
 
