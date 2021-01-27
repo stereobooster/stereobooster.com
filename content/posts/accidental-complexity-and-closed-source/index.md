@@ -1,8 +1,9 @@
 ---
-title: "Accidental complexity: why do we do it to ourselves?"
+title: "Accidental complexity and closed source"
 date: 2021-01-27T06:21:57+01:00
 draft: false
-tags: [aws,opensource,watercooler,ruby,rails,complexity]
+tags: [aws, opensource, watercooler, ruby, rails, complexity]
+# series: "Accidental complexity: why do we do it to ourselves?"
 ---
 
 ## Accidental complexity
@@ -53,7 +54,7 @@ Fast forward to the 2020s. Let's say I need to implement an endpoint to download
 I searched internet on how to stream CSV file, here are key points:
 
 - `headers["Content-Disposition"] = "attachment; filename=...`,
-      `headers["X-Accel-Buffering"] = "no"`,  `headers.delete("Content-Length")`
+  `headers["X-Accel-Buffering"] = "no"`, `headers.delete("Content-Length")`
 - use `Enumerator` and `self.response_body = ...`
 - use `find_each`, which will perform queries to the database in batches
 
