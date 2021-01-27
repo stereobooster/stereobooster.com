@@ -26,6 +26,7 @@
 - is it possible to skip generation of anchor for headers in RSS?
   - Why render-image.rss.xml doesn't work?
     - https://discourse.gohugo.io/t/how-does-render-image-rss-xml-work/29935
+    - https://github.com/gohugoio/hugo/issues/8176
 - wide code blocks, wide tables, wide images?
 - move logic from image shortcode (img.html) to image template (render-image.html)
   - https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
