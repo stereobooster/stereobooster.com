@@ -265,12 +265,9 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 - [Derivatives of Regular Expressions](http://krchowdhary.com/me-tfl/5-derivatives-of-regex-brzozowski.pdf), JANUSZ A. BRZOZOWSKI, 1964
 - [Regular-expression derivatives re-examined](https://www.cs.kent.ac.uk/people/staff/sao/documents/jfp09.pdf), 2009
 - [Parsing with Derivatives](http://matt.might.net/papers/might2011derivatives.pdf), 2011
-- [POSIX Regular Expression Parsing withDerivatives](http://www.home.hs-karlsruhe.de/~suma0002/publications/regex-parsing-derivatives.pdf), 2014
+- [POSIX Regular Expression Parsing with Derivatives](http://www.home.hs-karlsruhe.de/~suma0002/publications/regex-parsing-derivatives.pdf), 2014
 - [LL(1) Parsing with Derivatives and Zippers](https://arxiv.org/pdf/1911.12737.pdf), 2019
 - [Derivative Grammars: A Symbolic Approach to Parsing with Derivatives](https://www.researchgate.net/publication/336448127_Derivative_grammars_a_symbolic_approach_to_parsing_with_derivatives), 2019
-### Regular grammars
-
-- [Introducing Glush: a robust, human-readable, top-down parser compiler](https://www.sanity.io/blog/why-we-wrote-yet-another-parser-compiler)
 
 ## PS
 

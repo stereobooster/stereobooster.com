@@ -43,7 +43,7 @@ I see two problems:
 - we started to solve more complex problems that require more complex software and hardware (essential complexity)
 - we need to work with software and hardware for which we don't have source code, so we can rely on documentation (which can be incomplete and imprecise) or on reverse engineering closed systems, what Sussman called "poking". (accidental complexity)
 
-And I want to focus on the second part. We constantly have to deal with closed source systems today, even though we have more open-source software (and hardware) than they hand in the 80s.
+And I want to focus on the second part. We constantly have to deal with closed source systems today, even though we have more open-source software (and hardware) than they had in the 80s.
 
 ## My story - AWS API Gateway
 
