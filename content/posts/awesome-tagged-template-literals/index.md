@@ -40,6 +40,12 @@ css`
 - [vscode-styled-components](https://github.com/styled-components/vscode-styled-components) - Syntax highlighting for styled components in JavaScript and TypeScript. Detailed CSS IntelliSense while working in styled strings.
 - [vscode-graphql](https://github.com/graphql/vscode-graphql#gqlgraphql-tagged-template-literal-support-for-tsx-jsx-ts-js) - Syntax highlighting (type, query, mutation, interface, union, enum, scalar, fragments, directives). Autocomplete suggestions
 - [vscode-comment-tagged-templates](https://github.com/mjbvz/vscode-comment-tagged-templates) Adds basic syntax highlighting for JavaScript and TypeScript tagged template strings using language identifier comments
+- [Pug Template Literals](https://marketplace.visualstudio.com/items?itemName=zokugun.vscode-pug-template-literal) - Adds language support for Pug of JavaScript and TypeScript template literals.
+- [es6-string-markdown](https://marketplace.visualstudio.com/items?itemName=jeoht.es6-string-markdown) - Adds syntax highlight support for code, placed in ES6 template literals for Markdown.
+- [vscode-njk-template-literal](https://marketplace.visualstudio.com/items?itemName=tomasino.vscode-njk-template-literal)
+- [Inline YAML Syntax Highlighting](https://marketplace.visualstudio.com/items?itemName=monotykamary.inline-yaml) - Provides basic inline, template literal syntax highlighting through grammar injection for Javascript/Typescript files:
+
+[Search marketplace for "literal"](https://marketplace.visualstudio.com/search?term=literal&target=VSCode)
 
 ## TTL + TypeScript
 
