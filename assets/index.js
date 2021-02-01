@@ -6,12 +6,14 @@ import "./js/nojs.js";
 import "lazysizes";
 import quicklink from "quicklink/dist/quicklink.mjs";
 import GAnalytics from "@stereobooster/ganalytics";
-quicklink();
+quicklink({
+  ignores: [/\.(xml|js|css|json)($|\?)/gi],
+});
 
 // Hotkeys
 window.addEventListener(
   "keydown",
-  e => {
+  (e) => {
     if (e.altKey || e.ctrlKey) {
       if (e.code == "ArrowRight") {
         document.querySelector(".next").click();
@@ -52,10 +54,10 @@ if (consent) {
   consentRadioButton = document.querySelector("#disagree");
 }
 if (consentRadioButton) consentRadioButton.checked = true;
-document.querySelectorAll("[name=consent]").forEach(x =>
+document.querySelectorAll("[name=consent]").forEach((x) =>
   x.addEventListener(
     "change",
-    e => {
+    (e) => {
       if (e.target.id === "agree") {
         window.localStorage["ga:consent"] = true;
       } else {
