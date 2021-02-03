@@ -6,8 +6,21 @@ import "./js/nojs.js";
 import "lazysizes";
 import quicklink from "quicklink/dist/quicklink.mjs";
 import GAnalytics from "@stereobooster/ganalytics";
+
+// https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns
+const ignoreRe = /\.(xml|js|css|json)($|\?|#)/gi;
 quicklink({
-  ignores: [/\.(xml|js|css|json)($|\?)/gi],
+  ignores: [
+    (uri, elem) => {
+      if (elem.hasAttribute("noprefetch")) return true;
+      const currentHref = window.location.hash
+        ? window.location.href.replace(window.location.hash, "")
+        : window.location.href;
+      if (currentHref === uri) return true;
+      if (ignoreRe.test(uri)) return true;
+      return false;
+    },
+  ],
 });
 
 // Hotkeys

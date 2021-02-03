@@ -18,7 +18,7 @@
         {{ with .Params.tags }}
             {{ if ge (len .) 1 }}
             · {{ range . }}
-                <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/">{{ . }}</a>
+                <a href="{{ $.Site.BaseURL }}tags/{{ . | urlize }}/" noprefetch>{{ . }}</a>
             {{ end }}
             {{ end }}
         {{ end}}
