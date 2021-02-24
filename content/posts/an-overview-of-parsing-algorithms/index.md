@@ -17,7 +17,7 @@ description: "List of parsing algorithms"
 > The `Earley` parser is a top-down chart parser, and is mainly used for parsing natural language in computational linguistics [14]. It can parse any context-free grammar, including left-recursive grammars. The `Earley` parser executes in cubic time in the general case, quadratic time for unambiguous grammars, and linear time for all `LR(k)` grammars... The `Earley` parser may be converted from top-down memoized recursive form into bottom-up dynamic programming form [43]
 > Parsing with pictures is a chart parsing algorithm that provides an alternative approach to parsing context-free languages. The authors claim that this method is simpler and easier to understand than standard parsers using derivations or pushdown automata [35]. This parsing method unifies `Earley`, `SLL`, `LL`, `SLR`, and `LR` parsers, and demonstrates that `Earley` parsing is the most fundamental Chomskyan context-free parsing algorithm, from which all others derive.
 >
-> -- [Pika parsing: reformulating packrat parsing as a dynamic programmingalgorithm solves the left recursion and error recovery problems](https://arxiv.org/pdf/2005.06444.pdf)
+> -- [Pika parsing: reformulating packrat parsing as a dynamic programming algorithm solves the left recursion and error recovery problems](https://arxiv.org/pdf/2005.06444.pdf)
 
 ## Algorithms
 
@@ -51,7 +51,7 @@ left-to-right, leftmost derivation (top-down), "recursive descent"
   - [online demo 1](https://www.cs.princeton.edu/courses/archive/spring20/cos320/LL1/), [online demo 2](http://jsmachines.sourceforge.net/machines/ll1.html)
 - `Efficient LL(k)` ([Terence Parr, 1990](https://www.researchgate.net/publication/27230083_A_Practical_approach_to_LLk_LLmn))
   - `k` tokens of lookahead
-  - `k` is gradually increased w/ backtracking as a failback
+  - `k` is gradually increased w/ backtracking as a fallback
   - basis of original `ANTLR`
 
 > In terms of recognition strength, `LL` techniques are widely held to be inferior to `LR` parsers. The fact that any `LR(k)` grammar can be rewritten to be `LR(1)`, whereas `LL(k)` is stronger than `LL(1)`, appears to give `LR` techniques the additional benefit of not requiring k-token lookahead and its associated overhead. **In this paper, we suggest that `LL(k)` is actually superior to `LR(1)` when translation, rather than acceptance, is the goal.** Further, a practical method of generating efficient `LL(k)` parsers is presented. This practical approach is based on the fact that most parsing decisions in a typical `LL(k)` grammar can be made without comparing k-tuples and often do not even require the full k tokens of look ahead. We denote such `"optimized" LL(k)` parsers
@@ -115,7 +115,7 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 
 - `RIGLR` Reduction Incorporated Generalized `LR` ([Elizabeth Scott and Adrian Johnstone. Generalised bottom up parsers with reduced stack activity, 2005](https://www.researchgate.net/publication/220458273_Generalized_Bottom_Up_Parsers_With_Reduced_Stack_Activity))
 
-> We describe a generalized bottom up parser in which non-embedded recursive rules are handled directly by the underlying automaton, thus limiting stack activity to the activation of rules displaying embedded recursion. Our strategy is motivated by Aycock and Horspool's approach, but uses a different automaton construction and leads to parsers that are correct for all context-free grammars, including those with hidden left recursion. The automaton features edges which directly connnect states containing reduction actions with their associated goto state: hence we call the approach reduction incorporated generalized LR parsing. Our parser constructs shared packed parse forests in a style similar to that of Tomita parsers. We give formal proofs of the correctness of our algorithm, and compare it with Tomita's algorithm in terms of the space and time requirements of the running parsers and the size of the parsers' tables.
+> We describe a generalized bottom up parser in which non-embedded recursive rules are handled directly by the underlying automaton, thus limiting stack activity to the activation of rules displaying embedded recursion. Our strategy is motivated by Aycock and Horspool's approach, but uses a different automaton construction and leads to parsers that are correct for all context-free grammars, including those with hidden left recursion. The automaton features edges which directly connect states containing reduction actions with their associated goto state: hence we call the approach reduction incorporated generalized LR parsing. Our parser constructs shared packed parse forests in a style similar to that of Tomita parsers. We give formal proofs of the correctness of our algorithm, and compare it with Tomita's algorithm in terms of the space and time requirements of the running parsers and the size of the parsers' tables.
 
 - `RNGLR` Right nulled `GLR` parsers ([Elizabeth Scott and Adrian Johnstone. Right nulled GLR parsers, 2006](https://www.researchgate.net/publication/213884162_Right_nulled_GLR_parsers))
 
@@ -154,7 +154,7 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 
 - [Packrat Parsing with Elastic Sliding Window Kimio Kuramitsu, 2015](https://www.jstage.jst.go.jp/article/ipsjjip/23/4/23_505/_pdf/-char/en)
 
-> Packrat parsing is a linear-time implementation method of recursive descent parsers. The trick is a memoization mechanism, where all parsing results are memorized to avoid redundant parsing in cases of backtracking. An arising problem is extremely huge heap consumption in memoization, resulting in the fact that the cost of memoizationis likely to outweigh its benefits. In many cases, developers need to make a difficult choice to abandon packrat parsing despite the possible exponential time parsing. Elastic packrat parsing is developed in order to avoid such a difficult choice. The heap consumption is upper-bounded since memorized results are stored on a sliding window buffer. In addition, the buffer capacity is adjusted by tracing each of nonterminal backtracking activities at runtime. Elastic packrat parsing is implemented in a part of our Nez parser. We demonstrate that the elastic packrat parsing achieves stable and robust performance against a variety of inputs with different backtracking activities.
+> Packrat parsing is a linear-time implementation method of recursive descent parsers. The trick is a memoization mechanism, where all parsing results are memorized to avoid redundant parsing in cases of backtracking. An arising problem is extremely huge heap consumption in memoization, resulting in the fact that the cost of memoization is likely to outweigh its benefits. In many cases, developers need to make a difficult choice to abandon packrat parsing despite the possible exponential time parsing. Elastic packrat parsing is developed in order to avoid such a difficult choice. The heap consumption is upper-bounded since memorized results are stored on a sliding window buffer. In addition, the buffer capacity is adjusted by tracing each of nonterminal backtracking activities at runtime. Elastic packrat parsing is implemented in a part of our Nez parser. We demonstrate that the elastic packrat parsing achieves stable and robust performance against a variety of inputs with different backtracking activities.
 
 - `Pika` ([Pika parsing: reformulating packrat parsing as a dynamic programming algorithm solves the left recursion and error recovery problems, 2020](https://arxiv.org/pdf/2005.06444.pdf))
 
@@ -180,13 +180,13 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 
 - [Scannerless Earley Virtual Machines, 2019](https://www.bjmc.lu.lv/fileadmin/user_upload/lu_portal/projekti/bjmc/Contents/7_2_01_Saikunas.pdf)
 
-> We present a new, virtual machine based approach to parsing, heavily based on the original Earley parser. We show how to translate grammars into virtual machine instruction sequences that are then used by the parsing algorithm. Additionally, we introduce an optimization that merges shared rule prefixes to increase parsing performance. Finally, we present and evaluate an implementation of Scannerless Earley Virtual Machine
+> We present a new, virtual machine based approach to parsing, heavily based on the original Earley parser. We show how to translate grammars into virtual machine instruction sequences that are then used by the parsing algorithm. Additionally, we introduce an optimization that merges shared rule prefixes to increase parsing performance. Finally, we present and evaluate an implementation of scannerless Earley Virtual Machine
 
-- [MARPA,  A  PRACTICAL  GENERAL  PARSER:  THERECOGNIZER](http://dinhe.net/~aredridel/.notmine/PDFs/Parsing/KEGLER,%20Jeffrey%20-%20Marpa,%20a%20practical%20general%20parser:%20the%20recognizer.pdf), 2013
+- [MARPA, A PRACTICAL GENERAL PARSER: THE RECOGNIZER](http://dinhe.net/~aredridel/.notmine/PDFs/Parsing/KEGLER,%20Jeffrey%20-%20Marpa,%20a%20practical%20general%20parser:%20the%20recognizer.pdf), 2013
 ### Parsing with derivatives
 
-> Might et al. (2011) introduced parsing with derivatives,which  handles  arbitrary  context-free  grammars  while  be-ing both easy to understand and simple to implement. De-spite much initial enthusiasm and a multitude of independentimplementations, its worst-case complexity has never beenproven to be better than exponential. In fact, high-level ar-guments claiming it is fundamentally exponential have beenadvanced and even accepted as part of the folklore. Perfor-mance ended up being sluggish in practice, and this slug-gishness was taken as informal evidence of exponentiality
-> -- [On  the  Complexity  and  Performance  of  Parsing  with  Derivatives](https://arxiv.org/pdf/1604.04695.pdf)
+> Might et al. (2011) introduced parsing with derivatives,which handles arbitrary context-free grammars while be-ing both easy to understand and simple to implement. De-spite much initial enthusiasm and a multitude of independent implementations, its worst-case complexity has never been proven to be better than exponential. In fact, high-level arguments claiming it is fundamentally exponential have been advanced and even accepted as part of the folklore. Performance ended up being sluggish in practice, and this sluggishness was taken as informal evidence of exponentiality
+> -- [On the Complexity and Performance of Parsing with Derivatives](https://arxiv.org/pdf/1604.04695.pdf)
 
 - [Derivatives of Regular Expressions](http://krchowdhary.com/me-tfl/5-derivatives-of-regex-brzozowski.pdf), JANUSZ A. BRZOZOWSKI, 1964
 - [Regular-expression derivatives re-examined](https://www.cs.kent.ac.uk/people/staff/sao/documents/jfp09.pdf), 2009
@@ -197,11 +197,10 @@ left-to-right, rightmost derivation ("bottom-up"), "shift/reduce"
 
 ## PS
 
-If you want to know more history of BNF and REG see [Guy Steele talk](https://youtu.be/dCuZkaaou0Q?t=825).
+History:
 
-If you want to learn more about dynamic programming read [this](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap6.pdf).
-
-Algorithms used in real-world applications: [wikipedia article on parser generators](https://en.wikipedia.org/wiki/Comparison_of_parser_generators).
+- If you want to know more history of BNF and REG see [Guy Steele talk](https://youtu.be/dCuZkaaou0Q?t=825).
+- [Parsing: a timeline](https://jeffreykegler.github.io/personal/timeline_v3)
 
 Visualizing algorithms:
 
@@ -220,3 +219,5 @@ More reading:
 - [Comparison of Parsing Techniques](https://www.academia.edu/43432462/Comparison_of_Parsing_Techniques)
 - [Critical Analysis of Extensible Parsing Tools and Techniques](https://www.bjmc.lu.lv/fileadmin/user_upload/lu_portal/projekti/bjmc/Contents/5_1_09_Saikunas.pdf)
 - [Awesome binary parsing](https://github.com/dloss/binary-parsing)
+
+If you want to learn more about dynamic programming read [this](https://people.eecs.berkeley.edu/~vazirani/algorithms/chap6.pdf).
