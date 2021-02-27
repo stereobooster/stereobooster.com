@@ -97,6 +97,8 @@ Pony uses the first capital letter (PascalCase) to denote types (and classes, tr
 
 Ruby on Rails uses singular nouns to denote models and plural nouns to denote collections of these models, for example, `Member` and `organization.members`. Also, it is considered a good practice to use verbs for methods (functions).
 
+See also: [Naming cheatsheet](https://github.com/kettanaito/naming-cheatsheet).
+
 ## Punctuation-based names
 
 Punctuation-based names, typically used for operators or built-in functions. For example, `...`, `[]`, `>>`, `!==` etc.
