@@ -34,7 +34,7 @@
   "dependencies": {
     "@hpcc-js/wasm": "^1.0.2",
     "@stereobooster/ganalytics": "^3.3.0",
-    "lazysizes": "^5.3.0",
+    "lazysizes": "^5.3.1",
     "quicklink": "^1.0.1"
   },
   "browserslist": [
