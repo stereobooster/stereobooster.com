@@ -888,10 +888,10 @@
   resolved "https://registry.yarnpkg.com/@csstools/normalize.css/-/normalize.css-11.0.1.tgz#31ffab0bff5f4f09551e059359bc1977ac83a974"
   integrity sha512-kUlWZHQkll+lOlYdj7dg8XwziO9WALkfG2dAXLITZMB8gO99CXQBH5W/HleXC3YwWFWXVxe1UClMk/2qsB9oAw==
 
-"@hpcc-js/wasm@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@hpcc-js/wasm/-/wasm-1.0.2.tgz#64c113f2313609d8d138a748c255cf8637ace4cd"
-  integrity sha512-JucYlu6yeW8AZTW9DP54xgG+zKNxVQu41UwSTJw/JLZ/D6rYd2e+uotj2G1/K5LPvDoaVhDBZVL6TGS/hpTl0Q==
+"@hpcc-js/wasm@^1.5.2":
+  version "1.5.2"
+  resolved "https://registry.yarnpkg.com/@hpcc-js/wasm/-/wasm-1.5.2.tgz#11f1b36e6b423ad214cd9e74035a75e4ef79b597"
+  integrity sha512-JjCYOA8nRPap0p5XxJb4x0g+q+gGKwFtXqLv9iFD8dmKQmUYe3dwVbW3th2LaqK5ogInm2sSnGR1fsUFmum6gQ==
 
 "@iarna/toml@^2.2.0":
   version "2.2.5"
