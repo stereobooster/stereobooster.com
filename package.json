@@ -32,7 +32,7 @@
     "rimraf": "^3.0.0"
   },
   "dependencies": {
-    "@hpcc-js/wasm": "^1.5.3",
+    "@hpcc-js/wasm": "^1.15.3",
     "@stereobooster/ganalytics": "^3.3.0",
     "lazysizes": "^5.3.2",
     "quicklink": "^1.0.1"
