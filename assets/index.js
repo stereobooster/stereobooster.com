@@ -1,4 +1,4 @@
-import "./css/styles.css";
+import "./css/base.css";
 import "./css/code.css";
 import "./css/social.css";
 
