@@ -21,7 +21,7 @@
     "graphviz": "node scripts/graphviz.js"
   },
   "devDependencies": {
-    "autoprefixer": "^9.7.0",
+    "autoprefixer": "^9.8.8",
     "cross-env": "^7.0.3",
     "marked": "^2.0.0",
     "mermaid-render": "^1.0.9",
