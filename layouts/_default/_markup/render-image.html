@@ -7,22 +7,14 @@
 {{ else }}
   {{ $img := .Page.Resources.GetMatch (path.Base .Destination) }}
   {{ with $img }}
+    {{/* TODO: maybe lqip - see layouts/shortcodes/img.html */}}
     <img
-      class="lazyload simg"
-      data-src="{{ .RelPermalink }}"
+      loading="lazy"
       width="{{ .Width }}"
       height="{{ .Height }}"
       alt="{{ $.Text }}"
-    />
-    <noscript>
-    <img
-      class="simg"
       src="{{ .RelPermalink }}"
-      width="{{ .Width }}"
-      height="{{ .Height }}"
-      alt="{{ $.Text }}"
     />
-    </noscript>
   {{ else }}
     <img src="{{ .Destination | safeURL }}"  alt="{{ $.Text }}" />
   {{ end }}

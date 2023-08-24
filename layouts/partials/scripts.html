@@ -1,10 +1,5 @@
 {{/*  We only want to run this process if there's a JS file  */}}
 {{ if (fileExists "./assets/output/index.js") }}
-  <script>
-    config = {
-      ga: "{{ with .Site.Params.googleAnalytics }}{{ . }}{{ end }}"
-    };
-  </script>
   {{ $js := resources.Get "output/index.js" }}
   {{ with $js }}
     {{ $secureJS := . | resources.Fingerprint }}

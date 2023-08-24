@@ -34,9 +34,8 @@
   <div class="img" style="background: url(data:image/jpeg;base64,{{ $lqip.Content | base64Encode  }}); background-size: cover">
     <svg width="{{ $img.Width }}" height="{{ $img.Height }}" aria-hidden="true"></svg>
     <img
-      class="lazyload"
-      data-sizes="auto"
-      data-srcset='
+      loading="lazy"
+      srcset='
       {{ if ge $src.Width "500" }}
         {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
       {{ end }}
@@ -50,35 +49,11 @@
         {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
       {{ end }}'
       {{ if ge $src.Width "1200" }}
-        data-src="{{ $medium.RelPermalink }}"
+        src="{{ $medium.RelPermalink }}"
       {{ else }}
-        data-src="{{ $src.RelPermalink }}"
+        src="{{ $src.RelPermalink }}"
       {{ end }}
       width="{{ $img.Width }}" height="{{ $img.Height }}"
       alt="">
-    <noscript>
-      <img
-        loading="lazy"
-        srcset='
-        {{ if ge $src.Width "500" }}
-          {{ with $tiny.RelPermalink }}{{.}} 500w{{ end }}
-        {{ end }}
-        {{ if ge $src.Width "800" }}
-          {{ with $small.RelPermalink }}, {{.}} 800w{{ end }}
-        {{ end }}
-        {{ if ge $src.Width "1200" }}
-          {{ with $medium.RelPermalink }}, {{.}} 1200w{{ end }}
-        {{ end }}
-        {{ if ge $src.Width "1500" }}
-          {{ with $large.RelPermalink }}, {{.}} 1500w {{ end }}
-        {{ end }}'
-        {{ if ge $src.Width "1200" }}
-          src="{{ $medium.RelPermalink }}"
-        {{ else }}
-          src="{{ $src.RelPermalink }}"
-        {{ end }}
-        width="{{ $img.Width }}" height="{{ $img.Height }}"
-        alt="">
-    </noscript>
   </div>
 {{ end }}

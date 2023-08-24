@@ -3,7 +3,6 @@ import "./css/code.css";
 import "./css/social.css";
 
 import "./js/nojs.js";
-import "lazysizes";
 import quicklink from "quicklink/dist/quicklink.mjs";
 
 // https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns

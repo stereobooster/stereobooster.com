@@ -33,7 +33,6 @@
     "rimraf": "^5.0.1"
   },
   "dependencies": {
-    "lazysizes": "^5.3.2",
     "quicklink": "^1.0.1"
   },
   "browserslist": [

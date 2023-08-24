@@ -10,7 +10,7 @@
 - [Parcel](https://parceljs.org/) - A "blazing" fast, zero configuration web application bundler.
 - PostCSS
 - fork of [hugo-pipes-parcel](https://github.com/budparr/hugo-pipes-parcel)
-- see package.json (lazysizes, quicklink)
+- see package.json (quicklink)
 
 ## TODO
 
@@ -18,19 +18,15 @@
   - https://github.com/Hashnode/user-feedback/issues/2
 - [Automate crosspost](https://dev.to/maxime1992/manage-your-dev-to-blog-posts-from-a-git-repo-and-use-continuous-deployment-to-auto-publish-update-them-143j)
   - [The State of dev.to API](https://dev.to/alfredosalzillo/the-state-of-devto-v0-api-1o2)
-- [Dark theme](https://dev.to/alexandersandberg/creating-a-website-theme-switcher-with-css-only-4kp2)
 - Create "about me" page (https://github.com/stereobooster/readme)
 - Improve 404 page
   - maybe add Glitch effect?
 - is it possible to skip generation of line numbers for code-blocks in RSS?
-- is it possible to skip generation of anchor for headers in RSS?
-  - Why render-image.rss.xml doesn't work?
-    - https://discourse.gohugo.io/t/how-does-render-image-rss-xml-work/29935
-    - https://github.com/gohugoio/hugo/issues/8176
 - wide code blocks, wide tables, wide images?
 - move logic from image shortcode (img.html) to image template (render-image.html)
   - https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
   - https://matthiasott.com/notes/aspect-ratio-in-css
+- `WARN  Site.RSSLink is deprecated and will be removed in a future release. Use the Output Format's Permalink method instead, e.g. .OutputFormats.Get "RSS".Permalink`
 
 ## License
 
