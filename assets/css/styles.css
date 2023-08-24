@@ -233,28 +233,10 @@ nav a {
   display: none;
 }
 
-.consent {
-  border: 1px solid var(--text);
-  padding: 1em;
-  border-radius: 5px;
-}
-
 button {
   min-width: 1cm;
   min-height: 1cm;
   margin-right: 2em;
-}
-
-.cookie {
-  padding: 0.5em 1em;
-  background: #f0f3f2;
-  margin: 0 -0.75em;
-}
-
-@media (min-width: 40em) {
-  .cookie {
-    margin: 0;
-  }
 }
 
 .license {

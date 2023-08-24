@@ -4,18 +4,13 @@
     <meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <script defer src="https://app.tinyanalytics.io/pixel/p6rmSkh97Ujj4TTq"></script>
     {{ partial "preload.html" . }}
     {{ partial "styles.html" . }}
     {{ partial "seo.html" . }}
   </head>
   <body class="no-js">
     <div class="content">
-      <div class="cookie" hidden>
-        <p>
-          Can I store cookies on your device? See <a href='{{ .Site.BaseURL }}privacy/' noprefetch>Privacy Policy</a> for details.<br>
-          <button type="button" class="cookie-yes">Yes</button> <button type="button" class="cookie-close">Close</button>
-        </p>
-      </div>
       {{ partial "nav.html" . }}
       {{ if .IsHome }}
         {{ partial "about.html" . }}

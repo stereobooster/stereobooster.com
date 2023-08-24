@@ -21,6 +21,7 @@
     "graphviz": "node scripts/graphviz.js"
   },
   "devDependencies": {
+    "@hpcc-js/wasm": "^1.5.3",
     "autoprefixer": "^9.8.8",
     "cross-env": "^7.0.3",
     "marked": "^2.0.0",
@@ -32,8 +33,6 @@
     "rimraf": "^3.0.0"
   },
   "dependencies": {
-    "@hpcc-js/wasm": "^1.5.3",
-    "@stereobooster/ganalytics": "^3.3.0",
     "lazysizes": "^5.3.2",
     "quicklink": "^1.0.1"
   },
