@@ -21,7 +21,7 @@
     "graphviz": "node scripts/graphviz.js"
   },
   "devDependencies": {
-    "@hpcc-js/wasm": "^1.5.3",
+    "@hpcc-js/wasm": "^2.13.1",
     "autoprefixer": "^9.8.8",
     "cross-env": "^7.0.3",
     "marked": "^2.0.0",
