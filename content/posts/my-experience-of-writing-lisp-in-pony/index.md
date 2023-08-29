@@ -1,7 +1,7 @@
 ---
 title: "My experience of writing Lisp in Pony"
 date: 2020-12-20T10:03:40+01:00
-draft: falses
+draft: false
 tags: [lisp, pony, computerscience, til]
 series: "Make-A-Lisp in Pony"
 ---
