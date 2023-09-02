@@ -141,6 +141,8 @@ Asset generators:
 - https://github.com/elegantapp/pwa-asset-generator
 - https://web.dev/maskable-icon/
 - https://docs.elk.zone/pwa
+- [Definitive edition of "How to Favicon" in 2023](https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7)
+- https://realfavicongenerator.net/
 
 Minimal requirements:
 
