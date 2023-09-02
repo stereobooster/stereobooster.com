@@ -81,6 +81,7 @@ Here are some potential candidates for UI framework for the task:
 
 | Name                                                      | React | Vue | other                                    |
 | --------------------------------------------------------- | ----- | --- | ---------------------------------------- |
+| [Sancho](https://sancho-ui.com/)                          | yes   | no  |                                          |
 | [Base Web](https://baseweb.design/)                       | yes   | no  |                                          |
 | [Framework7](https://framework7.io/kitchen-sink/core/)    | yes   | yes | Svetle                                   |
 | [Vant](https://vant-ui.github.io/vant/mobile.html#/en-US) | no    | yes |                                          |
@@ -91,6 +92,17 @@ Here are some potential candidates for UI framework for the task:
 | [MUI](https://mui.com/)                                   | yes   | no  |                                          |
 | [Vuetify](https://v2.vuetifyjs.com/en/)                   | no    | yes |                                          |
 | [SUID](https://suid.io/)                                  | no    | no  | Solid                                    |
+
+### Use-gesture and co
+
+[use-gesture](https://use-gesture.netlify.app/docs/examples/) and [react-spring](https://www.react-spring.dev/) deserve special mention. They are not UI frameworks, but they can be used to create native-like gestures and animations. See:
+
+- https://github.com/bmcmahen/react-gesture-stack
+- https://github.com/bmcmahen/react-page-controller
+- https://sancho-ui.com/
+- https://github.com/wobsoriano/solid-gesture
+
+### React-native-web
 
 And sepparate place for React Native. It was build to create native mobile applications in first place, so it would cover a lot of requirements out of the box. There is [react-native-web](https://necolas.github.io/react-native-web/), which allows to use React Native on web. And [Expo](https://docs.expo.dev/guides/progressive-web-apps/) seems to support PWA to some extent. So this is separate list for React Native:
 
