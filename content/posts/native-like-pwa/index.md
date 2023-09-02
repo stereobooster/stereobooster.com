@@ -110,13 +110,12 @@ And sepparate place for React Native. It was build to create native mobile appli
 - [RNUI](https://wix.github.io/react-native-ui-lib/)
 - [magnus](https://magnus-ui.com/)
 - [React Native UI Kitten](https://akveo.github.io/react-native-ui-kitten/docs/guides/running-on-the-web#existing-expo-applications)
-- [drispy](https://github.com/nandorojo/dripsy)
 - [gluestack-ui](https://ui.gluestack.io/), successor for [NativeBase](https://nativebase.io/)
 
-As an alternative to Expo it is possible to use, for example, Vite. See:
+As an alternative to Expo it is possible to use:
 
-- https://insrt.uk/post/react-native-web
-- https://vercel.com/templates/next.js/turborepo-react-native
+- [Vite](/posts/react-native-web-with-vite/)
+- [turborepo](https://vercel.com/templates/next.js/turborepo-react-native)
 
 And one more interesting project - [tamagui](https://tamagui.dev/). Which takes the same idea as react-native-web, but does some interesting optimizations, for example:
 

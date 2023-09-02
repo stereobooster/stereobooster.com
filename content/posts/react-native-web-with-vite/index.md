@@ -173,3 +173,7 @@ export default defineConfig({
 - https://github.com/jsartisan/react-native-magnus/issues/185
 - https://github.com/wix/react-native-ui-lib/issues/2730
 - https://github.com/software-mansion/react-native-reanimated/discussions/5007
+
+## Example
+
+[Vite + react-native-web + TypeScript](https://github.com/stereobooster/vite-rnw)
