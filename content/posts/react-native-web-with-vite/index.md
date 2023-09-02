@@ -60,9 +60,9 @@ const development = process.env.NODE_ENV === "development";
 export default defineConfig({
   define: {
     global: "window",
-    __DEV__: development,
-    DEV: development,
-    "process.env.NODE_ENV": process.env.NODE_ENV,
+    __DEV__: JSON.stringify(development),
+    DEV: JSON.stringify(development),
+    "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV),
   },
 });
 ```
@@ -140,10 +140,10 @@ export default defineConfig({
   define: {
     // https://github.com/bevacqua/dragula/issues/602#issuecomment-1296313369
     global: "window",
-    __DEV__: development,
+    __DEV__: JSON.stringify(development),
     // https://tamagui.dev/docs/intro/installation
-    DEV: development,
-    "process.env.NODE_ENV": process.env.NODE_ENV,
+    DEV: JSON.stringify(development),
+    "process.env.NODE_ENV": JSON.stringify(process.env.NODE_ENV),
   },
   resolve: {
     extensions: extensions,
@@ -170,4 +170,4 @@ export default defineConfig({
 
 ## Packages issues
 
-**TODO**: make a list with references
+- react-native-reanimated: [No matching export in "node_modules/react-native-reanimated/lib/module/reanimated2/animation/decay.js" for import "WithDecayConfig"](https://github.com/software-mansion/react-native-reanimated/discussions/5007)
