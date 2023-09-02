@@ -147,3 +147,11 @@ Asset generators:
 Minimal requirements:
 
 - https://vite-pwa-org.netlify.app/guide/pwa-minimal-requirements.html
+
+PWA examples:
+
+- https://github.com/hemanth/awesome-pwa
+- https://github.com/hzzheng/awesome-pwa
+- https://0data.app/glance
+- https://appsco.pe/
+- https://www.pwalist.app/
