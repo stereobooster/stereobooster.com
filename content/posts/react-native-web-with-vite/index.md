@@ -171,5 +171,7 @@ export default defineConfig({
 ## Packages issues
 
 - react-native-reanimated: [No matching export in "node_modules/react-native-reanimated/lib/module/reanimated2/animation/decay.js" for import "WithDecayConfig"](https://github.com/software-mansion/react-native-reanimated/discussions/5007)
-- https://github.com/jsartisan/react-native-magnus/issues/185
-- https://github.com/wix/react-native-ui-lib/issues/2730
+- Types in JS files:
+  - https://github.com/jsartisan/react-native-magnus/issues/185
+  - https://github.com/wix/react-native-ui-lib/issues/2730
+  - https://github.com/software-mansion/react-native-reanimated/discussions/5007
