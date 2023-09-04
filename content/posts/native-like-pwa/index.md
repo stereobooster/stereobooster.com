@@ -79,28 +79,27 @@ In order to do this we need to define specification, similar to [this one](https
 
 Here are some potential candidates for UI framework for the task:
 
-| Name                                                      | React | Vue | other                                    |
-| --------------------------------------------------------- | ----- | --- | ---------------------------------------- |
-| [Sancho](https://sancho-ui.com/)                          | yes   | no  |                                          |
-| [Base Web](https://baseweb.design/)                       | yes   | no  |                                          |
-| [Framework7](https://framework7.io/kitchen-sink/core/)    | yes   | yes | Svetle                                   |
-| [Vant](https://vant-ui.github.io/vant/mobile.html#/en-US) | no    | yes |                                          |
-| [Onsen UI](https://onsen.io/)                             | yes   | yes | Angular                                  |
-| [mobileui](https://mobileui.github.io/#getting-started)   | no    | yes | Angular, Phaser                          |
-| [Konsta UI](https://konstaui.com/)                        | yes   | yes | Svetle                                   |
-| [daisyUI](https://daisyui.com/components/)                | yes   | yes | Solid, Svetle, Angular, Preact, Elm, Lit |
-| [MUI](https://mui.com/)                                   | yes   | no  |                                          |
-| [Vuetify](https://v2.vuetifyjs.com/en/)                   | no    | yes |                                          |
-| [SUID](https://suid.io/)                                  | no    | no  | Solid                                    |
+| Name                                                      | React | Vue | other                                    | Tailwind-based |
+| --------------------------------------------------------- | ----- | --- | ---------------------------------------- | -------------- |
+| [Konsta UI](https://konstaui.com/)                        | yes   | yes | Svetle                                   | yes            |
+| [daisyUI](https://daisyui.com/components/)                | yes   | yes | Solid, Svetle, Angular, Preact, Elm, Lit | yes            |
+| [Sancho](https://sancho-ui.com/)                          | yes   | no  |                                          |                |
+| [Base Web](https://baseweb.design/)                       | yes   | no  |                                          |                |
+| [Framework7](https://framework7.io/kitchen-sink/core/)    | yes   | yes | Svetle                                   |                |
+| [Vant](https://vant-ui.github.io/vant/mobile.html#/en-US) | no    | yes |                                          |                |
+| [Onsen UI](https://onsen.io/)                             | yes   | yes | Angular                                  |                |
+| [mobileui](https://mobileui.github.io/#getting-started)   | no    | yes | Angular, Phaser                          |                |
+| [MUI](https://mui.com/)                                   | yes   | no  |                                          |                |
+| [Vuetify](https://v2.vuetifyjs.com/en/)                   | no    | yes |                                          |                |
+| [SUID](https://suid.io/)                                  | no    | no  | Solid                                    |                |
 
 ### Use-gesture and co
 
 [use-gesture](https://use-gesture.netlify.app/docs/examples/) and [react-spring](https://www.react-spring.dev/) deserve special mention. They are not UI frameworks, but they can be used to create native-like gestures and animations. See:
 
-- https://github.com/bmcmahen/react-gesture-stack
-- https://github.com/bmcmahen/react-page-controller
-- https://sancho-ui.com/
-- https://github.com/wobsoriano/solid-gesture
+- [react-gesture-stack](https://github.com/bmcmahen/react-gesture-stack)
+- [react-page-controller](https://github.com/bmcmahen/react-page-controller)
+- [solid-gesture](https://github.com/wobsoriano/solid-gesture)
 
 ### React-native-web
 
@@ -131,17 +130,17 @@ Be aware that while PWAs are very powerfull, there are still some issues. For ex
 
 ## Other resources
 
-- https://web.dev/learn/pwa/capabilities/#empowering-your-pwa
-- https://pwa-book.awwwards.com/
+- [Empowering your PWA](https://web.dev/learn/pwa/capabilities/#empowering-your-pwa)
+- [The Superpowers of The Web and Native Apps Combined](https://pwa-book.awwwards.com/)
 
 Asset generators:
 
-- https://vite-pwa-org.netlify.app/assets-generator/
-- https://github.com/elegantapp/pwa-asset-generator
-- https://web.dev/maskable-icon/
-- https://docs.elk.zone/pwa
+- [@vite-pwa/assets-generator](https://vite-pwa-org.netlify.app/assets-generator/)
+- [pwa-asset-generator](https://github.com/elegantapp/pwa-asset-generator)
+- [Adaptive icon support in PWAs with maskable icons](https://web.dev/maskable-icon/)
+- [Elk PWA guide](https://docs.elk.zone/pwa)
 - [Definitive edition of "How to Favicon" in 2023](https://dev.to/masakudamatsu/favicon-nightmare-how-to-maintain-sanity-3al7)
-- https://realfavicongenerator.net/
+- [Favicon Generator. For real.](https://realfavicongenerator.net/)
 
 Minimal requirements:
 
