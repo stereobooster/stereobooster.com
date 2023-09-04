@@ -86,9 +86,10 @@ As the solution you may use one of zero-runtime approaches (in alphabetic order)
 
 - [compiledcssinjs](https://compiledcssinjs.com/)
 - [linaria](https://linaria.dev/)
+- [macaron](https://macaron.js.org/) uses `vanilla-extract`
 - [panda](https://panda-css.com/)
 - [style9](https://github.com/johanholmerin/style9/blob/master/docs/How-it-works.md)
-- [tamagui](https://github.com/tamagui/tamagui/blob/becbd88dd46fc43b4c0a838c33a19f07cb578542/packages/vite-plugin/src/extract.ts#L1)
+- [tamagui](https://github.com/tamagui/tamagui/blob/becbd88dd46fc43b4c0a838c33a19f07cb578542/packages/vite-plugin/src/extract.ts#L1) inspired by `vanilla-extract`
 - [unocss](https://unocss.dev/guide/)
 - [vanilla-extract](https://vanilla-extract.style/)
 
@@ -117,7 +118,7 @@ What do big component libraries (UI kits) choose to use.
 ### Use compile-time CSS-in-JS
 
 - mui: [[RFC][system] Zero-runtime CSS-in-JS implementation](https://github.com/mui/material-ui/issues/38137). But currently uses emotion
-- Chakra UI: [The future of Chakra UI](https://www.adebayosegun.com/blog/the-future-of-chakra-ui). Currently uses [panda](https://github.com/chakra-ui/panda)
+- Chakra UI: [The future of Chakra UI](https://www.adebayosegun.com/blog/the-future-of-chakra-ui). Currently uses [panda](https://github.com/chakra-ui/panda). Before was using emotion.
 
 ### Use Tailwind
 
@@ -128,11 +129,11 @@ What do big component libraries (UI kits) choose to use.
 
 ### Use runtime CSS-in-JS
 
+- [baseweb](https://github.com/uber/baseweb) uses styletron
+- [mantime](https://github.com/mantinedev/mantine) uses emotion based css-in-js library
 - [fluentui](https://react.fluentui.dev/): [Motivations for moving away from SCSS](https://github.com/microsoft/fluentui/wiki/Component-Styling#motivations-for-moving-away-from-scss). Currently uses @fluentui/merge-styles
 - [evergreen](https://evergreen.segment.com/) uses [ui-box](https://github.com/segmentio/ui-box)
 - [grommet](https://github.com/grommet/grommet) uses styled-components
-- [baseweb](https://github.com/uber/baseweb) uses styletron
-- [mantime](https://github.com/mantinedev/mantine) uses emotion based css-in-js library
 - All [react-native-web](https://necolas.github.io/react-native-web/) based systems:
   - [paper](https://reactnativepaper.com/)
   - [RNUI](https://wix.github.io/react-native-ui-lib/)
@@ -177,3 +178,4 @@ There is a trend for un-styled components (aka renderless, headless). They use "
 - [NativeWind](https://www.nativewind.dev/)
 - [React Native Zephyr](https://formidable.com/open-source/react-native-zephyr/)
 - [tailwind-react-native-classnames](https://github.com/jaredh159/tailwind-react-native-classnames)
+- [React Universal Tailwind](https://github.com/react-universal/tailwind)
