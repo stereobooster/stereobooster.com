@@ -160,7 +160,6 @@ There are a lot of implementation. Some examples:
 - [stitches](https://stitches.dev/)
 - [cva](https://cva.style/docs/getting-started/variants)
 - [macaron](https://github.com/macaron-css/macaron)
-- [clb](https://github.com/crswll/clb)
 - [aestheticsuite](https://aestheticsuite.dev/)
 - [panda recipes](https://panda-css.com/docs/concepts/recipes)
 - vanilla-extract: [recipes](https://vanilla-extract.style/documentation/packages/recipes/) + [sprinkles](https://vanilla-extract.style/documentation/packages/sprinkles/) + [dessert-box](https://github.com/TheMightyPenguin/dessert-box)
@@ -307,6 +306,15 @@ And dark mode can be implemented at theme level.
 ### Summary
 
 To me they look the same, except that Tailwind doesn't require runtime and works with server components `¯\_(ツ)_/¯`. Only **variants** look different.
+
+Related:
+
+- [clb](https://github.com/crswll/clb)
+- [windstitch](https://windstitch.vercel.app/)
+- [tailwind-variants](https://www.tailwind-variants.org/docs/introduction)
+- [classname-variants](https://github.com/fgnass/classname-variants)
+- [@stitches/tailwind](https://www.npmjs.com/package/@stitches/tailwind)
+- [Don't use Tailwind for your Design System](https://sancho.dev/blog/tailwind-and-design-systems)
 
 ## CSSModules-vibe
 
