@@ -144,7 +144,7 @@ Asset generators:
 
 Minimal requirements:
 
-- https://vite-pwa-org.netlify.app/guide/pwa-minimal-requirements.html
+- [PWA Minimal Requirements ](https://vite-pwa-org.netlify.app/guide/pwa-minimal-requirements.html)
 
 PWA examples:
 
