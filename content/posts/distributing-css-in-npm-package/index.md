@@ -2,7 +2,7 @@
 title: "Distributing CSS in npm package"
 date: 2023-09-03T17:11:21+02:00
 draft: false
-tags: [webdev, npm, css]
+tags: [webdev, npm, css, components]
 ---
 
 ## Introduction
@@ -89,6 +89,7 @@ As the solution you may use one of zero-runtime approaches (in alphabetic order)
 - [macaron](https://macaron.js.org/) uses `vanilla-extract`
 - [panda](https://panda-css.com/)
 - [style9](https://github.com/johanholmerin/style9/blob/master/docs/How-it-works.md)
+- [styled-vanilla-extract](https://github.com/wmertens/styled-vanilla-extract) uses `vanilla-extract`
 - [tamagui](https://github.com/tamagui/tamagui/blob/becbd88dd46fc43b4c0a838c33a19f07cb578542/packages/vite-plugin/src/extract.ts#L1) inspired by `vanilla-extract`
 - [unocss](https://unocss.dev/guide/)
 - [vanilla-extract](https://vanilla-extract.style/)

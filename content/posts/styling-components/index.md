@@ -2,7 +2,7 @@
 title: "Styling components"
 date: 2023-09-04T14:24:49+02:00
 draft: false
-tags: [webdev, css, react]
+tags: [webdev, css, react, components]
 ---
 
 ## `style` prop
