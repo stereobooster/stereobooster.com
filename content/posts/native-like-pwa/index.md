@@ -5,10 +5,8 @@ draft: false
 tags: [webdev, pwa, ux]
 ---
 
-Modern PWAs are very powerfull - they can use/do: geolocation, notifciations, file system, payment, bluetooth, camera, microphone, etc. See full list [here](https://whatpwacando.today/). Plus there is
+Modern PWAs are very powerful - they can use/do: geolocation, notifications, file system, payment, bluetooth, camera, microphone, etc. See full list [here](https://whatpwacando.today/). Plus there is
 [WebAssembly](https://webassembly.org/), WebGL, etc.
-
-
 
 ## Introduction
 
@@ -73,7 +71,7 @@ In order to do this we need to define specification, similar to [this one](https
 5. It should support gestures
    - For example, ability to swipe left/right to navigate between pages
 6. It should support dark mode
-   - It should be possible to switch between light and dark mode and it shoould take into account default system mode
+   - It should be possible to switch between light and dark mode and it should take into account default system mode
 
 ## UI framework
 
@@ -118,7 +116,7 @@ And one more interesting project - [tamagui](https://tamagui.dev/). Which takes 
 
 ## Known issues
 
-Be aware that while PWAs are very powerfull, there are still some issues. For example:
+Be aware that while PWAs are very powerful, there are still some issues. For example:
 
 - https://firt.dev/notes/pwa-ios/
 - https://caniuse.com/?search=PWA
@@ -139,9 +137,10 @@ Asset generators:
 - [Favicon Generator. For real.](https://realfavicongenerator.net/)
 - [expo-pwa](https://github.com/expo/expo-cli/tree/main/packages/pwa)
 
-Minimal requirements:
+Metadata:
 
-- [PWA Minimal Requirements ](https://vite-pwa-org.netlify.app/guide/pwa-minimal-requirements.html)
+- [PWA Minimal Requirements](https://vite-pwa-org.netlify.app/guide/pwa-minimal-requirements.html)
+- [awesome-meta-and-manifest](https://github.com/gokulkrishh/awesome-meta-and-manifest)
 
 PWA examples:
 
