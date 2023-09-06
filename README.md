@@ -4,24 +4,17 @@
 
 ## congo TODO
 
-- Disclaimer block
-- add pagination to the index page
 - add related links to post
+  - maybe in sidebar?
 - in search results there are empty blocks
 - check: `kbd`
 - check: wide code blocks
-- code line numbers
-  - exclude from selection: `.highlight .ln { user-select: none; }`
-  - exclude from copy
 - check a11y
   - can focus hidden header icons
 - `<meta name="theme-color" content="rgb(255,255,255)" />`, `black-translucent`
 - cover images in posts
   - rename `cover_image` to `cover`?
 - add license for the content https://creativecommons.org/licenses/by-nc-sa/4.0/
-- links about me - npm
-- https://blowfish.page/docs/shortcodes/
-- https://jpanther.github.io/congo/docs/partials/
 - Do I need quicklink?
 - test locally (including mobile)
   - https://gohugo.io/commands/hugo_server/
@@ -33,18 +26,13 @@
 - check [RSS](http://localhost:1313/index.xml)
   - `render-image.rss.xml` ?
   - `render-code.rss.xml` ?
-- add links to subdomains
-  - on top with hamburger menu?
 - icons can be better
-
-```
-{{ $ageDays := div (sub now.Unix .Lastmod.Unix) 86400 }}
-{{ if gt $ageDays 180 }}
-<aside class="old_content_disclaimer">
-  <a href="/disclaimer/"><b>Disclaimer</b>: This article is older than 180 days. The author may not hold that opinion anymore.</a>
-</aside>
-{{ end }}
-```
+- code line numbers
+  - exclude from selection: `.highlight .ln { user-select: none; }`
+  - exclude from copy
+- track scroll in sidebar?
+- https://blowfish.page/docs/shortcodes/
+- https://jpanther.github.io/congo/docs/partials/
 
 ## TODO
 

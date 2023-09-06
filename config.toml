@@ -1,9 +1,9 @@
 theme = "congo"
 
 # code highlining
-pygmentsCodeFences = true
-pygmentsUseClasses = true
-pygmentsOptions = "linenos=inline"
+# pygmentsCodeFences = true
+# pygmentsUseClasses = true
+# pygmentsOptions = "linenos=inline"
 
 [privacy]
   [privacy.disqus]
