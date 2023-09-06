@@ -1,49 +1,9 @@
+theme = "congo"
+
 # code highlining
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 pygmentsOptions = "linenos=inline"
-
-# Site settings
-baseurl = "https://stereobooster.com/"
-# for <html lang={}>
-languageCode = "en"
-title = "stereobooster's personal blog"
-
-Paginate = 10
-
-enableGitInfo = true
-
-unsafe= true
-
-[taxonomies]
-  tag = "tags"
-  series = "series"
-
-[params]
-  # twitter:creator
-  # <meta name="author">
-	author = "stereobooster"
-	# twitter:description
-	# <meta name="description"
-	# description = "Site Description"
-
-	# twitter:site
-	twitter = "stereobooster"
-
-	enableRSS = true
-
-	enableSummary = true
-	# Set the value to true if use description in post front matter replace content summary
-	useDescriptionReplaceSummary = false
-
-	# The url for twitter card image, default is avatar.png in static/images directory
-	twitterCardImage = ""
-
-	themeColor = "#f012be"
-
-	# edit this page
-	githubUsername = "stereobooster"
-	githubRepo = "stereobooster.com"
 
 [privacy]
   [privacy.disqus]
@@ -72,13 +32,3 @@ unsafe= true
   [[related.indices]]
     name = "date"
     weight = 0.0
-
-[markup]
-  defaultMarkdownHandler = "goldmark"
-  [markup.tableOfContents]
-    startLevel = 2
-    endLevel = 4
-    ordered = false
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
