@@ -4,18 +4,7 @@
 
 ## congo TODO
 
-- add related links to post
-  - maybe in sidebar?
-- check a11y
-  - can focus hidden header icons
-- `<meta name="theme-color" content="rgb(255,255,255)" />`, `black-translucent`
 - do not show `list.no_articles` on separate pages
-- test locally (including mobile)
-  - https://gohugo.io/commands/hugo_server/
-  - https://gohugo.io/commands/hugo_server_trust/
-  - https://gist.github.com/willurd/5720255
-- check performance, SEO
-- https://github.com/jpanther/congo/discussions/498
 - in search results there are empty blocks
   - https://github.com/jpanther/congo/issues/642
 - cover images in posts
@@ -25,19 +14,28 @@
   - https://github.com/tailwindlabs/tailwindcss-typography/pull/317
   - https://daisyui.com/components/kbd/
 - blockquote remove quotes
+  - themes/congo/tailwind.config.js
+  - https://discourse.gohugo.io/t/blockquote-with-render-hook/40701
 - img maybe add lqip
 - check [RSS](http://localhost:1313/index.xml)
   - `render-image.rss.xml` ?
   - `render-code.rss.xml` ?
 - icons can be better
+- check a11y
+  - header links
+    - https://github.com/valeriangalliat/markdown-it-anchor/issues/82
+    - https://www.leereamsnyder.com/blog/making-headings-with-links-show-up-in-safari-reader
+    - https://amberwilson.co.uk/blog/are-your-anchor-links-accessible/
+  - `outline: auto` is strange
+- check full width image?
+  - https://github.com/jpanther/congo/discussions/498
 - code line numbers
   - exclude from selection: `.highlight .ln { user-select: none; }`
   - exclude from copy
   - support sticky position (for horizontal scroll)
 - track scroll in sidebar?
 - Do I need quicklink?
-- https://blowfish.page/docs/shortcodes/
-- https://jpanther.github.io/congo/docs/partials/
+- improve related links to post
 
 ```js
 module.exports = {
@@ -58,9 +56,8 @@ module.exports = {
 }
 ```
 
-or 
-
-https://discourse.gohugo.io/t/blockquote-with-render-hook/40701
+- https://blowfish.page/docs/shortcodes/
+- https://jpanther.github.io/congo/docs/partials/
 
 ## TODO
 

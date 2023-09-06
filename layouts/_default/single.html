@@ -43,7 +43,7 @@
       {{/* disclaimer start */}}
       {{ $ageDays := div (sub now.Unix .Lastmod.Unix) 86400 }}
       {{ if gt $ageDays 180 }}
-      <aside class="prose">
+      <div class="prose dark:prose-invert mb-12">
         {{/* Alert */}}
         <div class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900">
           <span class="pe-3 text-primary-400">
@@ -53,7 +53,7 @@
             <a href="/disclaimer/"><b>Disclaimer</b>: This article is older than 180 days. The author may not hold that opinion anymore.</a>
           </span>
         </div>
-      </aside>
+      </div>
       {{ end }}
       {{/* disclaimer end */}}
     </header>
@@ -67,6 +67,14 @@
       {{ end }}
       <div class="min-w-0 min-h-0 max-w-prose grow">
         {{ .Content | emojify }}
+
+        {{ $related := .Site.RegularPages.Related . | first 2 }}
+        {{ with $related }}
+        <p>
+          <b>Read more</b>:
+          {{ range $i, $e := $related }}{{- if $i -}}, {{ end -}}<a href="{{ $e.RelPermalink }}">{{ $e.Title }}</a>{{ end }}
+        </p>
+        {{ end }}
       </div>
     </section>
     <footer class="pt-8 max-w-prose print:hidden">
