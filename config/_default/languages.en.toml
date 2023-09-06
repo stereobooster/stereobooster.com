@@ -2,7 +2,7 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 
-title = "stereobooster's personal blog"
+title = "stereobooster"
 # copyright = "Copy, _right?_ :thinking_face:"
 
 [params]
@@ -19,7 +19,7 @@ title = "stereobooster's personal blog"
 [author]
   name = "stereobooster"
   # image = "img/author.jpg"
-  # headline = "I'm only human"
+  headline = "I'm a software developer interested in UX, a11y, type systems, performance."
   # bio = "A little bit about you"
   links = [
   #   { email = "mailto:hello@your_domain.com" },

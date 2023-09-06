@@ -2,15 +2,23 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/1e0eb121-52b3-4f50-8a2a-6c75e96ff3ae/deploy-status)](https://app.netlify.com/sites/stereobooster/deploys)
 
-## tools
+## congo TODO
 
-### development
-
-- [Hugo](http://gohugo.io/) - A general-purpose website framework—written in Go—that generates static webpages.
-- [Parcel](https://parceljs.org/) - A "blazing" fast, zero configuration web application bundler.
-- PostCSS
-- fork of [hugo-pipes-parcel](https://github.com/budparr/hugo-pipes-parcel)
-- see package.json (quicklink)
+- add links to subdomains
+- add pagination to the index page
+- add author img and icons
+- add related links and tags to post
+- check RSS
+- code line numbers - exclude from selection
+- Disclaimer block
+- check a11y
+- check performance, SEO
+- add img srcset and maybe lqip
+- `<meta name="theme-color" content="rgb(255,255,255)" />`, `black-translucent`
+- social links - hackernews
+- cover images in posts
+- add license for the content https://creativecommons.org/licenses/by-nc-sa/4.0/
+- links about me - npm
 
 ## TODO
 
@@ -19,14 +27,9 @@
 - [Automate crosspost](https://dev.to/maxime1992/manage-your-dev-to-blog-posts-from-a-git-repo-and-use-continuous-deployment-to-auto-publish-update-them-143j)
   - [The State of dev.to API](https://dev.to/alfredosalzillo/the-state-of-devto-v0-api-1o2)
 - Create "about me" page (https://github.com/stereobooster/readme)
-- Improve 404 page
-  - maybe add Glitch effect?
+- Create "projects" page
 - is it possible to skip generation of line numbers for code-blocks in RSS?
 - wide code blocks, wide tables, wide images?
-- move logic from image shortcode (img.html) to image template (render-image.html)
-  - https://developer.mozilla.org/en-US/docs/Web/CSS/aspect-ratio
-  - https://matthiasott.com/notes/aspect-ratio-in-css
-- `WARN  Site.RSSLink is deprecated and will be removed in a future release. Use the Output Format's Permalink method instead, e.g. .OutputFormats.Get "RSS".Permalink`
 
 ## License
 
