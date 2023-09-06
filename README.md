@@ -13,6 +13,7 @@
 
 ## congo TODO
 
+- support series
 - check: `kbd`
   - themes/congo/tailwind.config.js
   - https://github.com/tailwindlabs/tailwindcss-typography/pull/317

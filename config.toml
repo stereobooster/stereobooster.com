@@ -5,6 +5,9 @@ theme = "congo"
 # pygmentsUseClasses = true
 # pygmentsOptions = "linenos=inline"
 
+[social]
+  twitter = 'stereobooster'
+
 [privacy]
   [privacy.disqus]
     disable = true
