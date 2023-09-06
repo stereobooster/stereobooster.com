@@ -29,3 +29,28 @@
   name = "Tags"
   pageRef = "tags"
   weight = 20
+
+[[footer]]
+  name = "Parsing"
+  url = "https://parsing.stereobooster.com/"
+  weight = 30
+
+[[footer]]
+  name = "Graph"
+  url = "https://graph.stereobooster.com/"
+  weight = 30
+
+[[footer]]
+  name = "Fuzzy"
+  url = "https://fuzzy.stereobooster.com/"
+  weight = 30
+
+[[footer]]
+  name = "Privacy policy"
+  pageRef = "privacy"
+  weight = 40
+
+[[footer]]
+  name = "RSS"
+  url = "/index.xml"
+  weight = 40

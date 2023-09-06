@@ -18,7 +18,7 @@ title = "stereobooster"
 
 [author]
   name = "stereobooster"
-  # image = "img/author.jpg"
+  image = "img/author.png"
   headline = "I'm a software developer interested in UX, a11y, type systems, performance."
   # bio = "A little bit about you"
   links = [
