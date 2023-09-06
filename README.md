@@ -15,7 +15,6 @@
 - cover images in posts
   - rename `cover_image` to `cover`?
 - add license for the content https://creativecommons.org/licenses/by-nc-sa/4.0/
-- Do I need quicklink?
 - test locally (including mobile)
   - https://gohugo.io/commands/hugo_server/
   - https://gohugo.io/commands/hugo_server_trust/
@@ -31,6 +30,7 @@
   - exclude from selection: `.highlight .ln { user-select: none; }`
   - exclude from copy
 - track scroll in sidebar?
+- Do I need quicklink?
 - https://blowfish.page/docs/shortcodes/
 - https://jpanther.github.io/congo/docs/partials/
 

@@ -1,41 +1,13 @@
 {
-  "name": "hugo-pipes-parcel",
-  "version": "2.0.0",
-  "description": "Starter files for a Hugo project",
-  "main": "index.js",
-  "repository": "https://github.com/theNewDynamic/hugo-starter.git",
-  "author": "budparr <budparr@gmail.com>",
-  "license": "MIT",
+  "name": "stereobooster.com",
   "private": true,
   "scripts": {
-    "clean": "rimraf public/ assets/output static/output resources",
-    "build": "run-s deploy:assets build:hugo",
-    "start": "run-s build:assets dev",
-    "dev": "run-p dev:parcel dev:hugo",
-    "dev:hugo": "cross-env NODE_ENV=development hugo server --gc --disableFastRender --navigateToChanged",
-    "dev:parcel": "cross-env NODE_ENV=development parcel watch ./assets/index.js --out-dir assets/output",
-    "build:assets": "cross-env NODE_ENV=development parcel build ./assets/index.js --out-dir assets/output --experimental-scope-hoisting --no-cache",
-    "deploy:assets": "cross-env NODE_ENV=production parcel build ./assets/index.js --out-dir assets/output --experimental-scope-hoisting --no-cache",
-    "build:hugo": "cross-env NODE_ENV=production hugo --gc --minify",
     "mermaid": "node scripts/mermaid.js",
     "graphviz": "node scripts/graphviz.js"
   },
   "devDependencies": {
     "@hpcc-js/wasm": "^2.13.1",
-    "autoprefixer": "^9.8.8",
-    "cross-env": "^7.0.3",
     "marked": "^2.0.0",
-    "mermaid-render": "^1.0.9",
-    "npm-run-all": "^4.1.5",
-    "parcel-bundler": "^1.12.5",
-    "postcss-normalize": "^9.0.0",
-    "postcss-preset-env": "^6.7.0",
-    "rimraf": "^5.0.1"
-  },
-  "dependencies": {
-    "quicklink": "^1.0.1"
-  },
-  "browserslist": [
-    "defaults"
-  ]
+    "mermaid-render": "^1.0.9"
+  }
 }
