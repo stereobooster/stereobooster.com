@@ -2,13 +2,15 @@
 title: "Typography"
 date: 2019-06-10T00:49:54+02:00
 description: Test description
-draft: true
+draft: false
 tags: [markdown]
 cover_image: image.jpg
 discuss:
   devto: test
 toc: true
 ---
+
+See: https://jpanther.github.io/congo/samples/markdown/
 
 ## Basic markdown
 
@@ -41,6 +43,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 - [x] test
 - [ ] test
+
 ## HTML tags
 
 <kbd>enter</kbd>
@@ -72,6 +75,12 @@ plain text
 
 ```text {linenos=false}
 plain text
+```
+
+Very long code:
+
+```cpp{linenos=true}
+if (northbridgeRomLogic != 5) { hdtv_operation.compressionTft(flashFileSecondary(piracy_inkjet, hdd_page,  laser_torrent_iso)); } else { telecommunications(-5); }
 ```
 
 Is there way to use `diff` + `js`?:
@@ -149,7 +158,7 @@ ugc.point.modemMicrophone(
 
 | side 1               | side 2               |
 | -------------------- | -------------------- |
-| ![test](./image.jpg) | ![test](./image.jpg) |
+| ![test](./image.jpg) | ![test](image.jpg) |
 
 | side 1   | side 2   |
 | -------- | -------- |
@@ -223,4 +232,4 @@ varphi = int_0^10 x^2 dx
 
 ## Shortcodes
 
-See https://gohugo.io/content-management/shortcodes/
+https://jpanther.github.io/congo/docs/shortcodes/

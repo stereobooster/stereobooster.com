@@ -22,12 +22,12 @@
   weight = 30
 
 [[main]]
-  name = "Graph"
+  name = "Graphs"
   url = "https://graph.stereobooster.com/"
   weight = 30
 
 [[main]]
-  name = "Fuzzy"
+  name = "Fuzzy string serach"
   url = "https://fuzzy.stereobooster.com/"
   weight = 30
 

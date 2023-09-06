@@ -18,7 +18,7 @@
 {{ else }}
   {{ $resource := "" }}
   {{ if .Page.Resources.GetMatch (path.Base .Destination) }}
-    ({/* case when img URL starts with `./` */})
+    {{/* case when img URL starts with `./` */}}
     {{ $resource = .Page.Resources.GetMatch (path.Base .Destination) }}
   {{ else if .Page.Resources.GetMatch ($url.String) }}
     {{ $resource = .Page.Resources.GetMatch ($url.String) }}

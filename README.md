@@ -6,20 +6,23 @@
 
 - add related links to post
   - maybe in sidebar?
-- in search results there are empty blocks
 - check: `kbd`
-- check: wide code blocks
+  - themes/congo/tailwind.config.js
+  - https://github.com/tailwindlabs/tailwindcss-typography/pull/317
+  - https://daisyui.com/components/kbd/
+- blockquote remove quotes
 - check a11y
   - can focus hidden header icons
 - `<meta name="theme-color" content="rgb(255,255,255)" />`, `black-translucent`
+- in search results there are empty blocks
+  - https://github.com/jpanther/congo/issues/642
 - cover images in posts
   - rename `cover_image` to `cover`?
-- add license for the content https://creativecommons.org/licenses/by-nc-sa/4.0/
+- do not show `list.no_articles` on separate pages
 - test locally (including mobile)
   - https://gohugo.io/commands/hugo_server/
   - https://gohugo.io/commands/hugo_server_trust/
   - https://gist.github.com/willurd/5720255
-- Check Privacy policy, Disclaimer
 - img maybe add lqip
 - check performance, SEO
 - check [RSS](http://localhost:1313/index.xml)
@@ -29,10 +32,34 @@
 - code line numbers
   - exclude from selection: `.highlight .ln { user-select: none; }`
   - exclude from copy
+  - support sticky position (for horizontal scroll)
 - track scroll in sidebar?
 - Do I need quicklink?
 - https://blowfish.page/docs/shortcodes/
 - https://jpanther.github.io/congo/docs/partials/
+
+```js
+module.exports = {
+  theme: {
+    extend: {
+      typography: {
+        quoteless: {
+          css: {
+            'blockquote p:first-of-type::before': { content: 'none'},
+            'blockquote p:first-of-type::after': { content: 'none' },
+          },
+        },
+      },
+    },
+  },
+  variants: {},
+  plugins: [require('@tailwindcss/typography')],
+}
+```
+
+or 
+
+https://discourse.gohugo.io/t/blockquote-with-render-hook/40701
 
 ## TODO
 

@@ -7,7 +7,7 @@ type: "page"
 
 > When the Facts Change, I Change My Mind.
 >
-> ― [John Maynard Keynes](https://quoteinvestigator.com/2011/07/22/keynes-change-mind/)
+> <cite>― [John Maynard Keynes](https://quoteinvestigator.com/2011/07/22/keynes-change-mind/)</cite>
 
 > Those who cannot change their minds cannot change anything.
 >
