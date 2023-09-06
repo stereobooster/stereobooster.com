@@ -7,7 +7,7 @@ description: "Definition as the system of meaning - we use symbols to communicat
 
 Definition as the system of meaning - we use symbols to communicate, to think, to store the information. Definition associate some symbol (word) with meaning (explained with other words, or conveyed by other means).
 
-<!--more-->
+
 
 We can treat definitions as [formal systems](/posts/formal-system) - we give a small set of words which are defined without words, for example through images, gestures, etc. and then we can define all other words with the basic set.
 

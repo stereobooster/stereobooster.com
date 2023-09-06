@@ -7,7 +7,7 @@ tags: [webdev, react, react-native, vite]
 
 `react-native-web` itself doesn't require any tricky configuration to work with Vite.
 
-<!--more-->
+
 
 ```ts
 import { defineConfig } from "vite";

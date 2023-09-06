@@ -9,7 +9,7 @@ tags: [watercooler, beginners, productivity, programming, career]
 >
 > -- [Hal Abelson](https://www.youtube.com/watch?v=2Op3QLzMgSY)
 
-<!--more-->
+
 
 The software development (SD) industry is big. It is big by the amount of money and by the number of people. You would expect that in such a big industry we would figure out how things work by now. It seems to be not the case...
 

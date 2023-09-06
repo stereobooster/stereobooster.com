@@ -7,7 +7,7 @@ tags: [syntax, programming]
 
 List of random notes about naming conventions (for my small research). Send more examples along the way.
 
-<!--more-->
+
 
 ## Multiple-word identifiers
 

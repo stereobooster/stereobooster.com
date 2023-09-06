@@ -7,7 +7,7 @@ tags: [js, macros, programming, syntax]
 
 Template literals is a pretty simple thing - it is a multiline string with interpolations:
 
-<!--more-->
+
 
 ```js
 // instead of this

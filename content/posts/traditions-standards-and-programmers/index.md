@@ -7,7 +7,7 @@ discuss:
   devto: traditions-standards-and-programmers-5477
 ---
 
-<!--more-->
+
 
 ## Traditions
 

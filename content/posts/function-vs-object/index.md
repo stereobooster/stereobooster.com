@@ -11,7 +11,7 @@ discuss:
 
 There is an ongoing discussion about the difference between object-oriented programming (OOP) and functional programming (FP). Let's talk about similarities instead. Let's talk about the main building blocks: functions and objects.
 
-<!--more-->
+
 
 If I won't be lazy this is gonna be a series of posts.
 

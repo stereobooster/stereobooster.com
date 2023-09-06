@@ -9,7 +9,7 @@ tags: [ruby, js, go, python, lisp, computerscience,  macros, programming, gramma
 
 Sadly there is no single definition on which everybody agrees. So let's investigate
 
-<!--more-->
+
 
 > Metaprogramming is a programming technique in which computer programs have the ability to treat other programs as their data.
 >

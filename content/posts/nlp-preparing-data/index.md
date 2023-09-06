@@ -7,7 +7,7 @@ tags: [python, machinelearning, datascience, beginners]
 
 I'm not gonna write a full tutorial on the subject (there are a lot of good tutorials, for example, [this one](https://course.spacy.io/chapter4)). I will talk about the preparation of the project.
 
-<!--more-->
+
 
 ## Project structure
 

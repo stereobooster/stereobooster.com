@@ -8,7 +8,7 @@ description: "Lessons learned (and other thoughts) after writing code for operat
 
 Lessons learned (and other thoughts) after writing code for [operational-visualizations](https://github.com/contiamo/operational-visualizations).
 
-<!--more-->
+
 
 ## Premature optimization
 

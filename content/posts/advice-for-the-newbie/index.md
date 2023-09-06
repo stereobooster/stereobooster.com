@@ -9,7 +9,7 @@ discuss:
 
 All the following advice applies to beginners in software development. If you're already a seasoned developer I guess you can find your own way.
 
-<!--more-->
+
 
 ## Preface
 

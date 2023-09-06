@@ -8,7 +8,7 @@ series: "Parsing"
 
 After reading more about the subject I realized that section "Scanners and parsers" from my [previous post](/posts/notes-on-parsing-theory-1/) needs a correction.
 
-<!--more-->
+
 ## Lexical vs syntax grammar
 
 From Chomsky grammar's point of view, there is no distinction between lexical and syntax grammar. For example, let's examine simple pseudo-english language (Chomsky's form):

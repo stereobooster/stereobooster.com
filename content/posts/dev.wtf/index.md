@@ -13,7 +13,7 @@ discuss:
 
 Modern software development is a complex discipline. A lot of jargon, terminology, slang, emojis, memes and cultural references make it harder for newbies to start.
 
-<!--more-->
+
 
 What if we collectively build reference ~~book~~ website of terminology and jargon that modern software developers use.
 

@@ -11,7 +11,7 @@ discuss:
 
 In the previous post we implemented functions, but not about [closures](/posts/from-function-to-closure/). Let's fix this.
 
-<!--more-->
+
 
 ## The problem
 

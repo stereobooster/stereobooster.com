@@ -10,7 +10,7 @@ discuss:
 
 If we say that computer science is a branch of knowledge which studies "computers". What does "computer" mean in this case?
 
-<!--more-->
+
 
 ## Definition
 

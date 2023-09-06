@@ -10,7 +10,7 @@ discuss:
 
 Programming languages (PL) are treated as a religion. People have holly wars around PL. People confuse paradigms and languages.
 
-<!--more-->
+
 
 > Any sufficiently advanced technology is indistinguishable from magic.
 >

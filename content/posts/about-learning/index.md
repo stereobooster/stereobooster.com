@@ -10,7 +10,7 @@ discuss:
 
 This is the collection of some **ideas** and my thoughts **about learning, teaching, and knowledge** in general. I wanted to separate this post into three parts, but all of them are interconnected so I guess this will be one long post. On the bright side, **sections are small** and there is **no need to read them all** or read them **in a given order**.
 
-<!--more-->
+
 
 ## Building from scratch
 

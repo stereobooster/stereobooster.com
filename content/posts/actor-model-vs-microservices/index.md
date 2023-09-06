@@ -7,7 +7,7 @@ tags: [discuss, programming]
 
 This idea happened recently to me: what if microservice is a reinvention of the wheel? What if microservices try to accomplish the same thing as actor model?
 
-<!--more-->
+
 
 ### I'm not the first one who asked this question
 

@@ -10,7 +10,7 @@ In my [first post](/posts/an-overview-of-parsing-algorithms/) I didn't mention "
 
 Parser combinator is the way to construct recursive descent parsers in functional programming using functions. Higher-order functions can be used to combine parsers, to represent sequencing, choice, and repetition.
 
-<!--more-->
+
 
 Recursive descent parsers were known since the 60's - the main innovation is that parser can be directly modeled as functions, no need to generate parsing table as it is done in "classical" algorithms, like YACC (hence the name - yet another compiler compiler). There are other algorithms, that don't need the compilation step, so-called "interpreter" parsers - they don't compile grammar, but execute it script (like scripting language).
 

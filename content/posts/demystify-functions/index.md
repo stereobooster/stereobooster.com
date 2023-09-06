@@ -9,7 +9,7 @@ description: In this post, we will talk about functions in programming languages
 
 In [one of my previous posts](/posts/from-function-to-closure/) I talked about the theoretical point of view on functions. In this post, we will talk about how to implement function from scratch in a programming language.
 
-<!--more-->
+
 
 This post is part of the series: in previous posts, we constructed small languages, which for now can do `+`, `-`, `define` (global scope variables). In this function, we will add `function` operation which will create a new function. We will add a new type (`function`) to the list of existing types (`symbol`, `number`).
 

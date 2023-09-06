@@ -9,7 +9,7 @@ tags: [a11y, til]
 
 Initially I was confused by WCAG, WAI-ARIA and other standards. I took time to figure out things.
 
-<!--more-->
+
 
 [WAI](https://www.w3.org/WAI/) (Web accessibility initiative) produces several standards (recommendations, guides). WCAG (Web Content Accessibility Guidelines) is the "main" one.
 

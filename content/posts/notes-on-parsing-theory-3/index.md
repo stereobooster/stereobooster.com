@@ -8,7 +8,7 @@ series: "Parsing"
 
 Based on [Theory of Computation (CS3102), Spring 2017](http://www.cs.virginia.edu/~robins/cs3102/), videos are [here](http://www.cs.virginia.edu/~robins/videos.html).
 
-<!--more-->
+
 
 ## Definitions
 

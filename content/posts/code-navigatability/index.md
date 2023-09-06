@@ -9,7 +9,7 @@ tags: [codereadability, readability, programming, discuss]
 
 I made up this word in the same manner as read-ability. If readability "is the ease with which a reader can understand a written text" ([Wikipedia](https://en.wikipedia.org/wiki/Readability)). Navigatability is the ease with which a reader can navigate a written text.
 
-<!--more-->
+
 
 For example, traditional printed texts have the following navigation patterns:
 

@@ -4,7 +4,7 @@ date: 2019-01-13T00:00:00+02:00
 draft: false
 description: "I talked about categorical and abstract thinking, let's talk about symbolic thinking"
 tags: [programming, beginners]
-cover_image: this-is-not-a-pipe.jpg
+cover: this-is-not-a-pipe.jpg
 discuss:
   devto: symbolic-thinking-12co
 ---

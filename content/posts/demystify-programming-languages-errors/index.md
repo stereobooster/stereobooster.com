@@ -11,7 +11,7 @@ discuss:
 
 In [previous post](/posts/programming-language-to-write-or-not-to-write) we talked about parsing, evaluation and REPL. In this post, we will talk about errors.
 
-<!--more-->
+
 
 ## What are errors?
 

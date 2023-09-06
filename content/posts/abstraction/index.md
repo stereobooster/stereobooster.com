@@ -13,7 +13,7 @@ Developers talk about abstractions all the time. For example:
 >
 > -- Edsger Dijkstra
 
-<!--more-->
+
 
 or
 

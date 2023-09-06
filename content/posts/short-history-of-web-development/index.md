@@ -3,7 +3,7 @@ title: "A short history of web development"
 date: 2020-11-06T02:38:25+01:00
 draft: false
 tags: [webdevelopment, programming]
-cover_image: timeline.png
+cover: timeline.png
 ---
 
 A small overview of web development approaches and when they appeared.

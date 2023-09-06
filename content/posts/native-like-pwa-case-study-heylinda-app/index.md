@@ -9,7 +9,7 @@ To illustrate ideas from my [previous article](/posts/native-like-pwa). Let's ta
 
 ReactNative was built specifically for mobile platforms, so it was interesting for me to see how it works for PWA.
 
-<!--more-->
+
 
 | Feature                       | yes/no  |
 | ----------------------------- | ------- |

@@ -4,10 +4,6 @@
 
 ## congo TODO
 
-- in search results there are empty blocks
-  - https://github.com/jpanther/congo/issues/642
-- cover images in posts
-  - rename `cover_image` to `cover`?
 - check: `kbd`
   - themes/congo/tailwind.config.js
   - https://github.com/tailwindlabs/tailwindcss-typography/pull/317

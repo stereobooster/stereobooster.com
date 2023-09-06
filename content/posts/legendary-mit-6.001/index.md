@@ -3,7 +3,7 @@ title: "Legendary MIT 6.001"
 date: 2018-12-02T00:00:00+02:00
 description: Computer science is a terrible name for this business. First of all, it’s not a science. It might be engineering or it might be art, but we’ll actually see that computer so-called science actually has a lot in common with magic…
 tags: [programming-language, programming, programming-education, education]
-cover_image: legendary-mit-6.001.jpg
+cover: legendary-mit-6.001.jpg
 series: Computer Science education
 discuss:
   devto: legendary-mit-6001-2l6
@@ -13,7 +13,7 @@ discuss:
 >
 > — Hal Abelson
 
-<!--more-->
+
 
 {{< youtube 2Op3QLzMgSY >}}
 

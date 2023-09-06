@@ -10,7 +10,7 @@ series: "Parsing"
 
 The first obvious use case is computer languages. (I use the term computer language because not everybody considers HTML a programming language). This includes:
 
-<!--more-->
+
 
 - compilers
 - interpreters

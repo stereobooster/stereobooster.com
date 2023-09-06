@@ -12,7 +12,7 @@ discuss:
 >
 > -- [indieweb](https://indieweb.org/POSSE)
 
-<!--more-->
+
 
 I use [Hugo](https://gohugo.io) to generate the blog, store source in [github](https://github.com/stereobooster/stereobooster.com), host it with [netlify](https://www.netlify.com).
 

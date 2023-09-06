@@ -7,7 +7,7 @@ tags: [hugo, blog, webdev, markdown, go]
 
 I like Markdown for its simplicity. Simplicity comes with limitations. There are some features that I miss in Markdown or it is possible to extend Markdown to support these cases, but there is no support from the Hugo side (static site generator I use).
 
-<!--more-->
+
 
 Note: I can't use JS to do additional rendering on the client-side, because:
 

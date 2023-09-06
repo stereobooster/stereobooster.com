@@ -12,7 +12,7 @@ discuss:
 
 How we can define code (in sense of computer program, I'm not talking about encryption)? There is more than one answer.
 
-<!--more-->
+
 
 ### Result of programming
 

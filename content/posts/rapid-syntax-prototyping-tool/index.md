@@ -7,7 +7,7 @@ tags: [lisp, computerscience, syntax, grammar, parser]
 
 I want to develop [alternative syntax for Lisp](https://stereobooster.com/posts/on-lisp-syntax/). My idea is to write several possible syntaxes and see if I like them or not.
 
-<!--more-->
+
 ### Step 1
 
 I imagine it like this:

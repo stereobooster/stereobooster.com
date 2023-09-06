@@ -4,7 +4,7 @@ date: 2019-06-10T00:49:54+02:00
 description: Test description
 draft: false
 tags: [markdown]
-cover_image: image.jpg
+cover: image.jpg
 discuss:
   devto: test
 toc: true
@@ -57,7 +57,7 @@ Here's a simple footnote,[^1] and here's a longer one.[^bignote]
 
 <!-- ## Cut -->
 
-<!--more-->
+
 
 ## Code
 

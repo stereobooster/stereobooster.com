@@ -7,7 +7,7 @@ tags: [react, ux, typescript, javascript, hook]
 
 Imagine you have a list (or a table) with checkboxes, for example, to do list, mail inbox, or "back-office" page. Checkboxes are used to select items for batch actions, for example, delete or archive, etc.
 
-<!--more-->
+
 
 Code can look like this:
 

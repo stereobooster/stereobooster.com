@@ -8,7 +8,7 @@ description:
 
 Typical discussion on CSS around the web looks like this:
 
-<!--more-->
+
 
 ```text
 A: CSS is hard

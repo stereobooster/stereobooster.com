@@ -10,7 +10,7 @@ I don't like the concept of "bad code". I thought: ["Let's ask people what they 
 
 Talking to people in comments of the first post helped me to crystallize my thoughts on what is bothering me in this idea.
 
-<!--more-->
+
 
 ## What is wrong with "bad code" notion?
 

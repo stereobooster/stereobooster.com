@@ -8,7 +8,7 @@ tags: [webdev, pwa, ux]
 Modern PWAs are very powerfull - they can use/do: geolocation, notifciations, file system, payment, bluetooth, camera, microphone, etc. See full list [here](https://whatpwacando.today/). Plus there is
 [WebAssembly](https://webassembly.org/), WebGL, etc.
 
-<!--more-->
+
 
 ## Introduction
 

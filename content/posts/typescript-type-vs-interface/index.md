@@ -3,14 +3,14 @@ title: "TypeScript: type vs interface"
 date: 2019-07-21T00:34:03+02:00
 description: "Let's figure out what the difference between types and interfaces once and for all"
 tags: [typescript, webdev]
-cover_image: thekitze-tweet.png
+cover: thekitze-tweet.png
 discuss:
   devto: typescript-type-vs-interface-2n0c
 ---
 
 In one of my recent PRs I changed all `interface`s to `type`s because there were already more `type`s than `interface`s. In the review, I was asked to revert the change. I did it, but as well I wondered what the actual difference between `interface` and `type`. Let's figure out this. I use the latest TS (v3.5.1) for examples in this post.
 
-<!--more-->
+
 
 ## Similarities
 

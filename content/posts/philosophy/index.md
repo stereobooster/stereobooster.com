@@ -14,7 +14,7 @@ description: "What is philosophy? Why do we need philosophy?"
 
 Philosophy is a very wide branch of human knowledge. There were times when philosophy was the only thing you can study. Later other studies start to split out of philosophy and become "independent" studies (sciences, other disciplines).
 
-<!--more-->
+
 
 [This video](https://www.youtube.com/watch?v=YxBShJU_CKs) by carneades.org talks about the history of philosophy and the map of philosophy:
 

@@ -16,7 +16,7 @@ discuss:
 >
 > -- [Bender](http://faculty.washington.edu/ebender/papers/Bender-SDSS-2019.pdf), 2019
 
-<!--more-->
+
 
 NLP is a class of tasks (computer algorithms) to work with text in natural languages, for example: named entity recognition (NER), part-of-speech tagging (POS), text categorization, coreference resolution, etc.
 

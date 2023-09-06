@@ -10,7 +10,7 @@ description: "Lessons I learned at a startup"
 
 Startups are looking for their business model. A startup can start with one idea but become mature wit different one, for example, youtube started as a dating site
 
-<!--more-->
+
 
 ![](./youtube.jpg)
 

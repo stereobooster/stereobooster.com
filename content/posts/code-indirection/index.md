@@ -11,7 +11,7 @@ tags: [codereadability, readability, programming]
 >
 > -- [Wikipedia](https://en.wikipedia.org/wiki/Readability)
 
-<!--more-->
+
 
 > Readability is what makes some texts easier to read than others.
 >

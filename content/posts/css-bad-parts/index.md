@@ -7,7 +7,7 @@ tags: [programming, css, webdev]
 
 There is a famous book (at least it was some time ago), by the person who brought us JSON - JavaScript: good parts. It basically teaches which part of the languages are nice to use and won't get you in a trouble. Book was published way before ES6 and recent goodness. It was helpfull at the time.
 
-<!--more-->
+
 
 ![](./good-parts.jpg)
 

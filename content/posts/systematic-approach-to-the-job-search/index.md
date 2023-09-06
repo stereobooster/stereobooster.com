@@ -8,7 +8,7 @@ description: "I want to figure out a systematic approach for the job search. I n
 
 So far whenever I searched for a new job it was quite a chaotic process. And it was ok-ish most of the time, but recently it becomes harder and harder to find a job, maybe my requirements rose, maybe I started to search in a different segment.
 
-<!--more-->
+
 
 So I thought maybe once and for all I will figure out a more systematic approach for the job search. And I need your help here because I don't think I'm qualified enough in those questions. I come up with the following list of questions:
 

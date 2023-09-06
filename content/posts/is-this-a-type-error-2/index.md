@@ -3,7 +3,7 @@ title: "Is this a type error? (2)"
 date: 2020-11-12T22:20:40+01:00
 draft: false
 tags: [programming, computerscience, type-system, function]
-cover_image: is-this-a-pigeon.jpg
+cover: is-this-a-pigeon.jpg
 ---
 
 Continuation of previous post: [Is this a type error?](/posts/is-this-a-type-error/).

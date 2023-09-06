@@ -13,7 +13,7 @@ There is an ongoing discussion about the difference between object-oriented prog
 
 In the previous post, we talked about "atoms": objects and functions. In this post let's talk about bigger building blocks.
 
-<!--more-->
+
 
 ## What is a design pattern?
 

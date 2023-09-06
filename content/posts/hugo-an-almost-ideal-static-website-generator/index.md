@@ -8,7 +8,7 @@ tags: [hugo, blog, webdev, go]
 
 I use Hugo for [my blog](https://github.com/stereobooster/stereobooster.com). For me, as a developer, this is an ideal experience.
 
-<!--more-->
+
 
 - I can edit markdown files in my editor of choice.
 - I can open-source it, so people can send PRs with edits (or translation of articles).

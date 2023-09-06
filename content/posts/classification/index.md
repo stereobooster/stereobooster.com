@@ -16,7 +16,7 @@ description: "A systematic arrangement in groups or categories according to esta
 >
 > 2b: CLASS, CATEGORY
 
-<!--more-->
+
 
 _Synonyms_: bracket, category, class, division, family, genus, grade, group, kind, league, order, rank(s), rubric, set, species, tier, type
 

@@ -9,7 +9,7 @@ Inspired by [Braid Dialog](https://seek-oss.github.io/braid-design-system/compon
 
 > It’s recommended that you connect the Dialog’s open state to your router so that it can be closed via the browser’s back button.
 
-<!--more-->
+
 
 When I saw this sentence - I thought what a cool idea. It was tricky to implement hook to capture all use-cases.
 

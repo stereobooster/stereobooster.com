@@ -12,7 +12,7 @@ Based on:
 - [It’s Time for a New Old Language, 2017](https://groups.csail.mit.edu/mac/users/gjs/6.945/readings/Steele-MIT-April-2017.pdf), [talk](https://www.youtube.com/watch?v=dCuZkaaou0Q) by Guy L. Steele Jr.
 - [Parsing with Derivatives, 2011](http://matt.might.net/papers/might2011derivatives.pdf) by Matthew Might, David Darais, Daniel Spiewak, [video](https://www.youtube.com/watch?v=ZzsK8Am6dKU).
 
-<!--more-->
+
 
 ## History of notation
 
