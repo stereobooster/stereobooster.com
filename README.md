@@ -4,7 +4,6 @@
 
 ## congo TODO
 
-- do not show `list.no_articles` on separate pages
 - in search results there are empty blocks
   - https://github.com/jpanther/congo/issues/642
 - cover images in posts
