@@ -3,7 +3,6 @@ title: "One shortcut to rule them all"
 date: 2021-01-23T14:24:22+01:00
 draft: false
 tags: [editor, code, dx]
-cover: commands.png
 ---
 
 or an ode to command palette.

@@ -4,7 +4,6 @@ date: 2018-12-02T00:00:00+02:00
 description: Let's talk about programming languages which were designed specifically for education. Logo, Pascal, Scheme, SmallTalk
 tags: [programming-language, programming, education]
 series: Computer Science education
-cover: educational-programming-languages.jpg
 discuss:
   devto: educational-programming-language-2155
 ---

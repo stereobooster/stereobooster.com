@@ -4,7 +4,6 @@ date: 2019-07-07T12:31:50+02:00
 draft: false
 description: "Let's talk about things which may look like a function, but actually not. This post may leave you with more questions than answers"
 tags: [explainlikeimfive, computerscience, javascript, function]
-cover: not-a-function.png
 discuss:
   devto: not-a-function-2a3g
 ---

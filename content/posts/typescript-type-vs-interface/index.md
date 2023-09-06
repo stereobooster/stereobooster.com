@@ -3,7 +3,6 @@ title: "TypeScript: type vs interface"
 date: 2019-07-21T00:34:03+02:00
 description: "Let's figure out what the difference between types and interfaces once and for all"
 tags: [typescript, webdev]
-cover: thekitze-tweet.png
 discuss:
   devto: typescript-type-vs-interface-2n0c
 ---

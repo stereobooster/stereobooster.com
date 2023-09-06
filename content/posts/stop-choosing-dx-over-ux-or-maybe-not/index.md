@@ -3,7 +3,6 @@ title: "Stop choosing DX over UX. Or maybe not?"
 date: 2021-06-20T17:57:27+02:00
 draft: false
 tags: [react, a11y, typescript, javascript, dx]
-cover: meme.jpg
 ---
 
 > Stop choosing DX over UX.

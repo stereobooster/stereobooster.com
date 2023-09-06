@@ -3,7 +3,6 @@ title: "Is this a type error?"
 date: 2020-11-09T22:20:40+01:00
 draft: false
 tags: [programming, computerscience, type-system, function]
-cover: is-this-a-pigeon.jpg
 ---
 
 ## What is a type error?

@@ -4,7 +4,6 @@ date: 2018-11-18T00:00:00+02:00
 draft: false
 description: "it is like 'The Joel Test' but for programming languages"
 tags: [dx, programming-language, programming]
-cover: test.jpg
 discuss:
   devto: developer-experience-the-stereoboster-test-for-a-programming-language-4c44
 ---
