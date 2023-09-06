@@ -14,6 +14,8 @@
 ## congo TODO
 
 - support series
+- discussion links
+- https://web.dev/lcp-lazy-loading/
 - check: `kbd`
   - themes/congo/tailwind.config.js
   - https://github.com/tailwindlabs/tailwindcss-typography/pull/317
@@ -21,7 +23,7 @@
 - blockquote remove quotes
   - themes/congo/tailwind.config.js
   - https://discourse.gohugo.io/t/blockquote-with-render-hook/40701
-- img maybe add lqip
+- img maybe add [lqip](https://github.com/stereobooster/stereobooster.com/blob/cb243e1b4d016f987c1acfaf3d512a8e6728a13b/layouts/partials/img-header.html#L7-L34)
 - check [RSS](http://localhost:1313/index.xml)
   - `render-image.rss.xml` ?
   - `render-code.rss.xml` ?
@@ -40,7 +42,7 @@
   - support sticky position (for horizontal scroll)
 - track scroll in sidebar?
 - Do I need quicklink?
-- improve related links to post
+- improve related links in post
 
 ```js
 module.exports = {
@@ -60,6 +62,8 @@ module.exports = {
   plugins: [require('@tailwindcss/typography')],
 }
 ```
+
+- 404 page [glitch effect](https://devdojo.com/gscode/best-creative-10-pure-css-glitch-effect)
 
 - https://blowfish.page/docs/shortcodes/
 - https://jpanther.github.io/congo/docs/partials/
