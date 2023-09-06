@@ -6,25 +6,26 @@
 
 - add related links to post
   - maybe in sidebar?
-- check: `kbd`
-  - themes/congo/tailwind.config.js
-  - https://github.com/tailwindlabs/tailwindcss-typography/pull/317
-  - https://daisyui.com/components/kbd/
-- blockquote remove quotes
 - check a11y
   - can focus hidden header icons
 - `<meta name="theme-color" content="rgb(255,255,255)" />`, `black-translucent`
-- in search results there are empty blocks
-  - https://github.com/jpanther/congo/issues/642
-- cover images in posts
-  - rename `cover_image` to `cover`?
 - do not show `list.no_articles` on separate pages
 - test locally (including mobile)
   - https://gohugo.io/commands/hugo_server/
   - https://gohugo.io/commands/hugo_server_trust/
   - https://gist.github.com/willurd/5720255
-- img maybe add lqip
 - check performance, SEO
+- https://github.com/jpanther/congo/discussions/498
+- in search results there are empty blocks
+  - https://github.com/jpanther/congo/issues/642
+- cover images in posts
+  - rename `cover_image` to `cover`?
+- check: `kbd`
+  - themes/congo/tailwind.config.js
+  - https://github.com/tailwindlabs/tailwindcss-typography/pull/317
+  - https://daisyui.com/components/kbd/
+- blockquote remove quotes
+- img maybe add lqip
 - check [RSS](http://localhost:1313/index.xml)
   - `render-image.rss.xml` ?
   - `render-code.rss.xml` ?
