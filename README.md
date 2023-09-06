@@ -7,7 +7,7 @@
 - Disclaimer block
 - add pagination to the index page
 - add related links to post
-- social links - hackernews
+- in search results there are empty blocks
 - check: `kbd`
 - check: wide code blocks
 - code line numbers
@@ -35,6 +35,7 @@
   - `render-code.rss.xml` ?
 - add links to subdomains
   - on top with hamburger menu?
+- icons can be better
 
 ```
 {{ $ageDays := div (sub now.Unix .Lastmod.Unix) 86400 }}

@@ -63,4 +63,5 @@ title = "stereobooster"
     { twitter = "https://twitter.com/stereobooster" },
   #   { whatsapp = "https://wa.me/phone-number" },
   #   { youtube = "https://youtube.com/username" },
+    { npm = "https://www.npmjs.com/~stereobooster" },
   ]
