@@ -16,6 +16,7 @@
 - support series
 - discussion links
 - https://web.dev/lcp-lazy-loading/
+- `Elements with visible text labels do not have matching accessible names.` (About pagination)
 - check: `kbd`
   - themes/congo/tailwind.config.js
   - https://github.com/tailwindlabs/tailwindcss-typography/pull/317
