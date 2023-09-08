@@ -2,7 +2,7 @@
 title: "Metaprogramming"
 date: 2021-01-10T17:30:08+01:00
 draft: false
-tags: [ruby, js, go, python, lisp, computerscience,  macros, programming, grammar, syntax]
+tags: [ruby, javascript, go, python, lisp, computerscience,  macros, programming, grammar, syntax]
 ---
 
 ## What is metaprogramming?

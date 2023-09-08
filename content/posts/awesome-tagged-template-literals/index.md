@@ -2,12 +2,10 @@
 title: "Awesome Tagged Template Literals"
 date: 2021-01-31T17:36:56+01:00
 draft: false
-tags: [js, macros, programming, syntax]
+tags: [javascript, macros, programming, syntax]
 ---
 
 Template literals is a pretty simple thing - it is a multiline string with interpolations:
-
-
 
 ```js
 // instead of this

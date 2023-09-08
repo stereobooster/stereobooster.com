@@ -2,7 +2,7 @@
 title: "Currying reimagined"
 date: 2020-11-30T23:29:50+01:00
 draft: false
-tags: [function, js, programming]
+tags: [function, javascript, programming]
 ---
 
 ## What is currying?
