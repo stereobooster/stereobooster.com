@@ -9,8 +9,6 @@ tags: [webdev, npm, css, components]
 
 Typical problem: you want to distribute React (Solid, Vue, etc.) component in npm package. Most likely it will need some kind of styles and maybe assets (images, svg, fonts). How you're gonna do it. Two options:
 
-
-
 - distribute CSS files
 - CSS-in-JS
 

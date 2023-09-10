@@ -7,8 +7,6 @@ tags: [webdev, css, react, components]
 
 ## `style` prop
 
-
-
 ```tsx
 <div style={{ color: "red" }} />
 ```
