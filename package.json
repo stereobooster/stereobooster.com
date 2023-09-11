@@ -7,7 +7,7 @@
   },
   "devDependencies": {
     "@hpcc-js/wasm": "^2.13.1",
-    "marked": "^8.0.0",
+    "marked": "^9.0.0",
     "mermaid-render": "^1.0.9"
   }
 }
