@@ -5,6 +5,8 @@ draft: false
 tags: ["diagram", "markdown", "mermaid", "graphviz"]
 ---
 
+aka diagrams as code
+
 [I dreamt about it for a long time](/posts/what-i-miss-in-markdown/#diagrams). Idea is to allow to express diagrams with a text, this way you can draw diagram while you are writing you markdown file. Without need to switch to another tool. And this diagram becomes part of the document and can be stored in git.
 
 Now when [Hugo supports](https://github.com/gohugoio/hugo/releases/tag/v0.93.0) render hooks for `code` blocks and in [MDX](https://mdxjs.com/) you can do this too (to use with Astro, etc.) it's time to revisit the subject.
@@ -43,11 +45,6 @@ Before we move on let's introduce some kind of categorisation of tools.
 | [PlantUML](https://plantuml.com/)                           | Declarative | CLI          | SVG, raster, ASCII-art | UML...                                                 |
 | [gnuplot](http://www.gnuplot.info/)                         | ?           | CLI          | SVG, raster, ASCII-art | [plots](https://gnuplot.sourceforge.net/demo_5.5/)     |
 | [Tikz](https://tikz.net/)                                   | ?           | LaTeX\*      | PDF\*                  | anything                                               |
-| [svgbob](https://ivanceras.github.io/svgbob-editor/)        | ASCII-art   | CLI, library | SVG                    | n/a                                                    |
-| [typograms](https://google.github.io/typograms/)            | ASCII-art   | browser      | ?                      | n/a                                                    |
-| [markdeep](https://casual-effects.com/markdeep/)            | ASCII-art   | browser      | SVG                    | n/a                                                    |
-| [goat](https://github.com/bep/goat)                         | ASCII-art   | library (go) | SVG                    | n/a                                                    |
-| [diita](https://ditaa.sourceforge.net/)                     | ASCII-art   | CLI (Java)   | raster                 | n/a                                                    |
 
 This is birdeye overview. There are nuances. I didn't include some libraries that:
 
@@ -59,11 +56,13 @@ This is birdeye overview. There are nuances. I didn't include some libraries tha
 - Most popular, because it [was adopted by github](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
 - Works [only in the browser](https://github.com/mermaid-js/mermaid/issues/3650). There is a [cli](https://github.com/mermaid-js/mermaid-cli), but it just a hack with headless browser (puppeteer)
 - **Theme-able**
+- [syntax highlightning](https://github.com/bpruitt-goddard/vscode-mermaid-syntax-highlight)
 
 ### Graphviz
 
 - Mature and wide-spread. I think, it was number one for graphs (flowchart, network, DAG) before github integrated mermaid
 - Originally CLI tool, but there are as well libraries, for example [WASM-based](https://www.npmjs.com/package/@hpcc-js/wasm), which allows to use Graphwiz on the server and in the browser
+- [syntax highlightning](https://marketplace.visualstudio.com/items?itemName=joaompinto.vscode-graphviz)
 
 ### d2lang
 
@@ -71,12 +70,14 @@ This is birdeye overview. There are nuances. I didn't include some libraries tha
 - Originally CLI tool, but there is [an attempt to convert to WASM library](https://github.com/terrastruct/d2/issues/136)
 - It worth to mention that it packs headless browser (playwright)
 - **Theme-able**
+- [syntax highlightning](https://marketplace.visualstudio.com/items?itemName=terrastruct.d2)
 
 ### Pikchr
 
 - "[PIC](https://en.wikipedia.org/wiki/Pic_language)-like markup language for diagrams in technical documentation"
 - To me it feels more on declarative side, but you can do some imperative things as well
 - There is [WASM library](https://github.com/fabiospampinato/pikchr-wasm) and [go port](https://github.com/gopikchr/gopikchr)
+- [syntax highlightning](https://github.com/epmoyer/pikchr_monarch)
 
 ### Diagon
 
@@ -101,19 +102,57 @@ One way or another I felt like I need to include at least one of those on the li
 
 I can't tell if this more declarative or imperative approach (kind of both)
 
+Syntax highlightning:
+
+- [fizzybreezy.gnuplot](https://marketplace.visualstudio.com/items?itemName=fizzybreezy.gnuplot)
+- [mammothb.gnuplot](https://marketplace.visualstudio.com/items?itemName=mammothb.gnuplot)
+- [MarioSchwalbe.gnuplot](https://marketplace.visualstudio.com/items?itemName=MarioSchwalbe.gnuplot)
+
+### ASCII-art
+
+- [svgbob](https://ivanceras.github.io/svgbob-editor/)
+- [typograms](https://google.github.io/typograms/)
+- [markdeep](https://casual-effects.com/markdeep/)
+- [goat](https://github.com/bep/goat)
+- [diita](https://ditaa.sourceforge.net/)
+- [asciitosvg](https://github.com/asciitosvg/asciitosvg)
+- [blockdiag](http://blockdiag.com/en/)
+- [shaape](https://github.com/christiangoltz/shaape)
+
+### Special purpose
+
+- [wavedrom](https://github.com/wavedrom/wavedrom)
+- [DrawGrammar](https://jacquev6.github.io/DrawGrammar/)
+- [state-machine-cat](https://github.com/sverweij/state-machine-cat)
+- [structurizr](https://structurizr.com/)
+- [symbolator](https://github.com/kevinpt/symbolator)
+- [syntrax](https://kevinpt.github.io/syntrax/)
+- [venn.js](https://upset.js.org/venn.js/)
+- [bytefield-svg](https://github.com/Deep-Symmetry/bytefield-svg)
+- [lilypond](https://lilypond.org/)
+
 ### Other
 
 Other tools (I'm pretty sure there are much more projects which I'm not aware of):
 
-- [mscgen_js](https://mscgen.js.org/)
+- [penrose](https://penrose.cs.cmu.edu/docs/ref/style/usage). This one is **interesting** - I need to read more about it
+- [vega-lite](https://vega.github.io/vega-lite/)
+- [mscgen](https://www.mcternan.me.uk/mscgen/)
+  - [mscgen_js](https://mscgen.js.org/)
 - [flowchart.js](https://flowchart.js.org/)
-- [wavedrom](https://github.com/wavedrom/wavedrom)
-- [DrawGrammar](https://jacquev6.github.io/DrawGrammar/)
-- [venn.js](https://upset.js.org/venn.js/)
 - [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/)
 - [kroki](https://kroki.io/#support)
+- [dbml-renderer](https://github.com/softwaretechnik-berlin/dbml-renderer)
+- [dpic](https://gitlab.com/aplevich/dpic)
+- [erd](https://github.com/BurntSushi/erd)
+- [actdiag](http://blockdiag.com/en/actdiag/index.html)
+- [nomnoml](https://nomnoml.com/)
+- [UMLet](https://www.umlet.com/)
 
-See also: https://xosh.org/text-to-diagram/
+See also:
+
+- https://xosh.org/text-to-diagram/
+- https://docs.asciidoctor.org/diagram-extension/latest/
 
 ## Instead of conclusion
 
@@ -125,6 +164,7 @@ I'm looking for solution:
   - dark mode via classes or css variables
   - it can be animated
   - it can contain html links (`<a>`)
+  - you can use <kbd>Cmd</kbd> + <kbd>F</kbd> to search text in it
   - we can add zoom/pan to it as in [github](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams)
 - it should be lightweight (so no headless browsers)
 - In some cases it make sense to generate visualisation on the client side (in the browser), for example:
