@@ -119,6 +119,12 @@ Syntax highlightning:
 - [blockdiag](http://blockdiag.com/en/)
 - [shaape](https://github.com/christiangoltz/shaape)
 
+Editors:
+
+- https://asciiflow.com/
+- https://textik.com/
+- https://kirilllive.github.io/ASCII_Art_Paint/ascii_paint.html
+
 ### Special purpose
 
 - [wavedrom](https://github.com/wavedrom/wavedrom)
