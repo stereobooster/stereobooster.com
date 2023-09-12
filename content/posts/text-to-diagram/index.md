@@ -20,7 +20,7 @@ Before we move on let's introduce some kind of categorisation of tools.
 - **Declarative** - when you have specific language for the job. You express what you want to get and it's up to the tool to figure out how to draw it
   - Examples: [Mermaid](https://mermaid.js.org/), [Graphviz](https://graphviz.org/), [d2lang](https://d2lang.com/)
 - **Imperative** - more involved approach, you need to specify how to draw the diagram
-  - Examples: D3
+  - Examples: ?
   - Note: python + Matplotlib, for example. also in this category, but if we go that far we will reinvent [Jupyter](https://jupyter.org/). So let's leave it out
 - **ASCII-art** - you de-facto drawing, but with text. Tool just responsible for making it look nicer than terminal output
   - Examples: [svgbob](https://ivanceras.github.io/svgbob-editor/), [typograms](https://google.github.io/typograms/), [markdeep](https://casual-effects.com/markdeep/), [goat](https://github.com/bep/goat)
