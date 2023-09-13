@@ -43,6 +43,8 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
   - uses **md4c**
 - [Wasm Markdown](https://markdown.fastlylabs.com/)
   - uses **pulldown-cmark**
+- [parsedown](https://github.com/rodneylab/parsedown)
+  - uses **pulldown-cmark**
 
 ### See also
 
@@ -62,6 +64,9 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
   - Sibling to **micromark**
 - [comrak](https://github.com/kivikakk/comrak)
   - Rust port of **cmark-gfm**
+- [markdown-it-rust](https://github.com/markdown-it-rust/markdown-it)
+  - Rust port of **markdown-it** library.
+- [Snekdown](https://github.com/Trivernis/snekdown)
 
 ## Golang
 
@@ -70,6 +75,8 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 - [gomarkdown/markdown](https://github.com/gomarkdown/markdown)
 - [golang-commonmark/markdown](https://gitlab.com/golang-commonmark/markdown)
 - [blackfriday](https://github.com/russross/blackfriday)
+- [mmark](https://github.com/mmarkdown/mmark)
+- [md](https://pkg.go.dev/src.elv.sh/pkg/md)
 
 ## C
 
@@ -90,7 +97,8 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 
 [Tree-sitter](https://tree-sitter.github.io/tree-sitter/) is a parser generator tool and an incremental parsing library. There are bindings for many languages (including Rust and JS)
 
-- [tree-sitter-markdown](https://github.com/MDeiml/tree-sitter-markdown)
+- [MDeiml/tree-sitter-markdown](https://github.com/MDeiml/tree-sitter-markdown)
+- [ikatyang/tree-sitter-markdown](https://github.com/ikatyang/tree-sitter-markdown)
 
 ## Ruby
 
@@ -106,7 +114,23 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 - [python-markdown](https://python-markdown.github.io/) used by
   - [MkDocs](https://www.mkdocs.org/)
   - [Pelican](https://getpelican.com/)
+- [marko](https://github.com/frostming/marko)
+
+## Clojure
+
+- [clarktown](https://github.com/askonomm/clarktown)
+
+## Elixir
+
+- [md](https://github.com/am-kantox/md)
 
 ## Other
 
 - ["awesome-markdown" libraries](https://github.com/BubuAnabelas/awesome-markdown#libraries)
+- [lezer-parser/markdown](https://github.com/lezer-parser/markdown)
+- [babelmark](https://babelmark.github.io/)
+
+### Crticism
+
+- [djot rationale](https://github.com/jgm/djot#rationale)
+- [markdown mistakes](https://www.swyx.io/markdown-mistakes)

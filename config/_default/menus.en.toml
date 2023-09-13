@@ -27,7 +27,7 @@
   weight = 30
 
 [[main]]
-  name = "String fuzzy serach"
+  name = "Fuzzy serach"
   url = "https://fuzzy.stereobooster.com/"
   weight = 30
 
