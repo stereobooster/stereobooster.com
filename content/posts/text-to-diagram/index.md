@@ -35,16 +35,16 @@ Before we move on let's introduce some kind of categorisation of tools.
 
 ## Tools
 
-| Names                                                       | Type        | Integration  | Formats                | Supported diagrams                                     |
-| ----------------------------------------------------------- | ----------- | ------------ | ---------------------- | ------------------------------------------------------ |
-| [mermaid](https://mermaid.js.org/)                          | Declarative | browser\*    | SVG                    | Flowchart, UML, ER, Gant...                            |
-| [graphviz](https://graphviz.org/)                           | Declarative | CLI, library | SVG, raster            | Graphs (flowchart, network, etc)                       |
-| [d2lang](https://d2lang.com/)                               | Declarative | CLI (go)     | SVG, raster...         | Flowchart, UML, ER...                                  |
-| [pikchr](https://pikchr.org/home/doc/trunk/doc/download.md) | ?           | CLI, library | SVG                    | [Kind of anything](https://pikchr.org/home/uv/pic.pdf) |
-| [Diagon](https://arthursonzogni.com/Diagon/)                | Declarative | CLI, library | ASCII-art              | Flowchart, Sequence...                                 |
-| [PlantUML](https://plantuml.com/)                           | Declarative | CLI          | SVG, raster, ASCII-art | UML...                                                 |
-| [gnuplot](http://www.gnuplot.info/)                         | ?           | CLI          | SVG, raster, ASCII-art | [plots](https://gnuplot.sourceforge.net/demo_5.5/)     |
-| [Tikz](https://tikz.net/)                                   | ?           | LaTeX\*      | PDF\*                  | anything                                               |
+| Names                                        | Type        | Integration  | Formats                | Supported diagrams                                     |
+| -------------------------------------------- | ----------- | ------------ | ---------------------- | ------------------------------------------------------ |
+| [mermaid](https://mermaid.js.org/)           | Declarative | browser\*    | SVG                    | Flowchart, UML, ER, Gant...                            |
+| [graphviz](https://graphviz.org/)            | Declarative | CLI, library | SVG, raster            | Graphs (flowchart, network, etc)                       |
+| [d2lang](https://d2lang.com/)                | Declarative | CLI (go)     | SVG, raster...         | Flowchart, UML, ER...                                  |
+| [pikchr](https://pikchr.org/)                | ?           | CLI, library | SVG                    | [Kind of anything](https://pikchr.org/home/uv/pic.pdf) |
+| [Diagon](https://arthursonzogni.com/Diagon/) | Declarative | CLI, library | ASCII-art              | Flowchart, Sequence...                                 |
+| [PlantUML](https://plantuml.com/)            | Declarative | CLI          | SVG, raster, ASCII-art | UML...                                                 |
+| [gnuplot](http://www.gnuplot.info/)          | ?           | CLI          | SVG, raster, ASCII-art | [plots](https://gnuplot.sourceforge.net/demo_5.5/)     |
+| [Tikz](https://tikz.net/)                    | ?           | LaTeX\*      | PDF\*                  | anything                                               |
 
 This is birdeye overview. There are nuances. I didn't include some libraries that:
 
@@ -172,6 +172,7 @@ I'm looking for solution:
   - it can contain html links (`<a>`)
   - you can use <kbd>Cmd</kbd> + <kbd>F</kbd> to search text in it
   - we can add zoom/pan to it as in [github](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/creating-diagrams#creating-mermaid-diagrams)
+  - sometime you need to have standalone file as well, which you can include as image for crossposting
 - it should be lightweight (so no headless browsers)
 - In some cases it make sense to generate visualisation on the client side (in the browser), for example:
   - fractals with infinite zoom

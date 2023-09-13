@@ -13,6 +13,8 @@
 
 ## congo TODO
 
+- img: [maybe add lqip](https://github.com/jpanther/congo/pull/647)
+- [add quicklink](https://github.com/jpanther/congo/pull/646)
 - support series
 - discussion links
 - https://web.dev/lcp-lazy-loading/
@@ -24,7 +26,6 @@
 - blockquote remove quotes
   - themes/congo/tailwind.config.js
   - https://discourse.gohugo.io/t/blockquote-with-render-hook/40701
-- img maybe add [lqip](https://github.com/stereobooster/stereobooster.com/blob/cb243e1b4d016f987c1acfaf3d512a8e6728a13b/layouts/partials/img-header.html#L7-L34)
 - check [RSS](http://localhost:1313/index.xml)
   - `render-image.rss.xml` ?
   - `render-code.rss.xml` ?
@@ -42,7 +43,6 @@
   - exclude from copy
   - support sticky position (for horizontal scroll)
 - track scroll in sidebar?
-- Do I need quicklink?
 - improve related links in post
 
 ```js

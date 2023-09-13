@@ -106,3 +106,7 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 - [python-markdown](https://python-markdown.github.io/) used by
   - [MkDocs](https://www.mkdocs.org/)
   - [Pelican](https://getpelican.com/)
+
+## Other
+
+- ["awesome-markdown" libraries](https://github.com/BubuAnabelas/awesome-markdown#libraries)
