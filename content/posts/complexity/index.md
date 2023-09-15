@@ -45,7 +45,7 @@ Hickey distinguishes hard-easy vs complex-simple. Brooks uses "difficult" instea
 
 To grasp some complex idea you need to "boot it up" in your brain. Often it takes some time and "external" memory (notebook, laptop etc). You know [this comic about focus and how you should not disturb programmers](https://www.monkeyuser.com/2018/focus/). It illustrates the concept of "booting up" a complex idea (system, model).
 
-[![](https://thepracticaldev.s3.amazonaws.com/i/1e5a8mts8rc3ly24g9ap.png)]((https://www.monkeyuser.com/2018/focus/))
+[![](https://thepracticaldev.s3.amazonaws.com/i/1e5a8mts8rc3ly24g9ap.png)](https://www.monkeyuser.com/2018/focus/)
 
 So the real problem here is that if you will deal with the complex system it will "kill" you in long run.  Every time you need to change something, every time you need to explain it (and other people need to learn it), this slow evaluation of complex system will repeat.
 

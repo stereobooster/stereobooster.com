@@ -75,6 +75,6 @@ Map by [carneades.org](https://carneades.org/lp-courses/):
 
 ![](./philcites-static.png)
 
-[Graphing the history of philosophy](./http://www.coppelia.io/2012/06/graphing-the-history-of-philosophy/):
+[Graphing the history of philosophy](http://www.coppelia.io/2012/06/graphing-the-history-of-philosophy/):
 
 ![](./philprettyv4.png)
