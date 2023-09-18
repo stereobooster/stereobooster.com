@@ -42,6 +42,7 @@ tags: ["markdown"]
 | Docusaurus                                                                                                             | Yes, see [documentation](https://docusaurus.io/docs/markdown-features/links) |
 | [Markdown Language Server](https://github.com/microsoft/vscode/tree/main/extensions/markdown-language-features/server) | Yes                                                                          |
 | [markdown-links](https://github.com/tchayen/markdown-links)                                                            | Yes                                                                          |
+| Jekyll                                                                                                                 | Yes, with [plugin](https://github.com/benbalter/jekyll-relative-links)       |
 | Astro                                                                                                                  | No, see [discussion](https://github.com/withastro/roadmap/discussions/424)   |
 | Next.js                                                                                                                | No, AFAIK                                                                    |
 | Gatsby                                                                                                                 | No, AFAIK                                                                    |
