@@ -7,10 +7,10 @@
   resolved "https://registry.yarnpkg.com/@braintree/sanitize-url/-/sanitize-url-3.1.0.tgz#8ff71d51053cd5ee4981e5a501d80a536244f7fd"
   integrity sha512-GcIY79elgB+azP74j8vqkiXz8xLFfIzbQJdlwOPisgbKT00tviJQuEghOXSMVxJ00HoYJbGswr4kcllUc4xCcg==
 
-"@hpcc-js/wasm@^2.13.1":
-  version "2.13.1"
-  resolved "https://registry.yarnpkg.com/@hpcc-js/wasm/-/wasm-2.13.1.tgz#039e72e490d85a6f2c7090858a5ee5f07fb06a79"
-  integrity sha512-dJO0VQZFtUcqledAAU8b0yCw3HdkIVyrNjv8sAwdhDcOMRKdaNumi7Punj39u5h2CpdMN4g6I4gp584g/zVSzA==
+"@hpcc-js/wasm@^2.14.0":
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/@hpcc-js/wasm/-/wasm-2.14.0.tgz#33f1f84f603c8273c3685acfc7ba1aa305c2c875"
+  integrity sha512-Az3R1GW4kHxDBgWi+dPniY06lxj59pj/1RIKnbkr41LM/s7n4GDOFMDegP5B7Z8MAY+GkbermHmr4KSRTD8Z9g==
   dependencies:
     yargs "17.7.2"
 
