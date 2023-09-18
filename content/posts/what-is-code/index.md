@@ -26,7 +26,7 @@ We can say that code is a configuration for a computer. And we need to define co
 
 > The computer is a device (software or hardware) that can do computations (see below), which can do some sort of mechanical reasoning (see below).
 >
-> -- [What is a computer?](/posts/what-is-computer/)
+> -- [What is a computer?](/content/posts/what-is-computer/index.md)
 
 ### System of a meaning
 

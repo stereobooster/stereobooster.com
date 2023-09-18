@@ -5,7 +5,7 @@ draft: false
 tags: [webdev, pwa, ux, react-native]
 ---
 
-To illustrate ideas from my [previous article](/posts/native-like-pwa). Let's take a look at [heylinda-app](https://github.com/heylinda/heylinda-app). No hard feelings - it was first open-source ReactNative app compiled to PWA, that I found.
+To illustrate ideas from my [previous article](/content/posts/native-like-pwa/index.md). Let's take a look at [heylinda-app](https://github.com/heylinda/heylinda-app). No hard feelings - it was first open-source ReactNative app compiled to PWA, that I found.
 
 ReactNative was built specifically for mobile platforms, so it was interesting for me to see how it works for PWA.
 

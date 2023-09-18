@@ -29,7 +29,7 @@ People usually choose based on hype. People choose based on problems that don't 
 
 ## What is modern software development?
 
-Let's pause a bit and ask the question: what is modern software development about? I would say that the main task of a developer is to **manage [complexity](/posts/complexity/)**. You take some logic (business rules or some algorithm) and you encode it as a program. To do this you need to understand all behavioural aspects of the system because the machine can  only execute precise commands, so you can't just explain to the computer what you want in a handwavy way, you need to be precise.
+Let's pause a bit and ask the question: what is modern software development about? I would say that the main task of a developer is to **manage [complexity](/content/posts/complexity/index.md)**. You take some logic (business rules or some algorithm) and you encode it as a program. To do this you need to understand all behavioural aspects of the system because the machine can  only execute precise commands, so you can't just explain to the computer what you want in a handwavy way, you need to be precise.
 
 When you take some handwavy explanation and turn it into precise instructions for a computer you will see that you need more (much more) precise instructions to describe it to a computer than you would use to explain it in a handwavy way.
 
@@ -59,7 +59,7 @@ Complexity always grows over time, so you will have a chance to fight with your 
 
 Always choose beginner-friendly tools to learn first, before you will dive in some in advanced stuff.
 
-Look for the following keywords: zero-configuration, convention over configuration, [developer experience (DX)](/posts/evaluating-dx-of-a-programming-language). Don't pay attention to: blazing fast, small bundle size, other hype words.
+Look for the following keywords: zero-configuration, convention over configuration, [developer experience (DX)](/content/posts/evaluating-dx-of-a-programming-language/index.md). Don't pay attention to: blazing fast, small bundle size, other hype words.
 
 Choose an older, more stable, programming language, library, and framework, because it will be more polished, more robust, and better documented.
 

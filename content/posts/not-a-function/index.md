@@ -8,7 +8,7 @@ discuss:
   devto: not-a-function-2a3g
 ---
 
-In [the previous post](/posts/from-function-to-closure/) we talked about what is a function. In this post let's talk about things that look like a function, but actually are not.
+In [the previous post](/content/posts/from-function-to-closure/index.md) we talked about what is a function. In this post let's talk about things that look like a function, but actually are not.
 
 
 

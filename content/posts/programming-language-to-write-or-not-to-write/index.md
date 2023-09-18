@@ -24,8 +24,8 @@ Don't think about it as the language which you will use for your work or somethi
 
 This exercise follows two principles:
 
-- [Building from scratch](/posts/about-learning/#building-from-scratch)
-- [“Problem first” approach](/posts/about-learning/#problem-first-approach)
+- [Building from scratch](/content/posts/about-learning/index.md#building-from-scratch)
+- [“Problem first” approach](/content/posts/about-learning/index.md#problem-first-approach)
 
 ## What?
 

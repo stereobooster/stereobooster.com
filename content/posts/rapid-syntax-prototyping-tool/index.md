@@ -36,7 +36,7 @@ Given grammar and some additional annotations, it should be trivial to generate 
 
 ## Implementation
 
-I need to chose [parser generator](/posts/an-overview-of-parsing-algorithms/). PEG parser seems like the best candidate for my purpose (Rosie uses it).
+I need to chose [parser generator](/content/posts/an-overview-of-parsing-algorithms/index.md). PEG parser seems like the best candidate for my purpose (Rosie uses it).
 
 Potential issues with PEG:
 

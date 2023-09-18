@@ -15,7 +15,7 @@ There is [a similar question on StackExchange](https://softwareengineering.stack
 
 > Actor model - is a mathematical model for concurrent computations, and microservices - an implementation of service-oriented architecture.
 
-And? There are a lot of things that can be used for computations, for example, [Lambda calculus (formal system in a **logic**), billiard balls, quantum, live cells, Game of life](/posts/what-is-computer/). The fact that they are in different categories doesn't prevent to use all of them for computations.
+And? There are a lot of things that can be used for computations, for example, [Lambda calculus (formal system in a **logic**), billiard balls, quantum, live cells, Game of life](/content/posts/what-is-computer/index.md). The fact that they are in different categories doesn't prevent to use all of them for computations.
 
 > Again, microservices could be stateful too, but it goes against the design principles of microservices.
 

@@ -6,7 +6,7 @@ tags: [computerscience, syntax, grammar, parser, function]
 series: "Parsing"
 ---
 
-In my [first post](/posts/an-overview-of-parsing-algorithms/) I didn't mention "parser combinators".
+In my [first post](/content/posts/an-overview-of-parsing-algorithms/index.md) I didn't mention "parser combinators".
 
 Parser combinator is the way to construct recursive descent parsers in functional programming using functions. Higher-order functions can be used to combine parsers, to represent sequencing, choice, and repetition.
 

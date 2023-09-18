@@ -7,7 +7,7 @@ series: "Demystify Programming Languages"
 description: In this post, we will talk about functions in programming languages.
 ---
 
-In [one of my previous posts](/posts/from-function-to-closure/) I talked about the theoretical point of view on functions. In this post, we will talk about how to implement function from scratch in a programming language.
+In [one of my previous posts](/content/posts/from-function-to-closure/index.md) I talked about the theoretical point of view on functions. In this post, we will talk about how to implement function from scratch in a programming language.
 
 
 

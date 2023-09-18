@@ -9,7 +9,7 @@ discuss:
   devto: demystify-closures-5g42
 ---
 
-In the previous post we implemented functions, but not about [closures](/posts/from-function-to-closure/). Let's fix this.
+In the previous post we implemented functions, but not about [closures](/content/posts/from-function-to-closure/index.md). Let's fix this.
 
 
 

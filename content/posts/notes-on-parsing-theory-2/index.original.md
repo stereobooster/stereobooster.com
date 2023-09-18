@@ -6,7 +6,7 @@ tags: [computerscience, syntax, grammar, parser]
 series: "Parsing"
 ---
 
-After reading more about the subject I realized that section "Scanners and parsers" from my [previous post](/posts/notes-on-parsing-theory-1/) needs a correction.
+After reading more about the subject I realized that section "Scanners and parsers" from my [previous post](/content/posts/notes-on-parsing-theory-1/index.md) needs a correction.
 
 
 ## Lexical vs syntax grammar

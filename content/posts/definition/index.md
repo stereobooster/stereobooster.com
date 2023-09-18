@@ -9,9 +9,9 @@ Definition as the system of meaning - we use symbols to communicate, to think, t
 
 
 
-We can treat definitions as [formal systems](/posts/formal-system) - we give a small set of words which are defined without words, for example through images, gestures, etc. and then we can define all other words with the basic set.
+We can treat definitions as [formal systems](/content/posts/formal-system/index.md) - we give a small set of words which are defined without words, for example through images, gestures, etc. and then we can define all other words with the basic set.
 
-On the other side some definitions come from trying to put some objects in one "bucket" by finding similarities (see clustering and [abstraction](/posts/abstraction)).
+On the other side some definitions come from trying to put some objects in one "bucket" by finding similarities (see clustering and [abstraction](/content/posts/abstraction/index.md)).
 
 ## From [Definitions in Arguments](http://www.mesacc.edu/~barsp59601/text/103/notes/5.html)
 

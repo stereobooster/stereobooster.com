@@ -6,7 +6,7 @@ tags: [computerscience, syntax, grammar, parser]
 series: "Parsing"
 ---
 
-When I tried to read [papers on parsing algorithms](/posts/an-overview-of-parsing-algorithms/) I found a lot of terminologies (sometimes used inconsistently), a lot of abbreviations, and contradictory claims.
+When I tried to read [papers on parsing algorithms](/content/posts/an-overview-of-parsing-algorithms/index.md) I found a lot of terminologies (sometimes used inconsistently), a lot of abbreviations, and contradictory claims.
 
 I decided to make some notes - write down definitions and abbreviations to understand papers.
 

@@ -5,9 +5,9 @@ draft: false
 tags: [programming, computerscience, type-system, function]
 ---
 
-Continuation of previous post: [Is this a type error?](/posts/is-this-a-type-error/).
+Continuation of previous post: [Is this a type error?](/content/posts/is-this-a-type-error/index.md).
 
-[I wrote a small lisp-like language](/posts/demystify-variables/). To create a variable in this language you would write:
+[I wrote a small lisp-like language](/content/posts/demystify-variables/index.md). To create a variable in this language you would write:
 
 ```lisp
 (define x 1)

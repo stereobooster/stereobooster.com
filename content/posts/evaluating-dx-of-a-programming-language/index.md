@@ -84,7 +84,7 @@ Examples of static analyzers:
 
 ## Does a language provide clear error messages?
 
-[I wrote about this earlier](/posts/dx-error-messages/). I will not repeat myself, except that I consider [Elm](http://elm-lang.org/blog/compiler-errors-for-humans) to be the best example in this category.
+[I wrote about this earlier](/content/posts/dx-error-messages/index.md). I will not repeat myself, except that I consider [Elm](http://elm-lang.org/blog/compiler-errors-for-humans) to be the best example in this category.
 
 ## Does a language has a debugger?
 

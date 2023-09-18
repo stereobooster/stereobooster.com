@@ -9,7 +9,7 @@ discuss:
   devto: demystify-programming-languages-errors-3fbp
 ---
 
-In [previous post](/posts/programming-language-to-write-or-not-to-write) we talked about parsing, evaluation and REPL. In this post, we will talk about errors.
+In [previous post](/content/posts/programming-language-to-write-or-not-to-write/index.md) we talked about parsing, evaluation and REPL. In this post, we will talk about errors.
 
 
 
@@ -90,7 +90,7 @@ There are different ways how we can classify errors, for example in our implemen
 We can further refine the classification of runtime errors to:
 
 - general runtime errors, for example, missing function (the computer doesn't know this function)
-- type errors, for example, try to subtract symbol from the number, but the computer can only subtract numbers from numbers. Read more about types [here](/posts/type-system-faq).
+- type errors, for example, try to subtract symbol from the number, but the computer can only subtract numbers from numbers. Read more about types [here](/content/posts/type-system-faq/index.md).
 
 So our hierarchy can look like this:
 

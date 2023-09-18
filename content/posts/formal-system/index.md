@@ -24,7 +24,7 @@ draft: false
 >
 > -- [Britanica](https://www.britannica.com/topic/formal-system)
 
-Given some set of [symbols](/posts/symbolic-thinking) (or tokens) and some rules on how we can put those symbols together, we can produce new configurations. This is a very simple idea which lies in the center of logic and math.
+Given some set of [symbols](/content/posts/symbolic-thinking/index.md) (or tokens) and some rules on how we can put those symbols together, we can produce new configurations. This is a very simple idea which lies in the center of logic and math.
 
 ### Examples
 
@@ -78,7 +78,7 @@ If axioms are unprovable how do we know what we know? Isn't it all just a castle
 >
 > -- Science and Sanity, Alfred Korzybski
 
-Model is not the same as reality. It is just a useful representation. The usefulness of the model comes from it impreciseness - some details removed, which allows us to focus on what matters (see [abstraction](/posts/abstraction)).
+Model is not the same as reality. It is just a useful representation. The usefulness of the model comes from it impreciseness - some details removed, which allows us to focus on what matters (see [abstraction](/content/posts/abstraction/index.md)).
 
 Because the model is just some symbolic representation of reality, it can "fit" for more than one reality. When we find similarities between different models we call it correspondence, for example, see [Physics, Topology, Logic, and Computation: A Rosetta Stone](https://arxiv.org/pdf/0903.0340.pdf).
 

@@ -30,7 +30,7 @@ Slide 21 from Guy L. Steele Jr. presentation:
 - **1978** CMU Alphard project uses regular expressions with `*`, `+`, and `#`.
 - **1981** CMU FEG and IDL use regular expressions with `*`, `+`, and `?`.
 
-For example, Robins (see [lecture notes from the previous post](/posts/notes-on-parsing-theory-3/)) uses Brzozowki notation (`+` for union).
+For example, Robins (see [lecture notes from the previous post](/content/posts/notes-on-parsing-theory-3/index.md)) uses Brzozowki notation (`+` for union).
 
 Matthew Might (in Parsing with derivatives) uses a variation of Copi, Elgot, and Wright notation:
 

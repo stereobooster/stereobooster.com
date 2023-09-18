@@ -31,14 +31,14 @@ Pretty approachable definition. I will rephrase it a bit. The object is a state 
 
 I wrote 2 posts about it:
 
-- [Introduction: from function to closure](/posts/from-function-to-closure/)
-- [Not a Function](/posts/not-a-function/)
+- [Introduction: from function to closure](/content/posts/from-function-to-closure/index.md)
+- [Not a Function](/content/posts/not-a-function/index.md)
 
 Let's go with the simplified definition (in the same vein as the object definition) and say that function is a behavior (for precise definition see links above).
 
 In functional programming, they like to pass functions as values, to be able to do this functions "converted" to closures (converted is not a precise word here, because closure is a function with free variables, but let's go with a simplified view).
 
-What is [closure](/posts/demystify-closures/) (in programming language)?
+What is [closure](/content/posts/demystify-closures/index.md) (in programming language)?
 
 > Closures are data structures with both a code and a data component.
 >
@@ -91,7 +91,7 @@ _Note_: function returns record data structure (which in JS confusingly named "O
 
 ## Not a new idea
 
-If you think about it makes a lot of sense all [computers](/posts/what-is-computer/) deal with state (data) and behavior. This idea was discovered again and again:
+If you think about it makes a lot of sense all [computers](/content/posts/what-is-computer/index.md) deal with state (data) and behavior. This idea was discovered again and again:
 
 Here is how Lamport defines computation:
 

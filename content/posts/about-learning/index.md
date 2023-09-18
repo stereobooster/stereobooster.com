@@ -53,7 +53,7 @@ Interpretation by Shriram Krishnamurthi](http://cs.brown.edu/courses/cs173/2012/
 
 ### Abstractions
 
-Some high level [abstractions](/posts/abstraction/) can be very useful, but when they taught in a top-down manner it is hard to appreciate it, and it may seem like a lot of gibberish.
+Some high level [abstractions](/content/posts/abstraction/index.md) can be very useful, but when they taught in a top-down manner it is hard to appreciate it, and it may seem like a lot of gibberish.
 
 `<Insert joke about monad tutorials here>`
 
@@ -97,7 +97,7 @@ The idea was proposed by Seymour Papert in 60-s, this idea has grown out of the 
 
 How would we optimize learning based on this idea? We can create an environment which would stimulate experimentation. An environment with a clear response, with fast response loop, so that error-trial cycle would be faster. The task of the teacher would be not to go through the books, but rather expose pupils to problems so that they can figure out the solution themselves, and answer questions and help unstack, but they will build their own experience.
 
-Papert came up with the turtle as a programming learning environment. Later a lot of people build upon this idea, for example, Bret Victor and his idea of very fast response loops, and controls in place and time travel which with hot reload, which got into Elm and Redux, Scratch programming language proposed concept of visual programming language. Read my previous post about [educational programming languages](/posts/educational-programming-languages/) to learn more about this idea.
+Papert came up with the turtle as a programming learning environment. Later a lot of people build upon this idea, for example, Bret Victor and his idea of very fast response loops, and controls in place and time travel which with hot reload, which got into Elm and Redux, Scratch programming language proposed concept of visual programming language. Read my previous post about [educational programming languages](/content/posts/educational-programming-languages/index.md) to learn more about this idea.
 
 ## Knowledge is not measurable by one number
 
@@ -161,7 +161,7 @@ For example, [they teach that gravity depends on the mass of objects, but photon
 
 Another potential trap if you learn only one side of the problem, only one way to solve the problem, only one point of view. It is easy to get trapped in this vision and believe this is the only way to approach the problem.
 
-In [this lecture of Robert Sapolsky](https://www.youtube.com/watch?v=NNnIGh9g6fA) discusses some examples of bad [categorical thinking](/posts/categorical-thinking).
+In [this lecture of Robert Sapolsky](https://www.youtube.com/watch?v=NNnIGh9g6fA) discusses some examples of bad [categorical thinking](/content/posts/categorical-thinking/index.md).
 
 This problem is well known in software development: for example, people who only acknowledge FP or OOP, people who only acknowledge types or tests.
 
@@ -197,9 +197,9 @@ Or you can read SEP for more details:
 
 I mentioned this idea in my previous posts:
 
-- [Developer is the next blue collar job](/posts/developer-is-the-next-blue-collar-job/#ergonomics)
-- [Evaluating Developer eXperience of a programming language](/posts/evaluating-dx-of-a-programming-language/)
-- [Educational Programming Languages](/posts/educational-programming-languages/)
+- [Developer is the next blue collar job](/content/posts/developer-is-the-next-blue-collar-job/index.md#ergonomics)
+- [Evaluating Developer eXperience of a programming language](/content/posts/evaluating-dx-of-a-programming-language/index.md)
+- [Educational Programming Languages](/content/posts/educational-programming-languages/index.md)
 
 ## Bad teachers
 

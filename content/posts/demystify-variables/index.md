@@ -252,7 +252,7 @@ What should happen if we do:
 (+ x y)
 ```
 
-and we never defined `y`? As we talked in the [previous post](/posts/demystify-programming-languages-errors) there are two ways to handle errors:
+and we never defined `y`? As we talked in the [previous post](/content/posts/demystify-programming-languages-errors/index.md) there are two ways to handle errors:
 
 - return some value which indicates an error, for example, `undefined` or `null`
 - interrupt current execution

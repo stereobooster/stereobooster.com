@@ -12,7 +12,7 @@ Based on [Theory of Computation (CS3102), Spring 2017](http://www.cs.virginia.ed
 
 ## Definitions
 
-Let's start with refinement of terminology from [part 1](/posts/notes-on-parsing-theory-1/).
+Let's start with refinement of terminology from [part 1](/content/posts/notes-on-parsing-theory-1/index.md).
 
 **Alphabet** (`Σ` - sigma) is a _finite_, non-empty set of ~~symbols~~ letters. Example: `Σ = {a, b}`.
 
