@@ -7,7 +7,7 @@ tags: ["diagram", "markdown", "mermaid", "graphviz"]
 
 aka diagrams as code
 
-[I dreamt about it for a long time](/posts/what-i-miss-in-markdown/#diagrams). Idea is to allow to express diagrams with a text, this way you can draw diagram while you are writing you markdown file. Without need to switch to another tool. And this diagram becomes part of the document and can be stored in git.
+[I dreamt about it for a long time](/content/posts/what-i-miss-in-markdown/index.md#diagrams). Idea is to allow to express diagrams with a text, this way you can draw diagram while you are writing you markdown file. Without need to switch to another tool. And this diagram becomes part of the document and can be stored in git.
 
 Now when [Hugo supports](https://github.com/gohugoio/hugo/releases/tag/v0.93.0) render hooks for `code` blocks and in [MDX](https://mdxjs.com/) you can do this too (to use with Astro, etc.) it's time to revisit the subject.
 
