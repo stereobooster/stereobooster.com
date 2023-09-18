@@ -47,7 +47,7 @@ To grasp some complex idea you need to "boot it up" in your brain. Often it take
 
 [![](https://thepracticaldev.s3.amazonaws.com/i/1e5a8mts8rc3ly24g9ap.png)](https://www.monkeyuser.com/2018/focus/)
 
-So the real problem here is that if you will deal with the complex system it will "kill" you in long run.  Every time you need to change something, every time you need to explain it (and other people need to learn it), this slow evaluation of complex system will repeat.
+So the real problem here is that if you will deal with the complex system it will "kill" you in long run. Every time you need to change something, every time you need to explain it (and other people need to learn it), this slow evaluation of complex system will repeat.
 
 ### Essential vs accidental complexity
 
@@ -93,6 +93,7 @@ Today we rarely write an algorithm instead we take something ready from the shel
 > -- Gerald Jay Sussman
 
 There are things which can be considered as accidental complexity, but still, exist at a higher level only because we haven't figured out how to solve it in a general way. For example:
+
 - manual memory management. We are close to a solution, there are effective GC implementations, for example in Ponylang.
 - null issue. We can use maybe monad or [maybe not](https://www.youtube.com/watch?v=YR5WdGrpoug).
 - need to choose algorithms and data structure instead of general data types and leave the machine to figure out what is the best implementation for given use-case is.
@@ -103,6 +104,7 @@ We move in direction higher levels abstractions, to more declarative solutions, 
 The higher we climb this tower of abstraction the higher cost of the wrong abstraction, the more we trapped in legacy. So from time to time regression happens, when we come back to couple levels back and reevaluate best practices.
 
 Interesting effect when people got used to some accidental complexity and can't view it as accidental complexity anymore:
+
 - they believe that it is an appropriate abstraction. If it is hard to understand you just need to learn it harder
 - they believe that it is required for performance. This argument was used to protect `goto`, for example
 - they believe that true programmers suppose to know it. I guess pointers is a good example here
@@ -115,6 +117,7 @@ Even more disturbing is that those people can have a lot of experience and autho
 It is hard to produce a simple solution, but it is easy to use one. And it is easy to produce a complex solution and hard to use it (sometimes it can be seen as easy to use, but this impression goes away fast).
 
 Examples:
+
 - it took 2 years for Rich Hickey to design Clojure (behind closed doors). Features are added very slowly for what it has been criticized
 - Elm adds features very slow
 - React appeared 5 years ago (something like this). It didn't have good composable state management. People invented tones of solutions (more than 20 for sure). Only this year they showed hooks and it is not final yet, we still wait for final thing and Cache thing and then it would be possible to build a proper solution based on those abstractions.
@@ -128,11 +131,11 @@ This is because it is hard to find proper abstraction, to find proper abstractio
 Complexity comes from interconnected, tangled, twisted, complected (in terms of Hickey) things. Those connections grow (typically) more than a linear way with the number of items. This can idea can be considered as a derivation of [rule of product from combinatorics](http://cse.unl.edu/~choueiry/S06-235/files/Combinatorics-HandoutNoNotes.pdf).
 
 > **Combinatorics** is the study of collections of objects. Specifically,
-counting objects, arrangement, derangement, etc. of objects along
-with their mathematical properties.
+> counting objects, arrangement, derangement, etc. of objects along
+> with their mathematical properties.
 >
 > If two events are not mutually exclusive (that is, we do them
-separately), then we apply the **product rule**.
+> separately), then we apply the **product rule**.
 
 If you add even one thing there is a high chance that complexity will grow by more than one, typically quickly than a linear progression.
 

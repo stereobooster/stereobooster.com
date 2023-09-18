@@ -12,8 +12,6 @@ discuss:
 
 How we can define code (in sense of computer program, I'm not talking about encryption)? There is more than one answer.
 
-
-
 ### Result of programming
 
 One way to define code is to say this is the result of programming (along with documentation and tickets). For the fullness of definition we would need to define what is programming:
@@ -177,14 +175,13 @@ We are not limited to software. People "write" programs with hardware as well, f
 > | ![](./racket-1.png) | ![](./racket-2.png) | ![](./racket-3.png) |
 > | ------------------- | ------------------- | ------------------- |
 >
->
 > -- [@pixnblox](https://twitter.com/pixnblox/status/1104485690899922944)
 
 People used punch cards to write code and store information in the past:
 
 ![](./punchcard.jpg)
 
-Image source: [wikipedia](https://en.wikipedia.org/wiki/Punched_card#/media/File:Used_Punchcard_(5151286161).jpg)
+Image source: [wikipedia](<https://en.wikipedia.org/wiki/Punched_card#/media/File:Used_Punchcard_(5151286161).jpg>)
 
 Plug boards can be used to "write" code:
 

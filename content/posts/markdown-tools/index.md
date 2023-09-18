@@ -17,7 +17,7 @@ And everything in between:
 - Language servers: [VSCode Markdown language server](https://github.com/microsoft/vscode/tree/main/extensions/markdown-language-features/server), Marksman
 - Graph vizualization: [markdown-links](https://github.com/tchayen/markdown-links), [markmap.js](https://markmap.js.org/docs/packages--markmap-cli), [dundalek/markmap](https://github.com/dundalek/markmap)
 - Transformers:
-  - from Obsidian to Hugo: [obsidian-to-hugo](https://github.com/devidw/obsidian-to-hugo), [obsidian-meets-hugo](https://github.com/ukautz/obsidian-meets-hugo), [obyde](https://github.com/notkmhn/obyde)
+  - from Obsidian to Hugo: [obsidian-export](https://nick.groenen.me/projects/obsidian-export/) [obsidian-to-hugo](https://github.com/devidw/obsidian-to-hugo), [obsidian-meets-hugo](https://github.com/ukautz/obsidian-meets-hugo), [obyde](https://github.com/notkmhn/obyde)
   - to [convert code fences to diagrams](/posts/text-to-diagram/): [pikchr-cmd](https://github.com/zenomt/pikchr-cmd), [rehype-mermaidjs](https://github.com/remcohaszing/rehype-mermaidjs) + [remark-mermaidjs](https://github.com/remcohaszing/remark-mermaidjs)
   - code formaters: [prettier](https://prettier.io/), [cbfmt](https://github.com/lukas-reineke/cbfmt)
 - Broken link checkers: [remark-lint-no-dead-urls](https://github.com/remarkjs/remark-lint-no-dead-urls), [mdv](https://github.com/Mermade/mdv), [markdown-link-check](https://github.com/tcort/markdown-link-check), [remark-validate-links](https://github.com/remarkjs/remark-validate-links)
