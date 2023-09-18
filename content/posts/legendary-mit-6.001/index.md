@@ -12,8 +12,6 @@ discuss:
 >
 > — Hal Abelson
 
-
-
 {{< youtube 2Op3QLzMgSY >}}
 
 ## Introduction

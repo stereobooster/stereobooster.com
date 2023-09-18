@@ -5,7 +5,7 @@ draft: false
 tags: ["markdown"]
 ---
 
-**aka** relative links, file path links. Software supports **portable markdown links** if for content like this:
+**aka** relative links, local links, file path links. Software supports **portable markdown links** if for content like this:
 
 ```md
 [test](folder/test.md)
@@ -33,20 +33,21 @@ tags: ["markdown"]
 
 ## Who supports it?
 
-| Software                                                                                                               | Does it support PML                                                          |
-| ---------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| Github                                                                                                                 | Yes                                                                          |
-| VSCode                                                                                                                 | Yes                                                                          |
-| Hugo                                                                                                                   | Yes, [with configuration](https://github.com/bep/portable-hugo-links)        |
-| Obsidian                                                                                                               | Yes                                                                          |
-| Docusaurus                                                                                                             | Yes, see [documentation](https://docusaurus.io/docs/markdown-features/links) |
-| [Markdown Language Server](https://github.com/microsoft/vscode/tree/main/extensions/markdown-language-features/server) | Yes                                                                          |
-| [markdown-links](https://github.com/tchayen/markdown-links)                                                            | Yes                                                                          |
-| Jekyll                                                                                                                 | Yes, with [plugin](https://github.com/benbalter/jekyll-relative-links)       |
-| Astro                                                                                                                  | No, see [discussion](https://github.com/withastro/roadmap/discussions/424)   |
-| Next.js                                                                                                                | No, AFAIK                                                                    |
-| Gatsby                                                                                                                 | No, AFAIK                                                                    |
-| ...                                                                                                                    |                                                                              |
+| Software                                                                                                               | Does it support PML                                                                     |
+| ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Github                                                                                                                 | Yes                                                                                     |
+| VSCode                                                                                                                 | [Yes](https://github.com/microsoft/vscode/issues/3771)                                  |
+| Hugo                                                                                                                   | Yes, [with configuration](https://github.com/bep/portable-hugo-links)                   |
+| Obsidian                                                                                                               | Yes                                                                                     |
+| Docusaurus                                                                                                             | Yes, see [documentation](https://docusaurus.io/docs/markdown-features/links)            |
+| [Markdown Language Server](https://github.com/microsoft/vscode/tree/main/extensions/markdown-language-features/server) | Yes                                                                                     |
+| [markdown-links](https://github.com/tchayen/markdown-links)                                                            | Yes                                                                                     |
+| Jekyll                                                                                                                 | Yes, with [plugin](https://github.com/benbalter/jekyll-relative-links)                  |
+| Foam                                                                                                                   | Yes, but [bugy](https://github.com/foambubble/foam/issues/791#issuecomment-1543373214) |
+| Astro                                                                                                                  | No, see [discussion](https://github.com/withastro/roadmap/discussions/424)              |
+| Next.js                                                                                                                | No, AFAIK                                                                               |
+| Gatsby                                                                                                                 | No, AFAIK                                                                               |
+| ...                                                                                                                    |                                                                                         |
 
 ## Naming
 

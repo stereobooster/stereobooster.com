@@ -26,7 +26,7 @@ Brooks continues:
 
 In 1987 Brooks considered that most of the accidental complexity was resolved and we need to address essential complexity. But is this the case now?
 
-At the same time (in 1980) Hal Abelson and Gerald Jay Sussman started a course at MIT ([6.001](/posts/legendary-mit-6.001/)). Later, in 1985, based on this course they wrote a book - Structure and Interpretation of Computer Programs aka SICP aka wizard book.
+At the same time (in 1980) Hal Abelson and Gerald Jay Sussman started a course at MIT ([6.001](/content/posts/legendary-mit-6.001/index.md)). Later, in 1985, based on this course they wrote a book - Structure and Interpretation of Computer Programs aka SICP aka wizard book.
 
 In 1997 the course was discontinued and here is what Sussman said about it:
 
