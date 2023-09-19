@@ -31,23 +31,87 @@ tags: ["markdown"]
   - for editor's preview: images should be displayed
   - for static website generator: images should be displayed
 
+## Motivation
+
+### Link types
+
+Let's say we have file `/contnet/posts/intro.md`:
+
+It can have following **web links**:
+
+- `/posts/intro/`
+- `/posts/intro` (web server will redirect anyway)
+- `/posts/intro.html` (with [`uglyURLs: true`](https://gohugo.io/content-management/urls/#appearance))
+- `/posts/2020/01/01/introduction/` (with custom [permalinks](https://gohugo.io/content-management/urls/#permalinks))
+- `/posts/my-first-post/` (with [`slug: my-first-post`](https://gohugo.io/content-management/urls/#slug))
+- `/articles/my-first-article` (with [`url: /articles/my-first-article`](https://gohugo.io/content-management/urls/#url))
+- `/posts/previous-file-name` (with [`aliases: [/posts/previous-file-name]`](https://gohugo.io/content-management/urls/#aliases))
+- `../intro/` (relative)
+
+It can have following **wiki links**:
+
+- `[[intro]]`
+- `[[posts/intro]]` (in Foam for [disambiguation](https://github.com/foambubble/foam#unique-identifiers-across-directories))
+- theoretically with configs:
+  - `[[my-first-post]]` (with `slug: my-first-post`)
+  - `[[Intoduction]]` (with `title: Intoduction`)
+
+It can have following **portable links**:
+
+- absolute: `/contnet/posts/intro.md`
+- relative: `./posts/intro.md`, `posts/intro.md`, `../intro.md`
+
+### Resolution procedure (from link to file path)
+
+To resolve **web links** you need:
+
+- configuration for resolution, something like `(path) => "content" + path + "index.md"`
+- maybe root of the project
+- maybe scan all files in the root if there are tricky frontmatter configs used, like `url`, `slug`, `permalinks`, `aliases`
+
+To resolve **wiki links** you need:
+
+- to know root of the project
+- scan all files in the root to be able to match name (file name or slug) to wiki link
+
+To resolve **portable links** you need:
+
+- to know root of the project
+- to know file path where link is located (to resolve relative links)
+
+### Resolution procedure (from markdown link to href)
+
+To resolve **web links** you need:
+
+- to do nothing, but there is a chance that this will be 404 link or not canonical link
+
+To resolve **wiki links** you need:
+
+- resolve to file path first
+- follow the same procedure as for **portable links**
+
+To resolve **portable links** you need:
+
+- read frontmatter of the file
+- generate link according to [permalinks](https://gohugo.io/content-management/urls/#permalinks) configuration
+
 ## Who supports it?
 
-| Software                                                                                                               | Does it support PML                                                                     |
-| ---------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
-| Github                                                                                                                 | Yes                                                                                     |
-| VSCode                                                                                                                 | [Yes](https://github.com/microsoft/vscode/issues/3771)                                  |
-| Hugo                                                                                                                   | Yes, [with configuration](https://github.com/bep/portable-hugo-links)                   |
-| Obsidian                                                                                                               | Yes                                                                                     |
-| Docusaurus                                                                                                             | Yes, see [documentation](https://docusaurus.io/docs/markdown-features/links)            |
-| [Markdown Language Server](https://github.com/microsoft/vscode/tree/main/extensions/markdown-language-features/server) | Yes                                                                                     |
-| [markdown-links](https://github.com/tchayen/markdown-links)                                                            | Yes                                                                                     |
-| Jekyll                                                                                                                 | Yes, with [plugin](https://github.com/benbalter/jekyll-relative-links)                  |
+| Software                                                                                                               | Does it support PML                                                                    |
+| ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------- |
+| Github                                                                                                                 | Yes                                                                                    |
+| VSCode                                                                                                                 | [Yes](https://github.com/microsoft/vscode/issues/3771)                                 |
+| Hugo                                                                                                                   | Yes, [with configuration](https://github.com/bep/portable-hugo-links)                  |
+| Obsidian                                                                                                               | Yes                                                                                    |
+| Docusaurus                                                                                                             | Yes, see [documentation](https://docusaurus.io/docs/markdown-features/links)           |
+| [Markdown Language Server](https://github.com/microsoft/vscode/tree/main/extensions/markdown-language-features/server) | Yes                                                                                    |
+| [markdown-links](https://github.com/tchayen/markdown-links)                                                            | Yes                                                                                    |
+| Jekyll                                                                                                                 | Yes, with [plugin](https://github.com/benbalter/jekyll-relative-links)                 |
 | Foam                                                                                                                   | Yes, but [bugy](https://github.com/foambubble/foam/issues/791#issuecomment-1543373214) |
-| Astro                                                                                                                  | No, see [discussion](https://github.com/withastro/roadmap/discussions/424)              |
-| Next.js                                                                                                                | No, AFAIK                                                                               |
-| Gatsby                                                                                                                 | No, AFAIK                                                                               |
-| ...                                                                                                                    |                                                                                         |
+| Astro                                                                                                                  | No, see [discussion](https://github.com/withastro/roadmap/discussions/424)             |
+| Next.js                                                                                                                | No, AFAIK                                                                              |
+| Gatsby                                                                                                                 | No, AFAIK                                                                              |
+| ...                                                                                                                    |                                                                                        |
 
 ## Naming
 
