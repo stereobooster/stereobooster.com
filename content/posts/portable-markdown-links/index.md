@@ -79,11 +79,11 @@ To resolve **portable links** you need:
 - to know root of the project
 - to know file path where link is located (to resolve relative links)
 
-### Resolution procedure (from markdown link to href)
+### Resolution procedure (from link to href)
 
 To resolve **web links** you need:
 
-- to do nothing, but there is a chance that this will be 404 link or not canonical link
+- to do nothing, but there is a chance that this will be 404 link or none-canonical link
 
 To resolve **wiki links** you need:
 
