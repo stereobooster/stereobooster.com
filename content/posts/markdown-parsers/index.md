@@ -58,7 +58,7 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
   - [mdBook](https://github.com/rust-lang/mdBook)
   - [cobalt](https://cobalt-org.github.io/)
 - [zola-markdown](https://github.com/getzola/zola/tree/master/components/markdown)
-  - uses [pest.rs](https://pest.rs/)
+  - uses [pest.rs](https://pest.rs/) (PEG)
   - used by [zola](https://github.com/getzola/zola)
 - [markdown-rs](https://github.com/wooorm/markdown-rs)
   - Sibling to **micromark**
@@ -86,6 +86,11 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 - [cmark](https://github.com/commonmark/cmark)
   - is the C **reference implementation of CommonMark**
 - [md4c](https://github.com/mity/md4c)
+- [peg-markdown](https://github.com/jgm/peg-markdown)
+  - uses [peg](https://piumarta.com/software/peg/) (PEG)
+- [sundown](https://github.com/vmg/sundown)
+- [hoedown](https://github.com/hoedown/hoedown)
+  - is a revived fork of **sundown**
 
 ## Zig
 
@@ -105,9 +110,9 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 - [jekyll-commonmark](https://github.com/jekyll/jekyll-commonmark)
   - used by [jekyll](https://jekyllrb.com/docs/configuration/markdown/)
   - uses **cmark-gfm**
-- [redcarpet](https://github.com/vmg/redcarpet) used by
-  - [slate](https://github.com/slatedocs/slate)
-  - [jekyll](https://jekyllrb.com/docs/configuration/markdown/)
+- [redcarpet](https://github.com/vmg/redcarpet)
+  - used by [slate](https://github.com/slatedocs/slate), [jekyll](https://jekyllrb.com/docs/configuration/markdown/)
+  - uses **sundown**
 
 ## Python
 
@@ -115,6 +120,10 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
   - [MkDocs](https://www.mkdocs.org/)
   - [Pelican](https://getpelican.com/)
 - [marko](https://github.com/frostming/marko)
+- [markdown-it-py](https://github.com/executablebooks/markdown-it-py)
+  - Python port of **markdown-it**
+- [markdown2](https://github.com/trentm/python-markdown2)
+- [mistune](https://github.com/lepture/mistune)
 
 ## Clojure
 
@@ -123,6 +132,13 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 ## Elixir
 
 - [md](https://github.com/am-kantox/md)
+
+## Java
+
+- [commonmark-java](https://github.com/commonmark/commonmark-java)
+  - it started out as a port of **commonmark.js**, but has since evolved
+- [pegdown](https://github.com/sirthias/pegdown)
+  - uses parboiled (PEG)
 
 ## Other
 
