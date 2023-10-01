@@ -37,6 +37,7 @@ We have options. **How to distribute binary**:
 
 | name                                                                  | distribution | execution          |
 | --------------------------------------------------------------------- | ------------ | ------------------ |
+| [odiff](https://github.com/dmtrKovalenko/odiff)                       | 2            | 2                  |
 | [@astrojs/compiler](https://github.com/withastro/compiler)            | 2 (WASM)     | 3                  |
 | [esbuild](https://github.com/evanw/esbuild)                           | 3            | 1 (`execFileSync`) |
 | [biome](https://github.com/biomejs/biome)                             | 3            | 1 (`spawnSync`)    |
