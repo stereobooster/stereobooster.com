@@ -17,15 +17,17 @@ In old times there was basically one default choice: Google analytics. What is b
 
 But there are a lot of better alternatives (just to name few):
 
-- https://tinyanalytics.io/ - 1 site for free
-- https://umami.is/ - 3 sites for free
-- https://swetrix.com/ - open source, starts from $5/month
+- [tinyanalytics](https://tinyanalytics.io/) - 1 site for free
+- [umami](https://umami.is/) - 3 sites for free
+- [swetrix](https://swetrix.com/) - open source, starts from $5/month
 
 See more alternatives here:
 
 - [European web analytics services](https://european-alternatives.eu/category/web-analytics-services)
 - [19 Google Analytics Alternatives](https://tinyanalytics.io/google-analytics-alternatives)
 - [goatcounter](https://www.goatcounter.com/)
+- [beampipe](https://beampipe.io/)
+- [thesemetrics](https://thesemetrics.org/pricing)
 
 Also some "static hostings" provide analytics, for example:
 
@@ -58,10 +60,10 @@ In old times people would use Disqus. But again, it is not GDPR compliant out of
 
 One of potential solution for developers is to reuse github comments or discussions as comments for your website. Most developers have github account anyway (I know there are people, who are strongly opposed to Github and prefer Gitlab or self-hosted solutions, but this is discussion for another time). For example:
 
-- https://giscus.app/
-- https://utteranc.es/
-- https://gitalk.github.io/
-- https://vssue.js.org/demo/
+- [giscus](https://giscus.app/)
+- [utteranc](https://utteranc.es/)
+- [gitalk](https://gitalk.github.io/)
+- [vssue](https://vssue.js.org/demo/)
   - also supports: Bitbucket, Gitea, Gitee, GitLab
 
 Other option is not to host comments directly on your website, but put a link to a place where people can discuss (especially if you crosspost), for example: hacker news, dev.to, reddit, twitter etc.
