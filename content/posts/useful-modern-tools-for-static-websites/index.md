@@ -60,5 +60,8 @@ One of potential solution for developers is to reuse github comments or discussi
 
 - https://giscus.app/
 - https://utteranc.es/
+- https://gitalk.github.io/
+- https://vssue.js.org/demo/
+  - also supports: Bitbucket, Gitea, Gitee, GitLab
 
 Other option is not to host comments directly on your website, but put a link to a place where people can discuss (especially if you crosspost), for example: hacker news, dev.to, reddit, twitter etc.
