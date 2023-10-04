@@ -13,30 +13,10 @@
       <div class="mt-8 mb-12 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
         {{ partial "article-meta.html" (dict "context" . "scope" "single") }}
       </div>
-      {{ with $feature }}
+      {{ if $feature }}
         <div class="prose">
-          <img
-            class="mb-6 -mt-4 rounded-md"
-            {{ if eq .MediaType.SubType "svg" }}
-              src="{{ .RelPermalink }}"
-            {{ else }}
-              width="{{ .Width }}"
-              height="{{ .Height }}"
-              {{ if lt .Width 660 }}
-                src="{{ .RelPermalink }}"
-              {{ else }}
-                srcset="
-                {{- (.Resize "330x").RelPermalink }} 330w,
-                {{- (.Resize "660x").RelPermalink }} 660w,
-                {{- (.Resize "1024x").RelPermalink }} 1024w,
-                {{- (.Resize "1320x").RelPermalink }} 2x"
-              {{ end }}
-            {{ end }}
-            alt="{{ $.Params.featureAlt | default $.Params.coverAlt | default "" }}"
-            {{ if $.Site.Params.enableImageLazyLoading | default true }}
-              loading="lazy"
-            {{ end }}
-          />
+          {{ $alt := $.Params.featureAlt | default $.Params.coverAlt | default "" }}
+          {{ partial "picture.html" (dict "context" . "alt" $alt "class" "mb-6 -mt-4 rounded-md" "resource" $feature) }}
           {{ with $.Params.coverCaption }}
             <figcaption class="mb-6 -mt-3 text-center">{{ . | markdownify }}</figcaption>
           {{ end }}

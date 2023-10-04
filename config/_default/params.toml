@@ -11,7 +11,11 @@ autoSwitchAppearance = true
 
 enableSearch = true
 enableCodeCopy = false
+# fork features
 enableImageLazyLoading = true
+enableWebp = true
+enableLqip = true
+enableQuicklink = true
 
 # robots = ""
 fingerprintAlgorithm = "sha256"

@@ -110,6 +110,8 @@ module.exports = {
               padding: "0.1rem 0.2rem",
               borderRadius: "0.12rem",
             },
+            "blockquote p:first-of-type::before": false,
+            "blockquote p:last-of-type::after": false,
           },
         },
         invert: {
