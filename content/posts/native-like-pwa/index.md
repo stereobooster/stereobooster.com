@@ -108,7 +108,6 @@ And sepparate place for React Native. It was build to create native mobile appli
 As an alternative to Expo it is possible to use:
 
 - [Vite](/content/posts/react-native-web-with-vite/index.md)
-- [turborepo](https://vercel.com/templates/next.js/turborepo-react-native)
 
 And one more interesting project - [tamagui](https://tamagui.dev/). Which takes the same idea as react-native-web, but does some interesting optimizations, for example:
 
