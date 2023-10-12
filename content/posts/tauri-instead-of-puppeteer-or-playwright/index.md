@@ -2,7 +2,7 @@
 title: "Tauri instead of Puppeteer or Playwright?"
 date: 2023-10-03T13:14:09+02:00
 draft: false
-tags: [tauri, rust, cli, webdev]
+tags: [tauri, rust, cli, webdev, cytoscape, diagram]
 ---
 
 Tauri and Puppeteer/Playwright have different use cases. So it seems nothing to compare. But there is (at least) one use case where you may try to use Tuari instead of a headless browser - "snapshots". For example:
