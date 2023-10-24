@@ -55,6 +55,7 @@ This is birdeye overview. There are nuances. I didn't include some libraries tha
 
 - Most popular, because it [was adopted by github](https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/)
 - Works [only in the browser](https://github.com/mermaid-js/mermaid/issues/3650). There is a [cli](https://github.com/mermaid-js/mermaid-cli), but it just a hack with headless browser (puppeteer)
+  - [pintora](https://github.com/hikerpig/pintora) may be a good alternative
 - **Theme-able**
 - [syntax highlightning](https://github.com/bpruitt-goddard/vscode-mermaid-syntax-highlight)
 
@@ -121,9 +122,9 @@ Syntax highlightning:
 
 Editors:
 
-- https://asciiflow.com/
-- https://textik.com/
-- https://kirilllive.github.io/ASCII_Art_Paint/ascii_paint.html
+- [asciiflow](https://asciiflow.com/)
+- [textik](https://textik.com/)
+- [ascii_paint](https://kirilllive.github.io/ASCII_Art_Paint/ascii_paint.html)
 
 ### Special purpose
 
