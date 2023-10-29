@@ -98,7 +98,7 @@ fn write_destination(dst: String, res: String) -> Result<String, String> {
 
 ### Distribution
 
-Initially, I wanted to distribute this CLI as [binary inside the npm package](content/posts/distributing-executable-binaries-in-npm/index.md). But then I realized that [Tauri can't really produce portable binaries](https://github.com/tauri-apps/tauri/discussions/3048). Tauri relies on the OS's browser - which is a neat trick to shrink down the size of the binary, but this is what makes it less portable. Trade-offs as always.
+Initially, I wanted to distribute this CLI as [binary inside the npm package](/content/posts/distributing-executable-binaries-in-npm-package/index.md). But then I realized that [Tauri can't really produce portable binaries](https://github.com/tauri-apps/tauri/discussions/3048). Tauri relies on the OS's browser - which is a neat trick to shrink down the size of the binary, but this is what makes it less portable. Trade-offs as always.
 
 Not to stop an experiment I decided to distribute at least binary for Mac OS in npm. And it works (Mac OS only):
 

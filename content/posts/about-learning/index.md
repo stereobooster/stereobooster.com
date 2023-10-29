@@ -16,7 +16,7 @@ This is the collection of some **ideas** and my thoughts **about learning, teach
 
 To deeply understand some complex concepts, it is useful to analyze (disassemble, break into smaller parts) it, and understand how each part works. Another side of this approach is to build the thing that you want to understand from scratch.
 
-This idea is present in [SICP](/posts/legendary-mit-6.001), authors start with the simplest concept of programming explained in the Lisp and then they show how to build the Lisp itself (circle closes). <!-- What is a Lisp? A little context (1-2 lines) here could be helpful for readers. -->
+This idea is present in [SICP](/content/posts/legendary-mit-6.001/index.md), authors start with the simplest concept of programming explained in the Lisp and then they show how to build the Lisp itself (circle closes). <!-- What is a Lisp? A little context (1-2 lines) here could be helpful for readers. -->
 
 Gary Bernhardt likes to show how to build things from scratch in his [DAS "show"](https://www.destroyallsoftware.com/screencasts/catalog). [The Little Schemer](https://mitpress.mit.edu/books/little-schemer-fourth-edition) and [The Little Prover](http://the-little-prover.github.io/) are also written in the same vein.
 
