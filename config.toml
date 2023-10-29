@@ -1,5 +1,7 @@
 theme = "congo"
 
+timeout = 120
+
 # code highlining
 # pygmentsCodeFences = true
 # pygmentsUseClasses = true
