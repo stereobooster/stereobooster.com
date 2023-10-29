@@ -102,7 +102,7 @@ There is a specific type of vocabularies, which make sure there are no circular 
 - **Defining vocabulary**: These intermediate-level words are explained using only the words from the basic vocabulary lessons.
 - **Full dictionary**: This includes advanced-level words, all explained using only the defining vocabulary.
 
-![Tony sees Lisa](./learnthesewordsfirst.png)
+![Tony sees Lisa](learnthesewordsfirst.png)
 
 ## Clustering
 
@@ -114,7 +114,7 @@ Some objects share only part of characteristics associated with the group yet we
 
 There is a very vague definition of how much characteristics one object should have to be considered a member of the group or not. This process of dividing objects into a group based on properties is called clustering.
 
-![](./density-data.svg)
+![](density-data.svg)
 
 Image source: [wikipedia](https://en.wikipedia.org/wiki/Cluster_analysis#/media/File:EM-density-data.svg).
 
@@ -129,6 +129,6 @@ Cluster analysis divide data into groups (clusters) that are meaningful, useful,
 >
 > -- [Statistics: 3.1 Cluster Analysis](http://www.statstutor.ac.uk/resources/uploaded/clusteranalysis.pdf), Rosie Cornish. 2007
 
-![](./how-people-interpret-probabilistic-words.png)
+![](how-people-interpret-probabilistic-words.png)
 
 Image source: [@jxxf](https://twitter.com/jxxf/status/1149837396847947776)

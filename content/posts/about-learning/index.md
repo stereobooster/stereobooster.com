@@ -109,11 +109,11 @@ But you can't measure knowledge with one number (it's not a scalar value). Knowl
 
 Even if you an expert in some subject you still can learn something from a newbie in case your knowledge doesn't intersect enough:
 
-![](./newbie-vs-expert.svg)
+![](newbie-vs-expert.svg)
 
 Proficiency in one subject doesn't guarantee knowledge or even basic understanding in another subject:
 
-![Tweet by Uncle Bob Martin](./uncle-bob-tweet.jpeg)
+![Tweet by Uncle Bob Martin](uncle-bob-tweet.jpeg)
 
 > bool is_odd_perfect_number(int n) {return false;}
 >
@@ -137,7 +137,7 @@ The main problem with pushback effect is that it works through emotion, so the f
 
 ## Confirmation bias
 
-![](./confirmation-bias.png)
+![](confirmation-bias.png)
 
 > Confirmation bias, the tendency to process information by looking for, or interpreting, information that is consistent with one’s existing beliefs. This biased approach to decision making is largely unintentional and often results in ignoring inconsistent information.
 >

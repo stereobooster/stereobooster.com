@@ -7,7 +7,7 @@ series: "Parsing"
 description: "List of parsing algorithms"
 ---
 
-![](./0.svg)
+![](0.svg)
 
 > Parser users tend to separate themselves into bottom-up and top-down tribes. Top-down users value the readability of recursive descent (`RD`) implementations of `LL` parsing along with the ease of semantic action incorporation. Bottom-up users value the extended parsing power of `LR` parsers, in particular the admissibility of left recursive grammars, although `LR` parsers cannot cope with hidden left recursion and even `LR(0)` parse tables can be exponential in the size of the grammar, while an `LL` parser is linear in the size of the grammar.
 >

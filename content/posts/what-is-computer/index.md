@@ -80,35 +80,35 @@ Some examples of computing devices.
 
 **Leibniz's stepped reckoner** (replica in the Deutsches Museum). The device was discovered in 1879 in an attic at the University of Göttingen by workers fixing a leak in the roof. Image source: [Wikipedia](https://en.wikipedia.org/wiki/Stepped_reckoner#/media/File:Leibnitzrechenmaschine.jpg).
 
-![](./leibnitz-rechenmaschine.jpg)
+![](leibnitz-rechenmaschine.jpg)
 
 **Babbage’s Difference Engine** No.1, Woodcut, 1853. This woodcut depicts a trial piece of the Difference Engine No. 1, built-in 1833 and held by the Science Museum, London. Image source: [University of Minnesota](http://www.cbi.umn.edu/about/babbage.html).
 
-![](/babbage-difference-engine.jpg)
+![](babbage-difference-engine.jpg)
 
 **Jacquard loom** (with punched cards). Image source: [Wikipedia](https://en.wikipedia.org/wiki/Jacquard_loom#/media/File:Jacquard.loom.cards.jpg).
 
-![](./jacquard-loom-cards.jpg)
+![](jacquard-loom-cards.jpg)
 
 BOMBE - **electro-mechanical machine**, developed during WWII by Alan Turing and Gordon Welchman, whilst working as codebreakers at Bletchley Park. Image source: [cryptomuseum](https://www.cryptomuseum.com/crypto/bombe/).
 
-![](./bombe-replica.jpg)
+![](bombe-replica.jpg)
 
 ENIAC was the first **vacuum tubes** general-purpose computer. Its first program was a study of the feasibility of the thermonuclear weapon - project Manhattan, where John von Neumann took part. Image source: [Columbia University Computing History](http://www.columbia.edu/cu/computinghistory/eniac.html)
 
-![](./eniac.png)
+![](eniac.png)
 
 **Billiard-ball model** of computation proposed by Edward Fredkin and Tommaso Toffoli in their paper [Conservative Logic](http://fab.cba.mit.edu/classes/862.16/notes/computation/Fredkin-2002.pdf). Image source: [Wikipedia](https://en.wikipedia.org/wiki/Billiard-ball_computer#/media/File:Toffoli_BilliardBall.gif).
 
-![](./billiard-computer.gif)
+![](billiard-computer.gif)
 
 IBM’s **quantum computer**. Image source: [Quantamagazine](https://www.quantamagazine.org/quantum-supremacy-is-coming-heres-what-you-should-know-20190718/).
 
-![](./quantum-computer.jpg)
+![](quantum-computer.jpg)
 
 [**Bio computer**](http://lucacardelli.name/BioComputing.htm). Cells compute. For example, finding food, avoiding predators. Image source: [lucacardelli.name](<http://lucacardelli.name/Talks/2009-03-12%20Abstract%20Machines%20of%20Systems%20Biology%20(Warsaw).pdf>).
 
-![](./membrane-machine.png)
+![](membrane-machine.png)
 
 This is my random selection simply to show that there are computers other than transistor-based. You can find more examples here [computerhistory](https://www.computerhistory.org/timeline/), [Wikipedia](https://en.wikipedia.org/wiki/List_of_pioneers_in_computer_science).
 

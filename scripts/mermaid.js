@@ -47,7 +47,7 @@ while (i < graphs.length) {
   await writeFile(`${markdownDir}/${fileName}`, svg, "utf-8");
   markdown = markdown.replace(
     token.raw,
-    `![](./${fileName})` + "\n\n"
+    `![](${fileName})` + "\n\n"
   );
   i++;
 }

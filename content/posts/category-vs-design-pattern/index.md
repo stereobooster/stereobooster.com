@@ -34,7 +34,7 @@ If we follow Alexander's definition there is nothing OOP specific (their book is
 
 Currently when people say "design pattern" they most likely refer to GoF or similar OOP patterns.
 
-![](./gof-patterns.png)
+![](gof-patterns.png)
 
 Image source: Towards the Identification of Cross-Cutting Concerns: A Comprehensive Dynamic Approach Based on Execution Relations, Dongjin Yu, et al.
 

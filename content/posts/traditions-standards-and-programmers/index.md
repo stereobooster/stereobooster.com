@@ -49,7 +49,7 @@ The downside of the committee based standardization process is that it can be sl
 
 Sometimes people can't agree on one standard, then we have a problem with conflicting standards. Which do we support? Shall we try to make one unified standard?
 
-![](./standards.png)
+![](standards.png)
 
 Image source: [xkcd](https://xkcd.com/927/).
 
@@ -59,7 +59,7 @@ Some standards outlive their initial use-case because they are preserved for bac
 
 For example, ASCII (American Standard Code for Information Interchange), is a character encoding standard for electronic communication. The Teletype Model 33 was introduced in 1963. It was one of the first products to use ASCII.
 
-![](./teletype.jpg)
+![](teletype.jpg)
 
 Image source: [wikipedia](https://en.wikipedia.org/wiki/Teletype_Model_33).
 
@@ -67,19 +67,19 @@ Because they were cheap and accessible they got used as terminals (TTY) to commu
 
 Later smart terminals were introduced (with monochrome screens instead of paper), like DEC VT100 (1978). Those terminals supported ASCII as well.
 
-![](./vt100.jpg)
+![](vt100.jpg)
 
 Image source: [wikipedia](https://en.wikipedia.org/wiki/VT100).
 
 Eventually, those terminals were replaced with personal computers, but ASCII was preserved because it was used in the software. If you open a terminal in your modern OS and paste char for `0x0B` you will hear a sound. Because this is the same code which was used to ring a bell in the Teletype Model 33 🔔.
 
-![](./teletype-backside.jpg)
+![](teletype-backside.jpg)
 
 [Gary Bernhardt has a good talk about terminals and legacy standards](https://www.destroyallsoftware.com/talks/a-whole-new-world).
 
 Why vi uses h j k l for navigation? Because it was written for ADM-3A (1976).
 
-![](./adm3a.jpg)
+![](adm3a.jpg)
 
 Image source: [wikipedia](https://en.wikipedia.org/wiki/ADM-3A).
 
@@ -93,7 +93,7 @@ AFAIK the eldest legacy standard in use today is sexagesimal (base 60) numeral s
 
 Not all standards were established by some committee, but rather were chaotically chosen for some historical reasons and later fixed on the paper. For example, state borders, time zones (which partially follow state borders), [house numbers, street orientation](https://www.mjt.me.uk/posts/falsehoods-programmers-believe-about-addresses/) (in old cities), etc.
 
-![](./time-zones.png)
+![](time-zones.png)
 
 Image source: [wikipedia](https://en.wikipedia.org/wiki/List_of_UTC_time_offsets).
 
@@ -109,7 +109,7 @@ Progress in science and globalization forced people to consolidate some standard
 
 The first real-life usage of the metric system came in 1799 (French Revolution). Today almost whole world uses it. Red - countries which have officially adopted the metric system. Green - countries which have not officially adopted the metric system.
 
-![](./metric-system-adoption.svg)
+![](metric-system-adoption.svg)
 
 Image source: [wikimedia](https://commons.wikimedia.org/wiki/File:Metric_system_adoption_map.svg).
 
@@ -131,7 +131,7 @@ There are attempts (or ideas) to replace legacy standards, for example:
 
 **New calendar**
 
-![](./new-calendar.jpg)
+![](new-calendar.jpg)
 
 Image source: [Luke Millar](https://twitter.com/ltm/status/1160670266046816257?s=21).
 

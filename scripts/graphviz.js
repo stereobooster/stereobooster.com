@@ -46,7 +46,7 @@ while (i < graphs.length) {
   const svg = await hpccWasm.graphviz.layout(token.text, "svg", "dot")
   const fileName = `${i}.svg`;
   await writeFile(`${markdownDir}/${fileName}`, svg, "utf-8");
-  markdown = markdown.replace(token.raw, `![](./${fileName})` + "\n\n");
+  markdown = markdown.replace(token.raw, `![](${fileName})` + "\n\n");
   i++;
 }
 

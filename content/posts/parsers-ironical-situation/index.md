@@ -37,7 +37,7 @@ Regular expressions (I'm talking about the first implementation - `grep`; not ab
 
 I don't think that author meant it to be used to validate emails, for example, see [this answer on StackOverflow](https://stackoverflow.com/questions/201323/how-to-validate-an-email-address-using-a-regular-expression).
 
-![](./email.png)
+![](email.png)
 
 Two potentially better solutions:
 
@@ -46,7 +46,7 @@ Two potentially better solutions:
 
 Second example of ad-hoc solution is syntax highlighting with regular expressions, for example [TextMatte language grammars](https://macromates.com/manual/en/language_grammars). Compare ad-hoc solution (on the left) and real context-free language parser (on the right):
 
-![](./rust.png)
+![](rust.png)
 
 Credit: image taken [here](https://marketplace.visualstudio.com/items?itemName=georgewfraser.vscode-tree-sitter).
 

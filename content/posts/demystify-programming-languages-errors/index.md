@@ -43,7 +43,7 @@ Errors are the product of a human's mind. Error happens when:
 
 For example, this what happens when you try to divide by 0 in a mechanical calculator.
 
-![mechanical calculator rotor infinitely spins, when you try delete by zero](./division-by-zero.gif)
+![mechanical calculator rotor infinitely spins, when you try delete by zero](division-by-zero.gif)
 
 Image credit: [popularmechanics.com](https://www.popularmechanics.com/technology/gadgets/a20152/dividing-by-zero-will-mechanical-calculator/).
 
@@ -53,13 +53,13 @@ Image credit: [popularmechanics.com](https://www.popularmechanics.com/technology
 >
 > -- [merriam-webster](https://www.merriam-webster.com/dictionary/paradox)
 
-![Penrose Triangle](./penrose-triangle.jpg)
+![Penrose Triangle](penrose-triangle.jpg)
 
 Image credit: [illusionsindex](https://www.illusionsindex.org/i/impossible-triangle).
 
 ## Computer error
 
-![computer says no](./computer-says-no.gif)
+![computer says no](computer-says-no.gif)
 
 When computer (software or hardware) error happens this basically means, that creator of software or hardware, don't know or can't handle given situation and decided to "give up" and return the error to a higher level, which can be other software or hardware or user.
 
@@ -94,15 +94,15 @@ We can further refine the classification of runtime errors to:
 
 So our hierarchy can look like this:
 
-![Dynamic type errors](./dynamic-type-errors.svg)
+![Dynamic type errors](dynamic-type-errors.svg)
 
 But for example, we can introduce type checking prior evaluation (static type checking), if our type checker can't catch all errors and we still have to do some type checking at runtime it means that error hierarchy will look like this:
 
-![Both type errors](./both-type-errors.svg)
+![Both type errors](both-type-errors.svg)
 
 If our type checker is ideal and we can prevent all type errors, it will look like this:
 
-![Static type errors](./static-type-errors.svg)
+![Static type errors](static-type-errors.svg)
 
 **Note**: absence type errors at runtime, doesn't mean there is no dynamic type checking, it simply means that we handled all edge cases related to types (including unsuccessful dynamic type checks).
 

@@ -103,11 +103,11 @@ Demo is [here](https://faceted.stereobooster.com/). Source is [here](https://git
 
 I'm impresed by Tanstack table, it packs so many features and has elegant API layer.
 
-- filter with checkboxes
+- Filter with checkboxes
   - Options should be sorted by frequency
   - Options should be limited to first 10-20, with ability to fetch more on request
-- Search and sorting is done in main thread, so there is slight latency on keyboard input.
-- There is no full-text ssearch (only substring match), but this is irrelevant, because I'm mainly interested in faceting.
+- Search and sorting is done in main thread, so there is slight latency on keyboard input
+- There is no full-text ssearch (only substring match), but this is irrelevant, because I'm mainly interested in faceting
 
 ### Tanstack table + Orama
 
@@ -117,7 +117,7 @@ Initial load of the data (10000 records) was so slow that I had to move it in We
 
 Orama has decent full-text search, but faceting is sad:
 
-- filter with checkboxes
+- Filter with checkboxes
   - Options for `string` facets sorted by frequency, but for `string[]` are not
   - When option is selected it removes values from the same facet, but instead it should only change other facets
   - There is no way to limit number of options returned for the facet
@@ -147,8 +147,11 @@ I almost didn't find downsides, except:
 Other things to try:
 
 - integrate different full-text or fuzzy search engine
-- Try to move it to Web Worker
-- Try integration with Instantsearch
+- move it to Web Worker
+- integration with Instantsearch
+- implement slider component with mini-plot
+- implement date-range component
+- implement hierarchical categories component, like file tree
 
 ### Other ideas and links
 

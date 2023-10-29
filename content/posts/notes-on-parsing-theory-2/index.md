@@ -133,11 +133,11 @@ if exp1 then exp2 else exp3 end
 
 It can be represented (depending on algorithm and grammar) as:
 
-![](./0.svg)
+![](0.svg)
 
 But there are algorithm and grammars which can produce dencer tree, for example, SDF3:
 
-![](./1.svg)
+![](1.svg)
 
 In this case, based on position it is possible to tell that the first item is a condition, the second is the "then" branch, third is the "else" branch.
 

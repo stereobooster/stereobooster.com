@@ -54,7 +54,7 @@ Symbols and abstractions used together so often that sometimes get confused. Som
 
 Even more, some visual symbols, like icons or pictograms, are formed by using abstraction for visual representation.
 
-![](./realistic-abstract.png)
+![](realistic-abstract.png)
 
 ### Symbols and neural networks
 
@@ -79,6 +79,6 @@ Which creates confusion. Why there are two (or more) symbols? Are they referring
 
 Humans use context to understand which exact meaning symbol has in case of ambiguity. Context often implicit and can be omitted and this creates problems in communication.
 
-![](./ambiguity.png)
+![](ambiguity.png)
 
 > Cover image: The Treachery of Images (French: La Trahison des images) is a 1929 painting by surrealist painter René Magritte.

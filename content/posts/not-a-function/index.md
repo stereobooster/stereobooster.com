@@ -18,11 +18,11 @@ Not all equations are functions. `y = x + 1` is a function, but `y² + x² = 1` 
 
 Not all graphs (set of points in Cartesian coordinates) are functions. This graph represents a function:
 
-![illustration of a line graph in a Cartesian coordinate plane](./line.svg)
+![illustration of a line graph in a Cartesian coordinate plane](line.svg)
 
 But this one is not:
 
-![illustration of a circle graph in a Cartesian coordinate plane](./circle.svg)
+![illustration of a circle graph in a Cartesian coordinate plane](circle.svg)
 
 Not all tables (set of tuples `(x, y)`) are functions. This one is represents a function:
 
@@ -42,7 +42,7 @@ But this one is not:
 
 All functions are relations, but not all relations are functions.
 
-![](./relations-vs-functions.svg)
+![](relations-vs-functions.svg)
 
 If we will draw a table of all possible relations between sets `A` and `B`, only two of those are functions (marked with `f`)
 
@@ -82,7 +82,7 @@ In programming they have related terminology:
 
 🤔 There are two conditions here (1) defined for all inputs and (2) function terminates. It seems to me that the second condition is redundant here because if function never terminates, we never have an answer thus the result of the operation is not defined. For example, this what happens when you try to divide by 0 in a mechanical calculator.
 
-![mechanical calculator rotor infinitely spins, when you try delete by zero](./division-by-zero.gif)
+![mechanical calculator rotor infinitely spins, when you try delete by zero](division-by-zero.gif)
 
 Image credit: [popularmechanics.com](https://www.popularmechanics.com/technology/gadgets/a20152/dividing-by-zero-will-mechanical-calculator/).
 
@@ -222,7 +222,7 @@ Function `y` declared above represents the same relation between `x` and `y` as 
 
 Well, I would say that it is still a function (`y` has a single output - list). This is one of the examples of how the idea of mathematical function (platonic idea), doesn't always directly translates to computations (which are in more closer relation to physics).
 
-![XKCD style comics shows fields of science by purity from less pure to purer: sociologist, psychologist, biologist, chemist, physicist, comp. scientist, mathematician](./purity.png)
+![XKCD style comics shows fields of science by purity from less pure to purer: sociologist, psychologist, biologist, chemist, physicist, comp. scientist, mathematician](purity.png)
 
 (a modified version of https://xkcd.com/435/)
 

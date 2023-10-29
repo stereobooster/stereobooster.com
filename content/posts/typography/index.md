@@ -23,7 +23,7 @@ ventorum a_. Timeri peregrinosque inani Finis mihi loqui, omnes.
 
 ~~The world is flat.~~ We now know that the world is round.
 
-![test](./image.jpg)
+![test](image.jpg)
 
 > Photo by Maddi Bazzocco on Unsplash
 
@@ -158,7 +158,7 @@ ugc.point.modemMicrophone(
 
 | side 1               | side 2               |
 | -------------------- | -------------------- |
-| ![test](./image.jpg) | ![test](image.jpg) |
+| ![test](image.jpg) | ![test](image.jpg) |
 
 | side 1   | side 2   |
 | -------- | -------- |

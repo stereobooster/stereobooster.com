@@ -97,4 +97,4 @@ Another interesting idea on how to improve this is to make a compiler ("frontend
 
 Here is [my collection of tutorials on how to create a programming language](https://github.com/stereobooster/write-you-a-programming-language). It's a GitHub repo, so you're welcome to contribute.
 
-![Screenshot of github repo](./screenshot.png)
+![Screenshot of github repo](screenshot.png)

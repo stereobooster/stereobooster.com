@@ -22,7 +22,7 @@ discuss:
 
 ## Code of conduct
 
-[![Berlin code of conduct. A code of conduct for all user groups and conferences](./berlin-coc.png)](https://berlincodeofconduct.org/)
+[![Berlin code of conduct. A code of conduct for all user groups and conferences](berlin-coc.png)](https://berlincodeofconduct.org/)
 
 This is a social problem - no amount of technologies alone will solve it. Required step (IMO) is to have CoC.
 
@@ -30,7 +30,7 @@ For example: [dev.to CoC](https://dev.to/code-of-conduct), [Geek Feminism Blog c
 
 ## Karma
 
-![Screenshot of StackOverflow counter near the answer](./stackoverflow-karma.png)
+![Screenshot of StackOverflow counter near the answer](stackoverflow-karma.png)
 
 Karma system can help to moderate at scale. Karma system is based on positive and negative reactions to comments (and blog posts). The tricky part here is to make the score invisible otherwise it gets gamified e.g. people try to increase karma to score higher ranks.
 
@@ -40,7 +40,7 @@ StackOverflow uses [reputation](https://meta.stackexchange.com/questions/7237/ho
 
 ## See no evil
 
-[![photo of "three wise monkeys" sculpture](./three-wise-monkeys.jpg)](https://en.wikipedia.org/wiki/Three_wise_monkeys)
+[![photo of "three wise monkeys" sculpture](three-wise-monkeys.jpg)](https://en.wikipedia.org/wiki/Three_wise_monkeys)
 
 > Photo by HUNTER LEONARD on Unsplash
 
@@ -50,7 +50,7 @@ Example: dev.to doesn't have public negative reactions.
 
 ## Reactions
 
-[![Screenshot of reactions interface](./reactions.png)](https://lab.coralproject.net/#%7B%22reactions%22%3Atrue%7D)
+[![Screenshot of reactions interface](reactions.png)](https://lab.coralproject.net/#%7B%22reactions%22%3Atrue%7D)
 
 Likes have been criticized because it is not a very big range of reactions, sometimes it is not appropriate.
 
@@ -60,7 +60,7 @@ Example: GitHub comments have 8 reactions: 👍 👎 😄 🎉 😕 ❤️ 🚀 
 
 ## Expiration date
 
-![Screenshot of GitHub locked conversation](./lock-bot.png)
+![Screenshot of GitHub locked conversation](lock-bot.png)
 
 Ability to comment on old posts can be misused by trolls to harass people. It can be very time consuming to answer all the posts, so instead of an obligation to answer to the posts infinitely, people can choose to lock comments after some period.
 
@@ -70,7 +70,7 @@ Example: [GitHub lock bot](https://github.com/apps/lock)
 
 ## Rate limit
 
-![Screenshot of GitHub locked conversation](./locked-conversation.png)
+![Screenshot of GitHub locked conversation](locked-conversation.png)
 
 To avoid overheated conversation we can force some pauses between comments to prevent emotional responses people would regret later.
 
@@ -90,13 +90,13 @@ Examples: [Google’s Perspective API](http://perspectiveapi.com/#/home), [Conve
 
 ## Flags
 
-![Screenshot of Youtube flags](./youtube-report-comment.png)
+![Screenshot of Youtube flags](youtube-report-comment.png)
 
 To help to moderate comments system can provide flags, so the user can help with the moderation process. Flags are helpful if they are granular and clearly defined, examples of categories: spam, offtopic, NSFW, spoiler, etc.
 
 ### Logical fallacies
 
-![Screenshot of yourlogicalfallacyis.com](./yourlogicalfallacyis.com.png)
+![Screenshot of yourlogicalfallacyis.com](yourlogicalfallacyis.com.png)
 
 Typical set of flags can be extended with [logical fallacies](https://yourlogicalfallacyis.com/).
 
@@ -104,7 +104,7 @@ Examples: [arguman](https://en.arguman.org/fallacies).
 
 ## Gamification
 
-![Screenshot of Stackoverflow badges](./stackoverflow-badges.png)
+![Screenshot of Stackoverflow badges](stackoverflow-badges.png)
 
 Gamification should be avoided because the main purpose is to have a constructive conversation instead of triggering mechanical reactions in response to the game system.
 
@@ -134,7 +134,7 @@ As well we can choose how to order comments:
 
 ## Editor
 
-![Screenshot of GitHub issue editor](./github-issue.png)
+![Screenshot of GitHub issue editor](github-issue.png)
 
 There are two main approaches for editors: WYSIWYG and markdown + preview, for example:
 

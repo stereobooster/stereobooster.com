@@ -130,7 +130,7 @@ A list of lists can be visually represented as a tree hence the name **parse tre
 
 Example: `2 * 5 - 10`
 
-![](./0.svg)
+![](0.svg)
 
 There are two ways of constructing a **parse tree** whose root is the **start symbol** and whose leaves are strings:
 
@@ -151,7 +151,7 @@ Op  → + | - | * | /
 
 Expression `2 * 5 - 10` can result in the following parse tree
 
-![](./1.svg)
+![](1.svg)
 
 Compare it to the tree from the previous section. Both trees are "legal" in the given grammar.
 
@@ -192,11 +192,11 @@ NumOrParen → (AddExp) | Num
 
 This would solve the issue described above, but we still have an issue if there is more than one operator with the same precedence next to each other: `10 / 2 / 5`.
 
-![](./2.svg)
+![](2.svg)
 
 or
 
-![](./3.svg)
+![](3.svg)
 
 The first graph evaluates to 1, second to 25.
 

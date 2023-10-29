@@ -120,7 +120,7 @@ Another noticeable technique in this area is "chaining" (for example, jQuery and
 >
 > -- [Growing Languages with Metamorphic Syntax Macros](http://www.itu.dk/people/brabrand/macro.pdf)
 
-![](./growing-languages-with-macros.png)
+![](growing-languages-with-macros.png)
 
 Macros are quite a broad category, but let's see examples of usage to get the idea.
 

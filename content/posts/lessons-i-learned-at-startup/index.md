@@ -12,7 +12,7 @@ Startups are looking for their business model. A startup can start with one idea
 
 
 
-![](./youtube.jpg)
+![](youtube.jpg)
 
 Image source: [@spencernoon](https://twitter.com/spencernoon/status/1016713164610732035?s=20). "Fact check": [I have no confirmation of the fact, this is more a legend](https://mashable.com/2011/02/19/youtube-facts/).
 

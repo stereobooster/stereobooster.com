@@ -24,7 +24,7 @@ int* b = malloc(sizeof(*b));
 int* c = malloc(sizeof(*c));
 ```
 
-![](./0.svg)
+![](0.svg)
 
 **call-by-value**
 
@@ -35,7 +35,7 @@ a = 2;
 printf("a = %d, b = %d\n", a, *b);
 ```
 
-![](./1.svg)
+![](1.svg)
 
 **call-by-refernce**
 
@@ -46,7 +46,7 @@ a = 3;
 printf("a = %d, b = %d\n", a, *b);
 ```
 
-![](./2.svg)
+![](2.svg)
 
 ```c
 // and vice versa - change of variable `b` is reflected in `a`
@@ -54,7 +54,7 @@ printf("a = %d, b = %d\n", a, *b);
 printf("a = %d, b = %d\n", a, *b);
 ```
 
-![](./3.svg)
+![](3.svg)
 
 One more example of **call-by-reference**
 
@@ -67,7 +67,7 @@ a = 6;
 printf("a = %d, b = %d, c = %d\n", a, *b, *c);
 ```
 
-![](./4.svg)
+![](4.svg)
 
 We can think about the next example as **call-by-reference**, which creates a reference to a new "anonymous" variable
 
@@ -78,7 +78,7 @@ b = malloc(sizeof(*b));
 printf("a = %d, b = %d, c = %d\n", a, *b, *c);
 ```
 
-![](./5.svg)
+![](5.svg)
 
 ## Function call
 

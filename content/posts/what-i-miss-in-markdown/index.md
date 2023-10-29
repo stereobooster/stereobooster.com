@@ -30,7 +30,7 @@ graph TD;
 
 Which would render:
 
-![](./mermaid.png)
+![](mermaid.png)
 
 Diagrams can be descirbed, for example, with: [flowchart.js](https://flowchart.js.org/), [js-sequence-diagrams](https://bramp.github.io/js-sequence-diagrams/), [mermaid](https://github.com/knsv/mermaid), [PlantUML](https://plantuml.com/), [WaveDrom](https://wavedrom.com/), [Viz.js](https://github.com/mdaines/viz.js), [vega](https://vega.github.io/vega/), [ditaa](https://github.com/stathissideris/ditaa), etc.
 
@@ -61,7 +61,7 @@ I'd like to use XKCD-style for diagrams that are meant to illustrate something b
 
 For example, [xkcd #1064](https://xkcd.com/1064/):
 
-![](./front_door.png)
+![](front_door.png)
 
 ````
 ```dot {style=xkcd}
@@ -103,7 +103,7 @@ $$
 
 Which would render:
 
-![](./math.png)
+![](math.png)
 
 **Support**:
 

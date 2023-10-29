@@ -24,7 +24,7 @@ So here are my thoughts on MAL. **Author made an excellent project**, but I woul
 
 1. Parser is done with regular expressions, which complicates the process a lot. It took me a while to get it right in Pony because Regexp is implemented as a library, it is not a native language feature, which means I needed to double escape some characters - first for a string itself, the second time for Regexp. For example, in JavaScript you would write `/\\/` in Pony you would write `"\\\\"`. Later I discovered tripled quoted strings `"""\\"""`, which don't need additional escaping. This step was unnecessarily complicated. Instead, I would start with tokenizer based on string splitting, like in Lispy - it should support everything except comments and later I would propose an optional step to implement it with Regexp and maybe the next step could be PEG parser 🤷‍♀️.
 
-![](./0.svg)
+![](0.svg)
 
 2. There are a lot of unessential things, which add complexity without additional learning experience and are not required for self bootstrapping, for example, vectors, keywords, hash maps (aka hash table, associative array, dictionary, etc.)
 

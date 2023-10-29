@@ -172,19 +172,19 @@ We are not limited to software. People "write" programs with hardware as well, f
 
 > A (very) early example of video game art... Atari's Space Race (1973) did not have a ROM to store data. So half of the rocket shape was stored as an 8x16 diode matrix, which was mirrored to create the full shape. This is plainly visible in the schematic and the circuit board. 🚀
 >
-> | ![](./racket-1.png) | ![](./racket-2.png) | ![](./racket-3.png) |
+> | ![](racket-1.png) | ![](racket-2.png) | ![](racket-3.png) |
 > | ------------------- | ------------------- | ------------------- |
 >
 > -- [@pixnblox](https://twitter.com/pixnblox/status/1104485690899922944)
 
 People used punch cards to write code and store information in the past:
 
-![](./punchcard.jpg)
+![](punchcard.jpg)
 
 Image source: [wikipedia](<https://en.wikipedia.org/wiki/Punched_card#/media/File:Used_Punchcard_(5151286161).jpg>)
 
 Plug boards can be used to "write" code:
 
-![](./plugboard.jpg)
+![](plugboard.jpg)
 
 Image source: [wikipedia](https://en.wikipedia.org/wiki/Plugboard#/media/File:IBM402plugboard.Shrigley.wireside.jpg)

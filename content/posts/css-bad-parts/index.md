@@ -9,7 +9,7 @@ There is a famous book (at least it was some time ago), by the person who brough
 
 
 
-![](./good-parts.jpg)
+![](good-parts.jpg)
 
 (Image source: [reddit](https://www.reddit.com/r/ProgrammerHumor/comments/621qrt/javascript_the_good_parts/))
 

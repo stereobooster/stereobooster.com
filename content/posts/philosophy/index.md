@@ -34,7 +34,7 @@ Another question is "how to interpret results of science": some results have pra
 >
 > -- [Philosophy of science (Stanford)](https://web.stanford.edu/class/symsys130/Philosophy%20of%20science.pdf)
 
-![](./philosophy-of-science.jpg)
+![](philosophy-of-science.jpg)
 
 Image source: [Philosophy in figures](https://philosophy-in-figures.tumblr.com/).
 
@@ -51,28 +51,28 @@ Philosophy is a very broad field of studies. It would be nice to have a "map" to
 
 Map by [carneades.org](https://carneades.org/lp-courses/):
 
-![](./map-of-philosophy.png)
+![](map-of-philosophy.png)
 
 [A Taxonomic Map of Philosophy](http://dailynous.com/2016/06/28/a-taxonomic-map-of-philosophy/), which is based on [taxonomy from PhilPapers](https://philpapers.org/browse/all):
 
-![](./philosophy-map-large.jpg)
+![](philosophy-map-large.jpg)
 
 [Map from philosophies.space](http://map.philosophies.space/):
 
-![](./philosophies.space.png)
+![](philosophies.space.png)
 
 [The structure of recent philosophy](https://homepage.univie.ac.at/noichlm94/posts/structure-of-recent-philosophy-iii/)
 
-![](./full-struct.png)
+![](full-struct.png)
 
 [Map of philosophical positions & their correlations among philosophers, based on Bourget & Chalmers' famous 2011 survey of philosophers (alternative title, maybe: "An empirical look at contemporary philosophy 'schools'")](https://twitter.com/ATFyfe/status/1105173286609190912):
 
-![](./bourget-and-chalmers.jpg)
+![](bourget-and-chalmers.jpg)
 
 [A co-citation network for philosophy](https://kieranhealy.org/blog/archives/2013/06/18/a-co-citation-network-for-philosophy/):
 
-![](./philcites-static.png)
+![](philcites-static.png)
 
 [Graphing the history of philosophy](http://www.coppelia.io/2012/06/graphing-the-history-of-philosophy/):
 
-![](./philprettyv4.png)
+![](philprettyv4.png)

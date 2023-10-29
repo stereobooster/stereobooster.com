@@ -44,7 +44,7 @@ I can't customize the table of contents. Table of contents uses `h1` for root-le
 
 ### Can't override markdown tags
 
-It would be nice if I could customize markdown output, for example, if I could replace default image `![](./image.jpg)`, with my custom implementation, which would generate responsive images and provide `width`, `height`. Instead I need to use `{{ < img src="image.jpg" > }}`.
+It would be nice if I could customize markdown output, for example, if I could replace default image `![](image.jpg)`, with my custom implementation, which would generate responsive images and provide `width`, `height`. Instead I need to use `{{ < img src="image.jpg" > }}`.
 
 ## What do you think about Hugo?
 

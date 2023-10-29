@@ -20,7 +20,7 @@ discuss:
 
 NLP is a class of tasks (computer algorithms) to work with text in natural languages, for example: named entity recognition (NER), part-of-speech tagging (POS), text categorization, coreference resolution, etc.
 
-![NLP vs NLU](./nlp-vs-nlu.png)
+![NLP vs NLU](nlp-vs-nlu.png)
 
 Image source: [Understanding Natural Language Understanding](https://nlp.stanford.edu/~wcmac/papers/20140716-UNLU.pdf)
 
@@ -78,7 +78,7 @@ To access the notebook, copy and paste one of these URLs:
  http://127.0.0.1:8888/?token=...
 ```
 
-![](./tree.png)
+![](tree.png)
 
 - Open the URL in a browser
 - Navigate to "work" folder
@@ -86,7 +86,7 @@ To access the notebook, copy and paste one of these URLs:
 
 Your notebook is ready for work.
 
-![](./notebook.png)
+![](notebook.png)
 
 Jupyter notebook is the mix of a runtime environment for experiments and a scientific journal.
 
@@ -104,7 +104,7 @@ displacy.render([doc1], style="dep", page=True)
 
 Type in the program and click "Run".
 
-![](./pos.png)
+![](pos.png)
 
 [Here is the list of all tags](https://spacy.io/api/annotation#pos-tagging).
 
@@ -123,7 +123,7 @@ displacy.render(doc, style="ent")
 
 Type in the program and click "Run".
 
-![](./ner.png)
+![](ner.png)
 
 [Here is the list of all entity types](https://spacy.io/api/annotation#named-entities).
 

@@ -108,7 +108,7 @@ lit 'b' "abc" = []            -- Db(abc) = ∅
 
 Atomic languages as finites state machines:
 
-![](./0.svg)
+![](0.svg)
 
 Then atomic parsers can be composed with union (`alt`), concatenation (`seq`), and Kleene star (`rep`) to create parsers for "bigger" languages.
 

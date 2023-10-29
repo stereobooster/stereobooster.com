@@ -41,7 +41,7 @@ But then at some point, you need to center something or pull element in flexbox 
 
 Or you **decide to learn** why it doesn't work the way you expect and you immediately need to learn so many concepts to fix one small thing, like what is box model, how layout algorithm works, etc. All those implementation details are failing on you at once and this is just too much...
 
-![](./learning-curve.svg)
+![](learning-curve.svg)
 
 This is what I call a tricky learning curve. It becomes a wall at some point.
 

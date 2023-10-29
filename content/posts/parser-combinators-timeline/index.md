@@ -25,7 +25,7 @@ I need to read more about parser combinators - for now, I collected "classic" wo
 
 ## History
 
-![](./0.svg)
+![](0.svg)
 
 1975 W.H. Burge. [Recursive Programming Techniques](https://archive.org/details/recursiveprogram0000burg).
 

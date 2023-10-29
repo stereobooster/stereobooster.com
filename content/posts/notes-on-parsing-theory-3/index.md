@@ -65,7 +65,7 @@ Theorem: <code>2<sup>Σ<sup>\*</sup></sup></code> is uncountable (it is a powers
 
 Originally Chomsky proposed 4-types of grammar classes. Since then hierarchy was refined with the more granular division.
 
-![](./Chomsky_large.gif)
+![](Chomsky_large.gif)
 
 I can now understand some notations on this diagram `aⁿbⁿcⁿ` (a string which contains equal size sequences of a, b, c), `wwᴿ` (palindrome), `aⁿbⁿ`, `a*` (Kleene star), `{a, b}` finite set.
 
@@ -120,7 +120,7 @@ M=({q₀,q₁}, {a,b}, {((q₀,a),q₁), ((q₁,b),q₀)}, q₀, {q₀})
 
 As a graph:
 
-![](./0.svg)
+![](0.svg)
 
 <!-- Bug: b -> a doesn't work with splines=curved with default layout-->
 
@@ -133,19 +133,19 @@ As a graph:
 
 For example, state changes for accepting string `abab`:
 
-![](./1.svg)
+![](1.svg)
 
 But sometimes it is drawn like this (this is confusing IMO):
 
-![](./2.svg)
+![](2.svg)
 
 This machine will "crash" on input string "abba". To fix this we can add more edges (make machine total):
 
-![](./3.svg)
+![](3.svg)
 
 We can have unconnected nodes (`q₃` is final state, but it's unreachable from start state `q₀`):
 
-![](./4.svg)
+![](4.svg)
 
 If we extend transition function to strings (from symbols) <code>δ: Q×Σ<sup>\*</sup> → Q</code> we can represent machine compactly.
 
@@ -153,13 +153,13 @@ If we extend transition function to strings (from symbols) <code>δ: Q×Σ<sup>\
 
 Example 1: `δ(q₀,ab) = δ(δ(q₀,a),b)`
 
-![](./5.svg)
+![](5.svg)
 
 <!-- subgraph name needs to start with "cluster" otherwise it won't work as expected -->
 
 Example 2:
 
-![](./6.svg)
+![](6.svg)
 
 Note: `{a,b}` = PCRE `/^[ab]$/`
 
@@ -186,7 +186,7 @@ As regular expression: <code>{a,b}<sup>\*</sup>b{a,b}</code>.
 AS PCRE (Perl Compatible Regular Expressions): `/^[ab]*b[ab]$/`.
 As a graph:
 
-![](./7.svg)
+![](7.svg)
 
 As a table:
 
@@ -202,11 +202,11 @@ The machine reads symbols of the string **from left to right**.
 
 Let's see state transitions for string "bb".
 
-![](./8.svg)
+![](8.svg)
 
 Let's see state transitions for string "bbb".
 
-![](./9.svg)
+![](9.svg)
 
 **Theorem**: <mark>Non-determinism in FAs doesn’t increase power.</mark>
 
@@ -239,15 +239,15 @@ Continue:
 
 Let's draw a graph:
 
-![](./10.svg)
+![](10.svg)
 
 Let's see state transitions for string "bb":
 
-![](./11.svg)
+![](11.svg)
 
 Let's see state transitions for string "bbb":
 
-![](./12.svg)
+![](12.svg)
 
 Read more about conversion of NFA to DFA [here](http://www.cs.um.edu.mt/gordon.pace/Research/Software/Relic/).
 
@@ -267,21 +267,21 @@ Regexp = Ø              (* empty language *)
       | Regexp*         (* Kleene closure *)
 ```
 
-![](./13.svg)
+![](13.svg)
 
 Union `R + S`:
 
-![](./14.svg)
+![](14.svg)
 
 **Note**: Language union `{a} ∪ {b} = {a,b}` ~ RE union `a + b` ~ PCRE `/^[ab]$/` or `/^(a|b)$/`.
 
 Concatenation `RS`:
 
-![](./15.svg)
+![](15.svg)
 
 Kleene closure <code>R<sup>\*</sup></code>:
 
-![](./16.svg)
+![](16.svg)
 
 **Theorem**: Any regular expression is accepted by some FA.
 
@@ -293,13 +293,13 @@ A FA for a regular expression can be built by composition.
 
 ### Merging nodes
 
-![](./17.svg)
+![](17.svg)
 
-![](./18.svg)
+![](18.svg)
 
 ### Merging edges
 
-![](./19.svg)
+![](19.svg)
 
 **Theorem** [Hopcroft 1971]: the number N of states in a FA can be minimized within time `O(N log N)`. Based on earlier work [Huffman 1954] & [Moore 1956].
 
@@ -311,7 +311,7 @@ A FA for a regular expression can be built by composition.
 
 Now reduce the size of the GFA by one stateat each step. A transformation step is as follows:
 
-![](./20.svg)
+![](20.svg)
 
 Such a transformation step is always possible, until the GFA has only two states, the super-start, and super-final states:
 

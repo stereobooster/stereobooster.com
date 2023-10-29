@@ -22,7 +22,7 @@ tags: ["markdown"]
 
 - Links: `[readme](/readme.md)`, which also includes resolution of relative and absolute paths:
   - `[readme](../readme.md)`
-  - `[readme](./readme.md)`
+  - `[readme](readme.md)`
   - `[readme](readme.md)`
 - Anchors: `[readme](/readme.md#heading)`
   - for editor: <kbd>Cmd</kbd> + Click should navigate to specified section

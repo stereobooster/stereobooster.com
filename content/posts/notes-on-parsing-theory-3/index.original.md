@@ -65,7 +65,7 @@ Theorem: <code>2<sup>Σ<sup>\*</sup></sup></code> is uncountable (it is a powers
 
 Originally Chomsky proposed 4-types of grammar classes. Since then hierarchy was refined with the more granular division.
 
-![](./Chomsky_large.gif)
+![](Chomsky_large.gif)
 
 I can now understand some notations on this diagram `aⁿbⁿcⁿ` (a string which contains equal size sequences of a, b, c), `wwᴿ` (palindrome), `aⁿbⁿ`, `a*` (Kleene star), `{a, b}` finite set.
 

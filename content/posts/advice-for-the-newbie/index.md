@@ -23,7 +23,7 @@ Examples of what people want to learn:
 
 And I was like (internally):
 
-![Meme with Jackie Chan whose facial expression says WTF](./Jackie-Chan-WTF.jpg)
+![Meme with Jackie Chan whose facial expression says WTF](Jackie-Chan-WTF.jpg)
 
 People usually choose based on hype. People choose based on problems that don't exist. People choose overcomplicated solutions. Instead of learning the essential technologies required for solving the task in front of them, they start to learn "best practices" which suppose to solve problems they don't actually ave.
 
