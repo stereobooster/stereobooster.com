@@ -52,6 +52,7 @@ It seems that digital gardens mainly focus on static content. But on the web, it
 
 - [Road to Reality](https://reality.mentat.org/essays/reality/introduction)
 - [Observable](https://observablehq.com/)
+- [clerk.garden](https://github.clerk.garden/nextjournal/clerk-demo/)
 
 ## What I want
 
