@@ -38,17 +38,12 @@
     {{- $img = resources.Get $path -}}
 {{- end -}}
 
-<figure>
-  {{- with $img -}}
-    {{ partial "picture.html" (dict "img" . "alt" $.Text "lazy" $lazy "webp" $webp "lqip" $lqip "class" $class) }}
-  {{- else -}}
-    {{ if $lazy }}
-      {{/* do not use lazy without dimensions */}}
-      {{ warnf "Can't use lazy images for %s" .Destination }}
-    {{ end }}
-    <picture class="{{ $class }}">
-      <img src="{{ .Destination | safeURL }}" alt="{{ $.Text }}" class="{{ $class }}"/>
-    </picture>
-  {{- end -}}
-  {{ with $caption }}<figcaption class="text-center">{{ . | markdownify }}</figcaption>{{ end }}
-</figure>
+{{- with $img -}}
+  {{ partial "picture.html" (dict "img" . "alt" $.Text "lazy" $lazy "webp" $webp "lqip" $lqip "class" $class) }}
+{{- else -}}
+  {{ if $lazy }}
+    {{/* do not use lazy without dimensions */}}
+    {{ warnf "Can't use lazy images for %s" .Destination }}
+  {{ end }}
+  <img src="{{ .Destination | safeURL }}" alt="{{ $.Text }}" class="{{ $class }}"/>
+{{- end -}}
