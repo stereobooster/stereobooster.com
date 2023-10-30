@@ -92,6 +92,7 @@ Then one can use custom metadata fields as facets.
 ### Other
 
 - sortable tables, as seen in Wikipedia. For example, [sortable](https://github.com/tofsjonas/sortable)
+- pan/zoom for svg images. For example, [panzoom](https://github.com/timmywil/panzoom)
 - glossary of [alphabetical index](<https://en.wikipedia.org/wiki/Index_(publishing)>), as seen in books
 - use the favicon of the website for external links
 - icons and text for tags as seen in StackOverflow

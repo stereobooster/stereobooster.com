@@ -118,3 +118,8 @@ To resolve **portable links** you need:
 Why do I call it **portable**? Because this simple convention allows to use same markdown files with different software wihtout modifications. In the same vein, we can think of portable markdown frontmatter, etc.
 
 A bit of convention over configuration goes long way.
+
+## Related
+
+- [Foam: Link Reference Definitions](https://github.com/foambubble/foam/blob/master/docs/user/features/link-reference-definitions.md)
+- [hugo#10585](https://github.com/gohugoio/hugo/issues/10585)

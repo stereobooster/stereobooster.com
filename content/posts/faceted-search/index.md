@@ -1,7 +1,7 @@
 ---
 title: "Faceted search"
 date: 2023-10-29T17:43:39+01:00
-draft: true
+draft: false
 tags: [search, ui]
 ---
 
@@ -12,21 +12,49 @@ Faceted search is a parametric search with the difference that user can judge ab
 
 ## Examples
 
-It would be easier to grasp the concept by checking examples:
+It would be easier to grasp the concept by checking examples: [algolia.com](https://www.algolia.com/doc/guides/building-search-ui/resources/demos/js/), [searchkit.co](https://www.searchkit.co/demos), [reactiveapps.io](https://www.reactiveapps.io/), [addsearch.com](https://demo.addsearch.com/search-ui-examples/components/), [search.io](https://react.docs.search.io/search-ui#completed-example), [coveo.github.io](https://coveo.github.io/coveo-search-ui-samples/), [analysis-tools.dev](https://analysis-tools.dev/tools).
 
-**TODO**: screenshot and links
+### E-commerce example
 
-- https://www.algolia.com/doc/guides/building-search-ui/resources/demos/js/
-- https://www.searchkit.co/demos
-- https://www.reactiveapps.io/
-- https://demo.addsearch.com/search-ui-examples/components/
-- https://react.docs.search.io/search-ui
-- https://coveo.github.io/coveo-search-ui-samples/
-- https://docs.coveo.com/en/atomic/latest/
-- https://docs.coveo.com/en/headless/latest/
-- https://analysis-tools.dev/tools
-  - https://github.com/analysis-tools-dev/static-analysis/tree/master/data/tools
-- https://docs.datasette.io/en/stable/facets.html
+Classical example of faceted search is search for e-commerce website.
+
+[![](example1.png)](https://instantsearchjs.netlify.app/examples/js/e-commerce/)
+
+Typically you would see following filters:
+
+| Hierarchical      | Categorical       | Numerical range   |
+| ----------------- | ----------------- | ----------------- |
+| ![](example2.png) | ![](example3.png) | ![](example4.png) |
+
+Aditionaly there would be:
+
+- results displayed as a grid (first screenshot) or as a list
+- pagination
+- sorting, for example by price, by popularity or relevance
+
+### Rental website
+
+Idea is the same, but additionally:
+
+- results can be displayed on the map
+  - [map itself can be used as filter](https://docs.mapbox.com/mapbox-gl-js/example/mapbox-gl-draw/)
+- filter may include date range
+
+[![](example5.png)](https://react-dates.github.io/react-dates/?path=/story/drp-day-props--with-some-blocked-dates)
+
+### Related
+
+Similar ideas can be seen in data tables, in computational notebooks, like Jupyter, Kaggle, Observable etc.:
+
+| Kaggle                                                                                                         | Observable                                                                  |
+| -------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
+| [![](example6.png)](https://www.kaggle.com/datasets/asaniczka/top-spotify-songs-in-73-countries-daily-updated) | [![](example7.png)](https://observablehq.com/@observablehq/data-table-cell) |
+
+Or in some plotting libraries
+
+| Range slider                                                     | Scatterplot Matrix (SPLOM)                                |
+| ---------------------------------------------------------------- | --------------------------------------------------------- |
+| [![](example8.png)](https://plotly.com/javascript/range-slider/) | [![](example9.png)](https://plotly.com/javascript/splom/) |
 
 ## Backend
 
@@ -38,20 +66,22 @@ Typical solution is to use some kind of search engine with support for faceted s
 - [typesense](https://typesense.org/docs/0.24.1/api/search.html#facet-results)
 - [tantivy](https://github.com/quickwit-oss/tantivy)
   - There is [an attempt to compile it to WASM](https://github.com/phiresky/tantivy-wasm)
-- DuckDB, I guess, because it has [Full Text Search](https://duckdb.org/docs/extensions/full_text_search.html) and [GROUPING SETS](https://duckdb.org/docs/sql/query_syntax/grouping_sets)
+- Not a typical choice, but also may work - DuckDB, because it has [Full Text Search](https://duckdb.org/docs/extensions/full_text_search.html) and [GROUPING SETS](https://duckdb.org/docs/sql/query_syntax/grouping_sets)
   - there is [WASM version](https://duckdb.org/docs/api/wasm/overview.html), but it is kind of big
 
 ### UI
 
 Except backend you would need some kind of UI. There are a lot of candidates:
 
-- [instantsearch](https://github.com/algolia/instantsearch) React, Vue, Angular
-  - [typesense-instantsearch-adapter](https://github.com/typesense/typesense-instantsearch-adapter)
-  - [searchkit-instantsearch-client](https://github.com/searchkit/searchkit/blob/main/packages/searchkit-instantsearch-client)
-  - [instant-meilisearch](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch)
-  - [instantsearch-itemsjs-adapter](https://github.com/unplatform-io/instantsearch-itemsjs-adapter)
-- [searchkit](https://github.com/searchkit/searchkit) Plain JS, React, Vue, Angular
+- [instantsearch](https://github.com/algolia/instantsearch) Plain JS, React, Vue, Angular
+  - [playground](https://instantsearchjs.netlify.app/stories/js/)
+  - integrations:
+    - [instant-meilisearch](https://github.com/meilisearch/meilisearch-js-plugins/tree/main/packages/instant-meilisearch)
+    - [typesense-instantsearch-adapter](https://github.com/typesense/typesense-instantsearch-adapter)
+    - [instantsearch-itemsjs-adapter](https://github.com/unplatform-io/instantsearch-itemsjs-adapter)
+    - [searchkit-instantsearch-client](https://github.com/searchkit/searchkit/blob/main/packages/searchkit-instantsearch-client) (Elasticsearch)
 - [reactivesearch](https://github.com/appbaseio/reactivesearch#3-component-playground) React, Vue
+  - [playground](https://opensource.appbase.io/playground/)
 - [AddSearch/search-ui](https://github.com/AddSearch/search-ui) Plain JS
 - [coveo/search-ui](https://github.com/coveo/search-ui) Plain JS
 - [sajari/search-ui](https://github.com/sajari/sdk-react/tree/master/packages/search-ui) React
@@ -60,24 +90,14 @@ Except backend you would need some kind of UI. There are a lot of candidates:
 ## Client
 
 But I'm more interested in client-side faceted search. There are a lot of client side full-text search engines:
+ [orama](https://github.com/oramasearch/orama), [pagefind](https://github.com/cloudcannon/pagefind), [lunr.js](https://github.com/olivernn/lunr.js), [flexsearch](https://github.com/nextapps-de/flexsearch).
 
-- [orama](https://github.com/oramasearch/orama)
-- [pagefind](https://github.com/cloudcannon/pagefind)
-- [lunr.js](https://github.com/olivernn/lunr.js)
-- [flexsearch](https://github.com/nextapps-de/flexsearch)
-
-And even more fuzzy-text search "engines":
-
-- [uFuzzy](https://github.com/leeoniya/uFuzzy)
-- [fuse](https://github.com/krisk/fuse)
-- [fzf-for-js](https://github.com/ajitid/fzf-for-js)
-- [fuzzysort](https://github.com/farzher/fuzzysort)
-- [quick-score](https://fwextensions.github.io/quick-score-demo/)
+And even more fuzzy-text search "engines": [uFuzzy](https://github.com/leeoniya/uFuzzy), [fuse](https://github.com/krisk/fuse), [fzf-for-js](https://github.com/ajitid/fzf-for-js), [fuzzysort](https://github.com/farzher/fuzzysort),[quick-score](https://fwextensions.github.io/quick-score-demo/).
 
 In similar way we can use faceted search at the client side. I found 3 libraries:
 
 - [tanstack/table](https://tanstack.com/table/v8/docs/api/features/filters#getfacetedrowmodel)
-- [orama](https://docs.oramasearch.com/usage/search/facets)
+- [orama](https://docs.oramasearch.com/open-source/usage/search/facets)
 - [itemsjs](https://github.com/itemsapi/itemsjs)
 
 ### Experiment
@@ -86,8 +106,8 @@ I decided to try them out. I started with tanstack and `shadcn/ui` (React, Radix
 
 I found couple datasets for the demo:
 
-- https://github.com/algolia/datasets/tree/master/ecommerce
-- https://github.com/searchkit/searchkit/tree/main/sample-data/electronics-ecommerce
+- [algolia datasets](https://github.com/algolia/datasets/tree/master/ecommerce)
+- [searchkit sample data](https://github.com/searchkit/searchkit/tree/main/sample-data/electronics-ecommerce)
 
 Demo is not ideal, but enough to compare approaches:
 
@@ -95,11 +115,12 @@ Demo is not ideal, but enough to compare approaches:
 - Filter with slider misses number marks. See [#1188](https://github.com/radix-ui/primitives/issues/1188)
 - Filters should be collapsible, like [Accordion](https://ui.shadcn.com/docs/components/accordion) component
 - I need to store state of filter in URL
-- UI "jumps" (scroll positin changes) from time to time
-
-Demo is [here](https://faceted.stereobooster.com/). Source is [here](https://github.com/stereobooster/faceted-search). You can judge result yourself.
+- UI "jumps" - scroll position changes unexpectedly (sometimes)
 
 ### Tanstack table native faceting
+
+- [source code](https://github.com/stereobooster/faceted-search/tree/main/src/pages/tanstack)
+- [demo](https://faceted.stereobooster.com/pages/tanstack/)
 
 I'm impresed by Tanstack table, it packs so many features and has elegant API layer.
 
@@ -110,6 +131,9 @@ I'm impresed by Tanstack table, it packs so many features and has elegant API la
 - There is no full-text ssearch (only substring match), but this is irrelevant, because I'm mainly interested in faceting
 
 ### Tanstack table + Orama
+
+- [source code](https://github.com/stereobooster/faceted-search/tree/main/src/pages/orama)
+- [demo](https://faceted.stereobooster.com/pages/orama/)
 
 I wanted to preserve the same UI, so I integrated Orama in Tanstack table.
 
@@ -128,7 +152,10 @@ And there are another small bugs.
 
 ### Tanstack table + ItemsJS
 
-ItemsJS focuses on faceting, and full-text search is outsourced - by default, it uses Lunr. But you can switch to other solutions, for example, [minisearch](https://github.com/itemsapi/itemsjs/blob/master/docs/minisearch-integration.md)
+- [source code](https://github.com/stereobooster/faceted-search/tree/main/src/pages/itemsjs)
+- [demo](https://faceted.stereobooster.com/pages/itemsjs/)
+
+ItemsJS focuses on faceting, and full-text search is outsourced - by default, it uses Lunr. But you can switch to other solutions, for example, [minisearch](https://github.com/itemsapi/itemsjs/blob/master/docs/minisearch-integration.md).
 
 Secret sauce is [FastBitSet.js](https://github.com/lemire/FastBitSet.js/).
 
@@ -148,7 +175,7 @@ Other things to try:
 
 - integrate different full-text or fuzzy search engine
 - move it to Web Worker
-- integration with Instantsearch
+- integrate with Instantsearch
 - implement slider component with mini-plot
 - implement date-range component
 - implement hierarchical categories component, like file tree
