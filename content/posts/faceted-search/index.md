@@ -155,7 +155,7 @@ And there are another small bugs.
 - [source code](https://github.com/stereobooster/faceted-search/tree/main/src/pages/itemsjs)
 - [demo](https://faceted.stereobooster.com/pages/itemsjs/)
 
-ItemsJS focuses on faceting, and full-text search is outsourced - by default, it uses Lunr. But you can switch to other solutions, for example, [minisearch](https://github.com/itemsapi/itemsjs/blob/master/docs/minisearch-integration.md).
+ItemsJS focuses on faceting, and full-text search is outsourced - by default, it uses Lunr. But you can switch to another solution, for example, [minisearch](https://github.com/itemsapi/itemsjs/blob/master/docs/minisearch-integration.md).
 
 Secret sauce is [FastBitSet.js](https://github.com/lemire/FastBitSet.js/).
 
