@@ -67,7 +67,7 @@ Typical solution is to use some kind of search engine with support for faceted s
 - [tantivy](https://github.com/quickwit-oss/tantivy)
   - There is [an attempt to compile it to WASM](https://github.com/phiresky/tantivy-wasm)
 - Not a typical choice, but also may work - DuckDB, because it has [Full Text Search](https://duckdb.org/docs/extensions/full_text_search.html) and [GROUPING SETS](https://duckdb.org/docs/sql/query_syntax/grouping_sets)
-  - there is [WASM version](https://duckdb.org/docs/api/wasm/overview.html), but it is kind of big
+  - there is [WASM version](https://duckdb.org/docs/api/wasm/overview.html), but it is [kind of big](https://github.com/duckdb/duckdb-wasm/discussions/1469)
 
 ### UI
 
@@ -184,11 +184,13 @@ Other things to try:
 
 #### Prebuild index for static websites
 
-Typical solution for search for static websites, like Hugo, is to load data as JSON in memory and then index it. Is there a way to build index upfront and fetch it from the server with [HTTP range request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests)? It can be optimized-for-reads format, like [Parquet](https://github.com/kylebarron/parquet-wasm).
+Typical solution for search for static websites, like Hugo, is to load data as JSON in memory and then index it. Is there a way to build index upfront and fetch it from the server with [HTTP range request](https://developer.mozilla.org/en-US/docs/Web/HTTP/Range_requests)? It can be optimized-for-reads format, like [Arrow](https://github.com/domoritz/arrow-wasm).
 
 - [stork](https://github.com/jameslittle230/stork) (deprecated) has CLI for building index and JS library to consume it.
 - [orama/plugin-data-persistence](https://github.com/oramasearch/orama/tree/main/packages/plugin-data-persistence) can store index data as JSON or as [dpack](https://www.npmjs.com/package/dpack), but not sure if stores raw data or index.
-- [Pagefind](https://pagefind.app/docs/running-pagefind/) has CLI for building index and JS library to consume it.
+- [Pagefind](https://pagefind.app/docs/running-pagefind/) has CLI for building index and JS library to consume it. Stores index as [CBOR](https://datatracker.ietf.org/doc/html/rfc7049).
+
+Related: [RoaringFormat](https://github.com/RoaringBitmap/RoaringFormatSpec/).
 
 #### Benchmarks for full text search
 
