@@ -16,7 +16,7 @@ title = "stereobooster"
   # description = "My awesome website"
 
 
-[author]
+[params.author]
   name = "stereobooster"
   image = "img/author.png"
   headline = "I'm a software developer interested in UX, a11y, type systems, performance."
