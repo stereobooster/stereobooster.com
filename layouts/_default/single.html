@@ -24,7 +24,8 @@
         </div>
       {{ end }}
       {{/* disclaimer start */}}
-      {{ $ageDays := div (sub now.Unix .Lastmod.Unix) 86400 }}
+      {{/* Using: `.Date` instead of `.Lastmod` */}}
+      {{ $ageDays := math.Round (div (now.Sub .Date).Hours 24) }}
       {{ if gt $ageDays 180 }}
       <div class="prose dark:prose-invert mb-12">
         {{/* Alert */}}
