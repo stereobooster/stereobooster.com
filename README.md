@@ -14,10 +14,8 @@
 ## congo TODO
 
 - img: [maybe add lqip](https://github.com/jpanther/congo/pull/647)
-- [add quicklink](https://github.com/jpanther/congo/pull/646)
 - support series
 - discussion links
-- https://web.dev/lcp-lazy-loading/
 - `Elements with visible text labels do not have matching accessible names.` (About pagination)
 - check: `kbd`
   - themes/congo/tailwind.config.js
