@@ -1,6 +1,6 @@
 ---
 title: "JavaScript key-value store"
-date: 2024-01-02T14:37:15+01:00
+date: 2024-01-02T14:00:00
 tags: [js, data-structure, webdev]
 ---
 
