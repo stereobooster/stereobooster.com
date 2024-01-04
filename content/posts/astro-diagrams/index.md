@@ -15,12 +15,16 @@ There are several ways to do it:
 - Traditional way, which is used by Hugo and other static website generators. Embed mermaid and **do rendering on the client** side.
   - Because [Mermaid doesn't support server side rendering](https://github.com/mermaid-js/mermaid/issues/3650)
   - [astro#4433](https://github.com/withastro/astro/issues/4433)
-- Prerender with the help of headless browser (puppeteer, playwright or even [Tauri](content/posts/tauri-instead-of-puppeteer-or-playwright/index.md))
+- Prerender with the help of **headless browser** (puppeteer, playwright or even [Tauri](content/posts/tauri-instead-of-puppeteer-or-playwright/index.md))
   - [mermaid-cli](https://github.com/mermaid-js/mermaid-cli)
   - [astro-diagram](https://www.npmjs.com/package/astro-diagram)
+  - remark/rehype
+    - [rehype-mermaid](https://github.com/remcohaszing/rehype-mermaid)
+    - [remark-mermaidjs](https://github.com/remcohaszing/remark-mermaidjs)
+    - [remark-mermaid](https://github.com/temando/remark-mermaid)
 - Use Mermaid syntax, but render it with [Pintora](https://github.com/hikerpig/pintora)
   - [astro-pintora](https://www.npmjs.com/package/astro-pintora)
-  - Pintora supports a lot of Mermaid diagrams (which are interesting to me), except Flowchart
+  - Pintora supports a lot of Mermaid diagrams (which are interesting to me), **except Flowchart**
     - There is [a way to add new diagrams](https://pintorajs.vercel.app/docs/advanced/write-a-custom-diagram/)
 
 ## Astro + Pintora
