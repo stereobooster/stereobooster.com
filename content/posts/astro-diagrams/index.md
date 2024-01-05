@@ -6,6 +6,15 @@ tags: ["astro", "diagram", "markdown", "mermaid"]
 
 **Task**: add support for diagrams to Astro.
 
+**Ideally**:
+
+- it would be rendered as SVG on the server side
+  - so no JS required on the client-side
+  - people can use <kbd>Cmd</kbd> + <kbd>F</kbd> to search text
+- style it with CSS-variables (or CSS-classes)
+  - so it would be possible to implement dark mode without JS
+- optionally add small JS to implement pan/zoom/drag
+
 Most popular (at the moment) option for diagrams is [Mermaid](https://mermaid.js.org/). There are [other options](/content/posts/text-to-diagram/index.md) though.
 
 ## Options
