@@ -24,7 +24,7 @@ There are several ways to do it:
 - (1) Traditional way, which is used by Hugo and other static website generators. Embed mermaid and **do rendering on the client** side.
   - Because [Mermaid doesn't support server side rendering](https://github.com/mermaid-js/mermaid/issues/3650)
   - [astro#4433](https://github.com/withastro/astro/issues/4433)
-- (2) Prerender with the help of **headless browser** (puppeteer, playwright or even [Tauri](content/posts/tauri-instead-of-puppeteer-or-playwright/index.md))
+- (2) Prerender with the help of **headless browser** (puppeteer, playwright or even [Tauri](/content/posts/tauri-instead-of-puppeteer-or-playwright/index.md))
   - [mermaid-cli](https://github.com/mermaid-js/mermaid-cli)
   - [astro-diagram](https://www.npmjs.com/package/astro-diagram)
   - remark/rehype
