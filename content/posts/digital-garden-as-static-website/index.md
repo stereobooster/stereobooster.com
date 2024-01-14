@@ -29,7 +29,7 @@ Typical features for digital garden
 - **markdown**, **front-matter**, **text-to-diagram**, **math with Katex** as seen in many static site generators (SSG)
 - store source code on GitHub and **edit link**
 - **breadcrumbs** as seen in many websites
-- **full-text search** for static website, for example, with [orama](https://github.com/oramasearch/orama), [pagefind](https://github.com/cloudcannon/pagefind), [fuse](https://github.com/krisk/fuse)
+- **full-text search** for static website, for example, with [pagefind](https://github.com/cloudcannon/pagefind), [fuse](https://github.com/krisk/fuse)
 
 Common feature for [Obsidian publish](https://obsidian.md/publish), [Mindstone](https://github.com/TuanManhCao/digital-garden), [Quartz](https://quartz.jzhao.xyz/notes/obsidian/)
 
