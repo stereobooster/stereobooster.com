@@ -18,7 +18,7 @@ And everything in between:
 - Graph vizualization: [markdown-links](https://github.com/tchayen/markdown-links), [markmap.js](https://markmap.js.org/docs/packages--markmap-cli), [dundalek/markmap](https://github.com/dundalek/markmap)
 - Transformers:
   - from Obsidian to Hugo: [obsidian-export](https://nick.groenen.me/projects/obsidian-export/) [obsidian-to-hugo](https://github.com/devidw/obsidian-to-hugo), [obsidian-meets-hugo](https://github.com/ukautz/obsidian-meets-hugo), [obyde](https://github.com/notkmhn/obyde)
-  - to [convert code fences to diagrams](/content/posts/text-to-diagram/index.md): [pikchr-cmd](https://github.com/zenomt/pikchr-cmd), [rehype-mermaidjs](https://github.com/remcohaszing/rehype-mermaidjs) + [remark-mermaidjs](https://github.com/remcohaszing/remark-mermaidjs)
+  - to [convert code fences to diagrams](/content/posts/text-to-diagram/index.md): [pikchr-cmd](https://github.com/zenomt/pikchr-cmd), [rehype-mermaidjs](https://github.com/remcohaszing/rehype-mermaidjs), [remark-mermaidjs](https://github.com/remcohaszing/remark-mermaidjs)
   - code formaters: [prettier](https://prettier.io/), [cbfmt](https://github.com/lukas-reineke/cbfmt)
 - Broken link checkers: [remark-lint-no-dead-urls](https://github.com/remarkjs/remark-lint-no-dead-urls), [mdv](https://github.com/Mermade/mdv), [markdown-link-check](https://github.com/tcort/markdown-link-check), [remark-validate-links](https://github.com/remarkjs/remark-validate-links)
 - "Treat as database" tools: [docsql](https://github.com/peterbe/docsql), [obsidian-dataview](https://blacksmithgu.github.io/obsidian-dataview/)
@@ -66,3 +66,4 @@ What I want maximum:
 
 - [markdown-to-sqlite](https://github.com/simonw/markdown-to-sqlite)
 - [Using sqlite3 as a notekeeping document graph with automatic reference indexing](https://epilys.github.io/bibliothecula/notekeeping.html)
+- **[markdowndb](https://github.com/datopian/markdowndb)**
