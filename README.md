@@ -14,15 +14,14 @@
 ## congo TODO
 
 - img: [maybe add lqip](https://github.com/jpanther/congo/pull/647)
-- support series
+- [support series](https://github.com/jpanther/congo/discussions/838)
 - discussion links
 - `Elements with visible text labels do not have matching accessible names.` (About pagination)
 - check: `kbd`
   - themes/congo/tailwind.config.js
   - https://github.com/tailwindlabs/tailwindcss-typography/pull/317
   - https://daisyui.com/components/kbd/
-- blockquote remove quotes
-  - themes/congo/tailwind.config.js
+- [blockquote remove quotes](https://github.com/jpanther/congo/discussions/651#discussioncomment-8883218)
   - https://discourse.gohugo.io/t/blockquote-with-render-hook/40701
 - check [RSS](http://localhost:1313/index.xml)
   - `render-image.rss.xml` ?
@@ -40,30 +39,9 @@
   - exclude from selection: `.highlight .ln { user-select: none; }`
   - exclude from copy
   - support sticky position (for horizontal scroll)
-- track scroll in sidebar?
+- [track scroll in sidebar](https://astro-digital-garden.stereobooster.com/recipes/table-of-contents/#snake-table-of-contents)?
 - improve related links in post
-
-```js
-module.exports = {
-  theme: {
-    extend: {
-      typography: {
-        quoteless: {
-          css: {
-            'blockquote p:first-of-type::before': { content: 'none'},
-            'blockquote p:first-of-type::after': { content: 'none' },
-          },
-        },
-      },
-    },
-  },
-  variants: {},
-  plugins: [require('@tailwindcss/typography')],
-}
-```
-
 - 404 page [glitch effect](https://devdojo.com/gscode/best-creative-10-pure-css-glitch-effect)
-
 - https://blowfish.page/docs/shortcodes/
 - https://jpanther.github.io/congo/docs/partials/
 
