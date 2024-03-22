@@ -48,7 +48,7 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 
 ### See also
 
-- [Online playground](https://umemotoctrl.github.io/mdpjs/)
+- [Comparison Javascript Markdown Parsers](https://umemotoctrl.github.io/mdpjs/)
 - [npmtrends](https://npmtrends.com/commonmark-vs-markdown-it-vs-marked-vs-markup-it-vs-micromark-vs-remark-parse-vs-remarkable-vs-showdown)
 - [biome](https://biomejs.dev/internals/language-support/) promises to add markdown eventually
 
@@ -145,7 +145,6 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 - ["awesome-markdown" libraries](https://github.com/BubuAnabelas/awesome-markdown#libraries)
 - [lezer-parser/markdown](https://github.com/lezer-parser/markdown)
 - [babelmark](https://babelmark.github.io/)
-- [Comparison Javascript Markdown Parsers](https://umemotoctrl.github.io/mdpjs/)
 
 ### Crticism
 
