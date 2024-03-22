@@ -36,6 +36,7 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
   - [gitbook](https://www.gitbook.com/)
 - [commonmark.js](https://github.com/commonmark/commonmark.js/)
   - is the JS **reference implementation of CommonMark**
+- [lezer-parser/markdown](https://github.com/lezer-parser/markdown) an **incremental** Markdown (**CommonMark** with support for extension)
 
 ### WASM
 
@@ -100,7 +101,7 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 
 ## Tree-sitter
 
-[Tree-sitter](https://tree-sitter.github.io/tree-sitter/) is a parser generator tool and an incremental parsing library. There are bindings for many languages (including Rust and JS)
+[Tree-sitter](https://tree-sitter.github.io/tree-sitter/) is a parser generator tool and an **incremental** parsing library. There are bindings for many languages (including Rust and JS)
 
 - [MDeiml/tree-sitter-markdown](https://github.com/MDeiml/tree-sitter-markdown)
 - [ikatyang/tree-sitter-markdown](https://github.com/ikatyang/tree-sitter-markdown)
@@ -143,7 +144,6 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 ## Other
 
 - ["awesome-markdown" libraries](https://github.com/BubuAnabelas/awesome-markdown#libraries)
-- [lezer-parser/markdown](https://github.com/lezer-parser/markdown)
 - [babelmark](https://babelmark.github.io/)
 
 ### Crticism
