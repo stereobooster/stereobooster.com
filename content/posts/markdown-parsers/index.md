@@ -145,6 +145,7 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 - ["awesome-markdown" libraries](https://github.com/BubuAnabelas/awesome-markdown#libraries)
 - [lezer-parser/markdown](https://github.com/lezer-parser/markdown)
 - [babelmark](https://babelmark.github.io/)
+- [Comparison Javascript Markdown Parsers](https://umemotoctrl.github.io/mdpjs/)
 
 ### Crticism
 
