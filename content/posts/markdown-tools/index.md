@@ -67,3 +67,4 @@ What I want maximum:
 - [markdown-to-sqlite](https://github.com/simonw/markdown-to-sqlite)
 - [Using sqlite3 as a notekeeping document graph with automatic reference indexing](https://epilys.github.io/bibliothecula/notekeeping.html)
 - **[markdowndb](https://github.com/datopian/markdowndb)**
+- **[braindb](https://github.com/stereobooster/braindb)**
