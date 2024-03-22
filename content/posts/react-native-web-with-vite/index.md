@@ -175,3 +175,9 @@ export default defineConfig({
 ## Example
 
 [Vite + react-native-web + TypeScript](https://github.com/stereobooster/vite-rnw)
+
+## Related
+
+[`vxrn`](https://vxrn.dev/) is a package that lets you serve your React Native apps using Vite. This is pretty cool as Vite typically doesn't seem like it would "play well" with React Native - React Native only supports CommonJS, even for hot reloading, whereas Vite is all-in on ESModules.
+
+**`vxrn` is in early alpha**.
