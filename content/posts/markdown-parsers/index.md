@@ -150,3 +150,7 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
 
 - [djot rationale](https://github.com/jgm/djot#rationale)
 - [markdown mistakes](https://www.swyx.io/markdown-mistakes)
+
+## About prsing
+
+What is PEG? What is incremental parsing? [Read more about parsing here](https://parsing.stereobooster.com/).
