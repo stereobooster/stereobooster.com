@@ -4,6 +4,7 @@ date: 2021-01-04T01:57:46+01:00
 draft: false
 tags: [computerscience, syntax, grammar, parser]
 series: "Parsing"
+warning: "**Warning!**: This blog post is outdated. Instead, read my [digital garden about parsing](https://parsing.stereobooster.com/)."
 ---
 
 When I tried to read [papers on parsing algorithms](/content/posts/an-overview-of-parsing-algorithms/index.md) I found a lot of terminologies (sometimes used inconsistently), a lot of abbreviations, and contradictory claims.

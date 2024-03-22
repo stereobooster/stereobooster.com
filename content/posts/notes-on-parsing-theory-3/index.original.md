@@ -4,6 +4,7 @@ date: 2021-01-28T00:00:00+01:00
 draft: false
 tags: [computerscience, syntax, grammar, parser]
 series: "Parsing"
+warning: "**Warning!**: This blog post is outdated. Instead, read my [digital garden about parsing](https://parsing.stereobooster.com/)."
 ---
 
 Based on [Theory of Computation (CS3102), Spring 2017](http://www.cs.virginia.edu/~robins/cs3102/), videos are [here](http://www.cs.virginia.edu/~robins/videos.html).

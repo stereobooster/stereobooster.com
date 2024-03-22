@@ -26,7 +26,7 @@
       {{/* disclaimer start */}}
       {{/* Using: `.Date` instead of `.Lastmod` */}}
       {{ $ageDays := math.Round (div (now.Sub .Date).Hours 24) }}
-      {{ if gt $ageDays 180 }}
+      {{ if or (gt $ageDays 180) $.Params.warning }}
       <div class="prose dark:prose-invert mb-12">
         {{/* Alert */}}
         <div class="flex px-4 py-3 rounded-md bg-primary-100 dark:bg-primary-900">
@@ -34,7 +34,11 @@
             {{ partial "icon.html" "triangle-exclamation" }}
           </span>
           <span class="dark:text-neutral-300">
+            {{ if $.Params.warning }}
+              {{ $.Params.warning | markdownify }}
+            {{ else }}
             <a href="/disclaimer/"><b>Disclaimer</b>: This article is older than 180 days. The author may not hold that opinion anymore.</a>
+            {{ end }}
           </span>
         </div>
       </div>

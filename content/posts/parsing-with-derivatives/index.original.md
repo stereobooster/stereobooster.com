@@ -4,6 +4,7 @@ date: 2021-02-27T13:15:47+01:00
 draft: false
 tags: [computerscience, syntax, grammar, parser]
 series: "Parsing"
+warning: "**Warning!**: This blog post is outdated. Instead, read my [digital garden about parsing](https://parsing.stereobooster.com/)."
 ---
 
 Based on:

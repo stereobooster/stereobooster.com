@@ -4,6 +4,7 @@ date: 2021-02-23T02:30:58+01:00
 draft: false
 tags: [computerscience, syntax, grammar, parser]
 series: "Parsing"
+warning: "**Warning!**: This blog post is outdated. Instead, read my [digital garden about parsing](https://parsing.stereobooster.com/)."
 ---
 
 ## Why do we need parsers?

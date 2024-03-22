@@ -5,6 +5,7 @@ draft: false
 tags: [computerscience, syntax, grammar, parser]
 series: "Parsing"
 description: "List of parsing algorithms"
+warning: "**Warning!**: This blog post is outdated. Instead, read my [digital garden about parsing](https://parsing.stereobooster.com/)."
 ---
 
 ![](0.svg)

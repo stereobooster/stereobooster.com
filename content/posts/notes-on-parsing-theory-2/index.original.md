@@ -4,6 +4,7 @@ date: 2021-01-09T00:00:00+01:00
 draft: false
 tags: [computerscience, syntax, grammar, parser]
 series: "Parsing"
+warning: "**Warning!**: This blog post is outdated. Instead, read my [digital garden about parsing](https://parsing.stereobooster.com/)."
 ---
 
 After reading more about the subject I realized that section "Scanners and parsers" from my [previous post](/content/posts/notes-on-parsing-theory-1/index.md) needs a correction.

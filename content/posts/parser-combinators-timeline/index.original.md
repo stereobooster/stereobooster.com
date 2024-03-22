@@ -4,6 +4,7 @@ date: 2021-02-21T23:39:48+01:00
 draft: false
 tags: [computerscience, syntax, grammar, parser, function]
 series: "Parsing"
+warning: "**Warning!**: This blog post is outdated. Instead, read my [digital garden about parsing](https://parsing.stereobooster.com/)."
 ---
 
 In my [first post](/content/posts/an-overview-of-parsing-algorithms/index.md) I didn't mention "parser combinators".
