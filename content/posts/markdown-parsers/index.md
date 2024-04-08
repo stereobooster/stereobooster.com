@@ -36,7 +36,9 @@ tags: [markdown, parser, javascript, golang, rust, c, zig]
   - [gitbook](https://www.gitbook.com/)
 - [commonmark.js](https://github.com/commonmark/commonmark.js/)
   - is the JS **reference implementation of CommonMark**
-- [lezer-parser/markdown](https://github.com/lezer-parser/markdown) an **incremental** Markdown (**CommonMark** with support for extension)
+- [lezer-parser/markdown](https://github.com/lezer-parser/markdown) an **incremental** Markdown (**CommonMark** with support for extension) used by
+  - [CodeMirror](https://github.com/codemirror) used by
+    - [Obsidian](https://obsidian.md/)
 
 ### WASM
 
