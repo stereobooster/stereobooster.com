@@ -45,32 +45,7 @@ There are several ways to do it:
 
 ## Pan/Zoom/Drag
 
-- (1) 
+- (1)
   - [Not supported out of the box, needs additional work](https://github.com/mermaid-js/mermaid/issues/1860)
 - (2) and (3)
-  - [anvaka/panzoom](https://github.com/anvaka/panzoom)
-  - [timmywil/panzoom](https://timmywil.com/panzoom/)
-  - [zoom-pan-effect-svg](https://onestepcode.com/zoom-pan-effect-svg/)
-  - [JavaScript: Zoom like in maps for SVG/HTML](https://itnext.io/javascript-zoom-like-in-maps-for-svg-html-89c0df016d8d)
-  - [svg-pan-zoom](https://github.com/bumbu/svg-pan-zoom)
-  - [astro-big-doc](https://github.com/MicroWebStacks/astro-big-doc)
-  - [fabric.js](https://github.com/fabricjs/fabric.js)
-  - [SpencerWie/Panzoom](https://github.com/SpencerWie/Panzoom)
-
-## Astro + Pintora
-
-Things that need to be implemented/checked:
-
-- [x] Astro component to generate diagram
-- [ ] remark plugin to generate diagrams in place of code-fences
-- [ ] dark mode without JS
-  - [it is not possible to use CSS-variables](https://github.com/hikerpig/pintora/issues/236)
-  - other option would be to generate both images for dark and light mode, but be aware of [pintora#215](https://github.com/hikerpig/pintora/issues/215)
-- [ ] [accessibility](https://github.com/hikerpig/pintora/issues/239)
-- [cache](/content/posts/javascript-key-value-store/index.md) - rendering can be expensive operation (actually do a benchmark), so it would make sense to use cache
-  - Do we need hash function for keys?
-  - It is probably good idea to use LRU
-  - Do we need to persist cache to the disk? If yes, it may need TLRU
-  - Maybe there is a way to use Astro's cache
-- compatibility with Mermaid
-  - show same diagrams side-by-side - Mermaid vs Pintora
+  - [svg-pan-zoom-gesture](https://github.com/stereobooster/svg-pan-zoom-gesture)
