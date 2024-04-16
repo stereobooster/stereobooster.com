@@ -2,6 +2,7 @@
 title: "Astro diagrams"
 date: 2024-01-03T10:00:00
 tags: ["astro", "diagram", "markdown", "mermaid"]
+warning: "**Update**: see [article about diagrams](https://astro-digital-garden.stereobooster.com/recipes/diagrams/) at Astro digital garden"
 ---
 
 **Task**: add support for diagrams to Astro.

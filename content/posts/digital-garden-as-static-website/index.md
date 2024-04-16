@@ -3,6 +3,7 @@ title: "Digital garden as static website"
 date: 2023-10-24T15:22:28+02:00
 draft: false
 tags: [digital-garden, second-brain, markdown]
+warning: "**Update**: a lot of ideas described in this article implented in [Astro digital garden](https://astro-digital-garden.stereobooster.com/)"
 ---
 
 [Digital garden](https://github.com/MaggieAppleton/digital-gardeners) aka [Second brain](https://www.ssp.sh/brain/), [Zettelkasten](https://en.wikipedia.org/wiki/Zettelkasten), personal wiki, personal knowledge management.

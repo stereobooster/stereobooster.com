@@ -3,6 +3,7 @@ title: "Faceted search"
 date: 2023-10-29T17:43:39+01:00
 draft: false
 tags: [search, ui]
+warning: "**Update**: checkout [facets](https://github.com/stereobooster/facets) and [pagefind-instantsearch](https://github.com/stereobooster/pagefind-instantsearch)"
 ---
 
 Faceted search is a parametric search with the difference that user can judge about distribution of results by different cataegories (facets) upfront. One more improvement is when the system sugests most relevant facets depending on the type of search. For example, if user searches:
@@ -90,7 +91,7 @@ Except backend you would need some kind of UI. There are a lot of candidates:
 ## Client
 
 But I'm more interested in client-side faceted search. There are a lot of client side full-text search engines:
- [orama](https://github.com/oramasearch/orama), [pagefind](https://github.com/cloudcannon/pagefind), [lunr.js](https://github.com/olivernn/lunr.js), [flexsearch](https://github.com/nextapps-de/flexsearch).
+[orama](https://github.com/oramasearch/orama), [pagefind](https://github.com/cloudcannon/pagefind), [lunr.js](https://github.com/olivernn/lunr.js), [flexsearch](https://github.com/nextapps-de/flexsearch).
 
 And even more fuzzy-text search "engines": [uFuzzy](https://github.com/leeoniya/uFuzzy), [fuse](https://github.com/krisk/fuse), [fzf-for-js](https://github.com/ajitid/fzf-for-js), [fuzzysort](https://github.com/farzher/fuzzysort),[quick-score](https://fwextensions.github.io/quick-score-demo/).
 
