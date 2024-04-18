@@ -19,6 +19,7 @@ But there are a lot of better alternatives (just to name few):
 
 - [tinyanalytics](https://tinyanalytics.io/) - 1 site for free
 - [umami](https://umami.is/) - 3 sites for free
+- [cabin](https://withcabin.com/pricing) - 1 site for free
 - [swetrix](https://swetrix.com/) - open source, starts from $5/month
 
 See more alternatives here:
@@ -42,10 +43,11 @@ Recent trend is to generate search index during site generation and then use cli
 
 Some options (not a full list):
 
-- [orama](https://github.com/oramasearch/orama)
 - [pagefind](https://github.com/cloudcannon/pagefind)
 - [fuse](https://github.com/krisk/fuse)
-- [lunr.js](https://github.com/olivernn/lunr.js)
+- [minisearch](https://github.com/lucaong/minisearch)
+- [tinysearch](https://github.com/tinysearch/tinysearch)
+- [orama](https://github.com/oramasearch/orama)
 
 Honorable mentions:
 
@@ -61,7 +63,7 @@ In old times people would use Disqus. But again, it is not GDPR compliant out of
 One of potential solution for developers is to reuse github comments or discussions as comments for your website. Most developers have github account anyway (I know there are people, who are strongly opposed to Github and prefer Gitlab or self-hosted solutions, but this is discussion for another time). For example:
 
 - [giscus](https://giscus.app/)
-- [utteranc](https://utteranc.es/)
+- [utterances](https://utteranc.es/)
 - [gitalk](https://gitalk.github.io/)
 - [vssue](https://vssue.js.org/demo/)
   - also supports: Bitbucket, Gitea, Gitee, GitLab
