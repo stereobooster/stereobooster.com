@@ -3,6 +3,7 @@ title: "Markdown tools"
 date: 2023-09-13T16:35:23+02:00
 draft: false
 tags: ["markdown", "idea"]
+warning: "**Update**: since writing this post I created [braindb](https://github.com/stereobooster/braindb) to address all issues described below"
 ---
 
 So you have folder with markdown files. It can be static website, it can be Obsidian vault, second brain, digital garden, zettelkasten, notes...
@@ -67,4 +68,3 @@ What I want maximum:
 - [markdown-to-sqlite](https://github.com/simonw/markdown-to-sqlite)
 - [Using sqlite3 as a notekeeping document graph with automatic reference indexing](https://epilys.github.io/bibliothecula/notekeeping.html)
 - **[markdowndb](https://github.com/datopian/markdowndb)**
-- **[braindb](https://github.com/stereobooster/braindb)**
