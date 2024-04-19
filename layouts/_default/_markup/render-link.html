@@ -1,5 +1,6 @@
 {{- $link := .Destination -}}
 {{ $isRemote := (or (strings.HasPrefix $link "http") (strings.HasPrefix $link "ftp")) }}
+{{ $isSubdomain := false }}
 {{- if not $isRemote }}
   {{ $url := urls.Parse .Destination }}
   {{- if $url.Path }}
@@ -13,5 +14,8 @@
       {{ end -}}
     {{ end -}}
   {{ end -}}
+{{ else }}
+  {{ $isSubdomain = (or (strings.Contains  $link ".stereobooster.com") (strings.HasPrefix $link "https://github.com/stereobooster")) }}
 {{ end -}}
-<a href="{{ $link | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isRemote }} target="_blank" rel="noreferrer"{{ end }}>{{- .Text | safeHTML -}}</a>
+
+<a href="{{ $link | safeURL }}"{{ with .Title }} title="{{ . }}"{{ end }}{{ if $isRemote }} target="_blank" {{if $isSubdomain }}rel="noopener"{{ else }}rel="noopener nofollow"{{ end }}{{ end }}>{{- .Text | safeHTML -}}</a>
