@@ -13,24 +13,19 @@
 [[main]]
   identifier = "search"
   weight = 99
-  [main.params]
-    action = "search"
+  action = "search"
 
 [[main]]
   name = "Parsing"
+  title = "All about parsing"
   url = "https://parsing.stereobooster.com/"
   weight = 30
 
 [[main]]
-  name = "Graphs"
-  url = "https://graph.stereobooster.com/"
+  name = "Astro digital garden"
+  title = "Aka second brain"
+  url = "https://astro-digital-garden.stereobooster.com/"
   weight = 30
-
-[[main]]
-  name = "Fuzzy serach"
-  url = "https://fuzzy.stereobooster.com/"
-  weight = 30
-
 
 [[main]]
   name = "Support Ukraine 🇺🇦"
