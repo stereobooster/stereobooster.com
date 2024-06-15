@@ -5,7 +5,7 @@
 ## TODO
 
 - Create "about me" page (https://github.com/stereobooster/readme)
-- Create "projects" page
+- [Create "projects" page](https://github.com/jpanther/congo/discussions/894)
 - [Crosspost to other platforms](https://dev.to/maxkatz/where-to-publish-content-53ao)
   - https://github.com/Hashnode/user-feedback/issues/2
 - [Automate crosspost](https://dev.to/maxime1992/manage-your-dev-to-blog-posts-from-a-git-repo-and-use-continuous-deployment-to-auto-publish-update-them-143j)
