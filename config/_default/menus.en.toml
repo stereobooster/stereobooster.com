@@ -16,16 +16,14 @@
   action = "search"
 
 [[main]]
-  name = "Parsing"
-  title = "All about parsing"
-  url = "https://parsing.stereobooster.com/"
-  weight = 30
+  name = "Projects"
+  pageRef = "projects"
+  weight = 20
 
 [[main]]
-  name = "Astro digital garden"
-  title = "Aka second brain"
-  url = "https://astro-digital-garden.stereobooster.com/"
-  weight = 30
+  name = "Blog"
+  pageRef = "/"
+  weight = 20
 
 [[main]]
   name = "Support Ukraine 🇺🇦"
