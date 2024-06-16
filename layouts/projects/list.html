@@ -28,7 +28,7 @@
               {{ .Title }}
             </h3>
             <p class="text-sm text-neutral-500">
-              {{ .Description }}
+              {{ .Description | markdownify }}
             </p>
           </div>
         </a>

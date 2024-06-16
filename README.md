@@ -26,7 +26,6 @@
 - check [RSS](http://localhost:1313/index.xml)
   - `render-image.rss.xml` ?
   - `render-code.rss.xml` ?
-- icons can be better
 - check a11y
   - header links
     - https://github.com/valeriangalliat/markdown-it-anchor/issues/82
