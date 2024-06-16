@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <header>
+    {{ if .Site.Params.article.showBreadcrumbs | default false }}
+      {{ partial "breadcrumbs.html" . }}
+    {{ end }}
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      {{ .Title | emojify }}
+    </h1>
+  </header>
+  <section class="flex flex-col max-w-full prose lg:flex-row dark:prose-invert mt-0">
+    <div class="min-w-0 min-h-0 max-w-prose">
+      <div class="!mb-9 text-xl lead">
+        Things I've released into the world
+      </div>
+    </div>
+  </section>
+  <section class="mt-8">
+    {{ range .Pages }}
+      <article class="pb-6">
+        <a class="flex group" href="{{ .Params.externalUrl }}">
+          <div class="mr-4 text-3xl text-neutral-300 dark:text-neutral-400 group-hover:text-primary-500
+          dark:group-hover:text-primary-400">
+            {{ partial "icon.html" .Params.icon }}
+          </div>
+          <div>
+            <h3 class="flex text-xl font-semibold group-hover:underline group-hover:decoration-primary-500
+            group-hover:underline-offset-2">
+              {{ .Title }}
+            </h3>
+            <p class="text-sm text-neutral-500">
+              {{ .Description }}
+            </p>
+          </div>
+        </a>
+      </article>
+    {{ end }}
+  </section>
+  <section class="max-w-full mt-6 prose dark:prose-invert">
+    See more at <a href="{{ .Params.externalUrl }}">{{ .Params.externalName }}</a> →
+  </section>
+{{ end }}
