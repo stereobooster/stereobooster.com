@@ -9,5 +9,4 @@ description: >
   <img src="https://img.shields.io/gem/dt/html_press" alt="Gem Total Downloads" class="inline mr-2">
 tags: [ruby]
 externalUrl: https://github.com/stereobooster/html_press
-# draft: true
 ---

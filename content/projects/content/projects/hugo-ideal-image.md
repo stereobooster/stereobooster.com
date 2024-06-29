@@ -6,5 +6,4 @@ description: >
   Hugo ideal image
 tags: [optimization, image]
 externalUrl: https://github.com/stereobooster/hugo-ideal-image
-draft: true
 ---

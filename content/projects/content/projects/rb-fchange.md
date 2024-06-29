@@ -9,5 +9,4 @@ description: >
   <img src="https://img.shields.io/gem/dt/rb-fchange" alt="Gem Total Downloads" class="inline mr-2">
 tags: [ruby]
 externalUrl: https://github.com/stereobooster/rb-fchange
-# draft: true
 ---
