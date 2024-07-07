@@ -128,10 +128,11 @@ Editors:
 
 ### Special purpose
 
+- [likec4](https://github.com/likec4/likec4) C4
+- [structurizr](https://structurizr.com/) C4
 - [wavedrom](https://github.com/wavedrom/wavedrom)
 - [DrawGrammar](https://jacquev6.github.io/DrawGrammar/)
 - [state-machine-cat](https://github.com/sverweij/state-machine-cat)
-- [structurizr](https://structurizr.com/)
 - [symbolator](https://github.com/kevinpt/symbolator)
 - [syntrax](https://kevinpt.github.io/syntrax/)
 - [venn.js](https://upset.js.org/venn.js/)
