@@ -18,7 +18,7 @@ There are several types of [static site generators](https://jamstack.org/generat
   - Quartz
 - And documentation generators. This is the post about the last category
 
-## List
+## Generators
 
 This is not an exhaustive list
 
@@ -34,6 +34,8 @@ This is not an exhaustive list
 | [Docsify.js](https://docsify.js.org/#/awesome)                                                      | JS                 |                                                                                                                           |
 | [docpress](https://docpress.github.io/)                                                             | JS                 |                                                                                                                           |
 | [Sphinx](https://www.sphinx-doc.org)                                                                | Python             |                                                                                                                           |
+
+## Themes
 
 Plus there are themes for other (general purpose) SSGs:
 
