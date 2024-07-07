@@ -17,7 +17,7 @@ asdf global rust latest
 RUBY_CONFIGURE_OPTS=--enable-yjit asdf install ruby 3.3.0
 ```
 
-Alternative is [mise](https://mise.jdx.dev).
+Alternatives are [mise](https://mise.jdx.dev), [spack](https://spack.readthedocs.io/en/latest/index.html), [ubi](https://github.com/houseabsolute/ubi).
 
 ### jemalloc
 
