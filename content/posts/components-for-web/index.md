@@ -1,7 +1,7 @@
 ---
 title: "Components for Web"
 date: 2024-05-20T14:49:21+02:00
-tags: [components, a11y, webdev]
+tags: [components, a11y, webdev, listicle]
 ---
 
 Unsorted notes about components in web development

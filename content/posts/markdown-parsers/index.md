@@ -2,7 +2,7 @@
 title: "Markdown parsers"
 date: 2023-09-08T07:00:09+02:00
 draft: false
-tags: [markdown, parser, javascript, golang, rust, c, zig]
+tags: [markdown, parser, javascript, golang, rust, c, zig, listicle]
 ---
 
 ## JS

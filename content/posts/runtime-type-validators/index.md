@@ -2,7 +2,7 @@
 title: "Runtime type validators"
 date: 2023-09-22T06:49:17+02:00
 draft: false
-tags: ["typescript", "type-system"]
+tags: ["typescript", "type-system", "listicle"]
 ---
 
 ## Where can be used
