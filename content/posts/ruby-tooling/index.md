@@ -17,7 +17,7 @@ asdf global rust latest
 RUBY_CONFIGURE_OPTS=--enable-yjit asdf install ruby 3.3.0
 ```
 
-Alternatives are [mise](https://mise.jdx.dev), [spack](https://spack.readthedocs.io/en/latest/index.html), [ubi](https://github.com/houseabsolute/ubi).
+Alternatives are [mise](https://mise.jdx.dev), [spack](https://spack.readthedocs.io/en/latest/index.html), [ubi](https://github.com/houseabsolute/ubi), [nix](https://nixos.org/).
 
 ### jemalloc
 
@@ -83,6 +83,7 @@ https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg
 hjleochen.rails-nav
 https://marketplace.visualstudio.com/items?itemName=aliariff.vscode-erb-beautify
 https://marketplace.visualstudio.com/items?itemName=elia.erb-formatter
+https://github.com/ruby/syntax_suggest
 -->
 
 ## Linters
