@@ -43,8 +43,8 @@ Plus there are themes for other (general purpose) SSGs:
 | ------------------------------------------------------------------------------------- | ------------------ |
 | [just-the-docs](https://github.com/just-the-docs/just-the-docs)                       | Ruby, Jekyll       |
 | [documentation-theme-jekyll](https://github.com/tomjoht/documentation-theme-jekyll)   | Ruby, Jekyll       |
-| [doks](https://github.com/gethyas/doks)                                               | Go, Hugo, JS, Hyas |
 | [hextra](https://imfing.github.io/hextra/)                                            | Go, Hugo           |
+| [doks](https://github.com/gethyas/doks)                                               | Go, Hugo, JS, Hyas |
 | [docsy](https://www.docsy.dev/about/)                                                 | Go, Hugo           |
 | [hugo-book](https://github.com/alex-shpak/hugo-book)                                  | Go, Hugo           |
 | [theme-documentation](https://github.com/HugoBlox/theme-documentation)                | Go, Hugo           |

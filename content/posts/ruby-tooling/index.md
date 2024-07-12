@@ -1,7 +1,7 @@
 ---
 title: "Ruby tooling"
 date: 2024-07-07T13:47:02+02:00
-tags: [dx, ruby]
+tags: [dx, ruby, rails]
 ---
 
 ## Speed up Ruby
