@@ -1,8 +1,7 @@
 ---
 title: "Rails UI components"
 date: 2024-07-12T10:39:31+02:00
-tags: [rails, components, webdev]
-#draft: true
+tags: [rails, components, webdev, ruby]
 ---
 
 ## Classical approach
@@ -72,6 +71,7 @@ Storybook-like:
   - [Alpine AJAX](https://alpine-ajax.js.org/comparisons/)
 - [htmx](https://htmx.org/)
 - [hyperscript](https://hyperscript.org/)
+- [unpoly](https://unpoly.com/)
 
 ### Alpine.js UI libraries
 
@@ -94,6 +94,6 @@ Tailwind is a good CSS options for "backend" components. I imagine it would be e
 
 ### Other
 
-It is worth to mention [RailsUI](https://railsui.com/).
+It is worth to mention [RailsUI](https://railsui.com/) and [hotwire.io](https://hotwire.io/ecosystem).
 
 And it would be nice to have component for icons from [iconify](https://iconify.design/).
