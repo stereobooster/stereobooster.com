@@ -89,4 +89,4 @@ In Python it seens idea haven't got mainstream yet (or I didn't find good exampl
   - [Electric's `server`](https://github.com/hyperfiddle/electric)
   - [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html)
 - Trend 2: backend components (as you saw above). Often combined with Tailwind CSS and Alpine.js
-- Idea 2: [Mitosis](https://mitosis.builder.io/) is compiler for client side components to translate from Mitosis to specific framework, like React, Vue, Alpine.js etc. It would be nice to have similar compiler for backend components, like Astro, Phlex, Blade, Phoenix etc.
+- Idea 2: [Mitosis](https://mitosis.builder.io/) is compiler for client side components to translate from Mitosis to specific framework, like React, Vue, Alpine.js etc. [It would be nice to have similar compiler for backend components, like Astro, Phlex, Blade, Phoenix etc](https://github.com/BuilderIO/mitosis/discussions/1499).
