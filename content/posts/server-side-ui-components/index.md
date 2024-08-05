@@ -44,7 +44,7 @@ Component libraries:
 
 Related:
 
-- [tallstack](https://tallstack.dev/resources) - **T**ailwind, **A**lpine.js, **L**aravel, and **L**ivewire. A full-stack development solution, built by Laravel community members.
+- [TALL stack](https://tallstack.dev/resources) - **T**ailwind, **A**lpine.js, **L**aravel, and **L**ivewire. A full-stack development solution, built by Laravel community members.
 - [laravelviews](https://laravelviews.com/) - Laravel package to create beautiful common views like data tables for the TALL stack.
 - [Blade UI Kit](https://blade-ui-kit.com/docs/0.x/introduction) is a set of renderless components to utilise in your Laravel Blade views. In all essence, it's a collection of useful utilities, connecting the dots between different parts of the TALL stack
 - [Laravel Mix](https://laravel-mix.com/extensions/single-file-blade-components) extension which lets you use blade components like Vue's single file components.
