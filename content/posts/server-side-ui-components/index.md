@@ -18,6 +18,7 @@ Astro components is the only server-side UI components. Even so there are not mu
 
 - [Accessible Astro Components](https://github.com/markteekman/accessible-astro-components)
 - [Astro-Bootstrap](https://astro-bootstrap.github.io/)
+- [Fulldev UI](https://ui.full.dev/)
 - Related [Astro Icon](https://www.astroicon.dev/guides/components/)
 
 I think this is because, Astro makes it very easy to use any other frontend framework, so there is no strong need for pure Astro components.
