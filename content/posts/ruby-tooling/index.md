@@ -55,6 +55,23 @@ For installation see [official guide](https://github.com/Shopify/bootsnap#usage)
 
 If you had previously installed gems and you re-installed ruby with `yjit` or `jemalloc` you may need to reinstall your gems: `bundle install --redownload`.
 
+### Faster gems
+
+- [trilogy](https://github.com/trilogy-libraries/trilogy) instead of mysql2
+- [pagy](https://github.com/ddnexus/pagy) instead of will_paginate
+- etc.
+
+<!--
+
+- https://github.com/github/activerecord-trilogy-adapter
+- https://github.com/Shopify/autotuner
+- https://github.com/fastruby/fast-ruby
+- https://github.com/DamirSvrtan/fasterer
+- https://www.johnhawthorn.com/2024/ruby-might-be-faster-than-you-think/
+- https://github.com/mime-types/ruby-mime-types/issues/123 memory bloat
+
+-->
+
 ## IDE and co
 
 ### VScode
@@ -79,8 +96,7 @@ If you're using VScode there is [an extension](https://marketplace.visualstudio.
 TODO
 
 <!--
-https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbg
-hjleochen.rails-nav
+https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbghjleochen.rails-nav
 https://marketplace.visualstudio.com/items?itemName=aliariff.vscode-erb-beautify
 https://marketplace.visualstudio.com/items?itemName=elia.erb-formatter
 https://github.com/ruby/syntax_suggest
