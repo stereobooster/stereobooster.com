@@ -94,6 +94,6 @@ Tailwind is a good CSS options for "backend" components. I imagine it would be e
 
 ### Other
 
-It is worth to mention [RailsUI](https://railsui.com/) and [hotwire.io](https://hotwire.io/ecosystem).
+It is worth to mention [RailsUI](https://railsui.com/), [shadcn.rails-components.com](https://shadcn.rails-components.com/) and [hotwire.io](https://hotwire.io/ecosystem).
 
 And it would be nice to have component for icons from [iconify](https://iconify.design/).
