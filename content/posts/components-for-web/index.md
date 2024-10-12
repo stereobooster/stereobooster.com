@@ -19,11 +19,7 @@ Headless, aka un-styled, but (and it's important) with a11y
 
 **Notes**: I didn't metnion some libraries:
 
-- [Svelte Headless UI](https://svelte-headlessui.goss.io/docs/2.0)
 - [Radix Angular](https://github.com/radix-ng/primitives)
-- [Radix Svelte](https://radix-svelte.com/) deprecated in favour of Melt UI
-- [Radix Solid](https://github.com/TrentsPC/solid-radix) - last commit a year ago
-- [Solid Aria](https://github.com/solidjs-community/solid-aria) - last commit 2 years ago
 - [Qwik-React](https://qwik.builder.io/docs/integrations/react/) - allows to use any (?) React library in Qwik
 - [shoelace](https://shoelace.style/) for WebComponents
 
