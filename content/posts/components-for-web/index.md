@@ -13,7 +13,7 @@ Headless, aka un-styled, but (and it's important) with a11y
 | React                                                      | Vue                                          | Svelte                         | Solid                                                          | Qwik                                                      | Angular | Preact |
 | ---------------------------------------------------------- | -------------------------------------------- | ------------------------------ | -------------------------------------------------------------- | --------------------------------------------------------- | ------- | ------ |
 | [Radix UI](https://www.radix-ui.com/)                      | [Radix Vue](https://www.radix-vue.com/)      | [Melt UI](https://melt-ui.com) | [kobalte](https://kobalte.dev/docs/core/overview/introduction) | [Qwik UI](https://qwikui.com/docs/headless/introduction/) | ?       | ?      |
-| [Headless UI](https://headlessui.com/)                     | [Headless UI](https://headlessui.com/v1/vue) |                                |                                                                |                                                           |         |        |
+| [Headless UI](https://headlessui.com/)                     | [Headless UI](https://headlessui.com/v1/vue) |                                | [terracotta](https://github.com/lxsmnsyc/terracotta)           |                                                           |         |        |
 | [React Aria](https://react-spectrum.adobe.com/react-aria/) |                                              |                                |                                                                |                                                           |         |        |
 | [Ark](https://ark-ui.com/)                                 | [Ark](https://ark-ui.com/)                   |                                | [Ark](https://ark-ui.com/)                                     |                                                           |         |        |
 
@@ -29,10 +29,21 @@ Headless, aka un-styled, but (and it's important) with a11y
 
 ### Pre-styled versions of headless components
 
+shadcn/ui inspired
+
+|                                                          | Headless components | Styling solution | Framework |
+| -------------------------------------------------------- | ------------------- | ---------------- | --------- |
+| [shadcn/ui](https://ui.shadcn.com/)                      | Radix UI...         | Tailwind CSS     | React     |
+| [JollyUI](https://www.jollyui.dev/)                      | React Aria          | Tailwind CSS     | React     |
+| [solid-ui](https://www.solid-ui.com)                     | kobalte, corvu...   | Tailwind CSS     | Solid     |
+| [shadcn-solid](https://shadcn-solid.com/docs/about)      | kobalte, corvu...   | Tailwind CSS     | Solid     |
+| [shadcn-vue](https://www.shadcn-vue.com/docs/about.html) | Radix Vue           | Tailwind CSS     | Vue       |
+| [shadcn-svelte](https://shadcn-svelte.com/docs/about)    | Melt UI, Bits UI... | Tailwind CSS     | Svelte    |
+
+See also [shadcn/ui ports](https://github.com/birobirobiro/awesome-shadcn-ui#ports)
+
 |                                                  | Headless components            | Styling solution         | Framework            |
 | ------------------------------------------------ | ------------------------------ | ------------------------ | -------------------- |
-| [shadcn/ui](https://ui.shadcn.com/)              | Radix UI                       | Tailwind CSS             | React                |
-| [JollyUI](https://www.jollyui.dev/)              | React Aria                     | Tailwind CSS             | React                |
 | [NextUI](https://nextui.org/)                    | React Aria                     | Tailwind CSS             | React                |
 | [Tailwind UI](https://tailwindui.com)            | Headless UI                    | Tailwind CSS             | React / Vue          |
 | [Park UI](https://github.com/cschroeter/park-ui) | Ark                            | Tailwind CSS / Panda CSS | React / Vue / Solid  |
