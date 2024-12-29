@@ -25,7 +25,7 @@ Headless, aka un-styled, but (and it's important) with a11y
 
 ### Pre-styled versions of headless components
 
-shadcn/ui inspired
+#### shadcn/ui inspired
 
 |                                                          | Headless components | Styling solution | Framework |
 | -------------------------------------------------------- | ------------------- | ---------------- | --------- |
@@ -36,7 +36,16 @@ shadcn/ui inspired
 | [shadcn-vue](https://www.shadcn-vue.com/docs/about.html) | Radix Vue           | Tailwind CSS     | Vue       |
 | [shadcn-svelte](https://shadcn-svelte.com/docs/about)    | Melt UI, Bits UI... | Tailwind CSS     | Svelte    |
 
-See also [shadcn/ui ports](https://github.com/birobirobiro/awesome-shadcn-ui#ports)
+See also [shadcn/ui ports](https://github.com/birobirobiro/awesome-shadcn-ui#ports).
+
+#### originui inspired
+
+|                                                       | Styling solution | Framework |
+| ----------------------------------------------------- | ---------------- | --------- |
+| [originui](https://originui.com/)                     | Tailwind CSS     | React     |
+| [originui-svelte](https://originui-svelte.pages.dev/) | Tailwind CSS     | Svelte    |
+
+#### other
 
 |                                                  | Headless components            | Styling solution         | Framework            |
 | ------------------------------------------------ | ------------------------------ | ------------------------ | -------------------- |
