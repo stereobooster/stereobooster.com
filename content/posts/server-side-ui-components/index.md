@@ -88,6 +88,11 @@ In Python it seens idea haven't got mainstream yet (or I didn't find good exampl
 - Idea 1: while "HTML over Wire" is a popular idea it often follows REST convention. Now there is a new trend for "invisible" RPC, for example:
   - [Qwik's `server$`](https://qwik.dev/docs/server$/)
   - [Electric's `server`](https://github.com/hyperfiddle/electric)
-  - [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html)
+  - [React `use server`](https://react.dev/reference/rsc/use-server)
+  - [Solid `use server`](https://docs.solidjs.com/solid-start/reference/server/use-server)
+  - related
+    - [Phoenix LiveView](https://hexdocs.pm/phoenix_live_view/Phoenix.LiveView.html)
+    - [React server components](https://www.joshwcomeau.com/react/server-components/)
+    - [tRPC](https://trpc.io)
 - Trend 2: backend components (as you saw above). Often combined with Tailwind CSS and Alpine.js
 - Idea 2: [Mitosis](https://mitosis.builder.io/) is compiler for client side components to translate from Mitosis to specific framework, like React, Vue, Alpine.js etc. [It would be nice to have similar compiler for backend components, like Astro, Phlex, Blade, Phoenix etc](https://github.com/BuilderIO/mitosis/discussions/1499).
