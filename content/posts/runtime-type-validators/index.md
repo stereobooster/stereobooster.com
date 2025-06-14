@@ -58,10 +58,8 @@ See: [Runtype Benchmarks](https://moltar.github.io/typescript-runtime-type-bench
 
 ### Fake data
 
-- zod
-  - [Zocker](https://zocker.sigrist.dev/) and [others](https://npm-compare.com/@anatine/zod-mock,zocker,zod-fixture,zod-schema-faker)
-- yup
-  - [yup-schema-faker](https://github.com/soc221b/yup-schema-faker), [yup-faker](https://github.com/mauricedb/yup-faker),
+- zod: [Zocker](https://zocker.sigrist.dev/) and [others](https://npm-compare.com/@anatine/zod-mock,zocker,zod-fixture,zod-schema-faker)
+- yup: [yup-schema-faker](https://github.com/soc221b/yup-schema-faker), [yup-faker](https://github.com/mauricedb/yup-faker)
 
 ### Other
 
