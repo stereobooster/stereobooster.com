@@ -13,7 +13,10 @@ tags: ["typescript", "type-system", "listicle"]
 - validate env variables
 - validate CLI arguments
 - validate configuration files
+  - Bonus: one can generate JSON Schema from validator and use it for autocomplete in IDE. For example, [redhat.vscode-yaml](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
 - validate data from URL (query params)
+- validate user input (forms)
+- generate fake data (complex shape)
 
 ## Features
 
@@ -45,20 +48,33 @@ See: [Runtype Benchmarks](https://moltar.github.io/typescript-runtime-type-bench
 ### Popular
 
 - [zod](https://github.com/colinhacks/zod). For example, integrates with [Astro](https://docs.astro.build/en/guides/content-collections/#defining-datatypes-with-zod), [Drizzle](https://orm.drizzle.team/docs/zod), [trpc](https://trpc.io/docs/server/validators#with-zod)
+  - [ecosystem](https://zod.dev/ecosystem)
 - [yup](https://github.com/jquense/yup)
 - [ajv](https://github.com/ajv-validator/ajv)
+
+### Small
+
+- [valibot](https://valibot.dev/guides/comparison/)
+
+### Fake data
+
+- zod
+  - [Zocker](https://zocker.sigrist.dev/) and [others](https://npm-compare.com/@anatine/zod-mock,zocker,zod-fixture,zod-schema-faker)
+- yup
+  - [yup-schema-faker](https://github.com/soc221b/yup-schema-faker), [yup-faker](https://github.com/mauricedb/yup-faker),
 
 ### Other
 
 - [typeschema](https://typeschema.com/)
-- [valibot](https://github.com/fabian-hiller/valibot)
+- [standard-schema](https://github.com/standard-schema/standard-schema)
+- [arktype](https://github.com/arktypeio/arktype)
+- [sury](https://github.com/DZakh/sury)
 - [adonisjs/validator](https://github.com/adonisjs/validator)
 - [io-ts](https://github.com/gcanti/io-ts) and [newtype-ts](https://github.com/gcanti/newtype-ts)
 - [deepkit runtime types](https://docs.deepkit.io/english/runtime-types.html)
 - [runtypes](https://github.com/pelotom/runtypes)
 - [superstruct](https://github.com/ianstormtaylor/superstruct)
 - [safen](https://github.com/denostack/safen)
-- [arktype](https://github.com/arktypeio/arktype)
 - [rescript-struct](https://github.com/DZakh/rescript-struct)
 - [ts-json-validator](https://github.com/ostrowr/ts-json-validator)
 - [valita](https://github.com/badrap/valita)
