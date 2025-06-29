@@ -19,6 +19,10 @@ RUBY_CONFIGURE_OPTS=--enable-yjit asdf install ruby 3.3.0
 
 Alternatives are [mise](https://mise.jdx.dev), [spack](https://spack.readthedocs.io/en/latest/index.html), [ubi](https://github.com/houseabsolute/ubi), [nix](https://nixos.org/).
 
+Note: if Ruby comes with `yjit`, but it's disabled by default. You can enable it with `RUBYOPT="--yjit"`.
+
+Related: [`zjit`](https://rubykaigi.org/2025/presentations/maximecb.html)
+
 ### jemalloc
 
 `jemalloc` is an alternative memory allocator. To install lib in Linux
