@@ -39,6 +39,8 @@ Then install ruby with jemalloc:
 RUBY_CONFIGURE_OPTS=--with-jemalloc asdf install ruby 3.3.0
 ```
 
+Related: `jemalloc` may be not so useful after [introduction of `malloc_trim(0)`](https://bugs.ruby-lang.org/issues/15667)
+
 ### Bootsnap
 
 Bootsnap is a library that plugs into Ruby, with optional support for YAML and JSON, to optimize and cache expensive computations. See [How Does This Work](https://github.com/Shopify/bootsnap#how-does-this-work).

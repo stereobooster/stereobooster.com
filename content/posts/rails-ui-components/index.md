@@ -49,7 +49,7 @@ Ligtweight syntax compared to ViewComponents.
 
 Component libraries:
 
-- [PhlexUI](https://phlexui.com/) Tailwind CSS, Stimulus JS
+- [RubyUI](https://rubyui.com/) Tailwind CSS, Stimulus JS (PhlexUI previously)
 - [ZestUI](https://zestui.com/) Tailwind CSS, Stimulus JS, not free
 - [protos](https://github.com/inhouse-work/protos) TailwindCSS, JS
 
@@ -57,9 +57,17 @@ Form builders:
 
 - [superform](https://github.com/rubymonolith/superform)
 
+Icons:
+
+- [phlex-icons](https://github.com/AliOsm/phlex-icons)
+
 Storybook-like:
 
 - [Lookbook](https://lookbook.build/guide/components/phlex)
+
+Awesome list:
+
+- [awesome-phlex](https://github.com/thedumbtechguy/awesome-phlex)
 
 ## Ideas
 
@@ -72,6 +80,7 @@ Storybook-like:
 - [htmx](https://htmx.org/)
 - [hyperscript](https://hyperscript.org/)
 - [unpoly](https://unpoly.com/)
+- Related: [Inertia.js Rails](https://inertia-rails.dev/)
 
 ### Alpine.js UI libraries
 
@@ -81,7 +90,6 @@ Alpine.js is a good JS option for "backend" components. I imagine it would be ea
 - [SailboatUI](https://sailboatui.com/)
 - [PenguinUI](https://www.penguinui.com/)
 - [Alpine components](https://alpinejs.dev/components)
-- [Alpineapple](https://alpineapple.netlify.app/)
 
 ### Tailwind UI libraries
 
