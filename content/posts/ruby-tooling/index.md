@@ -99,7 +99,7 @@ If you're using VScode there is [an extension](https://marketplace.visualstudio.
 
 ### Other VScode extensions
 
-TODO
+- [Herb](https://marketplace.visualstudio.com/items?itemName=marcoroth.herb-lsp&utm_medium=blog_post&utm_source=marcoroth.dev&utm_content=post)
 
 <!--
 https://marketplace.visualstudio.com/items?itemName=KoichiSasada.vscode-rdbghjleochen.rails-nav
@@ -122,6 +122,10 @@ Tip: [server mode](https://docs.rubocop.org/rubocop/usage/server.html) `rubocop 
 
 It integrates with Ruby LSP, Guard, Spring.
 
+### ERB
+
+- https://herb-tools.dev/projects/linter
+
 ## Formatters
 
 Do not confuse linters (which exist to prevent footgun bugs) and formatters (which can automatically change formatting of code). Good formatter would always produce consistent result. See [A prettier printer](https://homepages.inf.ed.ac.uk/wadler/papers/prettier/prettier.pdf). But Rubocop and Standard can do formatting as well...
@@ -138,7 +142,9 @@ Do not confuse linters (which exist to prevent footgun bugs) and formatters (whi
 
 - [Rufo](https://github.com/ruby-formatter/rufo)
 
-TODO: formatters for ERB
+### ERB
+
+- https://herb-tools.dev/projects/formatter
 
 ## Type checker
 

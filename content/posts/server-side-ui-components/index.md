@@ -97,3 +97,4 @@ In Python it seens idea haven't got mainstream yet (or I didn't find good exampl
     - [tRPC](https://trpc.io)
 - Trend 2: backend components (as you saw above). Often combined with Tailwind CSS and Alpine.js
 - Idea 2: [Mitosis](https://mitosis.builder.io/) is compiler for client side components to translate from Mitosis to specific framework, like React, Vue, Alpine.js etc. [It would be nice to have similar compiler for backend components, like Astro, Phlex, Blade, Phoenix etc](https://github.com/BuilderIO/mitosis/discussions/1499).
+- Related: [Streaming HTML out of order without JavaScript](https://lamplightdev.com/blog/2024/01/10/streaming-html-out-of-order-without-javascript/)
