@@ -91,3 +91,4 @@ See: [Runtype Benchmarks](https://moltar.github.io/typescript-runtime-type-bench
 ## Related
 
 - [type-o-rama](https://github.com/stereobooster/type-o-rama)
+- [Standard Schema](https://github.com/standard-schema/standard-schema)
