@@ -17,7 +17,7 @@ In old times there was basically one default choice: Google analytics. What is b
 
 But there are a lot of better alternatives (just to name few):
 
-- [tinyanalytics](https://tinyanalytics.io/) - 1 site for free
+- ~~[tinyanalytics](https://tinyanalytics.io/) - 1 site for free~~
 - [umami](https://umami.is/) - 3 sites for free
 - [cabin](https://withcabin.com/pricing) - 1 site for free
 - [swetrix](https://swetrix.com/) - open source, starts from $5/month
@@ -28,7 +28,7 @@ See more alternatives here:
 - [19 Google Analytics Alternatives](https://tinyanalytics.io/google-analytics-alternatives)
 - [goatcounter](https://www.goatcounter.com/)
 - [beampipe](https://beampipe.io/)
-- [thesemetrics](https://thesemetrics.org/pricing)
+- ~~[thesemetrics](https://thesemetrics.org/pricing)~~
 
 Also some "static hostings" provide analytics, for example:
 
