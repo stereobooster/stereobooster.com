@@ -2,7 +2,7 @@
 title: "About test coverage"
 date: 2024-08-05T12:11:43+02:00
 draft: false
-tags: []
+tags: [testing]
 warning: "**Warning!**: I need to re-write this blog post. I did a bit [more reserach](https://github.com/stereobooster/test-coverage-calculation) and changed my opinion slightly."
 ---
 
