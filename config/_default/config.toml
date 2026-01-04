@@ -4,10 +4,17 @@
 
 baseURL = "https://stereobooster.com/"
 defaultContentLanguage = "en"
+theme = "congo"
 
 enableRobotsTXT = true
-paginate = 10
 summaryLength = 0
+
+[pagination]
+  pagerSize = 10
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
+
+[services]
+  [services.x]
+    disableInlineCSS = true

@@ -1,5 +1,5 @@
-{{- partial "partials/functions/warnings.html" .Site -}}
-{{- partial "partials/functions/init.html" . -}}
+{{- partial "functions/warnings.html" .Site -}}
+{{- partial "functions/init.html" . -}}
 <!DOCTYPE html>
 <html
   lang="{{- site.Language.LanguageCode | default "" -}}"
@@ -20,11 +20,12 @@
         >{{ i18n "nav.skip_to_main" }}</a
       >
     </div>
-    {{ $header := print "partials/header/" .Site.Params.header.layout ".html" }}
-    {{ if templates.Exists $header }}
+    {{ $header := print "header/" .Site.Params.header.layout ".html" }}
+    {{ $headerTemplate := print "partials/" $header }}
+    {{ if templates.Exists $headerTemplate }}
       {{ partial $header . }}
     {{ else }}
-      {{ partial "partials/header/basic.html" . }}
+      {{ partial "header/basic.html" . }}
     {{ end }}
     <div class="relative flex flex-col grow">
       <main id="main-content" class="grow">

@@ -16,7 +16,7 @@ timeout = 120
   [privacy.instagram]
     disable = true
     simple = true
-  [privacy.twitter]
+  [privacy.x]
     disable = true
     enableDNT = true
     simple = true

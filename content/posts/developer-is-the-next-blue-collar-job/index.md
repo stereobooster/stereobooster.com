@@ -1,7 +1,6 @@
 ---
 date: 2018-10-21T00:00:00+02:00
 title: Developer is the next blue collar job
-published: true
 description: People who generally do not have a college education, and go straight into a physical, or modest working-class job after high school.
 tags: [career, discuss]
 discuss:
