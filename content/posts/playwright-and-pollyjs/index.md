@@ -1,7 +1,6 @@
 ---
 title: "Playwright and PollyJS"
 date: 2026-01-04T15:39:53+01:00
-draft: true
 description: "Integration of Playwright and PollyJS"
 tags: [playwright, testing]
 ---
