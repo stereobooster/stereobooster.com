@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Software Quality">
+  <filter id="logo-goo" x="-50%" y="-50%" width="200%" height="200%" color-interpolation-filters="sRGB">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="2.3" result="b"/>
+    <feColorMatrix in="b" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 19 -9"/>
+  </filter>
+  <g filter="url(#logo-goo)">
+    <circle cx="18.5" cy="19" r="9.5" fill="#3ca951"/>
+    <circle cx="30" cy="18" r="9.5" fill="#efb118"/>
+    <circle cx="31" cy="30" r="8.5" fill="#ff8ab7"/>
+    <circle cx="18" cy="30" r="8.5" fill="#6cc5b0"/>
+    <circle cx="24" cy="24" r="8" fill="#ff725c"/>
+  </g>
+</svg>

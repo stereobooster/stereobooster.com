@@ -153,3 +153,8 @@ export const test = base.extend<{
   ],
 });
 ```
+
+<!-- 
+https://serenity-js.org/handbook/design/screenplay-pattern/ 
+https://qavajs.github.io/docs/intro/
+-->
